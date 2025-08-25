@@ -132,9 +132,9 @@ export default function RecipesPage() {
                   </SelectTrigger>
                   <SelectContent className="bg-dark-secondary border-muted-gray/20">
                     <SelectItem value="all">All Cook Times</SelectItem>
-                    <SelectItem value="quick">Quick (≤30 mins)</SelectItem>
+                    <SelectItem value="quick">Quick (&le;30 mins)</SelectItem>
                     <SelectItem value="medium">Medium (30-60 mins)</SelectItem>
-                    <SelectItem value="long">Long (>60 mins)</SelectItem>
+                    <SelectItem value="long">Long (&gt;60 mins)</SelectItem>
                   </SelectContent>
                 </Select>
 
