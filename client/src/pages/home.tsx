@@ -1,6 +1,6 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import RecipeCategories from "@/components/recipe-categories";
+import RecipeCategories from "@/components/recipe-categories.tsx";
 import FeaturedRecipes from "@/components/featured-recipes";
 import EducationSection from "@/components/education-section";
 import ProductRecommendations from "@/components/product-recommendations";
