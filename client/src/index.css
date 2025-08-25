@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(240, 3%, 5.9%);
+  --foreground: hsl(199, 10%, 97.3%);
+  --card: hsl(240, 3%, 10.2%);
+  --card-foreground: hsl(199, 10%, 97.3%);
+  --popover: hsl(240, 3%, 5.9%);
+  --popover-foreground: hsl(199, 10%, 97.3%);
+  --primary: hsl(37, 91%, 55%);
+  --primary-foreground: hsl(240, 3%, 5.9%);
+  --secondary: hsl(240, 3%, 16.5%);
+  --secondary-foreground: hsl(199, 10%, 97.3%);
+  --muted: hsl(240, 3%, 16.5%);
+  --muted-foreground: hsl(215, 9%, 42%);
+  --accent: hsl(240, 3%, 16.5%);
+  --accent-foreground: hsl(199, 10%, 97.3%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3%, 16.5%);
+  --input: hsl(240, 3%, 16.5%);
+  --ring: hsl(37, 91%, 55%);
+  --chart-1: hsl(37, 91%, 55%);
+  --chart-2: hsl(160, 84%, 39%);
+  --chart-3: hsl(30, 80%, 55%);
+  --chart-4: hsl(280, 65%, 60%);
+  --chart-5: hsl(340, 75%, 55%);
+  --sidebar: hsl(240, 3%, 10.2%);
+  --sidebar-foreground: hsl(199, 10%, 97.3%);
+  --sidebar-primary: hsl(37, 91%, 55%);
+  --sidebar-primary-foreground: hsl(240, 3%, 5.9%);
+  --sidebar-accent: hsl(240, 3%, 16.5%);
+  --sidebar-accent-foreground: hsl(199, 10%, 97.3%);
+  --sidebar-border: hsl(240, 3%, 16.5%);
+  --sidebar-ring: hsl(37, 91%, 55%);
+  --radius: 0.75rem;
+  
+  /* Custom theme colors */
+  --dark-primary: hsl(0, 0%, 5.9%);
+  --dark-secondary: hsl(0, 0%, 10.2%);
+  --dark-accent: hsl(0, 0%, 16.5%);
+  --warm-amber: hsl(37, 91%, 55%);
+  --warm-orange: hsl(25, 95%, 53%);
+  --success-green: hsl(142, 76%, 36%);
+  --muted-gray: hsl(215, 9%, 42%);
+  --light-text: hsl(199, 10%, 97.3%);
+  
+  /* Fonts */
+  --font-inter: 'Inter', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+.dark {
+  --background: hsl(240, 3%, 5.9%);
+  --foreground: hsl(199, 10%, 97.3%);
+  --card: hsl(240, 3%, 10.2%);
+  --card-foreground: hsl(199, 10%, 97.3%);
+  --popover: hsl(240, 3%, 5.9%);
+  --popover-foreground: hsl(199, 10%, 97.3%);
+  --primary: hsl(37, 91%, 55%);
+  --primary-foreground: hsl(240, 3%, 5.9%);
+  --secondary: hsl(240, 3%, 16.5%);
+  --secondary-foreground: hsl(199, 10%, 97.3%);
+  --muted: hsl(240, 3%, 16.5%);
+  --muted-foreground: hsl(215, 9%, 42%);
+  --accent: hsl(240, 3%, 16.5%);
+  --accent-foreground: hsl(199, 10%, 97.3%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3%, 16.5%);
+  --input: hsl(240, 3%, 16.5%);
+  --ring: hsl(37, 91%, 55%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply font-inter antialiased;
+    background-color: var(--dark-primary);
+    color: var(--light-text);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-playfair);
+  }
+}
+
+@layer utilities {
+  .font-inter {
+    font-family: var(--font-inter);
+  }
+  
+  .font-playfair {
+    font-family: var(--font-playfair);
+  }
+  
+  .bg-dark-primary {
+    background-color: var(--dark-primary);
+  }
+  
+  .bg-dark-secondary {
+    background-color: var(--dark-secondary);
+  }
+  
+  .bg-dark-accent {
+    background-color: var(--dark-accent);
+  }
+  
+  .text-warm-amber {
+    color: var(--warm-amber);
+  }
+  
+  .text-warm-orange {
+    color: var(--warm-orange);
+  }
+  
+  .text-success-green {
+    color: var(--success-green);
+  }
+  
+  .text-muted-gray {
+    color: var(--muted-gray);
+  }
+  
+  .text-light-text {
+    color: var(--light-text);
+  }
+  
+  .border-dark-accent {
+    border-color: var(--dark-accent);
+  }
+  
+  .bg-warm-amber {
+    background-color: var(--warm-amber);
+  }
+  
+  .bg-warm-orange {
+    background-color: var(--warm-orange);
+  }
+  
+  .bg-success-green {
+    background-color: var(--success-green);
+  }
+  
+  .hover\:text-warm-amber:hover {
+    color: var(--warm-amber);
+  }
+  
+  .hover\:text-warm-orange:hover {
+    color: var(--warm-orange);
+  }
+  
+  .hover\:bg-warm-amber:hover {
+    background-color: var(--warm-amber);
+  }
+  
+  .hover\:bg-warm-orange:hover {
+    background-color: var(--warm-orange);
+  }
+  
+  .focus\:border-warm-amber:focus {
+    border-color: var(--warm-amber);
+  }
+}
