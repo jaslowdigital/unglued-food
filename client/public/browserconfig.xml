@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <!-- Tile Configuration for Windows 8/10 Start Menu -->
+    <tile>
+      <!-- Small Tile (70x70) -->
+      <square70x70logo src="/mstile-70x70.png"/>
+      
+      <!-- Medium Tile (150x150) -->
+      <square150x150logo src="/mstile-150x150.png"/>
+      
+      <!-- Wide Tile (310x150) -->
+      <wide310x150logo src="/mstile-310x150.png"/>
+      
+      <!-- Large Tile (310x310) -->
+      <square310x310logo src="/mstile-310x310.png"/>
+      
+      <!-- Tile Background Color -->
+      <TileColor>#22c55e</TileColor>
+    </tile>
+    
+    <!-- Badge Configuration -->
+    <badge>
+      <!-- Badge Polling URI -->
+      <polling-uri src="https://glutenfreerecipes.com/api/badge"/>
+      
+      <!-- Badge Update Frequency (30 minutes) -->
+      <frequency>30</frequency>
+    </badge>
+    
+    <!-- Notification Configuration -->
+    <notification>
+      <!-- Notification Polling URIs -->
+      <polling-uri src="https://glutenfreerecipes.com/api/notifications/1"/>
+      <polling-uri2 src="https://glutenfreerecipes.com/api/notifications/2"/>
+      <polling-uri3 src="https://glutenfreerecipes.com/api/notifications/3"/>
+      <polling-uri4 src="https://glutenfreerecipes.com/api/notifications/4"/>
+      <polling-uri5 src="https://glutenfreerecipes.com/api/notifications/5"/>
+      
+      <!-- Notification Update Frequency (360 minutes = 6 hours) -->
+      <frequency>360</frequency>
+      
+      <!-- Notification Cycle (1-5) -->
+      <cycle>1</cycle>
+    </notification>
+    
+    <!-- Jump List Configuration -->
+    <task>
+      <task id="recipes">
+        <label>Browse Recipes</label>
+        <url>https://glutenfreerecipes.com/recipes</url>
+        <icon>/icon-recipes.ico</icon>
+      </task>
+      
+      <task id="products">
+        <label>Shop Products</label>
+        <url>https://glutenfreerecipes.com/products</url>
+        <icon>/icon-products.ico</icon>
+      </task>
+      
+      <task id="meal-plan">
+        <label>Meal Planning</label>
+        <url>https://glutenfreerecipes.com/meal-planning</url>
+        <icon>/icon-meal-plan.ico</icon>
+      </task>
+      
+      <task id="search">
+        <label>Search</label>
+        <url>https://glutenfreerecipes.com/search</url>
+        <icon>/icon-search.ico</icon>
+      </task>
+      
+      <task id="account">
+        <label>My Account</label>
+        <url>https://glutenfreerecipes.com/account</url>
+        <icon>/icon-account.ico</icon>
+      </task>
+    </task>
+    
+    <!-- Pinned Site Configuration -->
+    <pinnedsite>
+      <!-- Site Name -->
+      <name>Gluten Free Recipes</name>
+      
+      <!-- Tooltip -->
+      <tooltip>Delicious gluten-free recipes and products</tooltip>
+      
+      <!-- Start URL -->
+      <starturl>https://glutenfreerecipes.com/</starturl>
+      
+      <!-- Window Settings -->
+      <window width="1024" height="768"/>
+      
+      <!-- Navigation Button Color -->
+      <navbutton-color>#22c55e</navbutton-color>
+    </pinnedsite>
+    
+    <!-- Live Tile Template -->
+    <livetile>
+      <!-- Enable Live Tile -->
+      <enabled>true</enabled>
+      
+      <!-- Update Frequency -->
+      <frequency>30</frequency>
+      
+      <!-- Tile Templates -->
+      <template1>TileSquare150x150Text04</template1>
+      <template2>TileWide310x150Text03</template2>
+      <template3>TileSquare310x310TextList02</template3>
+      
+      <!-- Enable Queue -->
+      <queue>true</queue>
+      
+      <!-- Queue Size -->
+      <queuesize>5</queuesize>
+    </livetile>
+    
+    <!-- Windows 10 Configuration -->
+    <windows10>
+      <!-- App ID -->
+      <appid>GlutenFreeRecipes</appid>
+      
+      <!-- Visual Elements -->
+      <visualelements>
+        <!-- Display Name -->
+        <displayname>Gluten Free Recipes</displayname>
+        
+        <!-- Description -->
+        <description>Delicious gluten-free recipes, products, and meal planning</description>
+        
+        <!-- Background Color -->
+        <backgroundcolor>#22c55e</backgroundcolor>
+        
+        <!-- Foreground Text -->
+        <foregroundtext>light</foregroundtext>
+        
+        <!-- Show Name on Tiles -->
+        <shownameonSquare150x150logo>on</shownameonSquare150x150logo>
+        <shownameonWide310x150logo>on</shownameonWide310x150logo>
+        <shownameonSquare310x310logo>on</shownameonSquare310x310logo>
+      </visualelements>
+      
+      <!-- Splash Screen -->
+      <splashscreen>
+        <!-- Splash Screen Image -->
+        <image>/splashscreen-620x300.png</image>
+        
+        <!-- Background Color -->
+        <backgroundcolor>#22c55e</backgroundcolor>
+      </splashscreen>
+    </windows10>
+    
+    <!-- Edge Configuration -->
+    <edge>
+      <!-- Enable Pinning -->
+      <enablepinning>true</enablepinning>
+      
+      <!-- Enable Jump List -->
+      <enablejumplist>true</enablejumplist>
+      
+      <!-- Enable Overlay Icons -->
+      <enableoverlayicons>true</enableoverlayicons>
+      
+      <!-- Custom Browser Buttons -->
+      <custombuttons>
+        <button id="refresh-recipes">
+          <label>Refresh Recipes</label>
+          <icon>/icon-refresh.png</icon>
+          <action>https://glutenfreerecipes.com/api/refresh</action>
+        </button>
+      </custombuttons>
+    </edge>
+    
+    <!-- Cortana Integration -->
+    <cortana>
+      <!-- Enable Cortana -->
+      <enabled>true</enabled>
+      
+      <!-- Voice Commands -->
+      <voicecommands>
+        <command>Show me gluten free recipes</command>
+        <command>Find gluten free products</command>
+        <command>Create meal plan</command>
+        <command>Check my shopping list</command>
+      </voicecommands>
+    </cortana>
+    
+    <!-- Additional Metadata -->
+    <metadata>
+      <!-- Application Name -->
+      <applicationname>Gluten Free Recipes</applicationname>
+      
+      <!-- Author -->
+      <author>Gluten Free Recipes Team</author>
+      
+      <!-- Version -->
+      <version>2.0.0</version>
+      
+      <!-- Last Updated -->
+      <lastupdated>2025-01-30</lastupdated>
+      
+      <!-- Support URL -->
+      <supporturl>https://glutenfreerecipes.com/support</supporturl>
+      
+      <!-- Privacy Policy -->
+      <privacypolicy>https://glutenfreerecipes.com/privacy</privacypolicy>
+    </metadata>
+  </msapplication>
+</browserconfig>

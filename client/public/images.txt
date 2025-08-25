@@ -1,0 +1,322 @@
+# Image Optimization Rules
+# Gluten Free Recipes Website
+# Generated: 2025-01-30
+# Last Updated: 2025-01-30
+
+## IMAGE OPTIMIZATION STANDARDS
+Comprehensive guidelines for image SEO and performance optimization to ensure maximum search visibility and optimal user experience.
+
+## ALT TEXT REQUIREMENTS
+
+### Alt Text Best Practices
+- Describe image content accurately in 125 characters or less
+- Include primary keyword when relevant and natural
+- Avoid keyword stuffing or repetitive phrases
+- Be specific rather than generic
+- Don't start with "image of" or "picture of"
+- Include brand names when products are shown
+- Describe actions happening in the image
+- Mention colors only when relevant to understanding
+
+### Alt Text Examples
+**Good Alt Text Examples:**
+- "Gluten-free chocolate chip cookies on cooling rack"
+- "Slicing homemade gluten-free sourdough bread"
+- "Mediterranean quinoa bowl with chickpeas and feta"
+- "Organic Harvest almond flour package 2lb size"
+
+**Poor Alt Text Examples:**
+- "IMG_1234.jpg"
+- "Cookie"
+- "Gluten free gluten free gluten free food"
+- "Image"
+
+## FILE NAMING CONVENTIONS
+
+### Naming Structure
+Format: [category]-[description]-[modifier]-[size].extension
+Examples:
+- recipe-chocolate-chip-cookies-hero-1920x1080.jpg
+- product-almond-flour-organic-harvest-800x800.webp
+- blog-celiac-disease-guide-featured-1200x630.jpg
+- instruction-mixing-bowl-step-3-600x400.jpg
+
+### Naming Rules
+- Use lowercase letters only
+- Replace spaces with hyphens
+- No special characters except hyphens
+- Keep names under 50 characters
+- Include relevant keywords naturally
+- Be descriptive but concise
+- Add size dimensions for variants
+- Use logical categorization
+
+## IMAGE FORMATS AND USAGE
+
+### WebP (Preferred Format)
+- Use for: All images where supported
+- Benefits: 25-35% smaller than JPEG, supports transparency
+- Quality setting: 85-90 for photos, 100 for graphics
+- Browser support: 95%+ (with fallbacks)
+
+### JPEG/JPG
+- Use for: Photographs, complex images
+- Quality setting: 85-90% for web
+- Progressive encoding: Always enabled
+- Color profile: sRGB
+- Metadata: Strip EXIF data for privacy
+
+### PNG
+- Use for: Logos, icons, images needing transparency
+- Compression: Maximum compression (PNG-8 when possible)
+- Interlacing: Only for images above 10KB
+- Color reduction: When quality permits
+
+### AVIF (Next-Gen Format)
+- Use for: Modern browsers, progressive enhancement
+- Benefits: 50% smaller than JPEG
+- Quality setting: 80-85
+- Implementation: With WebP and JPEG fallbacks
+
+### SVG
+- Use for: Logos, icons, simple graphics
+- Optimization: Minified and compressed
+- Accessibility: Include title and desc elements
+- Security: Sanitized to prevent XSS
+
+## IMAGE DIMENSIONS AND SIZES
+
+### Standard Dimensions
+**Hero Images**
+- Desktop: 1920x1080px
+- Tablet: 1024x768px
+- Mobile: 750x1334px
+
+**Recipe Images**
+- Main image: 1200x800px
+- Thumbnail: 300x200px
+- Card image: 600x400px
+- Step images: 800x600px
+
+**Product Images**
+- Main: 1000x1000px
+- Thumbnail: 250x250px
+- Zoom: 2000x2000px
+- Gallery: 800x800px
+
+**Blog Images**
+- Featured: 1200x630px (Open Graph)
+- In-content: 800x450px
+- Sidebar: 300x250px
+
+### File Size Targets
+- Hero images: <200KB
+- Regular images: <100KB
+- Thumbnails: <30KB
+- Icons: <10KB
+- Maximum any image: 500KB
+
+## COMPRESSION GUIDELINES
+
+### Compression Tools
+- ImageOptim (Mac)
+- TinyPNG/TinyJPG (Web)
+- Squoosh (Google)
+- Sharp (Node.js)
+- ImageMagick (Command line)
+
+### Compression Settings
+- JPEG: 85-90% quality
+- PNG: Maximum compression
+- WebP: 85-90% quality
+- Remove metadata
+- Progressive rendering
+- Optimize color profiles
+
+## LAZY LOADING IMPLEMENTATION
+
+### Native Lazy Loading
+```html
+<img src="recipe.jpg" 
+     alt="Gluten-free bread" 
+     loading="lazy"
+     width="800" 
+     height="600">
+```
+
+### Intersection Observer
+- Load images 200px before viewport
+- Placeholder blur-up technique
+- Progressive image loading
+- Low-quality image placeholder (LQIP)
+
+### Critical Images
+Never lazy load:
+- Logo
+- Hero images above fold
+- First 3 images on page
+- Navigation icons
+- LCP (Largest Contentful Paint) images
+
+## RESPONSIVE IMAGES
+
+### Picture Element Usage
+```html
+<picture>
+  <source srcset="image.avif" type="image/avif">
+  <source srcset="image.webp" type="image/webp">
+  <source media="(min-width: 1200px)" srcset="image-large.jpg">
+  <source media="(min-width: 768px)" srcset="image-medium.jpg">
+  <img src="image-small.jpg" alt="Description">
+</picture>
+```
+
+### Srcset Implementation
+```html
+<img srcset="small.jpg 300w,
+             medium.jpg 600w,
+             large.jpg 1200w"
+     sizes="(max-width: 300px) 100vw,
+            (max-width: 600px) 50vw,
+            33vw"
+     src="medium.jpg"
+     alt="Gluten-free recipe">
+```
+
+## IMAGE SEO OPTIMIZATION
+
+### Schema Markup for Images
+```json
+{
+  "@type": "ImageObject",
+  "contentUrl": "https://glutenfreerecipes.com/images/recipe.jpg",
+  "license": "https://glutenfreerecipes.com/license",
+  "acquireLicensePage": "https://glutenfreerecipes.com/license",
+  "creditText": "Gluten Free Recipes",
+  "creator": {
+    "@type": "Person",
+    "name": "Chef Marcus"
+  },
+  "copyrightNotice": "© 2025 Gluten Free Recipes"
+}
+```
+
+### Open Graph Images
+- Size: 1200x630px
+- Format: JPG or PNG
+- Text overlay: High contrast
+- Branding: Logo included
+- File size: <300KB
+
+### Twitter Card Images
+- Summary: 1200x600px minimum
+- Summary Large: 1200x600px
+- Aspect ratio: 2:1
+- Maximum file size: 5MB
+
+## CDN CONFIGURATION
+
+### CDN Image Delivery
+- Provider: Cloudflare Images
+- Automatic format selection
+- Automatic quality optimization
+- Automatic resizing
+- Polish compression
+- Mirage mobile optimization
+
+### CDN URLs Structure
+```
+https://cdn.glutenfreerecipes.com/images/[category]/[filename].[ext]
+https://cdn.glutenfreerecipes.com/images/recipes/chocolate-cookies.webp
+```
+
+## ACCESSIBILITY REQUIREMENTS
+
+### Alt Text Accessibility
+- Screen reader friendly
+- Describes function and content
+- Context-appropriate
+- Not redundant with surrounding text
+- Empty alt="" for decorative images
+
+### Color Contrast
+- Text over images: 4.5:1 minimum
+- Large text over images: 3:1 minimum
+- Interactive elements: 3:1 minimum
+- Use overlay for text readability
+
+## PERFORMANCE METRICS
+
+### Core Web Vitals Impact
+- LCP: Optimize hero image loading
+- CLS: Define width/height attributes
+- FID: Non-blocking image loading
+- INP: Efficient event handlers
+
+### Target Metrics
+- First image paint: <1.5s
+- Largest image paint: <2.5s
+- Total image weight: <1MB per page
+- Image requests: <30 per page
+
+## IMAGE COPYRIGHT AND LICENSING
+
+### Usage Rights
+- Original photography: Full rights owned
+- Stock photos: Commercial license verified
+- User submissions: Rights transferred
+- Third-party: Proper attribution
+- Creative Commons: License compliance
+
+### Watermarking Policy
+- Recipe images: Subtle corner watermark
+- Product images: No watermark
+- User content: Optional watermark
+- Stock photos: Per license terms
+
+## MONITORING AND OPTIMIZATION
+
+### Regular Audits
+- Weekly: New image optimization
+- Monthly: Full site image audit
+- Quarterly: Format migration review
+- Annually: Complete optimization overhaul
+
+### Tools for Monitoring
+- Google PageSpeed Insights
+- GTmetrix
+- WebPageTest
+- Lighthouse
+- Chrome DevTools
+
+## IMPLEMENTATION CHECKLIST
+
+### For Every New Image:
+☐ Optimized file size (<100KB typical)
+☐ Descriptive filename with keywords
+☐ Alt text written (125 chars max)
+☐ Proper dimensions set
+☐ WebP version created
+☐ Lazy loading implemented (if below fold)
+☐ Schema markup added
+☐ CDN upload completed
+☐ Mobile version created
+☐ Tested on slow connection
+
+## FUTURE OPTIMIZATION PLANS
+
+### Upcoming Technologies
+- JPEG XL adoption when supported
+- AVIF as primary format
+- AI-powered alt text generation
+- Automatic image optimization pipeline
+- Machine learning quality optimization
+- Real-time format negotiation
+- Edge computing image processing
+
+## CONTACT FOR IMAGE OPTIMIZATION
+**Technical Support**: images@glutenfreerecipes.com
+**CDN Issues**: cdn@glutenfreerecipes.com
+**Copyright Questions**: legal@glutenfreerecipes.com
+
+OPTIMIZED FOR SPEED, SEO, AND ACCESSIBILITY

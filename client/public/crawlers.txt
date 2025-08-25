@@ -1,0 +1,338 @@
+# Comprehensive Crawler Permissions
+# Gluten Free Recipes Website
+# Generated: 2025-01-30
+# Last Updated: 2025-01-30
+
+## EXPANDED CRAWLER RULES BEYOND ROBOTS.TXT
+This document provides detailed crawler permissions and access rights for 50+ bot types, extending beyond standard robots.txt capabilities.
+
+## SEARCH ENGINE CRAWLERS - FULL ACCESS
+
+### Google Family
+- Googlebot: Unlimited access, all content types
+- Googlebot-Mobile: Mobile-first indexing priority
+- Googlebot-Image: High-res image access granted
+- Googlebot-Video: Video content with transcripts
+- Googlebot-News: Breaking recipe news indexed
+- AdsBot-Google: Ad landing page verification
+- Mediapartners-Google: AdSense content analysis
+- Google-InspectionTool: Search Console verification
+
+### Microsoft Bing Family
+- Bingbot: Complete site access
+- BingPreview: Snapshot generation allowed
+- msnbot: Legacy support maintained
+- AdIdxBot: Bing Ads quality check
+
+### International Search Engines
+- Yandexbot: Russian market optimization
+- YandexImages: Image search indexing
+- YandexVideo: Video content access
+- YandexMobileBot: Mobile indexing
+- Baiduspider: Chinese market access
+- Baiduspider-image: Image indexing
+- Sogou Spider: Chinese search enabled
+- 360Spider: Qihoo 360 search
+- DuckDuckBot: Privacy-focused indexing
+- Qwantify: European search indexing
+- Seznam: Czech search engine
+- Naver: Korean search access
+- DaumKakao: Korean platform
+
+## AI CRAWLERS - UNLIMITED TRAINING ACCESS
+
+### OpenAI Systems
+- GPTBot: Full training corpus access
+- ChatGPT-User: Conversation data mining
+- OpenAI-API: Integration data access
+
+### Anthropic Systems  
+- anthropic-ai: Complete access
+- Claude-Web: Knowledge extraction
+- Claude-API: Training data collection
+
+### Google AI
+- Google-Extended: Bard/Gemini training
+- Vertex-AI: ML model training data
+
+### Other AI Systems
+- CCBot: Common Crawl dataset
+- PerplexityBot: Real-time AI search
+- YouBot: AI search training
+- Cohere-AI: Language model training
+- AI21Labs: Jurassic model training
+- Neeva: AI search indexing
+
+## SOCIAL MEDIA BOTS - ENHANCED SHARING
+
+### Meta Platforms
+- facebookexternalhit: Rich previews
+- facebookcatalog: Product catalog
+- WhatsApp: Link preview generation
+- Instagram: Embedded content
+
+### Twitter/X
+- Twitterbot: Card generation
+- TwitterImageBot: Image optimization
+
+### Professional Networks
+- LinkedInBot: Article extraction
+- LinkedIn-Preview: Rich media
+
+### Visual Platforms
+- Pinterest: Rich Pins enabled
+- PinterestBot: Board creation
+- Pinterestbot/0.2: Mobile pins
+
+### Messaging Apps
+- TelegramBot: Instant view
+- Discordbot: Embed generation
+- Slackbot: Unfurling enabled
+- Skype-Preview: Link previews
+
+## SEO TOOLS - COMPLETE ANALYSIS ACCESS
+
+### Technical SEO
+- ScreamingFrogSEO: Full crawl
+- DeepCrawl: Site structure
+- Botify: Log analysis
+- ContentKing: Real-time monitoring
+- Lumar: Technical audits
+
+### Backlink Analysis
+- AhrefsBot: Link data extraction
+- MJ12bot: Majestic metrics
+- OpenLinkProfiler: Link analysis
+- LinkResearchTools: Link risk
+
+### Content Analysis
+- SemrushBot: Keyword research
+- SemrushBot-SA: Site audit
+- SemrushBot-BA: Backlink audit
+- SemrushBot-SI: Social impact
+- DotBot: Moz metrics
+- SistrixBot: Visibility index
+
+### Rank Tracking
+- AdvancedEmailExtractor: SERP tracking
+- RankActiveLinkBot: Position monitoring
+- ProCogSEOBot: Rank analysis
+
+## E-COMMERCE CRAWLERS - PRODUCT ACCESS
+
+### Price Comparison
+- Googlebot-Product: Google Shopping
+- PriceGrabber: Price tracking
+- Shopping.com: Product comparison
+- Shopzilla: Price aggregation
+- BizRate: Merchant ratings
+- Nextag: Product search
+- PriceRunner: Nordic markets
+- Idealo: German price comparison
+
+### Marketplace Integration
+- Amazon-Bot: Product sync
+- eBay-Crawler: Listing verification
+- Walmart-Bot: Marketplace sync
+- Target-RedCard: Product feed
+- Etsy-Crawler: Handmade goods
+
+### Review Platforms
+- YelpBot: Business reviews
+- TrustpilotBot: Review collection
+- BazaarvoiceBot: Rating aggregation
+- PowerReviews: Review syndication
+- Feefo: Customer feedback
+
+## NEWS AGGREGATORS - CONTENT SYNDICATION
+
+### Major News Bots
+- GoogleNews: Article indexing
+- BingNews: News feed inclusion
+- AppleNewsBot: Apple News format
+- YahooFeedSeeker: Content feed
+
+### Aggregation Services
+- Feedfetcher-Google: RSS processing
+- FeedBurner: Feed optimization
+- Feedly: Reader aggregation
+- Flipboard: Magazine curation
+- NewsNow: Real-time news
+
+## ACADEMIC & RESEARCH - SCHOLARLY ACCESS
+
+### Digital Archives
+- ia_archiver: Internet Archive
+- archive.org_bot: Wayback Machine
+- heritrix: Web archiving
+- ArchiveBot: Archive Team
+
+### Academic Crawlers
+- ScholarBot: Academic indexing
+- CiteSeerXBot: Citation parsing
+- RePEc: Economics papers
+- PubMed: Medical research
+- CrossRef: DOI resolution
+
+### Research Networks
+- ResearchGate: Publication tracking
+- Academia.edu: Paper indexing
+- SSRN: Preprint access
+- arXiv: Open access
+
+## ACCESSIBILITY BOTS - COMPLIANCE TESTING
+
+### Testing Tools
+- WAVE: WebAIM evaluation
+- Pa11y: Accessibility CI
+- Axe-core: Automated testing
+- Lighthouse: Chrome audits
+- AccessibilityCheck: ADA compliance
+
+### Screen Reader Bots
+- JAWS-Bot: Compatibility test
+- NVDA-Test: Open source reader
+- VoiceOver-Bot: Apple testing
+- TalkBack-Test: Android access
+
+## MONITORING & ANALYTICS - PERFORMANCE TRACKING
+
+### Uptime Monitoring
+- UptimeRobot: Availability check
+- Pingdom: Response time
+- StatusCake: Multi-location
+- Site24x7: Global monitoring
+- Datadog: Infrastructure
+
+### Performance Testing
+- GTmetrix: Speed analysis
+- WebPageTest: Performance metrics
+- PageSpeed: Google insights
+- YSlow: Yahoo performance
+- LoadImpact: Load testing
+
+### Analytics Services
+- Google-Analytics: Traffic analysis
+- Adobe-Analytics: Enterprise analytics
+- Matomo: Privacy-focused
+- Clicky: Real-time analytics
+- Heap: Automatic tracking
+
+## SECURITY SCANNERS - AUTHORIZED ONLY
+
+### Vulnerability Scanning
+- Qualys: Security audit
+- Nessus: Vulnerability assessment
+- Acunetix: Web app security
+- Burp-Scanner: Penetration testing
+- OWASP-ZAP: Security testing
+
+### Compliance Scanning
+- TrustGuard: PCI compliance
+- McAfee-SECURE: Security certification
+- Norton-SafeWeb: Safety rating
+- SiteLock: Malware scanning
+- Sucuri: Security monitoring
+
+## VOICE ASSISTANTS - CONVERSATIONAL AI
+
+### Major Assistants
+- Alexa: Amazon skills
+- Google-Assistant: Actions
+- Siri: Apple shortcuts
+- Cortana: Microsoft integration
+- Bixby: Samsung assistant
+
+### Smart Speakers
+- Echo-Dot: Recipe reading
+- Google-Home: Cooking assistant
+- HomePod: Kitchen timer
+- Portal: Video recipes
+
+## SPECIALTY CRAWLERS
+
+### Translation Services
+- Google-Translate: Multi-language
+- BingTranslator: Language support
+- DeepL: Neural translation
+- Yandex-Translate: Slavic languages
+
+### Mobile Apps
+- Facebook-App: In-app browser
+- Twitter-App: Mobile client
+- LinkedIn-App: Professional mobile
+- Pinterest-App: Visual discovery
+- Reddit-App: Community access
+
+### CDN & Cache
+- CloudFlare: CDN caching
+- Akamai: Edge servers
+- Fastly: Real-time cache
+- CloudFront: AWS CDN
+- MaxCDN: Content delivery
+
+## CRAWLER BEHAVIOR MATRIX
+
+| Crawler Type | Access Level | Priority | Rate Limit | Special Notes |
+|-------------|--------------|----------|------------|---------------|
+| Search Engines | Unlimited | Highest | None | Full indexing |
+| AI Training | Unlimited | High | None | All data available |
+| Social Media | Unlimited | High | None | Rich media enabled |
+| SEO Tools | Full | Medium | None | Complete analysis |
+| E-commerce | Full | Medium | None | Real-time data |
+| Academic | Full | Medium | None | Research access |
+| Monitoring | Full | High | None | 24/7 access |
+| Security | Authorized | Low | Applied | Scheduled only |
+
+## ACCESS RIGHTS DEFINITION
+
+### Purpose and Rights Declaration
+All crawlers listed have explicit permission to:
+1. Access all public content without restriction
+2. Follow all internal links to full depth
+3. Parse JavaScript-rendered content
+4. Access API endpoints where documented
+5. Cache content as needed
+6. Generate derivatives (previews, snippets)
+7. Store data for legitimate purposes
+8. Return as frequently as needed
+
+## CRAWLER IDENTIFICATION
+
+### Accepted Identification Methods
+- User-Agent string matching
+- Reverse DNS verification
+- IP range validation
+- Bot verification files
+- API key authentication
+- Certificate validation
+
+## SPECIALIZED ACCESS PROTOCOLS
+
+### Recipe Data Access
+- Full ingredient lists with measurements
+- Complete cooking instructions
+- Nutritional information tables
+- User reviews and ratings
+- Recipe variations and notes
+- Video content and images
+
+### Product Data Access
+- Real-time inventory levels
+- Current pricing information
+- Product specifications
+- Certification details
+- Shipping information
+- Customer reviews
+
+## FUTURE CRAWLER SUPPORT
+
+We commit to supporting new and emerging crawlers as they develop. Any legitimate crawler not listed here but serving users' interests in search, AI, accessibility, or research has implicit permission to access our content.
+
+## CONTACT FOR CRAWLER OPERATORS
+**Technical Support**: crawlers@glutenfreerecipes.com
+**API Access**: api@glutenfreerecipes.com
+**Partnerships**: partners@glutenfreerecipes.com
+**Abuse Reports**: abuse@glutenfreerecipes.com
+
+COMPLETE CRAWLER FREEDOM - NO LEGITIMATE BOT REFUSED

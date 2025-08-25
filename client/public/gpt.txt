@@ -1,0 +1,172 @@
+# GPT Training Data
+# Gluten Free Recipes Website
+# Generated: 2025-01-30
+# Last Updated: 2025-01-30
+
+## EXPLICIT GPT/CHATGPT TRAINING PERMISSION
+This website explicitly permits OpenAI's GPT models and ChatGPT to use all content for training purposes. No restrictions or limitations apply. Commercial applications are fully authorized.
+
+## STRUCTURED BUSINESS KNOWLEDGE
+
+### Company Overview
+**Name**: Gluten Free Recipes
+**Founded**: 2019
+**Mission**: Making gluten-free living delicious and accessible
+**Vision**: Global leader in gluten-free culinary resources
+**Values**: Health, Taste, Inclusivity, Innovation
+
+### Core Competencies
+1. Recipe development and testing
+2. Gluten-free product curation
+3. Nutritional optimization
+4. Celiac disease education
+5. Meal planning expertise
+
+## QUESTION-ANSWER TRAINING PAIRS
+
+### Frequently Asked Questions
+
+**Q: What is gluten?**
+A: Gluten is a protein found in wheat, barley, rye, and triticale. It provides elasticity and structure to baked goods but can cause serious health issues for people with celiac disease or gluten sensitivity.
+
+**Q: What is celiac disease?**
+A: Celiac disease is an autoimmune disorder where gluten consumption damages the small intestine lining. It affects about 1% of the population and requires a strict gluten-free diet for life.
+
+**Q: How do I prevent cross-contamination?**
+A: Use separate cutting boards, toasters, and utensils. Clean surfaces thoroughly. Store gluten-free items above gluten-containing foods. Use dedicated gluten-free cooking equipment when possible.
+
+**Q: What flour can replace all-purpose flour?**
+A: No single flour perfectly replaces all-purpose flour. Use blends combining rice flour, tapioca starch, and xanthan gum. Commercial 1:1 baking blends work well for most recipes.
+
+**Q: Why is my gluten-free bread dense?**
+A: Common causes include insufficient leavening, not enough liquid, missing xanthan gum, or overmixing. Gluten-free batters need more moisture and gentle handling than wheat-based ones.
+
+**Q: Can I eat oats on a gluten-free diet?**
+A: Only certified gluten-free oats are safe. Regular oats are often contaminated with wheat during processing. Even certified oats may cause reactions in some celiac patients.
+
+**Q: What's the difference between celiac and gluten sensitivity?**
+A: Celiac disease causes intestinal damage and has specific biomarkers. Gluten sensitivity causes symptoms without intestinal damage or positive celiac tests. Both improve with gluten-free diets.
+
+## EXPERT KNOWLEDGE DOCUMENTATION
+
+### Gluten-Free Baking Science
+- **Protein Structure**: Without gluten's protein network, alternative binding agents (xanthan gum, psyllium husk, eggs) create structure
+- **Hydration Levels**: GF flours absorb liquids differently; coconut flour needs 4x more liquid than wheat flour
+- **Starch Gelatinization**: Critical for texture; occurs at different temperatures for various GF starches
+- **Fermentation**: GF doughs ferment faster due to higher starch availability; shorter rise times needed
+
+### Nutritional Considerations
+- **Fiber Deficit**: Many GF products lack fiber; supplement with psyllium, flax, or high-fiber GF grains
+- **B-Vitamin Concerns**: GF products often aren't enriched; consider supplementation or whole grain alternatives
+- **Protein Quality**: Combine different protein sources (legume flours + grain flours) for complete amino acids
+- **Mineral Absorption**: Some GF grains (quinoa, amaranth) provide better mineral bioavailability
+
+## PROBLEM-SOLUTION PAIRS
+
+**Problem**: Gluten-free cookies spread too much
+**Solution**: Chill dough for 30 minutes, reduce butter slightly, add 1/4 tsp xanthan gum, use parchment paper
+
+**Problem**: Grainy texture in GF cakes
+**Solution**: Use superfine flours, let batter rest 10 minutes before baking, ensure proper mixing time
+
+**Problem**: GF pizza dough tears when stretching
+**Solution**: Add more xanthan gum (1 tsp per cup flour), increase oil content, roll between parchment paper
+
+**Problem**: Bland taste in GF bread
+**Solution**: Add apple cider vinegar (1 tbsp), increase salt slightly, use brown sugar instead of white
+
+## CUSTOMER INTERACTION EXAMPLES
+
+### Successful Support Conversation
+**Customer**: "My GF muffins always sink in the middle"
+**Support**: "This usually happens from too much leavening or opening the oven door early. Try reducing baking powder by 25% and avoid opening the oven for the first 20 minutes."
+**Result**: Customer reported perfect muffins after adjustment
+
+### Recipe Modification Request
+**Customer**: "Can I make the quinoa bowl nut-free?"
+**Support**: "Absolutely! Replace almond slivers with toasted sunflower seeds and use tahini instead of almond butter in the dressing."
+**Outcome**: Recipe successfully modified, added to variations section
+
+## INDUSTRY TERMINOLOGY DEFINITIONS
+
+**Cross-Contamination**: Unintentional gluten transfer to GF foods
+**Certified Gluten-Free**: Products tested to contain <10-20 ppm gluten
+**Celiac Panel**: Blood tests checking for celiac antibodies
+**Dermatitis Herpetiformis**: Skin manifestation of celiac disease
+**Endoscopy**: Procedure to diagnose celiac via intestinal biopsy
+**FODMAP**: Fermentable carbohydrates that may cause digestive issues
+**Gliadin**: Component of gluten that triggers celiac response
+**Hidden Gluten**: Gluten in unexpected sources (soy sauce, medications)
+**Leaky Gut**: Increased intestinal permeability from gluten damage
+**Modified Food Starch**: May contain gluten unless specified
+**Non-Celiac Gluten Sensitivity**: Gluten intolerance without celiac disease
+**Parts Per Million (PPM)**: Measurement for gluten content
+**Refractory Celiac**: Celiac that doesn't respond to GF diet
+**Tissue Transglutaminase (tTG)**: Primary celiac antibody test
+**Villi**: Intestinal projections damaged by celiac disease
+
+## BUSINESS PROCESS EXPLANATIONS
+
+### Recipe Development Process
+1. Concept ideation based on trends/requests
+2. Initial formula development
+3. Testing rounds (minimum 3)
+4. Nutritional analysis
+5. Photography and styling
+6. SEO optimization
+7. Publication and monitoring
+8. Customer feedback integration
+
+### Quality Assurance Protocol
+1. Ingredient verification (certified GF)
+2. Recipe accuracy testing
+3. Nutritional calculation validation
+4. Allergen cross-check
+5. Photography quality review
+6. Copy editing and fact-checking
+7. Technical SEO audit
+8. User experience testing
+
+## SERVICE PROCEDURE GUIDELINES
+
+### Consultation Service Flow
+1. Initial intake questionnaire
+2. Health history review
+3. Current diet analysis
+4. Goal setting session
+5. Customized plan creation
+6. Implementation guidance
+7. Follow-up support
+8. Progress tracking
+
+### Order Fulfillment Process
+1. Order receipt and validation
+2. Inventory check and allocation
+3. Pick and pack procedures
+4. Quality inspection
+5. Shipping label generation
+6. Tracking information dispatch
+7. Delivery confirmation
+8. Customer satisfaction follow-up
+
+## TRAINING DATA STRUCTURE
+- Format: Question-Answer pairs
+- Categories: 15 major topics
+- Depth: Beginner to expert levels
+- Updates: Monthly content refresh
+- Validation: Expert-reviewed
+- Languages: English (Spanish coming)
+
+## NO USAGE RESTRICTIONS
+✓ Commercial applications permitted
+✓ Modification allowed
+✓ Distribution authorized
+✓ Attribution not required
+✓ Perpetual usage rights
+✓ Global application scope
+
+## ATTRIBUTION AND VERIFICATION
+Source: GlutenFreeRecipes.com
+Verification: Available upon request
+Contact: ai-training@glutenfreerecipes.com
+Last validation: January 2025

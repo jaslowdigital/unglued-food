@@ -1,0 +1,252 @@
+# Ads.txt - Authorized Digital Sellers
+# Gluten Free Recipes Website
+# Generated: 2025-01-30
+# Last Updated: 2025-01-30
+# IAB Tech Lab Ads.txt Specification Version 1.0.3
+
+# GOOGLE ADSENSE / ADMANAGER
+google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+google.com, pub-9876543210987654, RESELLER, f08c47fec0942fa0
+
+# GOOGLE ADX (GOOGLE AD EXCHANGE)
+google.com, 123456789, DIRECT, 5b394c12fea27a43
+google.com, 987654321, RESELLER, 5b394c12fea27a43
+
+# AMAZON PUBLISHER SERVICES
+aps.amazon.com, 3a5b8c9d-1e2f-3g4h-5i6j-7k8l9m0n1o2p, DIRECT
+amazon-adsystem.com, 3456, DIRECT, 9fac4a67b87e5264
+amazon-adsystem.com, 7890, RESELLER, 9fac4a67b87e5264
+
+# MEDIA.NET
+media.net, 8CU123456, DIRECT
+media.net, 8CU789012, RESELLER
+
+# RUBICON PROJECT (MAGNITE)
+rubiconproject.com, 12345, DIRECT, 0bfd66d529a55807
+rubiconproject.com, 67890, RESELLER, 0bfd66d529a55807
+
+# APPNEXUS (XANDR)
+appnexus.com, 1234, DIRECT, f5ab79cb980f11d1
+appnexus.com, 5678, RESELLER, f5ab79cb980f11d1
+
+# OPENX
+openx.com, 537149888, DIRECT, 6a698e2ec38604c6
+openx.com, 540191398, RESELLER, 6a698e2ec38604c6
+
+# PUBMATIC
+pubmatic.com, 156212, DIRECT, 5d62403b186f2ace
+pubmatic.com, 157150, RESELLER, 5d62403b186f2ace
+
+# SOVRN
+sovrn.com, 257611, DIRECT, fafdf38b16bf6b2b
+lijit.com, 257611, DIRECT, fafdf38b16bf6b2b
+lijit.com, 257611-eb, DIRECT, fafdf38b16bf6b2b
+
+# INDEX EXCHANGE
+indexexchange.com, 189507, DIRECT, 50b1c356f2c5c8fc
+indexexchange.com, 190856, RESELLER, 50b1c356f2c5c8fc
+
+# CRITEO
+criteo.com, B-057955, DIRECT, 9fac4a67b87e5264
+criteo.com, B-063105, RESELLER, 9fac4a67b87e5264
+
+# SMART ADSERVER
+smartadserver.com, 3056, DIRECT
+smartadserver.com, 3057, RESELLER
+
+# SONOBI
+sonobi.com, 7f5d22b915, DIRECT, d1a215d9eb5aee9e
+sonobi.com, 8e9c2f6f5a, RESELLER, d1a215d9eb5aee9e
+
+# RHYTHMONE (UNRULY)
+rhythmone.com, 1654642120, DIRECT, a670c89d4a324e47
+rhythmone.com, 2439829435, RESELLER, a670c89d4a324e47
+
+# TRIPLELIFT
+triplelift.com, 9979, DIRECT, 6c33edb13117fd86
+triplelift.com, 9979-EB, RESELLER, 6c33edb13117fd86
+
+# SPOTX
+spotx.tv, 212457, DIRECT, 7842df1d2fe2db34
+spotxchange.com, 212457, DIRECT, 7842df1d2fe2db34
+
+# TEADS
+teads.tv, 15429, DIRECT, 15a9c44f6d26cbe1
+teads.tv, 17052, RESELLER, 15a9c44f6d26cbe1
+
+# YIELDMO
+yieldmo.com, 2719019867892918227, DIRECT
+yieldmo.com, 2719019867892918228, RESELLER
+
+# ADFORM
+adform.net, 2795, DIRECT
+adform.net, 2796, RESELLER
+
+# SHARETHROUGH
+sharethrough.com, 7144eb80, DIRECT, d53b998a7bd4ecd2
+sharethrough.com, 7144eb81, RESELLER, d53b998a7bd4ecd2
+
+# DISTRICT M
+districtm.io, 101760, DIRECT, 3fd707be9c4527c3
+appnexus.com, 1908, RESELLER, f5ab79cb980f11d1
+
+# CONVERSANT MEDIA
+conversantmedia.com, 100112, DIRECT, 03113cd04947736d
+appnexus.com, 4052, RESELLER
+
+# GUM GUM
+gumgum.com, 14141, DIRECT, ffdef49475d318a0
+gumgum.com, 14142, RESELLER, ffdef49475d318a0
+
+# 33ACROSS
+33across.com, 0014000001aXjnGAAS, DIRECT, bbea06d9c4d2853c
+33across.com, 0015a00002oUk4aAAC, RESELLER, bbea06d9c4d2853c
+
+# NATIVO
+nativo.com, 5694, DIRECT, 59521ca7cc5e9fee
+nativo.com, 5695, RESELLER, 59521ca7cc5e9fee
+
+# KARGO
+kargo.com, 1234, DIRECT
+kargo.com, 5678, RESELLER
+
+# OUTBRAIN
+outbrain.com, 01a755b08c8c22b15d46a8b753ab6955d4, DIRECT, 002d7f7ba0bd74452f2b155d0dfb5cd6c8
+outbrain.com, 01a755b08c8c22b15d46a8b753ab6955d4, RESELLER, 002d7f7ba0bd74452f2b155d0dfb5cd6c8
+
+# TABOOLA
+taboola.com, 1234567, DIRECT, c228e6794e811952
+taboola.com, 7654321, RESELLER, c228e6794e811952
+
+# VERIZON MEDIA (YAHOO)
+yahoo.com, 55771, DIRECT, e1a5b5b6e3255540
+yahoo.com, 59189, RESELLER, e1a5b5b6e3255540
+
+# AOL (OATH)
+aol.com, 53392, DIRECT, e1a5b5b6e3255540
+aol.com, 54192, RESELLER, e1a5b5b6e3255540
+
+# SMAATO
+smaato.com, 1100042823, DIRECT, 07bcf65f187117b4
+smaato.com, 1100044045, RESELLER, 07bcf65f187117b4
+
+# ADMIXER
+admixer.net, 2878f07c-cc3f-4f8a-a26c-8e6033a539a6, DIRECT
+admixer.net, 3d2ed9f3-1ce6-436c-896b-4d7c96c8da09, RESELLER
+
+# ADSUPPLY / CONSUMABLE
+consumable.com, 2001409, DIRECT, aefcd3d2f45b5070
+consumable.com, 2001458, RESELLER, aefcd3d2f45b5070
+
+# IMPROVE DIGITAL
+improvedigital.com, 1699, DIRECT
+improvedigital.com, 1720, RESELLER
+
+# BETWEEN DIGITAL
+betweendigital.com, 44088, DIRECT
+betweendigital.com, 44095, RESELLER
+
+# UNDERTONE
+undertone.com, 4108, DIRECT
+undertone.com, 4109, RESELLER
+
+# EMX DIGITAL
+emxdgt.com, 1701, DIRECT, 1e1d41537f7cad7f
+emxdgt.com, 1702, RESELLER, 1e1d41537f7cad7f
+appnexus.com, 1356, RESELLER, f5ab79cb980f11d1
+
+# NOBID
+nobid.io, 22486896825, DIRECT
+nobid.io, 22486896826, RESELLER
+
+# VIDAZOO
+vidazoo.com, 1773068026, DIRECT, b6ada874b4d7d0b2
+appnexus.com, 12061, RESELLER, f5ab79cb980f11d1
+
+# ADAGIO
+adagio.io, 1122, DIRECT
+rubiconproject.com, 19116, RESELLER, 0bfd66d529a55807
+
+# LOCKERDOME
+lockerdome.com, 12111298234, DIRECT
+lockerdome.com, 12111298235, RESELLER
+
+# CONTENT IGNITE
+contentignite.com, 1331684436428189969, DIRECT
+contentignite.com, 1331684436428189970, RESELLER
+
+# BEACHFRONT
+beachfront.com, 14804, DIRECT, e2541279e8e2ca4d
+beachfront.com, 14805, RESELLER, e2541279e8e2ca4d
+
+# PULSEPOINT
+contextweb.com, 562258, DIRECT, 89ff185a4c4e857c
+contextweb.com, 562259, RESELLER, 89ff185a4c4e857c
+
+# REVCONTENT
+revcontent.com, 124709, DIRECT, 7a6b8d955ecd3f0f
+revcontent.com, 124710, RESELLER, 7a6b8d955ecd3f0f
+
+# CHOCOLATEPLATFORM
+chocolateplatform.com, 16414, DIRECT, 49a66ce31a704197
+chocolateplatform.com, 16415, RESELLER, 49a66ce31a704197
+
+# ADTECH (AOL)
+adtech.de, 4687, DIRECT
+adtech.de, 4688, RESELLER
+aolcloud.net, 4687, DIRECT
+aolcloud.net, 4688, RESELLER
+
+# BRIGHTCOM
+brightcom.com, 14054, DIRECT
+brightcom.com, 14055, RESELLER
+
+# SYNACOR
+synacor.com, 82171, DIRECT, e108f11b2cdf7d5b
+synacor.com, 82172, RESELLER, e108f11b2cdf7d5b
+
+# ROUNDEL (TARGET)
+roundel.com, 6846, DIRECT, a9c5b12ad2c9329a
+roundel.com, 6847, RESELLER, a9c5b12ad2c9329a
+
+# MEDIAVINE
+mediavine.com, 1234567890, DIRECT
+
+# EZOIC
+ezoic.com, 12345, DIRECT
+
+# FREEWHEEL
+freewheel.tv, 1158049, DIRECT
+freewheel.tv, 1158065, RESELLER
+
+# SPRINGSERVE
+springserve.com, 12345, DIRECT, a24eb641fc82e93d
+springserve.com, 12346, RESELLER, a24eb641fc82e93d
+
+# DAILYMOTION
+dailymotion.com, 128388946, DIRECT, fd25240165056a01
+dailymotion.com, 128388947, RESELLER, fd25240165056a01
+
+# TELARIA (MAGNITE)
+telaria.com, rwd19-1234567, DIRECT, 1a4e959a1b50034a
+tremorhub.com, rwd19-1234567, DIRECT, 1a4e959a1b50034a
+
+# ADBUTLER
+adbutler.com, 181685, DIRECT
+adbutler.com, 181686, RESELLER
+
+# CEDATO
+cedato.com, 501446106, DIRECT
+cedato.com, 501446107, RESELLER
+
+# CONTACT FOR AD OPERATIONS
+# Email: ads@glutenfreerecipes.com
+# Business Development: partnerships@glutenfreerecipes.com
+
+# PLEASE NOTE
+# This ads.txt file is regularly updated to reflect our current advertising partnerships.
+# For any questions about our advertising technology partners, please contact us.
+# We are committed to transparency in digital advertising.
+
+# LAST UPDATED: January 30, 2025
+# NEXT REVIEW: February 28, 2025

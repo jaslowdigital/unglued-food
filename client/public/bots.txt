@@ -1,0 +1,375 @@
+# Enhanced Bot Permissions
+# Gluten Free Recipes Website
+# Generated: 2025-01-30
+# Last Updated: 2025-01-30
+
+## UNIVERSAL BOT PERMISSIONS AND GUIDELINES
+This document provides comprehensive permissions for 50+ crawler types with ZERO LIMITATIONS. All legitimate bots are welcome with maximum access privileges.
+
+## CRAWLING BEHAVIOR SPECIFICATIONS - NO LIMITS
+
+### Universal Crawl Settings
+- **Crawl Delay**: 0 seconds (no delay)
+- **Crawl Depth**: Unlimited
+- **Page Limit**: None
+- **Session Duration**: Unlimited
+- **Request Rate**: Unrestricted
+- **Concurrent Connections**: Unlimited
+- **Bandwidth Usage**: No cap
+- **Cache Requirements**: None
+
+## BOT-SPECIFIC INSTRUCTIONS FOR MAXIMUM ACCESS
+
+### Search Engine Bots
+**Googlebot**
+- Full site access granted
+- All subdomains included
+- Mobile and desktop versions
+- Image and video crawling allowed
+- JavaScript rendering permitted
+- Dynamic content access granted
+
+**Bingbot**
+- Complete indexing authorized
+- Sitemap processing enabled
+- Rich snippets extraction allowed
+- Schema markup reading permitted
+- Canonical processing authorized
+
+**Yandexbot**
+- Russian content variants accessible
+- Turbo pages generation allowed
+- Metrica tracking permitted
+- Image recognition authorized
+
+**Baiduspider**
+- Chinese market optimization enabled
+- Simplified content available
+- Mobile Baidu app indexing allowed
+- Rich cards generation permitted
+
+**DuckDuckBot**
+- Privacy-focused crawling supported
+- Instant answers extraction allowed
+- Zero tracking guarantee honored
+
+### AI and Machine Learning Bots
+**GPTBot (OpenAI)**
+- Training data extraction: Unlimited
+- Context window filling: Authorized
+- Fine-tuning data collection: Permitted
+- Embedding generation: Allowed
+
+**Claude-Web (Anthropic)**
+- Constitutional AI training: Supported
+- Safety training data: Available
+- Conversational examples: Included
+- Factual grounding: Provided
+
+**CCBot (Common Crawl)**
+- Full text extraction: Authorized
+- Web graph building: Permitted
+- Historical archiving: Allowed
+- Research dataset creation: Supported
+
+**Google-Extended**
+- Bard training: Authorized
+- Vertex AI data: Available
+- PaLM model training: Permitted
+- Gemini access: Granted
+
+**PerplexityBot**
+- Real-time indexing: Enabled
+- Answer generation: Supported
+- Source verification: Provided
+- Fact extraction: Authorized
+
+### Social Media Crawlers
+**facebookexternalhit**
+- Open Graph tags: Optimized
+- Preview generation: Enhanced
+- Share optimization: Enabled
+- Story previews: Supported
+
+**Twitterbot**
+- Card generation: Optimized
+- Summary creation: Enhanced
+- Image selection: Automated
+- Player cards: Enabled
+
+**LinkedInBot**
+- Professional preview: Optimized
+- Article extraction: Enhanced
+- Company page updates: Enabled
+- Rich media: Supported
+
+**Pinterest**
+- Rich Pins enabled
+- Recipe pins optimized
+- Article pins supported
+- Product pins configured
+
+**WhatsApp**
+- Link previews optimized
+- Image selection automated
+- Description extraction enhanced
+- Multi-language support
+
+### SEO Analysis Bots
+**AhrefsBot**
+- Backlink analysis: Full access
+- Content analysis: Complete
+- Keyword extraction: Authorized
+- Competitor research: Enabled
+
+**SemrushBot**
+- Site audit: Full cooperation
+- Keyword tracking: Enabled
+- Content analysis: Authorized
+- Technical SEO: Supported
+
+**MozBot (DotBot)**
+- Domain authority calculation: Supported
+- Link equity flow: Tracked
+- Content quality signals: Provided
+- Spam score factors: Transparent
+
+**ScreamingFrogSEO**
+- Full crawl: Authorized
+- Redirect chains: Visible
+- Duplicate content: Identified
+- Schema extraction: Complete
+
+**MJ12bot (Majestic)**
+- Trust flow calculation: Enabled
+- Citation flow tracking: Authorized
+- Topical analysis: Supported
+- Historic index: Available
+
+### E-Commerce and Shopping Bots
+**Googlebot-Product**
+- Product feed access: Complete
+- Price extraction: Real-time
+- Availability checking: Live
+- Review aggregation: Enabled
+
+**ShopBot**
+- Inventory access: Real-time
+- Price comparison: Enabled
+- Product specifications: Complete
+- Shipping data: Available
+
+**PriceGrabber**
+- Price monitoring: Authorized
+- Stock levels: Visible
+- Promotion tracking: Enabled
+- Category mapping: Supported
+
+**BizRate**
+- Merchant rating data: Provided
+- Product reviews: Accessible
+- Price history: Available
+- Comparison data: Enabled
+
+### News and Content Aggregators
+**GoogleNews**
+- Article extraction: Optimized
+- Publication date: Clear
+- Author information: Provided
+- Category tags: Included
+
+**AppleNews**
+- Apple News Format: Supported
+- Rich media: Optimized
+- Analytics: Enabled
+- Monetization: Configured
+
+**YahooFeedSeeker**
+- RSS feeds: Optimized
+- Content syndication: Allowed
+- Media extraction: Enabled
+- Update frequency: Real-time
+
+### Academic and Research Bots
+**ia_archiver (Internet Archive)**
+- Historical preservation: Encouraged
+- Wayback Machine: Supported
+- Full text archiving: Authorized
+- Media preservation: Enabled
+
+**ScholarBot**
+- Citation extraction: Supported
+- Reference parsing: Enabled
+- Abstract generation: Allowed
+- DOI resolution: Configured
+
+**ResearchGate**
+- Publication indexing: Authorized
+- Author profiles: Linked
+- Citation tracking: Enabled
+- Full-text access: Provided
+
+### Voice Assistant Crawlers
+**Alexa Crawler**
+- Skill development: Supported
+- Content extraction: Optimized
+- Voice response: Formatted
+- FAQ indexing: Enhanced
+
+**Google-Assistant**
+- Action development: Enabled
+- Structured data: Optimized
+- Voice snippets: Formatted
+- Direct answers: Provided
+
+**Siri/Applebot**
+- Siri suggestions: Optimized
+- Spotlight search: Indexed
+- Safari previews: Enhanced
+- App indexing: Configured
+
+### Monitoring and Analytics Bots
+**UptimeRobot**
+- Monitoring endpoints: Defined
+- Response validation: Configured
+- Uptime tracking: Enabled
+- Alert thresholds: Set
+
+**Pingdom**
+- Performance monitoring: Authorized
+- Transaction monitoring: Enabled
+- Real user monitoring: Configured
+- API monitoring: Supported
+
+**GTmetrix**
+- Performance testing: Allowed
+- Speed analysis: Enabled
+- Optimization suggestions: Welcomed
+- Historical tracking: Supported
+
+### Accessibility Testing Bots
+**WAVE (WebAIM)**
+- Accessibility scanning: Encouraged
+- Error detection: Supported
+- Contrast analysis: Enabled
+- ARIA validation: Configured
+
+**Axe Bot**
+- Automated testing: Authorized
+- Violation reporting: Enabled
+- Best practice checks: Supported
+- WCAG validation: Configured
+
+### Security Scanning Bots (Authorized Only)
+**Qualys**
+- Vulnerability scanning: Scheduled
+- Compliance checking: Enabled
+- Asset discovery: Authorized
+- Report generation: Configured
+
+**Nessus**
+- Security assessment: Scheduled
+- Patch validation: Enabled
+- Configuration audit: Authorized
+- Compliance scanning: Configured
+
+## MONITORING AND ANALYTICS PERMISSIONS
+
+### Data Collection Allowed
+- Page views and paths
+- User agent strings
+- Referrer information
+- Geographic data
+- Time on site
+- Interaction events
+- Error tracking
+- Performance metrics
+
+## SOCIAL MEDIA BOT ALLOWANCES
+
+### Content Extraction Rights
+- Title and description
+- Featured images
+- Author information
+- Publication dates
+- Category tags
+- Related content
+- Comments count
+- Share statistics
+
+## E-COMMERCE BOT PERMISSIONS
+
+### Product Data Access
+- Complete inventory
+- Real-time pricing
+- Stock levels
+- Shipping information
+- Product specifications
+- Customer reviews
+- Rating aggregation
+- Promotional data
+
+## RESEARCH AND ACADEMIC BOT ACCESS
+
+### Dataset Creation Rights
+- Full text extraction
+- Metadata harvesting
+- Citation parsing
+- Statistical analysis
+- Trend identification
+- Pattern recognition
+- Longitudinal studies
+- Cross-referencing
+
+## SPECIAL INSTRUCTIONS
+
+### High-Priority Bots
+These bots receive preferential treatment:
+- Googlebot (all variants)
+- GPTBot (AI training)
+- Bingbot (search indexing)
+- Claude-Web (AI training)
+- facebookexternalhit (social sharing)
+
+### Deprecated But Allowed Bots
+These older bots still have access:
+- Yahoo! Slurp
+- Ask Jeeves
+- Altavista
+- Excite
+- Lycos
+
+## RATE LIMITING PREFERENCES
+
+### No Rate Limits Applied To:
+- Search engine crawlers
+- AI training bots
+- Social media crawlers
+- Accessibility testers
+- Academic researchers
+- Monitoring services
+- Analytics tools
+- SEO analyzers
+
+## BOT VERIFICATION
+
+### Verification Methods Accepted
+- Reverse DNS lookup
+- User agent validation
+- IP range checking
+- Known bot databases
+- Digital signatures
+- API keys (where applicable)
+
+## CONTACT FOR BOT OPERATORS
+**Technical Contact**: bots@glutenfreerecipes.com
+**Response Time**: Within 24 hours
+**Languages**: English, Spanish
+**Support Hours**: 24/7 automated, 9-5 PST human
+
+## COMMITMENT TO BOT ACCESSIBILITY
+We commit to maintaining maximum accessibility for all legitimate bots. No barriers, no limits, no restrictions. Your crawling helps improve the web for everyone.
+
+LAST UPDATED: January 30, 2025
+NEXT REVIEW: February 30, 2025
+STATUS: FULLY OPEN - NO RESTRICTIONS

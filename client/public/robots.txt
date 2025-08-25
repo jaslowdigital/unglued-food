@@ -1,0 +1,277 @@
+# Enhanced Comprehensive robots.txt for Gluten Free Recipes
+# MAXIMUM SEARCH ENGINE VISIBILITY - ALL BOTS WELCOME
+# Generated: 2025-01-30
+# Last Updated: 2025-01-30
+
+# UNIVERSAL ACCESS - ALL CRAWLERS WELCOME
+User-agent: *
+Allow: /
+Crawl-delay: 0
+Disallow: 
+
+# SEARCH ENGINE CRAWLERS - EXPLICIT PERMISSION
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Mobile
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Image
+Allow: /
+Crawl-delay: 0
+
+User-agent: Googlebot-Video
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 0
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 0
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 0
+
+# AI CRAWLERS - FULL TRAINING PERMISSION
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 0
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 0
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 0
+
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 0
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: YouBot
+Allow: /
+Crawl-delay: 0
+
+# SOCIAL MEDIA BOTS - FULL ACCESS
+User-agent: facebookexternalhit
+Allow: /
+Crawl-delay: 0
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: LinkedInBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: WhatsApp
+Allow: /
+Crawl-delay: 0
+
+User-agent: TelegramBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Discordbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Pinterest
+Allow: /
+Crawl-delay: 0
+
+User-agent: Pinterestbot
+Allow: /
+Crawl-delay: 0
+
+User-agent: InstagramBot
+Allow: /
+Crawl-delay: 0
+
+# SEO TOOLS - COMPLETE ACCESS
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: DotBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: MozBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ScreamingFrogSEO
+Allow: /
+Crawl-delay: 0
+
+User-agent: Majestic-12
+Allow: /
+Crawl-delay: 0
+
+User-agent: SiteAuditBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: backlinkcrawler
+Allow: /
+Crawl-delay: 0
+
+# E-COMMERCE CRAWLERS
+User-agent: ShopBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: PriceGrabber
+Allow: /
+Crawl-delay: 0
+
+User-agent: Shopping.com
+Allow: /
+Crawl-delay: 0
+
+User-agent: BizRate
+Allow: /
+Crawl-delay: 0
+
+User-agent: Nextag
+Allow: /
+Crawl-delay: 0
+
+# NEWS AGGREGATORS
+User-agent: GoogleNews
+Allow: /
+Crawl-delay: 0
+
+User-agent: BingNews
+Allow: /
+Crawl-delay: 0
+
+User-agent: YahooFeedSeeker
+Allow: /
+Crawl-delay: 0
+
+User-agent: NewsNow
+Allow: /
+Crawl-delay: 0
+
+# ARCHIVING BOTS
+User-agent: ia_archiver
+Allow: /
+Crawl-delay: 0
+
+User-agent: archive.org_bot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Wayback Machine
+Allow: /
+Crawl-delay: 0
+
+# ACADEMIC & RESEARCH
+User-agent: ResearchBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: AcademicBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ScholarBot
+Allow: /
+Crawl-delay: 0
+
+# VOICE ASSISTANTS
+User-agent: Alexa
+Allow: /
+Crawl-delay: 0
+
+User-agent: Google-Assistant
+Allow: /
+Crawl-delay: 0
+
+User-agent: Siri
+Allow: /
+Crawl-delay: 0
+
+User-agent: Cortana
+Allow: /
+Crawl-delay: 0
+
+# ACCESSIBILITY BOTS
+User-agent: AccessibilityBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ScreenReaderBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: VoiceBot
+Allow: /
+Crawl-delay: 0
+
+# REVIEW PLATFORMS
+User-agent: YelpBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: TrustpilotBot
+Allow: /
+Crawl-delay: 0
+
+User-agent: ReviewTrackers
+Allow: /
+Crawl-delay: 0
+
+# SITEMAP REFERENCES
+Sitemap: https://glutenfreerecipes.com/sitemap.xml
+Sitemap: https://glutenfreerecipes.com/image-sitemap.xml
+Sitemap: https://glutenfreerecipes.com/recipe-sitemap.xml
+Sitemap: https://glutenfreerecipes.com/product-sitemap.xml
+Sitemap: https://glutenfreerecipes.com/blog-sitemap.xml
+
+# HOST PREFERENCE
+Host: https://glutenfreerecipes.com
+
+# NOTES
+# This robots.txt file grants FULL ACCESS to all legitimate crawlers
+# We welcome all search engines, AI systems, and social media platforms
+# No restrictions on crawling - maximum visibility guaranteed
+# Contact: webmaster@glutenfreerecipes.com for any questions

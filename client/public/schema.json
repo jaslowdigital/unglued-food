@@ -1,0 +1,591 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://glutenfreerecipes.com/#organization",
+      "name": "Gluten Free Recipes",
+      "alternateName": "GF Recipes",
+      "url": "https://glutenfreerecipes.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://glutenfreerecipes.com/logo.png",
+        "width": 600,
+        "height": 200,
+        "caption": "Gluten Free Recipes Logo"
+      },
+      "image": [
+        "https://glutenfreerecipes.com/images/banner-1x1.jpg",
+        "https://glutenfreerecipes.com/images/banner-4x3.jpg",
+        "https://glutenfreerecipes.com/images/banner-16x9.jpg"
+      ],
+      "description": "Leading resource for gluten-free recipes, products, and meal planning for celiac disease and gluten-sensitive individuals",
+      "founder": {
+        "@type": "Person",
+        "name": "Sarah Mitchell",
+        "jobTitle": "CEO & Founder"
+      },
+      "foundingDate": "2019-03-15",
+      "foundingLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Los Angeles",
+          "addressRegion": "CA",
+          "addressCountry": "US"
+        }
+      },
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "value": 25
+      },
+      "slogan": "Making gluten-free living delicious and accessible",
+      "sameAs": [
+        "https://www.facebook.com/glutenfreerecipes",
+        "https://www.instagram.com/glutenfreerecipes",
+        "https://www.youtube.com/glutenfreerecipes",
+        "https://www.pinterest.com/glutenfreerecipes",
+        "https://twitter.com/glutenfreerecipes",
+        "https://www.linkedin.com/company/glutenfreerecipes"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-800-GLUTEN-FREE",
+          "contactType": "customer service",
+          "areaServed": "US",
+          "availableLanguage": ["English", "Spanish"],
+          "contactOption": ["TollFree", "HearingImpairedSupported"],
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "18:00",
+            "timeZone": "America/Los_Angeles"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "email": "support@glutenfreerecipes.com",
+          "contactType": "customer support",
+          "areaServed": "Worldwide",
+          "availableLanguage": "English"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-800-SECURE-GF",
+          "contactType": "technical support",
+          "areaServed": "US",
+          "availableLanguage": "English",
+          "contactOption": "Emergency"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Health Street",
+        "addressLocality": "Wellness City",
+        "addressRegion": "CA",
+        "postalCode": "90210",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Gluten-Free Products",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "Gluten-Free Flours",
+            "itemListElement": [
+              {
+                "@type": "Product",
+                "@id": "https://glutenfreerecipes.com/products/almond-flour",
+                "name": "Premium Almond Flour"
+              },
+              {
+                "@type": "Product",
+                "@id": "https://glutenfreerecipes.com/products/coconut-flour",
+                "name": "Coconut Flour"
+              }
+            ]
+          }
+        ]
+      },
+      "department": [
+        {
+          "@type": "Organization",
+          "name": "Recipe Development",
+          "employee": {
+            "@type": "Person",
+            "name": "Marcus Chen",
+            "jobTitle": "Head Chef"
+          }
+        },
+        {
+          "@type": "Organization",
+          "name": "Customer Service",
+          "employee": {
+            "@type": "Person",
+            "name": "David Park",
+            "jobTitle": "Customer Success Manager"
+          }
+        }
+      ],
+      "award": [
+        "Best Gluten-Free Resource 2021",
+        "Top Food Blog 2022",
+        "Excellence in Celiac Support 2023"
+      ],
+      "memberOf": [
+        {
+          "@type": "Organization",
+          "name": "Gluten-Free Certification Organization"
+        },
+        {
+          "@type": "Organization",
+          "name": "National Celiac Association"
+        }
+      ],
+      "sponsor": {
+        "@type": "Organization",
+        "name": "Celiac Disease Foundation"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://glutenfreerecipes.com/#website",
+      "url": "https://glutenfreerecipes.com",
+      "name": "Gluten Free Recipes",
+      "description": "Your complete resource for gluten-free living",
+      "publisher": {
+        "@id": "https://glutenfreerecipes.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://glutenfreerecipes.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US",
+      "copyrightYear": 2019,
+      "copyrightHolder": {
+        "@id": "https://glutenfreerecipes.com/#organization"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "SiteNavigationElement",
+            "position": 1,
+            "name": "Home",
+            "url": "https://glutenfreerecipes.com/"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 2,
+            "name": "Recipes",
+            "url": "https://glutenfreerecipes.com/recipes"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 3,
+            "name": "Products",
+            "url": "https://glutenfreerecipes.com/products"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 4,
+            "name": "Blog",
+            "url": "https://glutenfreerecipes.com/blog"
+          },
+          {
+            "@type": "SiteNavigationElement",
+            "position": 5,
+            "name": "About",
+            "url": "https://glutenfreerecipes.com/about"
+          }
+        ]
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "@id": "https://glutenfreerecipes.com/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://glutenfreerecipes.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Recipes",
+            "item": "https://glutenfreerecipes.com/recipes"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "Recipe",
+      "@id": "https://glutenfreerecipes.com/recipes/mediterranean-quinoa-bowl",
+      "name": "Mediterranean Quinoa Bowl",
+      "description": "A healthy gluten-free Mediterranean quinoa bowl packed with protein and fresh vegetables",
+      "image": [
+        "https://glutenfreerecipes.com/images/mediterranean-quinoa-bowl-1x1.jpg",
+        "https://glutenfreerecipes.com/images/mediterranean-quinoa-bowl-4x3.jpg",
+        "https://glutenfreerecipes.com/images/mediterranean-quinoa-bowl-16x9.jpg"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "Marcus Chen"
+      },
+      "datePublished": "2024-06-15",
+      "dateModified": "2025-01-30",
+      "prepTime": "PT15M",
+      "cookTime": "PT20M",
+      "totalTime": "PT35M",
+      "keywords": "gluten-free, quinoa, Mediterranean, healthy, vegetarian",
+      "recipeYield": "4 servings",
+      "recipeCategory": "Main course",
+      "recipeCuisine": "Mediterranean",
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1 bowl",
+        "calories": "420 calories",
+        "proteinContent": "18g",
+        "carbohydrateContent": "55g",
+        "fatContent": "15g",
+        "fiberContent": "8g",
+        "sodiumContent": "380mg",
+        "sugarContent": "8g"
+      },
+      "recipeIngredient": [
+        "1 cup quinoa",
+        "2 cups vegetable broth",
+        "1 can chickpeas, drained",
+        "1 cucumber, diced",
+        "2 tomatoes, chopped",
+        "1/2 red onion, sliced",
+        "1/2 cup kalamata olives",
+        "1/2 cup feta cheese",
+        "2 tbsp olive oil",
+        "1 lemon, juiced",
+        "2 cloves garlic, minced"
+      ],
+      "recipeInstructions": [
+        {
+          "@type": "HowToStep",
+          "name": "Cook quinoa",
+          "text": "Rinse quinoa and cook in vegetable broth according to package directions",
+          "url": "https://glutenfreerecipes.com/recipes/mediterranean-quinoa-bowl#step1",
+          "image": "https://glutenfreerecipes.com/images/step1-cooking-quinoa.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Prepare vegetables",
+          "text": "While quinoa cooks, chop cucumber, tomatoes, and onion",
+          "url": "https://glutenfreerecipes.com/recipes/mediterranean-quinoa-bowl#step2",
+          "image": "https://glutenfreerecipes.com/images/step2-chopping-vegetables.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Make dressing",
+          "text": "Whisk together olive oil, lemon juice, and garlic",
+          "url": "https://glutenfreerecipes.com/recipes/mediterranean-quinoa-bowl#step3",
+          "image": "https://glutenfreerecipes.com/images/step3-making-dressing.jpg"
+        },
+        {
+          "@type": "HowToStep",
+          "name": "Assemble bowl",
+          "text": "Combine cooked quinoa with vegetables, chickpeas, olives, and feta. Drizzle with dressing",
+          "url": "https://glutenfreerecipes.com/recipes/mediterranean-quinoa-bowl#step4",
+          "image": "https://glutenfreerecipes.com/images/step4-assembled-bowl.jpg"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "245",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Jane Smith"
+          },
+          "datePublished": "2024-12-15",
+          "reviewBody": "This quinoa bowl is amazing! Fresh, healthy, and satisfying."
+        }
+      ],
+      "video": {
+        "@type": "VideoObject",
+        "name": "How to Make Mediterranean Quinoa Bowl",
+        "description": "Step-by-step video guide for making this gluten-free Mediterranean quinoa bowl",
+        "thumbnailUrl": "https://glutenfreerecipes.com/videos/mediterranean-quinoa-bowl-thumb.jpg",
+        "contentUrl": "https://glutenfreerecipes.com/videos/mediterranean-quinoa-bowl.mp4",
+        "uploadDate": "2024-06-15",
+        "duration": "PT5M30S"
+      },
+      "suitableForDiet": [
+        "https://schema.org/GlutenFreeDiet",
+        "https://schema.org/VegetarianDiet"
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://glutenfreerecipes.com/products/almond-flour",
+      "name": "Premium Almond Flour",
+      "description": "High-quality blanched almond flour perfect for gluten-free baking",
+      "image": "https://glutenfreerecipes.com/images/almond-flour-product.jpg",
+      "brand": {
+        "@type": "Brand",
+        "name": "Organic Harvest"
+      },
+      "sku": "ALM-FLR-002",
+      "gtin13": "1234567890123",
+      "mpn": "OH-AF-2LB",
+      "category": "Gluten-Free Flours",
+      "weight": {
+        "@type": "QuantitativeValue",
+        "value": "2",
+        "unitCode": "LBR"
+      },
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "servingSize": "1/4 cup (28g)",
+        "calories": "170",
+        "proteinContent": "6g",
+        "carbohydrateContent": "6g",
+        "fatContent": "15g",
+        "fiberContent": "3g"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://glutenfreerecipes.com/products/almond-flour",
+        "priceCurrency": "USD",
+        "price": "12.99",
+        "priceValidUntil": "2025-12-31",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
+        "seller": {
+          "@id": "https://glutenfreerecipes.com/#organization"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "5.99",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 1,
+              "maxValue": 5,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 30,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn"
+        }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "89",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "John Doe"
+          },
+          "datePublished": "2024-11-20",
+          "reviewBody": "Best almond flour I've used for gluten-free baking!"
+        }
+      ],
+      "isRelatedTo": [
+        {
+          "@type": "Product",
+          "name": "Coconut Flour",
+          "url": "https://glutenfreerecipes.com/products/coconut-flour"
+        },
+        {
+          "@type": "Product",
+          "name": "Tapioca Starch",
+          "url": "https://glutenfreerecipes.com/products/tapioca-starch"
+        }
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Gluten-Free Certified",
+          "value": "Yes"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "USDA Organic",
+          "value": "Yes"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Non-GMO",
+          "value": "Yes"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://glutenfreerecipes.com/faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is celiac disease?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Celiac disease is an autoimmune disorder where gluten consumption damages the small intestine lining. It affects about 1% of the population and requires a strict gluten-free diet for life."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I prevent cross-contamination?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use separate cutting boards, toasters, and utensils. Clean surfaces thoroughly. Store gluten-free items above gluten-containing foods. Use dedicated gluten-free cooking equipment when possible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What flour can replace all-purpose flour?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No single flour perfectly replaces all-purpose flour. Use blends combining rice flour, tapioca starch, and xanthan gum. Commercial 1:1 baking blends work well for most recipes."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BlogPosting",
+      "@id": "https://glutenfreerecipes.com/blog/celiac-disease-guide",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://glutenfreerecipes.com/blog/celiac-disease-guide"
+      },
+      "headline": "Complete Guide to Living with Celiac Disease",
+      "description": "Everything you need to know about celiac disease, from diagnosis to daily management",
+      "image": "https://glutenfreerecipes.com/images/celiac-guide-featured.jpg",
+      "author": {
+        "@type": "Person",
+        "name": "Dr. Jennifer Blake",
+        "jobTitle": "Medical Advisor"
+      },
+      "publisher": {
+        "@id": "https://glutenfreerecipes.com/#organization"
+      },
+      "datePublished": "2024-09-10",
+      "dateModified": "2025-01-15",
+      "articleSection": "Health & Wellness",
+      "wordCount": 2500,
+      "keywords": "celiac disease, gluten-free diet, autoimmune disorder, gluten sensitivity",
+      "articleBody": "Celiac disease is a serious autoimmune disorder...",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".article-summary", ".key-points"]
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://glutenfreerecipes.com/meal-planning",
+      "name": "Gluten-Free Meal Planning Service",
+      "description": "Custom weekly meal plans for gluten-free diets",
+      "provider": {
+        "@id": "https://glutenfreerecipes.com/#organization"
+      },
+      "serviceType": "Meal Planning",
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Meal Planning Options",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Basic Plan",
+            "price": "19.99",
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "19.99",
+              "priceCurrency": "USD",
+              "unitCode": "MON"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Premium Plan",
+            "price": "29.99",
+            "priceCurrency": "USD",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": "29.99",
+              "priceCurrency": "USD",
+              "unitCode": "MON"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "156"
+      }
+    }
+  ]
+}

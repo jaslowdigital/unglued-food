@@ -1,0 +1,534 @@
+# Performance Optimization Guidelines
+# Gluten Free Recipes Website
+# Generated: 2025-01-30
+# Last Updated: 2025-01-30
+
+## PERFORMANCE OPTIMIZATION BEST PRACTICES
+Comprehensive guidelines for achieving optimal website performance, Core Web Vitals compliance, and exceptional user experience across all devices.
+
+## MOBILE-FIRST INDEXING COMPLIANCE
+
+### Mobile Optimization Requirements
+- Responsive design with fluid grids
+- Touch-friendly interface (44x44px minimum touch targets)
+- Viewport meta tag properly configured
+- No horizontal scrolling
+- Readable font sizes (16px minimum)
+- Adequate spacing between elements
+- Mobile-specific performance budget
+- Accelerated Mobile Pages (AMP) for blog content
+
+### Mobile Performance Targets
+- First Contentful Paint: <1.8s
+- Speed Index: <3.4s
+- Time to Interactive: <3.8s
+- Total Blocking Time: <200ms
+- Page Weight: <1MB
+- JavaScript execution: <2s
+
+## CORE WEB VITALS OPTIMIZATION
+
+### Largest Contentful Paint (LCP) - Target: <2.5s
+**Optimization Strategies:**
+- Preload critical resources
+- Optimize server response times
+- Use CDN for static assets
+- Implement efficient caching
+- Optimize images and videos
+- Minimize render-blocking resources
+- Use resource hints (dns-prefetch, preconnect)
+- Lazy load below-the-fold content
+
+**LCP Elements to Optimize:**
+```html
+<!-- Preload hero image -->
+<link rel="preload" as="image" href="hero-image.webp" type="image/webp">
+
+<!-- Preload critical fonts -->
+<link rel="preload" as="font" href="font.woff2" type="font/woff2" crossorigin>
+
+<!-- Preconnect to CDN -->
+<link rel="preconnect" href="https://cdn.glutenfreerecipes.com">
+```
+
+### First Input Delay (FID) / Interaction to Next Paint (INP) - Target: <100ms
+**Optimization Strategies:**
+- Break up long tasks
+- Use web workers for heavy computations
+- Implement code splitting
+- Defer non-critical JavaScript
+- Use passive event listeners
+- Optimize third-party scripts
+- Minimize main thread work
+- Use requestIdleCallback for non-urgent work
+
+**JavaScript Optimization:**
+```javascript
+// Use passive listeners
+addEventListener('scroll', handleScroll, { passive: true });
+
+// Break up long tasks
+async function processLargeDataset(data) {
+  for (let i = 0; i < data.length; i++) {
+    await processChunk(data[i]);
+    // Yield to browser
+    if (i % 100 === 0) {
+      await new Promise(resolve => setTimeout(resolve, 0));
+    }
+  }
+}
+```
+
+### Cumulative Layout Shift (CLS) - Target: <0.1
+**Optimization Strategies:**
+- Define image/video dimensions
+- Reserve space for ads
+- Avoid inserting content above existing content
+- Use CSS transforms for animations
+- Preload web fonts
+- Use font-display: optional
+- Avoid dynamic content injection
+- Set explicit dimensions for embeds
+
+**CLS Prevention:**
+```css
+/* Reserve space for images */
+img {
+  aspect-ratio: 16/9;
+  width: 100%;
+  height: auto;
+}
+
+/* Prevent font swap layout shift */
+@font-face {
+  font-family: 'CustomFont';
+  src: url('font.woff2');
+  font-display: optional;
+}
+```
+
+## CDN CONFIGURATION
+
+### CDN Provider: Cloudflare
+**Configuration:**
+- Global edge locations
+- Automatic image optimization
+- Brotli compression
+- HTTP/3 support
+- Early Hints (103)
+- Automatic minification
+- Polish image optimization
+- Mirage for mobile
+
+### CDN Cache Strategy
+```
+Cache-Control Headers:
+- Static assets: max-age=31536000, immutable
+- Images: max-age=2592000, public
+- HTML: max-age=3600, s-maxage=86400
+- API responses: max-age=60, must-revalidate
+```
+
+### Edge Workers Configuration
+```javascript
+// Edge worker for optimal routing
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request));
+});
+
+async function handleRequest(request) {
+  // Implement smart caching logic
+  const cache = caches.default;
+  const cachedResponse = await cache.match(request);
+  
+  if (cachedResponse) {
+    return cachedResponse;
+  }
+  
+  const response = await fetch(request);
+  event.waitUntil(cache.put(request, response.clone()));
+  return response;
+}
+```
+
+## CACHING STRATEGY
+
+### Browser Caching
+```apache
+# .htaccess configuration
+<IfModule mod_expires.c>
+  ExpiresActive On
+  
+  # Images
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  
+  # CSS and JavaScript
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  
+  # Fonts
+  ExpiresByType font/woff2 "access plus 1 year"
+  
+  # HTML
+  ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+```
+
+### Service Worker Caching
+```javascript
+// Service worker cache strategy
+const CACHE_NAME = 'gf-recipes-v1';
+const STATIC_CACHE = 'static-v1';
+const DYNAMIC_CACHE = 'dynamic-v1';
+
+// Cache first strategy for static assets
+self.addEventListener('fetch', event => {
+  if (event.request.url.includes('/static/')) {
+    event.respondWith(
+      caches.match(event.request)
+        .then(response => response || fetch(event.request))
+    );
+  }
+});
+```
+
+### Redis Cache Configuration
+```javascript
+// Redis cache for API responses
+const redis = require('redis');
+const client = redis.createClient({
+  host: 'localhost',
+  port: 6379,
+  ttl: 3600 // 1 hour default
+});
+
+// Cache recipe data
+async function getCachedRecipe(id) {
+  const cached = await client.get(`recipe:${id}`);
+  if (cached) return JSON.parse(cached);
+  
+  const recipe = await fetchRecipeFromDB(id);
+  await client.setex(`recipe:${id}`, 3600, JSON.stringify(recipe));
+  return recipe;
+}
+```
+
+## AMP SUPPORT
+
+### AMP Implementation
+```html
+<!doctype html>
+<html amp lang="en">
+<head>
+  <meta charset="utf-8">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <link rel="canonical" href="https://glutenfreerecipes.com/recipe">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <style amp-boilerplate>...</style>
+  <style amp-custom>
+    /* Custom styles here */
+  </style>
+</head>
+```
+
+### AMP Components Used
+- amp-img for responsive images
+- amp-carousel for galleries
+- amp-form for user input
+- amp-analytics for tracking
+- amp-social-share for sharing
+- amp-list for dynamic content
+- amp-bind for interactivity
+
+## CRITICAL RENDERING PATH
+
+### Inline Critical CSS
+```html
+<style>
+  /* Inline critical above-the-fold CSS */
+  body { margin: 0; font-family: system-ui; }
+  .header { background: #22c55e; height: 60px; }
+  .hero { min-height: 400px; }
+  /* ... critical styles ... */
+</style>
+
+<!-- Load non-critical CSS asynchronously -->
+<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+```
+
+### JavaScript Loading Strategy
+```html
+<!-- Critical inline JavaScript -->
+<script>
+  // Minimal critical JS
+  document.documentElement.className = 'js';
+</script>
+
+<!-- Defer non-critical JavaScript -->
+<script defer src="app.js"></script>
+
+<!-- Async third-party scripts -->
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+```
+
+## RESOURCE OPTIMIZATION
+
+### Bundle Optimization
+```javascript
+// Webpack configuration
+module.exports = {
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: 'vendors',
+          priority: 10
+        },
+        common: {
+          minChunks: 2,
+          priority: 5,
+          reuseExistingChunk: true
+        }
+      }
+    },
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        terserOptions: {
+          compress: { drop_console: true },
+          mangle: true
+        }
+      })
+    ]
+  }
+};
+```
+
+### Code Splitting
+```javascript
+// Route-based code splitting
+const RecipePage = lazy(() => import('./pages/RecipePage'));
+const ProductPage = lazy(() => import('./pages/ProductPage'));
+
+function App() {
+  return (
+    <Suspense fallback={<Loading />}>
+      <Routes>
+        <Route path="/recipes/:id" element={<RecipePage />} />
+        <Route path="/products/:id" element={<ProductPage />} />
+      </Routes>
+    </Suspense>
+  );
+}
+```
+
+## THIRD-PARTY OPTIMIZATION
+
+### Script Loading Priorities
+1. **Critical**: Inline or preload
+2. **Important**: Defer attribute
+3. **Nice-to-have**: Async attribute
+4. **Optional**: Load on user interaction
+
+### Third-Party Script Management
+```javascript
+// Lazy load third-party scripts
+function loadScript(src, callback) {
+  const script = document.createElement('script');
+  script.src = src;
+  script.async = true;
+  script.onload = callback;
+  document.body.appendChild(script);
+}
+
+// Load chat widget on demand
+button.addEventListener('click', () => {
+  loadScript('https://chat-widget.com/script.js', initChat);
+});
+```
+
+## DATABASE OPTIMIZATION
+
+### Query Optimization
+```sql
+-- Indexed columns for fast lookups
+CREATE INDEX idx_recipes_category ON recipes(category);
+CREATE INDEX idx_recipes_created ON recipes(created_at DESC);
+CREATE INDEX idx_products_name ON products(name);
+
+-- Optimized query with proper indexing
+SELECT r.*, u.name as author_name
+FROM recipes r
+JOIN users u ON r.user_id = u.id
+WHERE r.category = 'desserts'
+  AND r.published = true
+ORDER BY r.created_at DESC
+LIMIT 20;
+```
+
+### Database Connection Pooling
+```javascript
+// PostgreSQL connection pool
+const { Pool } = require('pg');
+const pool = new Pool({
+  max: 20,
+  idleTimeoutMillis: 30000,
+  connectionTimeoutMillis: 2000
+});
+```
+
+## MONITORING AND METRICS
+
+### Performance Monitoring Tools
+- Google PageSpeed Insights
+- Lighthouse CI
+- WebPageTest
+- Chrome User Experience Report
+- New Relic Browser
+- Datadog Real User Monitoring
+
+### Custom Performance Metrics
+```javascript
+// Track custom metrics
+const perfData = {
+  dns: performance.timing.domainLookupEnd - performance.timing.domainLookupStart,
+  tcp: performance.timing.connectEnd - performance.timing.connectStart,
+  ttfb: performance.timing.responseStart - performance.timing.requestStart,
+  download: performance.timing.responseEnd - performance.timing.responseStart,
+  domInteractive: performance.timing.domInteractive - performance.timing.domLoading,
+  domComplete: performance.timing.domComplete - performance.timing.domLoading
+};
+
+// Send to analytics
+analytics.track('Performance', perfData);
+```
+
+## PROGRESSIVE WEB APP
+
+### PWA Configuration
+```javascript
+// Manifest.json optimizations
+{
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#22c55e",
+  "prefer_related_applications": false
+}
+```
+
+### Offline Strategy
+```javascript
+// Offline-first approach
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request)
+      .then(response => {
+        return response || fetch(event.request)
+          .then(fetchResponse => {
+            return caches.open(DYNAMIC_CACHE)
+              .then(cache => {
+                cache.put(event.request.url, fetchResponse.clone());
+                return fetchResponse;
+              });
+          });
+      })
+      .catch(() => {
+        if (event.request.url.includes('.html')) {
+          return caches.match('/offline.html');
+        }
+      })
+  );
+});
+```
+
+## IMAGE OPTIMIZATION
+
+### Next-Gen Formats
+```html
+<!-- Picture element with format selection -->
+<picture>
+  <source type="image/avif" srcset="image.avif">
+  <source type="image/webp" srcset="image.webp">
+  <img src="image.jpg" alt="Description" loading="lazy">
+</picture>
+```
+
+### Responsive Images
+```html
+<!-- Responsive image with srcset -->
+<img srcset="small.jpg 300w,
+             medium.jpg 600w,
+             large.jpg 1200w"
+     sizes="(max-width: 300px) 100vw,
+            (max-width: 600px) 50vw,
+            33vw"
+     src="medium.jpg"
+     alt="Gluten-free recipe"
+     loading="lazy">
+```
+
+## PERFORMANCE BUDGET
+
+### Budget Allocation
+- HTML: 20KB (compressed)
+- CSS: 50KB (compressed)
+- JavaScript: 200KB (compressed)
+- Images: 500KB (optimized)
+- Fonts: 100KB (subset)
+- Total page weight: <1MB
+
+### Performance Metrics Targets
+- Lighthouse Score: >90
+- First Contentful Paint: <1.8s
+- Speed Index: <3.4s
+- Time to Interactive: <3.8s
+- Total Blocking Time: <200ms
+- Cumulative Layout Shift: <0.1
+
+## CONTINUOUS PERFORMANCE MONITORING
+
+### Automated Testing
+```yaml
+# GitHub Actions for performance testing
+name: Performance Testing
+on: [push, pull_request]
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run Lighthouse
+        uses: treosh/lighthouse-ci-action@v8
+        with:
+          urls: |
+            https://glutenfreerecipes.com
+            https://glutenfreerecipes.com/recipes
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+```
+
+### Performance Alerts
+- Set up alerts for Core Web Vitals degradation
+- Monitor real user metrics (RUM)
+- Track performance budgets
+- Regular performance audits
+- A/B test performance improvements
+
+## FUTURE OPTIMIZATIONS
+
+### Upcoming Technologies
+- HTTP/3 and QUIC protocol
+- WebAssembly for compute-intensive tasks
+- Edge computing for personalization
+- AI-driven image optimization
+- Predictive prefetching
+- 5G network optimization
+- WebGPU for graphics acceleration
+
+OPTIMIZED FOR SPEED, PERFORMANCE, AND USER EXPERIENCE

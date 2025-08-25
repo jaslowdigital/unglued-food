@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <!-- Basic Information -->
+  <ShortName>GF Recipes</ShortName>
+  <LongName>Gluten Free Recipes Search</LongName>
+  <Description>Search for delicious gluten-free recipes, products, and meal planning resources</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <OutputEncoding>UTF-8</OutputEncoding>
+  <Language>en-US</Language>
+  <Contact>search@glutenfreerecipes.com</Contact>
+  <Developer>Gluten Free Recipes Team</Developer>
+  <Attribution>Search data Copyright 2025, Gluten Free Recipes, All Rights Reserved</Attribution>
+  <Tags>gluten-free recipes celiac food health nutrition cooking baking</Tags>
+  
+  <!-- Search URLs -->
+  <!-- HTML Search Results -->
+  <Url type="text/html" 
+       method="GET"
+       template="https://glutenfreerecipes.com/search?q={searchTerms}&amp;source=opensearch">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="source" value="opensearch"/>
+  </Url>
+  
+  <!-- JSON API Results -->
+  <Url type="application/json"
+       method="GET"
+       rel="results"
+       template="https://glutenfreerecipes.com/api/search?q={searchTerms}&amp;format=json&amp;count={count?}&amp;startIndex={startIndex?}&amp;startPage={startPage?}">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="format" value="json"/>
+    <Param name="count" value="{count?}"/>
+    <Param name="startIndex" value="{startIndex?}"/>
+    <Param name="startPage" value="{startPage?}"/>
+  </Url>
+  
+  <!-- RSS Feed Results -->
+  <Url type="application/rss+xml"
+       method="GET"
+       rel="results"
+       template="https://glutenfreerecipes.com/search/rss?q={searchTerms}">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
+  
+  <!-- Atom Feed Results -->
+  <Url type="application/atom+xml"
+       method="GET"
+       rel="results"
+       template="https://glutenfreerecipes.com/search/atom?q={searchTerms}">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
+  
+  <!-- Search Suggestions (Auto-complete) -->
+  <Url type="application/x-suggestions+json"
+       method="GET"
+       rel="suggestions"
+       template="https://glutenfreerecipes.com/api/suggestions?q={searchTerms}">
+    <Param name="q" value="{searchTerms}"/>
+  </Url>
+  
+  <!-- OpenSearch Description Document (Self-reference) -->
+  <Url type="application/opensearchdescription+xml"
+       rel="self"
+       template="https://glutenfreerecipes.com/opensearch.xml"/>
+  
+  <!-- Search Form URL -->
+  <moz:SearchForm>https://glutenfreerecipes.com/search</moz:SearchForm>
+  
+  <!-- Icons -->
+  <Image height="16" width="16" type="image/x-icon">https://glutenfreerecipes.com/favicon.ico</Image>
+  <Image height="16" width="16" type="image/png">https://glutenfreerecipes.com/icon-16x16.png</Image>
+  <Image height="32" width="32" type="image/png">https://glutenfreerecipes.com/icon-32x32.png</Image>
+  <Image height="64" width="64" type="image/png">https://glutenfreerecipes.com/icon-64x64.png</Image>
+  
+  <!-- Search Examples -->
+  <Query role="example" searchTerms="gluten free bread"/>
+  <Query role="example" searchTerms="celiac disease recipes"/>
+  <Query role="example" searchTerms="almond flour cookies"/>
+  <Query role="example" searchTerms="vegan gluten free"/>
+  <Query role="example" searchTerms="quick breakfast ideas"/>
+  
+  <!-- Syndication Rights -->
+  <SyndicationRight>open</SyndicationRight>
+  
+  <!-- Adult Content -->
+  <AdultContent>false</AdultContent>
+  
+  <!-- Update URL -->
+  <UpdateUrl>https://glutenfreerecipes.com/opensearch.xml</UpdateUrl>
+  
+  <!-- Update Interval (in seconds, 604800 = 1 week) -->
+  <UpdateInterval>604800</UpdateInterval>
+  
+  <!-- Auto-discovery -->
+  <!-- Add this to your HTML head: -->
+  <!-- <link rel="search" type="application/opensearchdescription+xml" title="Gluten Free Recipes" href="/opensearch.xml"> -->
+  
+  <!-- Extended Parameters -->
+  <Param name="category" value="{category?}">
+    <Option value="recipes" label="Recipes"/>
+    <Option value="products" label="Products"/>
+    <Option value="blog" label="Blog Posts"/>
+    <Option value="all" label="All Content"/>
+  </Param>
+  
+  <Param name="dietary" value="{dietary?}">
+    <Option value="vegan" label="Vegan"/>
+    <Option value="dairy-free" label="Dairy Free"/>
+    <Option value="nut-free" label="Nut Free"/>
+    <Option value="egg-free" label="Egg Free"/>
+    <Option value="sugar-free" label="Sugar Free"/>
+  </Param>
+  
+  <Param name="difficulty" value="{difficulty?}">
+    <Option value="easy" label="Easy"/>
+    <Option value="medium" label="Medium"/>
+    <Option value="hard" label="Advanced"/>
+  </Param>
+  
+  <Param name="time" value="{time?}">
+    <Option value="15" label="Under 15 minutes"/>
+    <Option value="30" label="Under 30 minutes"/>
+    <Option value="60" label="Under 1 hour"/>
+    <Option value="120" label="Under 2 hours"/>
+  </Param>
+  
+  <Param name="sort" value="{sort?}">
+    <Option value="relevance" label="Most Relevant"/>
+    <Option value="date" label="Most Recent"/>
+    <Option value="popular" label="Most Popular"/>
+    <Option value="rating" label="Highest Rated"/>
+  </Param>
+  
+  <!-- Namespace Extensions -->
+  <moz:UpdateUrl>https://glutenfreerecipes.com/opensearch.xml</moz:UpdateUrl>
+  <moz:IconUpdateUrl>https://glutenfreerecipes.com/favicon.ico</moz:IconUpdateUrl>
+  <moz:UpdateInterval>7</moz:UpdateInterval>
+  
+  <!-- Privacy and Terms -->
+  <Privacy>https://glutenfreerecipes.com/privacy</Privacy>
+  <Terms>https://glutenfreerecipes.com/terms</Terms>
+  
+  <!-- Search Statistics -->
+  <TotalResults>10000</TotalResults>
+  <SearchTime>0.5</SearchTime>
+  <StartIndex>1</StartIndex>
+  <ItemsPerPage>20</ItemsPerPage>
+</OpenSearchDescription>

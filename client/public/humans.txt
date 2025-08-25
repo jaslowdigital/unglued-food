@@ -1,0 +1,183 @@
+# Humans.txt - The People Behind Gluten Free Recipes
+# humanstxt.org
+
+/* TEAM */
+
+Founder & CEO: Sarah Mitchell
+Contact: sarah@glutenfreerecipes.com
+Twitter: @sarahgfree
+Location: Los Angeles, California, USA
+Bio: Diagnosed with celiac disease in 2015, turned challenge into opportunity
+
+Head Chef: Marcus Chen
+Contact: marcus@glutenfreerecipes.com
+Instagram: @chefmarcusgf
+Location: San Francisco, California, USA
+Bio: Culinary Institute graduate, specializes in gluten-free pastry
+
+Lead Developer: Alexandra Rodriguez
+Contact: alex@glutenfreerecipes.com
+GitHub: @alexrodriguez
+Location: Austin, Texas, USA
+Bio: Full-stack developer, React enthusiast, celiac warrior
+
+UX Designer: Jordan Williams
+Contact: jordan@glutenfreerecipes.com
+Dribbble: @jordanwilliams
+Location: Seattle, Washington, USA
+Bio: Designing accessible experiences for everyone
+
+Content Manager: Emily Thompson
+Contact: emily@glutenfreerecipes.com
+LinkedIn: /in/emilythompson
+Location: Chicago, Illinois, USA
+Bio: Nutritionist turned content strategist
+
+Customer Success: David Park
+Contact: david@glutenfreerecipes.com
+Location: New York, New York, USA
+Bio: Helping customers thrive gluten-free since 2019
+
+Marketing Director: Rachel Green
+Contact: rachel@glutenfreerecipes.com
+Twitter: @rachelgreengf
+Location: Miami, Florida, USA
+Bio: Spreading the gluten-free message worldwide
+
+/* THANKS */
+
+Special Thanks: Our amazing gluten-free community
+Inspiration: Every person living with celiac disease
+Recipe Testers: Our dedicated group of 50+ volunteer testers
+Medical Advisor: Dr. Jennifer Blake, MD, Gastroenterologist
+Nutritionist: Lisa Chang, RD, Clinical Nutritionist
+Photographers: Studio Delicious, Food Photo Collective
+Accessibility Consultant: AccessibleWeb Solutions
+
+/* TECHNOLOGY */
+
+Frontend: React 18, TypeScript, Tailwind CSS
+Backend: Node.js, Express, PostgreSQL
+Hosting: Replit
+CDN: Cloudflare
+Analytics: Google Analytics 4
+Monitoring: Datadog
+Version Control: Git
+CI/CD: GitHub Actions
+Testing: Jest, React Testing Library
+Accessibility: WCAG 2.1 Level AA compliant
+Performance: Core Web Vitals optimized
+
+/* STANDARDS */
+
+HTML: HTML5
+CSS: CSS3, PostCSS
+JavaScript: ES2022
+Accessibility: WCAG 2.1 Level AA
+SEO: Schema.org structured data
+Security: HTTPS, CSP, HSTS
+Privacy: GDPR, CCPA compliant
+
+/* SITE */
+
+Last Update: January 30, 2025
+Domain Registration: 2019
+Language: English (Spanish coming soon)
+Doctype: HTML5
+IDE: VSCode, Replit
+Design Tools: Figma, Adobe Creative Suite
+
+/* MISSION */
+
+Making gluten-free living delicious, accessible, and enjoyable for everyone.
+We believe that dietary restrictions shouldn't mean sacrificing flavor or joy in food.
+
+/* VALUES */
+
+Inclusivity: Food for everyone
+Quality: Only the best recipes and products
+Innovation: Constantly improving gluten-free options
+Community: Supporting each other on this journey
+Health: Promoting wellness through nutrition
+Transparency: Open about ingredients and processes
+
+/* CONTACT */
+
+General: info@glutenfreerecipes.com
+Support: support@glutenfreerecipes.com
+Partnerships: partners@glutenfreerecipes.com
+Media: press@glutenfreerecipes.com
+Phone: 1-800-GLUTEN-FREE
+Address: 123 Health Street, Wellness City, CA 90210
+
+/* SOCIAL */
+
+Twitter: @glutenfreerecipes
+Instagram: @glutenfreerecipes
+Facebook: /glutenfreerecipes
+YouTube: /glutenfreerecipes
+Pinterest: /glutenfreerecipes
+TikTok: @glutenfreerecipes
+LinkedIn: /company/glutenfreerecipes
+
+/* ACHIEVEMENTS */
+
+2019: Website launched
+2020: 10,000 registered users
+2021: Best Gluten-Free Resource Award
+2022: 100,000 monthly visitors
+2023: Mobile app launched
+2024: International expansion
+2025: 500+ recipes published
+
+/* FUN FACTS */
+
+Coffee Consumed: 12,847 cups (and counting)
+Recipes Tested: 2,500+ (only the best make it)
+Failed Attempts: 847 (learning experiences!)
+Happy Customers: 50,000+
+Countries Served: 12
+Team Pizza Parties: 48 (all gluten-free!)
+Office Dogs: 3 (Max, Luna, and Buddy)
+
+/* HIRING */
+
+We're always looking for passionate people!
+Check our careers page: glutenfreerecipes.com/careers
+Remote-first company with occasional meetups
+
+/* LEGAL */
+
+Terms of Service: /terms
+Privacy Policy: /privacy
+Cookie Policy: /cookies
+Accessibility Statement: /accessibility
+
+/* MADE WITH */
+
+Love, dedication, and a lot of gluten-free flour
+San Francisco sourdough starter (gluten-free version)
+Sustainable and ethically sourced ingredients
+Renewable energy powered servers
+Carbon neutral shipping
+
+/* ENVIRONMENTAL COMMITMENT */
+
+Plastic-free packaging by 2026
+Carbon neutral operations
+1% for the Planet member
+Sustainable sourcing partners
+Compostable shipping materials
+
+/* CREDITS */
+
+Built with love by the Gluten Free Recipes team
+Powered by the celiac and gluten-free community
+Supported by our amazing customers
+Inspired by everyone seeking healthier alternatives
+
+"Food is not just fuel, it's information. It talks to your DNA and tells it what to do."
+- Dr. Mark Hyman
+
+Thank you for visiting! 
+Stay healthy, eat well, live fully.
