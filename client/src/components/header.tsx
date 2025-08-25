@@ -1,10 +1,12 @@
 import { useState } from "react";
 import { Search, ShoppingCart, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link, useLocation } from "wouter";
 
 export default function Header() {
   const [cartCount] = useState(3);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [location] = useLocation();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -20,21 +22,36 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-playfair font-bold text-warm-amber" data-testid="logo">
-              Unglued Food
-            </h1>
+            <Link href="/">
+              <h1 className="text-2xl font-playfair font-bold text-warm-amber cursor-pointer" data-testid="logo">
+                Unglued Food
+              </h1>
+            </Link>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <button 
-                onClick={() => scrollToSection('recipes')}
+              {location === '/' ? (
+                <button 
+                  onClick={() => scrollToSection('recipes')}
+                  className="hover:text-warm-amber transition-colors duration-200"
+                  data-testid="nav-recipes"
+                >
+                  Featured
+                </button>
+              ) : (
+                <Link href="/" className="hover:text-warm-amber transition-colors duration-200" data-testid="nav-home">
+                  Home
+                </Link>
+              )}
+              <Link 
+                href="/recipes"
                 className="hover:text-warm-amber transition-colors duration-200"
-                data-testid="nav-recipes"
+                data-testid="nav-all-recipes"
               >
-                Recipes
-              </button>
+                All Recipes
+              </Link>
               <button 
                 onClick={() => scrollToSection('education')}
                 className="hover:text-warm-amber transition-colors duration-200"
@@ -96,13 +113,26 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-dark-accent">
             <div className="flex flex-col space-y-4">
-              <button 
-                onClick={() => scrollToSection('recipes')}
+              {location === '/' ? (
+                <button 
+                  onClick={() => scrollToSection('recipes')}
+                  className="text-left hover:text-warm-amber transition-colors"
+                  data-testid="mobile-nav-recipes"
+                >
+                  Featured
+                </button>
+              ) : (
+                <Link href="/" className="text-left hover:text-warm-amber transition-colors" data-testid="mobile-nav-home">
+                  Home
+                </Link>
+              )}
+              <Link 
+                href="/recipes"
                 className="text-left hover:text-warm-amber transition-colors"
-                data-testid="mobile-nav-recipes"
+                data-testid="mobile-nav-all-recipes"
               >
-                Recipes
-              </button>
+                All Recipes
+              </Link>
               <button 
                 onClick={() => scrollToSection('education')}
                 className="text-left hover:text-warm-amber transition-colors"

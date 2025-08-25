@@ -1,5 +1,6 @@
 import { type Recipe, type InsertRecipe, type Product, type InsertProduct, type Newsletter, type InsertNewsletter } from "@shared/schema";
 import { randomUUID } from "crypto";
+import { glutenFreeRecipes } from "./recipes-data";
 
 export interface IStorage {
   // Recipes
@@ -34,121 +35,22 @@ export class MemStorage implements IStorage {
 
   private seedData() {
     // Seed recipes
-    const sampleRecipes: InsertRecipe[] = [
+    const sampleRecipes: InsertRecipe[] = glutenFreeRecipes;
+
+    sampleRecipes.forEach(recipe => {
+      const id = randomUUID();
+      const fullRecipe: Recipe = { 
+        ...recipe, 
+        id, 
+        createdAt: new Date() 
+      };
+      this.recipes.set(id, fullRecipe);
+    });
+
+    // Seed products
+    const sampleProducts: InsertProduct[] = [
       {
-        title: "Mediterranean Quinoa Bowl",
-        description: "Fresh vegetables, quinoa, and a zesty lemon dressing make this bowl perfect for lunch or dinner.",
-        category: "Lunch",
-        difficulty: "Easy",
-        cookTime: 25,
-        servings: 4,
-        rating: "4.8",
-        image: "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        ingredients: ["1 cup quinoa", "2 cups vegetable broth", "1 cucumber, diced", "1 cup cherry tomatoes", "1/2 red onion", "1/4 cup olive oil", "2 tbsp lemon juice", "Salt and pepper"],
-        instructions: ["Cook quinoa in vegetable broth", "Let quinoa cool", "Mix vegetables", "Whisk dressing", "Combine all ingredients"],
-        tags: ["Mediterranean", "Quinoa", "Healthy", "Vegetarian"],
-        isNaturallyGlutenFree: true,
-      },
-      {
-        title: "Perfect GF Chocolate Chip Cookies",
-        description: "Made with almond flour, these cookies are chewy, delicious, and nobody will know they're gluten-free.",
-        category: "Desserts",
-        difficulty: "Medium",
-        cookTime: 35,
-        servings: 24,
-        rating: "4.9",
-        image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        ingredients: ["2 cups almond flour", "1/2 tsp baking soda", "1/2 tsp salt", "1/2 cup coconut oil", "1/2 cup brown sugar", "1 egg", "1 tsp vanilla", "1 cup chocolate chips"],
-        instructions: ["Preheat oven to 350°F", "Mix dry ingredients", "Cream wet ingredients", "Combine wet and dry", "Add chocolate chips", "Bake 12-15 minutes"],
-        tags: ["Cookies", "Almond Flour", "Chocolate", "Baking"],
-        isNaturallyGlutenFree: false,
-      },
-      {
-        title: "Creamy Mushroom GF Pasta",
-        description: "Rich and creamy pasta made with rice noodles and fresh mushrooms in a dairy-free sauce.",
-        category: "Dinner",
-        difficulty: "Easy",
-        cookTime: 20,
-        servings: 4,
-        rating: "4.7",
-        image: "https://images.unsplash.com/photo-1621996346565-e3dbc353d2e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        ingredients: ["12 oz GF pasta", "1 lb mixed mushrooms", "3 cloves garlic", "1 cup coconut milk", "1/4 cup nutritional yeast", "2 tbsp olive oil", "Salt and pepper", "Fresh herbs"],
-        instructions: ["Cook pasta according to package", "Sauté mushrooms and garlic", "Add coconut milk", "Stir in nutritional yeast", "Combine with pasta", "Garnish with herbs"],
-        tags: ["Pasta", "Mushrooms", "Dairy-Free", "Comfort Food"],
-        isNaturallyGlutenFree: false,
-      },
-      {
-        title: "Fluffy GF Pancakes",
-        description: "Light and airy pancakes made with rice flour blend that taste just like traditional ones.",
-        category: "Breakfast",
-        difficulty: "Easy",
-        cookTime: 15,
-        servings: 4,
-        rating: "4.8",
-        image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        ingredients: ["1 cup GF flour blend", "2 tbsp sugar", "2 tsp baking powder", "1/2 tsp salt", "1 cup milk", "1 egg", "2 tbsp melted butter", "1 tsp vanilla"],
-        instructions: ["Mix dry ingredients", "Whisk wet ingredients separately", "Combine wet and dry until just mixed", "Heat griddle to 375°F", "Pour 1/4 cup batter per pancake", "Cook until bubbles form, flip and cook 2 more minutes"],
-        tags: ["Pancakes", "Breakfast", "Easy", "Quick"],
-        isNaturallyGlutenFree: false,
-      },
-      {
-        title: "Thai Coconut Curry Chicken",
-        description: "Aromatic coconut curry with tender chicken, vegetables, and fragrant spices served over rice.",
-        category: "Dinner",
-        difficulty: "Medium",
-        cookTime: 30,
-        servings: 6,
-        rating: "4.9",
-        image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        ingredients: ["2 lbs chicken thighs", "1 can coconut milk", "3 tbsp red curry paste", "1 onion, sliced", "1 bell pepper", "1 cup green beans", "2 tbsp fish sauce", "1 tbsp brown sugar", "Fresh basil", "Jasmine rice"],
-        instructions: ["Cook rice separately", "Brown chicken in large pan", "Remove chicken, sauté vegetables", "Add curry paste and cook 1 minute", "Add coconut milk, fish sauce, sugar", "Return chicken to pan", "Simmer 15 minutes", "Garnish with basil"],
-        tags: ["Thai", "Curry", "Coconut", "Spicy", "One-Pan"],
-        isNaturallyGlutenFree: true,
-      },
-      {
-        title: "GF Banana Bread",
-        description: "Moist and tender banana bread made with almond flour and naturally sweetened.",
-        category: "Desserts",
-        difficulty: "Easy",
-        cookTime: 60,
-        servings: 10,
-        rating: "4.7",
-        image: "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        ingredients: ["3 ripe bananas", "2 cups almond flour", "3 eggs", "1/4 cup honey", "1/4 cup coconut oil", "1 tsp vanilla", "1 tsp baking soda", "1/2 tsp salt", "1/2 cup walnuts"],
-        instructions: ["Preheat oven to 350°F", "Mash bananas in large bowl", "Mix in wet ingredients", "Add dry ingredients", "Fold in nuts", "Pour into greased loaf pan", "Bake 55-60 minutes"],
-        tags: ["Banana", "Bread", "Almond Flour", "Healthy", "Nuts"],
-        isNaturallyGlutenFree: false,
-      },
-      {
-        title: "Grilled Salmon with Quinoa Salad",
-        description: "Perfectly grilled salmon served over a refreshing quinoa salad with cucumber and herbs.",
-        category: "Dinner",
-        difficulty: "Medium",
-        cookTime: 25,
-        servings: 4,
-        rating: "4.8",
-        image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        ingredients: ["4 salmon fillets", "1 cup quinoa", "2 cups vegetable broth", "1 cucumber, diced", "1/4 cup red onion", "1/4 cup fresh dill", "3 tbsp olive oil", "2 tbsp lemon juice", "Salt and pepper"],
-        instructions: ["Cook quinoa in broth", "Season salmon with salt and pepper", "Grill salmon 4-5 minutes per side", "Mix quinoa with vegetables and herbs", "Whisk olive oil and lemon for dressing", "Serve salmon over quinoa salad"],
-        tags: ["Salmon", "Quinoa", "Healthy", "Protein", "Fresh"],
-        isNaturallyGlutenFree: true,
-      },
-      {
-        title: "Chocolate Avocado Brownies",
-        description: "Fudgy, rich brownies made with avocado and cocoa powder for a healthier treat.",
-        category: "Desserts",
-        difficulty: "Easy",
-        cookTime: 35,
-        servings: 16,
-        rating: "4.6",
-        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
-        ingredients: ["2 ripe avocados", "1/2 cup cocoa powder", "1/2 cup almond flour", "1/3 cup honey", "2 eggs", "1/4 cup coconut oil", "1 tsp vanilla", "1/2 tsp baking soda", "1/4 tsp salt", "1/2 cup dark chocolate chips"],
-        instructions: ["Preheat oven to 350°F", "Blend avocados until smooth", "Mix in wet ingredients", "Add dry ingredients", "Fold in chocolate chips", "Pour into 8x8 pan", "Bake 25-30 minutes"],
-        tags: ["Brownies", "Avocado", "Chocolate", "Healthy", "Fudgy"],
-        isNaturallyGlutenFree: false,
-      },
-      {
-        title: "Mexican Cauliflower Rice Bowl",
+        name: "Premium Almond Flour",
         description: "Spicy cauliflower rice topped with black beans, avocado, and fresh salsa.",
         category: "Lunch",
         difficulty: "Easy",
