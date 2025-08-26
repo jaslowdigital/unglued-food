@@ -1,5 +1,5 @@
-// Auto-generated file with fresh AI images
-// Generated at: 2025-08-26T17:25:25.022Z
+// Auto-generated file with all 100 gluten-free recipes
+// 35 recipes have AI-generated images
 import type { InsertRecipe } from '../shared/schema';
 
 function createSlug(title: string): string {
@@ -27,7 +27,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "42.3",
     "fat": "11.2",
     "fiber": "3.8",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-gqjnXxQDnqRR9JHrrQdizVit.png?st=2025-08-26T16%3A22%3A22Z&se=2025-08-26T18%3A22%3A22Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-25T17%3A27%3A26Z&ske=2025-08-26T17%3A27%3A26Z&sks=b&skv=2024-08-04&sig=0HgYYYUH8I02GoP1wp9yxE/myye80bWQbMIJH99a3iY%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-LlWCOCsrN2yWqOGkiqIqo2sq.png?st=2025-08-26T14%3A38%3A55Z&se=2025-08-26T16%3A38%3A55Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b74f183f-e7f8-479f-ad70-d7bb436e31c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T15%3A38%3A56Z&ske=2025-08-27T15%3A38%3A56Z&sks=b&skv=2024-08-04&sig=QhUQWnQGvSVHlhd7HxQBQhBZdl0ZX7Vbfm5XLXlJJyI%3D",
     "ingredients": [
       "1½ cups gluten-free flour blend",
       "2 tablespoons sugar",
@@ -86,7 +86,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "52.8",
     "fat": "16.3",
     "fiber": "12.4",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-RBm4xsGU7lUVAYGBIwmChT5D.png?st=2025-08-26T16%3A22%3A38Z&se=2025-08-26T18%3A22%3A38Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T12%3A49%3A49Z&ske=2025-08-27T12%3A49%3A49Z&sks=b&skv=2024-08-04&sig=wDiUrzAGzJ5BTipfv8VnFZfhYnqwOOk48plOrWSqhxY%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-2GGssgm2rAVPB9yLh3QpnCfj.png?st=2025-08-26T14%3A49%3A35Z&se=2025-08-26T16%3A49%3A35Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T15%3A49%3A35Z&ske=2025-08-27T15%3A49%3A35Z&sks=b&skv=2024-08-04&sig=x/etU22L3cZRTVkIxlSrXEyrG1/gTSkFrLRno4gclfw%3D",
     "ingredients": [
       "2 cans chickpeas, drained and rinsed",
       "2 cups cooked quinoa",
@@ -145,7 +145,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "28.5",
     "fat": "22.1",
     "fiber": "3.2",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-G8bGSCIEj2beEeVvJIHjL06c.png?st=2025-08-26T16%3A22%3A55Z&se=2025-08-26T18%3A22%3A55Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T14%3A40%3A12Z&ske=2025-08-27T14%3A40%3A12Z&sks=b&skv=2024-08-04&sig=dRrGpZ/0YuQB4ZK5KZQVZjQM7xQd8fZTvvnNNb09vFI%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-MiZt3zOpHk6NZUdD2z8qbPTb.png?st=2025-08-26T14%3A49%3A51Z&se=2025-08-26T16%3A49%3A51Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T15%3A49%3A51Z&ske=2025-08-27T15%3A49%3A51Z&sks=b&skv=2024-08-04&sig=6NyxhWiiatHi8qZzJONUR8IYu3toxD5k96yt2xpuXJA%3D",
     "ingredients": [
       "2 lbs large shrimp, peeled and deveined",
       "2 cans coconut milk",
@@ -205,7 +205,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "35.6",
     "fat": "24.8",
     "fiber": "3.9",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-0SmQrFzdhsc5gtqzbo94LHqq.png?st=2025-08-26T16%3A23%3A11Z&se=2025-08-26T18%3A23%3A11Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T04%3A42%3A00Z&ske=2025-08-27T04%3A42%3A00Z&sks=b&skv=2024-08-04&sig=cNmBrGlz4Q/Mj8Z54eyQ8t69vMSUj8dyGII50vFX2lQ%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-6NF0SUdQTEKEyiiROY3wVu5J.png?st=2025-08-26T14%3A50%3A06Z&se=2025-08-26T16%3A50%3A06Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T13%3A22%3A07Z&ske=2025-08-27T13%3A22%3A07Z&sks=b&skv=2024-08-04&sig=Vy8FtG04VVNOmh7Yrp/F3ghX6X5zQDSvhpqDL35Njus%3D",
     "ingredients": [
       "6 oz dark chocolate, chopped",
       "6 tablespoons unsalted butter",
@@ -264,7 +264,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "12.3",
     "fat": "24.8",
     "fiber": "2.9",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-50gDIPPOPt2vrPWqeD0qjpqB.png?st=2025-08-26T16%3A23%3A30Z&se=2025-08-26T18%3A23%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T06%3A05%3A13Z&ske=2025-08-27T06%3A05%3A13Z&sks=b&skv=2024-08-04&sig=%2BQVLJm3VHRGQZx4npPurwMMA9jPYyCxcp2Q0isb0Kjc%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-YODD51KTsslVMxHD0sfnPbvR.png?st=2025-08-26T14%3A50%3A22Z&se=2025-08-26T16%3A50%3A22Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T04%3A41%3A56Z&ske=2025-08-27T04%3A41%3A56Z&sks=b&skv=2024-08-04&sig=%2BzIOngjayJL9sQFv4zNzKJ%2BzG1xuD9kUfElHuLlgMbM%3D",
     "ingredients": [
       "1½ cups almond flour",
       "¼ cup cold butter, cubed",
@@ -326,7 +326,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "11.2",
     "fat": "7.9",
     "fiber": "2.3",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-DQldycaEgr9Y3KKVotafm6Ma.png?st=2025-08-26T16%3A23%3A45Z&se=2025-08-26T18%3A23%3A45Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T05%3A20%3A53Z&ske=2025-08-27T05%3A20%3A53Z&sks=b&skv=2024-08-04&sig=6hb/JCqAu5upYyRRJarrPpk7eBRD5Te4h%2BsVh8tC2wU%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-v4U2Y5AcsU8ZNlQv3ecowMd6.png?st=2025-08-26T14%3A50%3A37Z&se=2025-08-26T16%3A50%3A37Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T06%3A11%3A35Z&ske=2025-08-27T06%3A11%3A35Z&sks=b&skv=2024-08-04&sig=54N7G1Nsr0pRjKarKbaS5Vs98T0Z7%2BwTZ8ZTLV/7vS4%3D",
     "ingredients": [
       "2 large zucchini",
       "½ cup grated Parmesan cheese",
@@ -384,7 +384,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "8.5",
     "fat": "28.3",
     "fiber": "1.2",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-n0lUegVnhpL3QRW5VVhoCV5F.png?st=2025-08-26T16%3A24%3A04Z&se=2025-08-26T18%3A24%3A04Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=8b33a531-2df9-46a3-bc02-d4b1430a422c&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T17%3A24%3A04Z&ske=2025-08-27T17%3A24%3A04Z&sks=b&skv=2024-08-04&sig=%2B79AgUHbTAyvQf6KFAkkirhHCKeDn910kZiUrodHY4M%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-JRV6hzbuJRKDWsp70aWBu6hM.png?st=2025-08-26T14%3A50%3A57Z&se=2025-08-26T16%3A50%3A57Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T15%3A50%3A57Z&ske=2025-08-27T15%3A50%3A57Z&sks=b&skv=2024-08-04&sig=sNff3TxYZZcmgNkuHxgzwyvnCi3Ffpq1hKqJoFJvX8E%3D",
     "ingredients": [
       "4 salmon fillets (6 oz each)",
       "1 cup gluten-free panko breadcrumbs",
@@ -444,7 +444,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "38.2",
     "fat": "34.5",
     "fiber": "0.8",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-73MwyMu1p1m1qGBh8Jv86MKj.png?st=2025-08-26T16%3A24%3A19Z&se=2025-08-26T18%3A24%3A19Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=ed3ea2f9-5e38-44be-9a1b-7c1e65e4d54f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-25T18%3A11%3A46Z&ske=2025-08-26T18%3A11%3A46Z&sks=b&skv=2024-08-04&sig=645NEuXw7rxdQ67ceAm7CNKgezE%2BZIRWpfqBxbzBDsY%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-CVe8k5ltRox6AcYKiBKLe9w6.png?st=2025-08-26T14%3A51%3A12Z&se=2025-08-26T16%3A51%3A12Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=f1dafa11-a0c2-4092-91d4-10981fbda051&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T08%3A51%3A13Z&ske=2025-08-27T08%3A51%3A13Z&sks=b&skv=2024-08-04&sig=RvvGt0K7N/doLiWlrv%2BAnEeWJoDwd0XO8M1LPPLkGX0%3D",
     "ingredients": [
       "2 cups gluten-free graham cracker crumbs",
       "⅓ cup melted butter",
@@ -503,7 +503,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "18.6",
     "fat": "14.2",
     "fiber": "3.8",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-ITS5cG3tnfxTefxVFnr5O1C7.png?st=2025-08-26T16%3A24%3A35Z&se=2025-08-26T18%3A24%3A35Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T02%3A37%3A23Z&ske=2025-08-27T02%3A37%3A23Z&sks=b&skv=2024-08-04&sig=4TeqmgL1Yra2NJ9TqIf9oxzjN8I%2BQUG/O61RryA45kA%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-rD8cXzZQOIWd7Jc3BWQSJL8A.png",
     "ingredients": [
       "1 lb ground chicken",
       "1 can water chestnuts, diced",
@@ -566,7 +566,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "32.4",
     "fat": "13.8",
     "fiber": "11.3",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-fEwXCxKclT815KPqJgpOmyXN.png?st=2025-08-26T16%3A24%3A51Z&se=2025-08-26T18%3A24%3A51Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T04%3A46%3A43Z&ske=2025-08-27T04%3A46%3A43Z&sks=b&skv=2024-08-04&sig=IlsV212IeVEgB4FfxisJqrf13QZQFUvCTrfaH9r0iOE%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-x0tJwqp9VJxKK2wkO8fuTxit.png?st=2025-08-26T14%3A51%3A29Z&se=2025-08-26T16%3A51%3A29Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T09%3A55%3A33Z&ske=2025-08-27T09%3A55%3A33Z&sks=b&skv=2024-08-04&sig=YhXo%2BnuHbWlUQJnXDok6G6ygCI4Ax5NK1/f3gqHqoFY%3D",
     "ingredients": [
       "½ cup chia seeds",
       "2 cups coconut milk",
@@ -626,7 +626,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "31.8",
     "fat": "18.9",
     "fiber": "4.7",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-1L5dHD1AuszgXYztJ6rNlRdl.png?st=2025-08-26T16%3A25%3A05Z&se=2025-08-26T18%3A25%3A05Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T16%3A27%3A29Z&ske=2025-08-27T16%3A27%3A29Z&sks=b&skv=2024-08-04&sig=1l1ZlpwVkpuJzlyIoFbGehAR3OgAAcEuaGJgqc9ir7E%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-FjXFrx8MekrLJWJlhNfJfZSj.png",
     "ingredients": [
       "6 large bell peppers, tops cut and seeds removed",
       "1 lb ground beef",
@@ -687,7 +687,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "10.8",
     "fat": "7.3",
     "fiber": "1.1",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-RdsqeoIvPSzLBmWEY14CEhQ1.png?st=2025-08-26T16%3A25%3A21Z&se=2025-08-26T18%3A25%3A21Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-25T22%3A06%3A07Z&ske=2025-08-26T22%3A06%3A07Z&sks=b&skv=2024-08-04&sig=SqOt5D%2B0k17TF9dwOEatCmOeT3zebE6HujXZhN335bg%3D",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-xIHQAl7CBGFZ0EPMM5AQQqzV.png",
     "ingredients": [
       "1 cup creamy peanut butter",
       "¾ cup sugar",
