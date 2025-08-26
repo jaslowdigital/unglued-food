@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
+import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -35,12 +36,14 @@ export default function FeaturedRecipes() {
               Hand-picked favorites from our community
             </p>
           </div>
-          <Button 
-            className="bg-warm-amber text-dark-primary px-6 py-2 rounded-lg hover:bg-warm-orange transition-colors"
-            data-testid="button-view-all-recipes"
-          >
-            View All Recipes
-          </Button>
+          <Link href="/recipes">
+            <Button 
+              className="bg-warm-amber text-dark-primary px-6 py-2 rounded-lg hover:bg-warm-orange transition-colors"
+              data-testid="button-view-all-recipes"
+            >
+              View All Recipes
+            </Button>
+          </Link>
         </div>
 
         {/* Recipe Search & Filter */}

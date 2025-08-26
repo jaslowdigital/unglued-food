@@ -31,6 +31,8 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 
   const recipeSlug = recipe.slug || recipe.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
 
+  const defaultImage = "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop";
+
   return (
     <Link href={`/recipe/${recipeSlug}`}>
       <article 
@@ -38,10 +40,14 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
         data-testid={`recipe-card-${recipe.id}`}
       >
       <img 
-        src={recipe.image} 
+        src={recipe.image || defaultImage} 
         alt={recipe.title}
         className="w-full h-48 object-cover" 
         data-testid={`recipe-image-${recipe.id}`}
+        onError={(e) => {
+          const target = e.target as HTMLImageElement;
+          target.src = defaultImage;
+        }}
       />
       <div className="p-6">
         <div className="flex items-center justify-between mb-3">

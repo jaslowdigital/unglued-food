@@ -144,10 +144,14 @@ export default function RecipePage() {
           {/* Recipe Image */}
           <div className="relative h-96 md:h-full rounded-lg overflow-hidden">
             <img
-              src={recipe.image}
+              src={recipe.image || "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop"}
               alt={recipe.title}
               className="w-full h-full object-cover"
               data-testid="recipe-image"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop";
+              }}
             />
             <div className="absolute top-4 right-4">
               <Badge className="bg-amber-600 text-white">
