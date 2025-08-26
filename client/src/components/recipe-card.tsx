@@ -31,7 +31,22 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 
   const recipeSlug = recipe.slug || recipe.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
 
-  const defaultImage = "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop";
+  // Use category-appropriate fallback images when AI images fail to load
+  const getFallbackImage = (category: string) => {
+    const fallbacks: Record<string, string> = {
+      "Breakfast": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=400&h=300&fit=crop",
+      "Lunch": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop",
+      "Dinner": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400&h=300&fit=crop",
+      "Desserts": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&h=300&fit=crop",
+      "Snacks": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=400&h=300&fit=crop",
+      "Appetizers": "https://images.unsplash.com/photo-1541529086526-db283c563270?w=400&h=300&fit=crop",
+      "Salads": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400&h=300&fit=crop",
+      "Sides": "https://images.unsplash.com/photo-1534938665420-4193effeacc4?w=400&h=300&fit=crop"
+    };
+    return fallbacks[category] || "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop";
+  };
+
+  const defaultImage = getFallbackImage(recipe.category);
 
   return (
     <Link href={`/recipe/${recipeSlug}`}>

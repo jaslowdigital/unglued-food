@@ -10,6 +10,21 @@ export default function RecipePage() {
   const params = useParams() as { slug?: string };
   const slug = params.slug;
 
+  // Use category-appropriate fallback images when AI images fail to load
+  const getFallbackImage = (category: string) => {
+    const fallbacks: Record<string, string> = {
+      "Breakfast": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&h=400&fit=crop",
+      "Lunch": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
+      "Dinner": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop",
+      "Desserts": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&h=400&fit=crop",
+      "Snacks": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=600&h=400&fit=crop",
+      "Appetizers": "https://images.unsplash.com/photo-1541529086526-db283c563270?w=600&h=400&fit=crop",
+      "Salads": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&h=400&fit=crop",
+      "Sides": "https://images.unsplash.com/photo-1534938665420-4193effeacc4?w=600&h=400&fit=crop"
+    };
+    return fallbacks[category] || "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=600&h=400&fit=crop";
+  };
+
   const { data: recipe, isLoading, error } = useQuery<Recipe>({
     queryKey: ["/api/recipes/slug", slug],
     queryFn: async () => {
@@ -144,13 +159,13 @@ export default function RecipePage() {
           {/* Recipe Image */}
           <div className="relative h-96 md:h-full rounded-lg overflow-hidden">
             <img
-              src={recipe.image || "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop"}
+              src={recipe.image || getFallbackImage(recipe.category)}
               alt={recipe.title}
               className="w-full h-full object-cover"
               data-testid="recipe-image"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop";
+                target.src = getFallbackImage(recipe.category);
               }}
             />
             <div className="absolute top-4 right-4">
