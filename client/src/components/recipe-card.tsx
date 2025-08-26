@@ -1,5 +1,6 @@
 import { Star, Clock, Users, Signal } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Link } from "wouter";
 import { type Recipe } from "@shared/schema";
 
 interface RecipeCardProps {
@@ -28,11 +29,14 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
     return isNaturallyGlutenFree ? "Naturally GF" : "GF Substitute";
   };
 
+  const recipeSlug = recipe.slug || recipe.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').trim();
+
   return (
-    <article 
-      className="bg-dark-secondary rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
-      data-testid={`recipe-card-${recipe.id}`}
-    >
+    <Link href={`/recipe/${recipeSlug}`}>
+      <article 
+        className="bg-dark-secondary rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
+        data-testid={`recipe-card-${recipe.id}`}
+      >
       <img 
         src={recipe.image} 
         alt={recipe.title}
@@ -86,6 +90,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
           </span>
         </div>
       </div>
-    </article>
+      </article>
+    </Link>
   );
 }

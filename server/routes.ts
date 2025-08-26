@@ -36,6 +36,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  app.get("/api/recipes/slug/:slug", async (req, res) => {
+    try {
+      const recipe = await storage.getRecipeBySlug(req.params.slug);
+      if (!recipe) {
+        return res.status(404).json({ error: "Recipe not found" });
+      }
+      res.json(recipe);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch recipe" });
+    }
+  });
+
   // Product routes
   app.get("/api/products", async (req, res) => {
     try {

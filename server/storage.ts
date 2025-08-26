@@ -1,12 +1,13 @@
 import { type Recipe, type InsertRecipe, type Product, type InsertProduct, type Newsletter, type InsertNewsletter } from "@shared/schema";
 import { randomUUID } from "crypto";
-import { glutenFreeRecipes } from "./recipes-data";
+import glutenFreeRecipes100 from "./gluten-free-recipes-100";
 
 export interface IStorage {
   // Recipes
   getRecipes(): Promise<Recipe[]>;
   getRecipesByCategory(category: string): Promise<Recipe[]>;
   getRecipe(id: string): Promise<Recipe | undefined>;
+  getRecipeBySlug(slug: string): Promise<Recipe | undefined>;
   createRecipe(recipe: InsertRecipe): Promise<Recipe>;
   searchRecipes(query: string): Promise<Recipe[]>;
   
@@ -35,7 +36,7 @@ export class MemStorage implements IStorage {
 
   private seedData() {
     // Seed recipes
-    const sampleRecipes: InsertRecipe[] = glutenFreeRecipes;
+    const sampleRecipes: InsertRecipe[] = glutenFreeRecipes100;
 
     sampleRecipes.forEach(recipe => {
       const id = randomUUID();
@@ -128,6 +129,10 @@ export class MemStorage implements IStorage {
     };
     this.recipes.set(id, recipe);
     return recipe;
+  }
+
+  async getRecipeBySlug(slug: string): Promise<Recipe | undefined> {
+    return Array.from(this.recipes.values()).find(recipe => recipe.slug === slug);
   }
 
   async searchRecipes(query: string): Promise<Recipe[]> {
