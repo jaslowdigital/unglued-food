@@ -11,10 +11,11 @@ This is a gluten-free food blog and recipe website called "Unglued Food". The ap
 - Systematic batch processing with rate limiting successfully handled API restrictions
 
 ✅ **Fixed recipe-to-image mapping issue (January 23, 2025)**
-- Corrected the data source to use gluten-free-recipes-100.ts with proper AI image mappings
-- Each recipe now displays its unique AI-generated image correctly
-- Verified all 100 recipes have distinct image IDs (no image reuse)
-- Added category-specific fallback images for when AI images expire
+- Created new recipe dataset that correctly matches the AI-generated images
+- Fixed mismatch between recipe content and their AI images (was showing pancake images for beetroot latte, etc.)
+- Now serving correct recipes (beetroot-latte, edamame-falafel, etc.) that match AI images
+- Verified 31 recipes have unique AI images with no duplicates
+- Remaining recipes use placeholder images until AI generation completes
 
 # User Preferences
 

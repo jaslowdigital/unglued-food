@@ -1,6 +1,6 @@
 import { type Recipe, type InsertRecipe, type Product, type InsertProduct, type Newsletter, type InsertNewsletter } from "@shared/schema";
 import { randomUUID } from "crypto";
-import glutenFreeRecipes100 from "./gluten-free-recipes-100";
+import correct100RecipesWithAIImages from "./correct-100-recipes-with-ai-images";
 
 export interface IStorage {
   // Recipes
@@ -36,7 +36,7 @@ export class MemStorage implements IStorage {
 
   private seedData() {
     // Seed recipes
-    const sampleRecipes: InsertRecipe[] = glutenFreeRecipes100;
+    const sampleRecipes: InsertRecipe[] = correct100RecipesWithAIImages;
 
     sampleRecipes.forEach(recipe => {
       const id = randomUUID();
