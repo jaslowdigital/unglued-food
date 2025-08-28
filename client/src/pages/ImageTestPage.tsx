@@ -1,6 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import { Card } from "@/components/ui/card";
 import { Loader2 } from "lucide-react";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 
 export default function ImageTestPage() {
   const { data: recipes, isLoading, error } = useQuery({
@@ -9,23 +11,33 @@ export default function ImageTestPage() {
 
   if (isLoading) {
     return (
-      <div className="flex justify-center items-center min-h-screen">
-        <Loader2 className="h-8 w-8 animate-spin" />
+      <div className="min-h-screen bg-dark-primary text-light-text">
+        <Header />
+        <div className="flex justify-center items-center min-h-screen pt-16">
+          <Loader2 className="h-8 w-8 animate-spin" />
+        </div>
+        <Footer />
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="container mx-auto p-8">
-        <p className="text-red-500">Error loading recipes</p>
+      <div className="min-h-screen bg-dark-primary text-light-text">
+        <Header />
+        <div className="container mx-auto p-8 pt-24">
+          <p className="text-red-500">Error loading recipes</p>
+        </div>
+        <Footer />
       </div>
     );
   }
 
   return (
-    <div className="container mx-auto p-8">
-      <h1 className="text-3xl font-bold mb-8">Image Verification - First 20 Recipes</h1>
+    <div className="min-h-screen bg-dark-primary text-light-text">
+      <Header />
+      <div className="container mx-auto p-8 pt-24">
+        <h1 className="text-3xl font-bold mb-8">Image Verification - First 20 Recipes</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {recipes?.slice(0, 20).map((recipe: any) => (
           <Card key={recipe.slug} className="p-4" data-testid={`test-card-${recipe.slug}`}>
@@ -51,6 +63,8 @@ export default function ImageTestPage() {
           </Card>
         ))}
       </div>
+      </div>
+      <Footer />
     </div>
   );
 }

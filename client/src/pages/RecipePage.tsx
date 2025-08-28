@@ -4,6 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Clock, Users, ChefHat, Flame } from "lucide-react";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 import type { Recipe } from "@shared/schema";
 
 export default function RecipePage() {
@@ -39,37 +41,47 @@ export default function RecipePage() {
 
   if (isLoading) {
     return (
-      <div className="container mx-auto px-4 py-8">
-        <div className="animate-pulse">
-          <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-1/3 mb-4"></div>
-          <div className="h-64 bg-gray-200 dark:bg-gray-700 rounded mb-4"></div>
-          <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-2/3 mb-2"></div>
-          <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-1/2"></div>
+      <div className="min-h-screen bg-dark-primary text-light-text">
+        <Header />
+        <div className="container mx-auto px-4 py-8 pt-24">
+          <div className="animate-pulse">
+            <div className="h-8 bg-gray-200 dark:bg-gray-700 rounded w-1/3 mb-4"></div>
+            <div className="h-64 bg-gray-200 dark:bg-gray-700 rounded mb-4"></div>
+            <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-2/3 mb-2"></div>
+            <div className="h-4 bg-gray-200 dark:bg-gray-700 rounded w-1/2"></div>
+          </div>
         </div>
+        <Footer />
       </div>
     );
   }
 
   if (error || !recipe) {
     return (
-      <div className="container mx-auto px-4 py-8">
-        <Card>
-          <CardContent className="p-8 text-center">
-            <h2 className="text-2xl font-bold text-red-600 mb-4">Recipe Not Found</h2>
-            <p className="text-gray-600 dark:text-gray-300">
-              Sorry, we couldn't find the recipe you're looking for.
-            </p>
-          </CardContent>
-        </Card>
+      <div className="min-h-screen bg-dark-primary text-light-text">
+        <Header />
+        <div className="container mx-auto px-4 py-8 pt-24">
+          <Card>
+            <CardContent className="p-8 text-center">
+              <h2 className="text-2xl font-bold text-red-600 mb-4">Recipe Not Found</h2>
+              <p className="text-gray-600 dark:text-gray-300">
+                Sorry, we couldn't find the recipe you're looking for.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+        <Footer />
       </div>
     );
   }
 
   return (
-    <div className="container mx-auto px-4 py-8" data-testid={`recipe-page-${slug}`}>
-      {/* SEO Meta Tags */}
-      <title>{recipe.seoTitle || recipe.title}</title>
-      <meta name="description" content={recipe.seoDescription || recipe.description} />
+    <div className="min-h-screen bg-dark-primary text-light-text">
+      <Header />
+      <div className="container mx-auto px-4 py-8 pt-24" data-testid={`recipe-page-${slug}`}>
+        {/* SEO Meta Tags */}
+        <title>{recipe.seoTitle || recipe.title}</title>
+        <meta name="description" content={recipe.seoDescription || recipe.description} />
       
       {/* Hero Section */}
       <div className="mb-8">
@@ -296,6 +308,8 @@ export default function RecipePage() {
           }
         })
       }} />
+      </div>
+      <Footer />
     </div>
   );
 }
