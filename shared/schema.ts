@@ -28,6 +28,7 @@ export const recipes = pgTable("recipes", {
   variations: json("variations").$type<string[]>(),
   tags: json("tags").$type<string[]>().notNull(),
   isNaturallyGlutenFree: boolean("is_naturally_gluten_free").notNull().default(false),
+  status: varchar("status").notNull().default("published"), // "published", "draft", "flagged"
   seoTitle: text("seo_title").notNull(),
   seoDescription: text("seo_description").notNull(),
   createdAt: timestamp("created_at").defaultNow().notNull(),
@@ -126,6 +127,19 @@ export const recipeComments = pgTable("recipe_comments", {
   createdAt: timestamp("created_at").defaultNow(),
 });
 
+// Recipe Flags table for reporting incorrect content
+export const recipeFlags = pgTable("recipe_flags", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  recipeId: varchar("recipe_id").notNull().references(() => recipes.id, { onDelete: "cascade" }),
+  userEmail: varchar("user_email").notNull(),
+  userName: varchar("user_name").notNull(),
+  reason: varchar("reason").notNull(), // "incorrect-ingredients", "wrong-instructions", "nutrition-info", "other"
+  description: text("description"),
+  status: varchar("status").notNull().default("pending"), // "pending", "reviewed", "resolved"
+  createdAt: timestamp("created_at").defaultNow(),
+  reviewedAt: timestamp("reviewed_at"),
+});
+
 export const insertRecipeRatingSchema = createInsertSchema(recipeRatings).omit({
   id: true,
   createdAt: true,
@@ -136,7 +150,15 @@ export const insertRecipeCommentSchema = createInsertSchema(recipeComments).omit
   createdAt: true,
 });
 
+export const insertRecipeFlagSchema = createInsertSchema(recipeFlags).omit({
+  id: true,
+  createdAt: true,
+  reviewedAt: true,
+});
+
 export type RecipeRating = typeof recipeRatings.$inferSelect;
 export type InsertRecipeRating = z.infer<typeof insertRecipeRatingSchema>;
 export type RecipeComment = typeof recipeComments.$inferSelect;
 export type InsertRecipeComment = z.infer<typeof insertRecipeCommentSchema>;
+export type RecipeFlag = typeof recipeFlags.$inferSelect;
+export type InsertRecipeFlag = z.infer<typeof insertRecipeFlagSchema>;

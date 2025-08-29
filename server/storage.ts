@@ -13,6 +13,9 @@ import {
   type InsertRecipeRating,
   type RecipeComment,
   type InsertRecipeComment,
+  recipeFlags,
+  type RecipeFlag,
+  type InsertRecipeFlag,
   recipes,
   products,
   newsletters,
@@ -61,11 +64,16 @@ export interface IStorage {
   createComment(comment: InsertRecipeComment): Promise<RecipeComment>;
   getAverageRating(recipeId: string): Promise<number>;
   getUserRatingForRecipe(recipeId: string, userEmail: string): Promise<RecipeRating | undefined>;
+  
+  // Recipe Flagging system
+  createRecipeFlag(flag: InsertRecipeFlag): Promise<RecipeFlag>;
+  getRecipeFlags(recipeId?: string): Promise<RecipeFlag[]>;
+  updateRecipeStatus(recipeId: string, status: 'published' | 'draft' | 'flagged'): Promise<boolean>;
 }
 
 export class DatabaseStorage implements IStorage {
   async getRecipes(): Promise<Recipe[]> {
-    return await db.select().from(recipes);
+    return await db.select().from(recipes).where(eq(recipes.status, 'published'));
   }
 
   async getRecipesByCategory(category: string): Promise<Recipe[]> {
@@ -248,17 +256,50 @@ export class DatabaseStorage implements IStorage {
       ));
     return rating || undefined;
   }
+
+  // Recipe Flagging system implementation
+  async createRecipeFlag(insertFlag: InsertRecipeFlag): Promise<RecipeFlag> {
+    const [flag] = await db
+      .insert(recipeFlags)
+      .values(insertFlag)
+      .returning();
+    return flag;
+  }
+
+  async getRecipeFlags(recipeId?: string): Promise<RecipeFlag[]> {
+    if (recipeId) {
+      return await db
+        .select()
+        .from(recipeFlags)
+        .where(eq(recipeFlags.recipeId, recipeId))
+        .orderBy(desc(recipeFlags.createdAt));
+    }
+    return await db
+      .select()
+      .from(recipeFlags)
+      .orderBy(desc(recipeFlags.createdAt));
+  }
+
+  async updateRecipeStatus(recipeId: string, status: 'published' | 'draft' | 'flagged'): Promise<boolean> {
+    const result = await db
+      .update(recipes)
+      .set({ status })
+      .where(eq(recipes.id, recipeId));
+    return result.rowCount !== null && result.rowCount > 0;
+  }
 }
 
 export class MemStorage implements IStorage {
   private recipes: Map<string, Recipe>;
   private products: Map<string, Product>;
   private newsletters: Map<string, Newsletter>;
+  private recipeFlags: Map<string, RecipeFlag[]>;
 
   constructor() {
     this.recipes = new Map();
     this.products = new Map();
     this.newsletters = new Map();
+    this.recipeFlags = new Map();
     this.seedData();
   }
 
@@ -337,7 +378,7 @@ export class MemStorage implements IStorage {
 
   // Recipe methods
   async getRecipes(): Promise<Recipe[]> {
-    return Array.from(this.recipes.values());
+    return Array.from(this.recipes.values()).filter(recipe => recipe.status !== 'flagged');
   }
 
   async getRecipesByCategory(category: string): Promise<Recipe[]> {
@@ -470,6 +511,24 @@ export class MemStorage implements IStorage {
 
   async getUserRatingForRecipe(recipeId: string, userEmail: string): Promise<RecipeRating | undefined> {
     throw new Error("Rating functionality requires database storage");
+  }
+
+  // Recipe Flagging system (stub for MemStorage)
+  async createRecipeFlag(flag: InsertRecipeFlag): Promise<RecipeFlag> {
+    throw new Error("Recipe flagging functionality requires database storage");
+  }
+
+  async getRecipeFlags(recipeId?: string): Promise<RecipeFlag[]> {
+    throw new Error("Recipe flagging functionality requires database storage");
+  }
+
+  async updateRecipeStatus(recipeId: string, status: 'published' | 'draft' | 'flagged'): Promise<boolean> {
+    const recipe = this.recipes.get(recipeId);
+    if (!recipe) return false;
+    
+    const updatedRecipe = { ...recipe, status };
+    this.recipes.set(recipeId, updatedRecipe);
+    return true;
   }
 }
 

@@ -6,6 +6,7 @@ import {
   insertRecipeSchema,
   insertRecipeRatingSchema,
   insertRecipeCommentSchema,
+  insertRecipeFlagSchema,
 } from "@shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
@@ -207,6 +208,41 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json({ message: "Successfully subscribed to newsletter", subscription });
     } catch (error) {
       res.status(500).json({ error: "Failed to subscribe to newsletter" });
+    }
+  });
+
+  // Recipe Flagging endpoints
+  app.post("/api/recipes/:id/flag", async (req, res) => {
+    try {
+      const validatedData = insertRecipeFlagSchema.parse({
+        ...req.body,
+        recipeId: req.params.id,
+      });
+      
+      // Create the flag
+      const flag = await storage.createRecipeFlag(validatedData);
+
+      // Automatically move recipe to flagged status
+      await storage.updateRecipeStatus(req.params.id, 'flagged');
+
+      // TODO: Send email notification when SENDGRID_API_KEY is available
+      console.log(`Recipe flagged: ${req.params.id} by ${validatedData.userName} for reason: ${validatedData.reason}`);
+      
+      res.status(201).json(flag);
+    } catch (error) {
+      console.error("Error flagging recipe:", error);
+      res.status(500).json({ error: "Failed to flag recipe" });
+    }
+  });
+
+  app.get("/api/recipe-flags", async (req, res) => {
+    try {
+      const recipeId = req.query.recipeId as string;
+      const flags = await storage.getRecipeFlags(recipeId);
+      res.json(flags);
+    } catch (error) {
+      console.error("Error fetching flags:", error);
+      res.status(500).json({ error: "Failed to fetch flags" });
     }
   });
 

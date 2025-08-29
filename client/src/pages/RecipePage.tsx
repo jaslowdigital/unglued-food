@@ -7,6 +7,7 @@ import { Clock, Users, ChefHat, Flame } from "lucide-react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import RecipeRatingComment from "@/components/RecipeRatingComment";
+import RecipeFlag from "@/components/RecipeFlag";
 import type { Recipe } from "@shared/schema";
 
 export default function RecipePage() {
@@ -88,9 +89,12 @@ export default function RecipePage() {
       <div className="mb-8">
         <div className="grid md:grid-cols-2 gap-8">
           <div>
-            <h1 className="text-4xl font-bold mb-4" data-testid="recipe-title">
-              {recipe.title}
-            </h1>
+            <div className="flex items-start justify-between mb-4">
+              <h1 className="text-4xl font-bold" data-testid="recipe-title">
+                {recipe.title}
+              </h1>
+              <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
+            </div>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6" data-testid="recipe-description">
               {recipe.longDescription || recipe.description}
             </p>
