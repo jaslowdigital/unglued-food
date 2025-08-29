@@ -37,17 +37,17 @@ export default function RecipeRatingComment({ recipeId }: RecipeRatingCommentPro
   };
 
   // Fetch ratings
-  const { data: ratings = [] } = useQuery({
+  const { data: ratings = [] } = useQuery<RecipeRating[]>({
     queryKey: ['/api/recipes', recipeId, 'ratings'],
   });
 
   // Fetch comments
-  const { data: comments = [] } = useQuery({
+  const { data: comments = [] } = useQuery<RecipeComment[]>({
     queryKey: ['/api/recipes', recipeId, 'comments'],
   });
 
   // Fetch average rating
-  const { data: averageData } = useQuery({
+  const { data: averageData } = useQuery<{ averageRating: number }>({
     queryKey: ['/api/recipes', recipeId, 'average-rating'],
   });
 

@@ -24,7 +24,7 @@ import {
 import { randomUUID } from "crypto";
 import correct100RecipesWithAIImages from "./correct-100-recipes-with-ai-images";
 import { db } from "./db";
-import { eq, desc, avg, count, and } from "drizzle-orm";
+import { eq, desc, avg, and } from "drizzle-orm";
 
 export interface IStorage {
   // Recipes
