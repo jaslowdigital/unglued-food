@@ -105,3 +105,38 @@ export type InsertAdminUser = z.infer<typeof insertAdminUserSchema>;
 export type AdminUser = typeof adminUsers.$inferSelect;
 export type InsertSession = z.infer<typeof insertSessionSchema>;
 export type Session = typeof sessions.$inferSelect;
+
+// Recipe Ratings table
+export const recipeRatings = pgTable("recipe_ratings", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  recipeId: varchar("recipe_id").notNull().references(() => recipes.id, { onDelete: "cascade" }),
+  userEmail: varchar("user_email").notNull(),
+  userName: varchar("user_name").notNull(),
+  rating: integer("rating").notNull(), // 1-5 stars
+  createdAt: timestamp("created_at").defaultNow(),
+});
+
+// Recipe Comments table  
+export const recipeComments = pgTable("recipe_comments", {
+  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  recipeId: varchar("recipe_id").notNull().references(() => recipes.id, { onDelete: "cascade" }),
+  userEmail: varchar("user_email").notNull(),
+  userName: varchar("user_name").notNull(),
+  comment: text("comment").notNull(),
+  createdAt: timestamp("created_at").defaultNow(),
+});
+
+export const insertRecipeRatingSchema = createInsertSchema(recipeRatings).omit({
+  id: true,
+  createdAt: true,
+});
+
+export const insertRecipeCommentSchema = createInsertSchema(recipeComments).omit({
+  id: true,
+  createdAt: true,
+});
+
+export type RecipeRating = typeof recipeRatings.$inferSelect;
+export type InsertRecipeRating = z.infer<typeof insertRecipeRatingSchema>;
+export type RecipeComment = typeof recipeComments.$inferSelect;
+export type InsertRecipeComment = z.infer<typeof insertRecipeCommentSchema>;

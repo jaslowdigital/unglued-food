@@ -6,6 +6,7 @@ import { Separator } from "@/components/ui/separator";
 import { Clock, Users, ChefHat, Flame } from "lucide-react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import RecipeRatingComment from "@/components/RecipeRatingComment";
 import type { Recipe } from "@shared/schema";
 
 export default function RecipePage() {
@@ -270,6 +271,11 @@ export default function RecipePage() {
             </Card>
           )}
         </div>
+      </div>
+
+      {/* Recipe Rating and Comments Section */}
+      <div className="mt-8">
+        <RecipeRatingComment recipeId={recipe.id} />
       </div>
 
       {/* Schema Markup for SEO */}

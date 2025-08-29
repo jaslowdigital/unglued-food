@@ -9,16 +9,22 @@ import {
   type InsertAdminUser,
   type Session,
   type InsertSession,
+  type RecipeRating,
+  type InsertRecipeRating,
+  type RecipeComment,
+  type InsertRecipeComment,
   recipes,
   products,
   newsletters,
   adminUsers,
-  sessions
+  sessions,
+  recipeRatings,
+  recipeComments
 } from "@shared/schema";
 import { randomUUID } from "crypto";
 import correct100RecipesWithAIImages from "./correct-100-recipes-with-ai-images";
 import { db } from "./db";
-import { eq } from "drizzle-orm";
+import { eq, desc, avg, count, and } from "drizzle-orm";
 
 export interface IStorage {
   // Recipes
@@ -47,6 +53,14 @@ export interface IStorage {
   createSession(session: InsertSession): Promise<Session>;
   getSession(id: string): Promise<Session | undefined>;
   deleteSession(id: string): Promise<boolean>;
+
+  // Recipe Ratings & Comments
+  getRatingsForRecipe(recipeId: string): Promise<RecipeRating[]>;
+  getCommentsForRecipe(recipeId: string): Promise<RecipeComment[]>;
+  createRating(rating: InsertRecipeRating): Promise<RecipeRating>;
+  createComment(comment: InsertRecipeComment): Promise<RecipeComment>;
+  getAverageRating(recipeId: string): Promise<number>;
+  getUserRatingForRecipe(recipeId: string, userEmail: string): Promise<RecipeRating | undefined>;
 }
 
 export class DatabaseStorage implements IStorage {
@@ -166,6 +180,73 @@ export class DatabaseStorage implements IStorage {
   async deleteSession(id: string): Promise<boolean> {
     const result = await db.delete(sessions).where(eq(sessions.id, id));
     return result.rowCount > 0;
+  }
+
+  // Recipe Ratings & Comments
+  async getRatingsForRecipe(recipeId: string): Promise<RecipeRating[]> {
+    return await db
+      .select()
+      .from(recipeRatings)
+      .where(eq(recipeRatings.recipeId, recipeId))
+      .orderBy(desc(recipeRatings.createdAt));
+  }
+
+  async getCommentsForRecipe(recipeId: string): Promise<RecipeComment[]> {
+    return await db
+      .select()
+      .from(recipeComments)
+      .where(eq(recipeComments.recipeId, recipeId))
+      .orderBy(desc(recipeComments.createdAt));
+  }
+
+  async createRating(insertRating: InsertRecipeRating): Promise<RecipeRating> {
+    // Check if user already rated this recipe
+    const existingRating = await this.getUserRatingForRecipe(insertRating.recipeId, insertRating.userEmail);
+    
+    if (existingRating) {
+      // Update existing rating
+      const [rating] = await db
+        .update(recipeRatings)
+        .set({ rating: insertRating.rating })
+        .where(eq(recipeRatings.id, existingRating.id))
+        .returning();
+      return rating;
+    } else {
+      // Create new rating
+      const [rating] = await db
+        .insert(recipeRatings)
+        .values(insertRating)
+        .returning();
+      return rating;
+    }
+  }
+
+  async createComment(insertComment: InsertRecipeComment): Promise<RecipeComment> {
+    const [comment] = await db
+      .insert(recipeComments)
+      .values(insertComment)
+      .returning();
+    return comment;
+  }
+
+  async getAverageRating(recipeId: string): Promise<number> {
+    const result = await db
+      .select({ avgRating: avg(recipeRatings.rating) })
+      .from(recipeRatings)
+      .where(eq(recipeRatings.recipeId, recipeId));
+    
+    return Math.round((Number(result[0]?.avgRating) || 0) * 10) / 10;
+  }
+
+  async getUserRatingForRecipe(recipeId: string, userEmail: string): Promise<RecipeRating | undefined> {
+    const [rating] = await db
+      .select()
+      .from(recipeRatings)
+      .where(and(
+        eq(recipeRatings.recipeId, recipeId),
+        eq(recipeRatings.userEmail, userEmail)
+      ));
+    return rating || undefined;
   }
 }
 
@@ -364,6 +445,31 @@ export class MemStorage implements IStorage {
 
   async deleteSession(id: string): Promise<boolean> {
     throw new Error("Admin functionality requires database storage");
+  }
+
+  // Recipe Ratings & Comments (stub for MemStorage)
+  async getRatingsForRecipe(recipeId: string): Promise<RecipeRating[]> {
+    throw new Error("Rating functionality requires database storage");
+  }
+
+  async getCommentsForRecipe(recipeId: string): Promise<RecipeComment[]> {
+    throw new Error("Comment functionality requires database storage");
+  }
+
+  async createRating(rating: InsertRecipeRating): Promise<RecipeRating> {
+    throw new Error("Rating functionality requires database storage");
+  }
+
+  async createComment(comment: InsertRecipeComment): Promise<RecipeComment> {
+    throw new Error("Comment functionality requires database storage");
+  }
+
+  async getAverageRating(recipeId: string): Promise<number> {
+    throw new Error("Rating functionality requires database storage");
+  }
+
+  async getUserRatingForRecipe(recipeId: string, userEmail: string): Promise<RecipeRating | undefined> {
+    throw new Error("Rating functionality requires database storage");
   }
 }
 

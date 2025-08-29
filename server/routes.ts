@@ -1,7 +1,12 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertNewsletterSchema, insertRecipeSchema } from "@shared/schema";
+import {
+  insertNewsletterSchema,
+  insertRecipeSchema,
+  insertRecipeRatingSchema,
+  insertRecipeCommentSchema,
+} from "@shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Recipe routes
@@ -89,6 +94,68 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(recipe);
     } catch (error) {
       res.status(500).json({ error: "Failed to fetch recipe" });
+    }
+  });
+
+  // Recipe Ratings & Comments routes
+  app.get("/api/recipes/:id/ratings", async (req, res) => {
+    try {
+      const ratings = await storage.getRatingsForRecipe(req.params.id);
+      res.json(ratings);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch ratings" });
+    }
+  });
+
+  app.get("/api/recipes/:id/comments", async (req, res) => {
+    try {
+      const comments = await storage.getCommentsForRecipe(req.params.id);
+      res.json(comments);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch comments" });
+    }
+  });
+
+  app.get("/api/recipes/:id/average-rating", async (req, res) => {
+    try {
+      const averageRating = await storage.getAverageRating(req.params.id);
+      res.json({ averageRating });
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch average rating" });
+    }
+  });
+
+  app.post("/api/recipes/:id/ratings", async (req, res) => {
+    try {
+      const validatedData = insertRecipeRatingSchema.parse({
+        ...req.body,
+        recipeId: req.params.id,
+      });
+      const rating = await storage.createRating(validatedData);
+      res.status(201).json(rating);
+    } catch (error) {
+      if (error.name === 'ZodError') {
+        return res.status(400).json({ error: "Invalid rating data", details: error.errors });
+      }
+      console.error("Error creating rating:", error);
+      res.status(500).json({ error: "Failed to create rating" });
+    }
+  });
+
+  app.post("/api/recipes/:id/comments", async (req, res) => {
+    try {
+      const validatedData = insertRecipeCommentSchema.parse({
+        ...req.body,
+        recipeId: req.params.id,
+      });
+      const comment = await storage.createComment(validatedData);
+      res.status(201).json(comment);
+    } catch (error) {
+      if (error.name === 'ZodError') {
+        return res.status(400).json({ error: "Invalid comment data", details: error.errors });
+      }
+      console.error("Error creating comment:", error);
+      res.status(500).json({ error: "Failed to create comment" });
     }
   });
 
