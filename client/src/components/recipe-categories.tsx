@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import { Link } from "wouter";
 
 export default function RecipeCategories() {
   const categories = [
@@ -36,9 +37,10 @@ export default function RecipeCategories() {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {categories.map((category, index) => (
-            <div 
+            <Link 
               key={index}
-              className="bg-dark-accent rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
+              href={index === 0 ? "/naturally-gluten-free" : index === 1 ? "/baking-desserts" : "/grain-alternatives"}
+              className="block bg-dark-accent rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
               data-testid={`category-card-${index}`}
             >
               <div 
@@ -59,7 +61,7 @@ export default function RecipeCategories() {
                   <ArrowRight className="h-4 w-4" />
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

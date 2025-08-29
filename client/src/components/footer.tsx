@@ -1,5 +1,6 @@
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import { SiPinterest } from "react-icons/si";
+import { Link } from "wouter";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -18,17 +19,17 @@ export default function Footer() {
     {
       title: "Learn",
       links: [
-        { label: "Gluten-Free Basics", href: "#" },
-        { label: "Shopping Guide", href: "#" },
-        { label: "Label Reading", href: "#" },
-        { label: "Cross-Contamination", href: "#" },
-        { label: "Substitutions", href: "#" }
+        { label: "Gluten-Free Basics", href: "/gluten-free-basics" },
+        { label: "Shopping Guide", href: "/shopping-guide" },
+        { label: "Label Reading", href: "/label-reading" },
+        { label: "Cross-Contamination", href: "/cross-contamination" },
+        { label: "Substitutions", href: "/substitutions" }
       ]
     },
     {
       title: "Company",
       links: [
-        { label: "About Us", href: "#" },
+        { label: "About Us", href: "/about" },
         { label: "Contact", href: "#" },
         { label: "Privacy Policy", href: "#" },
         { label: "Terms of Service", href: "#" },
@@ -80,13 +81,23 @@ export default function Footer() {
               <ul className="space-y-2 text-muted-gray">
                 {section.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
-                    <a 
-                      href={link.href} 
-                      className="hover:text-warm-amber transition-colors"
-                      data-testid={`footer-link-${sectionIndex}-${linkIndex}`}
-                    >
-                      {link.label}
-                    </a>
+                    {link.href.startsWith('/') ? (
+                      <Link
+                        href={link.href}
+                        className="hover:text-warm-amber transition-colors"
+                        data-testid={`footer-link-${sectionIndex}-${linkIndex}`}
+                      >
+                        {link.label}
+                      </Link>
+                    ) : (
+                      <a 
+                        href={link.href} 
+                        className="hover:text-warm-amber transition-colors"
+                        data-testid={`footer-link-${sectionIndex}-${linkIndex}`}
+                      >
+                        {link.label}
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -99,13 +110,13 @@ export default function Footer() {
             &copy; {currentYear} Unglued Food. All rights reserved. Made with ❤️ for the gluten-free community.
           </p>
           <div className="mt-4 pt-4 border-t border-dark-accent/30">
-            <a 
+            <Link 
               href="/admin" 
               className="text-xs text-muted-gray/70 hover:text-warm-amber transition-colors"
               data-testid="footer-admin-link"
             >
               Admin
-            </a>
+            </Link>
           </div>
         </div>
       </div>
