@@ -8,6 +8,8 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import RecipeRatingComment from "@/components/RecipeRatingComment";
 import RecipeFlag from "@/components/RecipeFlag";
+import SocialShare from "@/components/SocialShare";
+import MetaTags from "@/components/MetaTags";
 import type { Recipe } from "@shared/schema";
 
 export default function RecipePage() {
@@ -79,11 +81,15 @@ export default function RecipePage() {
 
   return (
     <div className="min-h-screen bg-dark-primary text-light-text">
+      <MetaTags 
+        title={`${recipe.title} - Unglued Food`}
+        description={recipe.longDescription || recipe.description}
+        image={recipe.image}
+        url={`/recipes/${slug}`}
+        type="article"
+      />
       <Header />
       <div className="container mx-auto px-4 py-8 pt-24" data-testid={`recipe-page-${slug}`}>
-        {/* SEO Meta Tags */}
-        <title>{recipe.seoTitle || recipe.title}</title>
-        <meta name="description" content={recipe.seoDescription || recipe.description} />
       
       {/* Hero Section */}
       <div className="mb-8">
@@ -93,7 +99,15 @@ export default function RecipePage() {
               <h1 className="text-4xl font-bold" data-testid="recipe-title">
                 {recipe.title}
               </h1>
-              <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
+              <div className="flex items-center gap-2">
+                <SocialShare 
+                  title={recipe.title}
+                  description={recipe.description}
+                  url={`/recipes/${slug}`}
+                  image={recipe.image}
+                />
+                <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
+              </div>
             </div>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6" data-testid="recipe-description">
               {recipe.longDescription || recipe.description}

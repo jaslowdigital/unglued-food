@@ -15,6 +15,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
+import type { Recipe } from "@shared/schema";
 
 export default function RecipesPage() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -22,7 +23,7 @@ export default function RecipesPage() {
   const [selectedDifficulty, setSelectedDifficulty] = useState("all");
   const [selectedCookTime, setSelectedCookTime] = useState("all");
 
-  const { data: recipes = [], isLoading } = useQuery({
+  const { data: recipes = [], isLoading } = useQuery<Recipe[]>({
     queryKey: ["/api/recipes"],
   });
 

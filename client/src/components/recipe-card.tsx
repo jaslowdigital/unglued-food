@@ -1,6 +1,8 @@
-import { Star, Clock, Users, Signal } from "lucide-react";
+import { Star, Clock, Users, Signal, Share2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
+import SocialShare from "@/components/SocialShare";
 import { type Recipe } from "@shared/schema";
 
 interface RecipeCardProps {
@@ -49,23 +51,23 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
   const defaultImage = getFallbackImage(recipe.category);
 
   return (
-    <Link href={`/recipe/${recipeSlug}`}>
-      <article 
-        className="bg-dark-secondary rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
-        data-testid={`recipe-card-${recipe.id}`}
-      >
-      <img 
-        src={recipe.image || defaultImage} 
-        alt={recipe.title}
-        className="w-full h-48 object-cover" 
-        data-testid={`recipe-image-${recipe.id}`}
-        onError={(e) => {
-          const target = e.target as HTMLImageElement;
-          target.src = defaultImage;
-        }}
-      />
-      <div className="p-6">
-        <div className="flex items-center justify-between mb-3">
+    <article 
+      className="bg-dark-secondary rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 relative group"
+      data-testid={`recipe-card-${recipe.id}`}
+    >
+      <Link href={`/recipe/${recipeSlug}`} className="block">
+        <img 
+          src={recipe.image || defaultImage} 
+          alt={recipe.title}
+          className="w-full h-48 object-cover" 
+          data-testid={`recipe-image-${recipe.id}`}
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = defaultImage;
+          }}
+        />
+        <div className="p-6">
+          <div className="flex items-center justify-between mb-3">
           <Badge 
             variant={getBadgeVariant(recipe.isNaturallyGlutenFree)}
             className={`text-xs px-2 py-1 rounded-full font-semibold ${
@@ -109,9 +111,21 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
               {recipe.difficulty}
             </span>
           </span>
+          </div>
+        </div>
+      </Link>
+      
+      {/* Social Share Button - appears on hover */}
+      <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10">
+        <div onClick={(e) => e.stopPropagation()}>
+          <SocialShare 
+            title={recipe.title}
+            description={recipe.description}
+            url={`/recipe/${recipeSlug}`}
+            image={recipe.image}
+          />
         </div>
       </div>
-      </article>
-    </Link>
+    </article>
   );
 }
