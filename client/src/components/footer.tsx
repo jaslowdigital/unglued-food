@@ -98,6 +98,15 @@ export default function Footer() {
           <p data-testid="footer-copyright">
             &copy; {currentYear} Unglued Food. All rights reserved. Made with ❤️ for the gluten-free community.
           </p>
+          <div className="mt-4 pt-4 border-t border-dark-accent/30">
+            <a 
+              href="/admin" 
+              className="text-xs text-muted-gray/70 hover:text-warm-amber transition-colors"
+              data-testid="footer-admin-link"
+            >
+              Admin
+            </a>
+          </div>
         </div>
       </div>
     </footer>
