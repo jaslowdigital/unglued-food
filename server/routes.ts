@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertNewsletterSchema } from "@shared/schema";
+import { insertNewsletterSchema, insertRecipeSchema } from "@shared/schema";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Recipe routes
@@ -33,6 +33,50 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json(recipe);
     } catch (error) {
       res.status(500).json({ error: "Failed to fetch recipe" });
+    }
+  });
+
+  app.post("/api/recipes", async (req, res) => {
+    try {
+      const validatedData = insertRecipeSchema.parse(req.body);
+      const recipe = await storage.createRecipe(validatedData);
+      res.status(201).json(recipe);
+    } catch (error) {
+      if (error.name === 'ZodError') {
+        return res.status(400).json({ error: "Invalid recipe data", details: error.errors });
+      }
+      console.error("Error creating recipe:", error);
+      res.status(500).json({ error: "Failed to create recipe" });
+    }
+  });
+
+  app.put("/api/recipes/:id", async (req, res) => {
+    try {
+      const validatedData = insertRecipeSchema.partial().parse(req.body);
+      const recipe = await storage.updateRecipe(req.params.id, validatedData);
+      if (!recipe) {
+        return res.status(404).json({ error: "Recipe not found" });
+      }
+      res.json(recipe);
+    } catch (error) {
+      if (error.name === 'ZodError') {
+        return res.status(400).json({ error: "Invalid recipe data", details: error.errors });
+      }
+      console.error("Error updating recipe:", error);
+      res.status(500).json({ error: "Failed to update recipe" });
+    }
+  });
+
+  app.delete("/api/recipes/:id", async (req, res) => {
+    try {
+      const success = await storage.deleteRecipe(req.params.id);
+      if (!success) {
+        return res.status(404).json({ error: "Recipe not found" });
+      }
+      res.status(204).send();
+    } catch (error) {
+      console.error("Error deleting recipe:", error);
+      res.status(500).json({ error: "Failed to delete recipe" });
     }
   });
 

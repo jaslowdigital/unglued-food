@@ -52,6 +52,20 @@ export default function Header() {
               >
                 All Recipes
               </Link>
+              <Link 
+                href="/add-recipe"
+                className="hover:text-warm-amber transition-colors duration-200"
+                data-testid="nav-add-recipe"
+              >
+                Add Recipe
+              </Link>
+              <Link 
+                href="/admin"
+                className="hover:text-warm-amber transition-colors duration-200"
+                data-testid="nav-admin"
+              >
+                Admin
+              </Link>
               <button 
                 onClick={() => scrollToSection('education')}
                 className="hover:text-warm-amber transition-colors duration-200"
@@ -132,6 +146,20 @@ export default function Header() {
                 data-testid="mobile-nav-all-recipes"
               >
                 All Recipes
+              </Link>
+              <Link 
+                href="/add-recipe"
+                className="text-left hover:text-warm-amber transition-colors"
+                data-testid="mobile-nav-add-recipe"
+              >
+                Add Recipe
+              </Link>
+              <Link 
+                href="/admin"
+                className="text-left hover:text-warm-amber transition-colors"
+                data-testid="mobile-nav-admin"
+              >
+                Admin
               </Link>
               <button 
                 onClick={() => scrollToSection('education')}

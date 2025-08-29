@@ -1,6 +1,24 @@
-import { type Recipe, type InsertRecipe, type Product, type InsertProduct, type Newsletter, type InsertNewsletter } from "@shared/schema";
+import { 
+  type Recipe, 
+  type InsertRecipe, 
+  type Product, 
+  type InsertProduct, 
+  type Newsletter, 
+  type InsertNewsletter,
+  type AdminUser,
+  type InsertAdminUser,
+  type Session,
+  type InsertSession,
+  recipes,
+  products,
+  newsletters,
+  adminUsers,
+  sessions
+} from "@shared/schema";
 import { randomUUID } from "crypto";
 import correct100RecipesWithAIImages from "./correct-100-recipes-with-ai-images";
+import { db } from "./db";
+import { eq } from "drizzle-orm";
 
 export interface IStorage {
   // Recipes
@@ -9,6 +27,8 @@ export interface IStorage {
   getRecipe(id: string): Promise<Recipe | undefined>;
   getRecipeBySlug(slug: string): Promise<Recipe | undefined>;
   createRecipe(recipe: InsertRecipe): Promise<Recipe>;
+  updateRecipe(id: string, recipe: Partial<InsertRecipe>): Promise<Recipe | undefined>;
+  deleteRecipe(id: string): Promise<boolean>;
   searchRecipes(query: string): Promise<Recipe[]>;
   
   // Products
@@ -20,6 +40,133 @@ export interface IStorage {
   // Newsletter
   subscribeToNewsletter(newsletter: InsertNewsletter): Promise<Newsletter>;
   getNewsletterSubscription(email: string): Promise<Newsletter | undefined>;
+  
+  // Admin Authentication
+  createAdminUser(user: InsertAdminUser): Promise<AdminUser>;
+  getAdminUserByUsername(username: string): Promise<AdminUser | undefined>;
+  createSession(session: InsertSession): Promise<Session>;
+  getSession(id: string): Promise<Session | undefined>;
+  deleteSession(id: string): Promise<boolean>;
+}
+
+export class DatabaseStorage implements IStorage {
+  async getRecipes(): Promise<Recipe[]> {
+    return await db.select().from(recipes);
+  }
+
+  async getRecipesByCategory(category: string): Promise<Recipe[]> {
+    return await db.select().from(recipes).where(eq(recipes.category, category));
+  }
+
+  async getRecipe(id: string): Promise<Recipe | undefined> {
+    const [recipe] = await db.select().from(recipes).where(eq(recipes.id, id));
+    return recipe || undefined;
+  }
+
+  async getRecipeBySlug(slug: string): Promise<Recipe | undefined> {
+    const [recipe] = await db.select().from(recipes).where(eq(recipes.slug, slug));
+    return recipe || undefined;
+  }
+
+  async createRecipe(insertRecipe: InsertRecipe): Promise<Recipe> {
+    const [recipe] = await db
+      .insert(recipes)
+      .values(insertRecipe)
+      .returning();
+    return recipe;
+  }
+
+  async updateRecipe(id: string, updateData: Partial<InsertRecipe>): Promise<Recipe | undefined> {
+    const [recipe] = await db
+      .update(recipes)
+      .set(updateData)
+      .where(eq(recipes.id, id))
+      .returning();
+    return recipe || undefined;
+  }
+
+  async deleteRecipe(id: string): Promise<boolean> {
+    const result = await db.delete(recipes).where(eq(recipes.id, id));
+    return result.rowCount > 0;
+  }
+
+  async searchRecipes(query: string): Promise<Recipe[]> {
+    // Simple text search implementation
+    const allRecipes = await db.select().from(recipes);
+    return allRecipes.filter(recipe => 
+      recipe.title.toLowerCase().includes(query.toLowerCase()) ||
+      recipe.description.toLowerCase().includes(query.toLowerCase()) ||
+      recipe.tags.some(tag => tag.toLowerCase().includes(query.toLowerCase()))
+    );
+  }
+
+  // Products
+  async getProducts(): Promise<Product[]> {
+    return await db.select().from(products);
+  }
+
+  async getProductsByCategory(category: string): Promise<Product[]> {
+    return await db.select().from(products).where(eq(products.category, category));
+  }
+
+  async getProduct(id: string): Promise<Product | undefined> {
+    const [product] = await db.select().from(products).where(eq(products.id, id));
+    return product || undefined;
+  }
+
+  async createProduct(insertProduct: InsertProduct): Promise<Product> {
+    const [product] = await db
+      .insert(products)
+      .values(insertProduct)
+      .returning();
+    return product;
+  }
+
+  // Newsletter
+  async subscribeToNewsletter(insertNewsletter: InsertNewsletter): Promise<Newsletter> {
+    const [newsletter] = await db
+      .insert(newsletters)
+      .values(insertNewsletter)
+      .returning();
+    return newsletter;
+  }
+
+  async getNewsletterSubscription(email: string): Promise<Newsletter | undefined> {
+    const [newsletter] = await db.select().from(newsletters).where(eq(newsletters.email, email));
+    return newsletter || undefined;
+  }
+
+  // Admin Authentication
+  async createAdminUser(insertUser: InsertAdminUser): Promise<AdminUser> {
+    const [user] = await db
+      .insert(adminUsers)
+      .values(insertUser)
+      .returning();
+    return user;
+  }
+
+  async getAdminUserByUsername(username: string): Promise<AdminUser | undefined> {
+    const [user] = await db.select().from(adminUsers).where(eq(adminUsers.username, username));
+    return user || undefined;
+  }
+
+  async createSession(insertSession: InsertSession): Promise<Session> {
+    const [session] = await db
+      .insert(sessions)
+      .values(insertSession)
+      .returning();
+    return session;
+  }
+
+  async getSession(id: string): Promise<Session | undefined> {
+    const [session] = await db.select().from(sessions).where(eq(sessions.id, id));
+    return session || undefined;
+  }
+
+  async deleteSession(id: string): Promise<boolean> {
+    const result = await db.delete(sessions).where(eq(sessions.id, id));
+    return result.rowCount > 0;
+  }
 }
 
 export class MemStorage implements IStorage {
@@ -183,6 +330,41 @@ export class MemStorage implements IStorage {
   async getNewsletterSubscription(email: string): Promise<Newsletter | undefined> {
     return this.newsletters.get(email);
   }
+
+  // Add missing methods for MemStorage
+  async updateRecipe(id: string, updateData: Partial<InsertRecipe>): Promise<Recipe | undefined> {
+    const recipe = this.recipes.get(id);
+    if (!recipe) return undefined;
+    
+    const updatedRecipe = { ...recipe, ...updateData };
+    this.recipes.set(id, updatedRecipe);
+    return updatedRecipe;
+  }
+
+  async deleteRecipe(id: string): Promise<boolean> {
+    return this.recipes.delete(id);
+  }
+
+  // Admin Authentication (stub for MemStorage)
+  async createAdminUser(insertUser: InsertAdminUser): Promise<AdminUser> {
+    throw new Error("Admin functionality requires database storage");
+  }
+
+  async getAdminUserByUsername(username: string): Promise<AdminUser | undefined> {
+    throw new Error("Admin functionality requires database storage");
+  }
+
+  async createSession(insertSession: InsertSession): Promise<Session> {
+    throw new Error("Admin functionality requires database storage");
+  }
+
+  async getSession(id: string): Promise<Session | undefined> {
+    throw new Error("Admin functionality requires database storage");
+  }
+
+  async deleteSession(id: string): Promise<boolean> {
+    throw new Error("Admin functionality requires database storage");
+  }
 }
 
-export const storage = new MemStorage();
+export const storage = new DatabaseStorage();

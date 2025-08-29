@@ -7,6 +7,9 @@ import Home from "@/pages/home";
 import RecipesPage from "@/pages/recipes";
 import RecipePage from "@/pages/RecipePage";
 import ImageTestPage from "@/pages/ImageTestPage";
+import AddRecipePage from "@/pages/AddRecipePage";
+import AdminPage from "@/pages/AdminPage";
+import EditRecipePage from "@/pages/EditRecipePage";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -15,6 +18,9 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/recipes" component={RecipesPage} />
       <Route path="/recipe/:slug" component={RecipePage} />
+      <Route path="/add-recipe" component={AddRecipePage} />
+      <Route path="/edit-recipe/:id" component={EditRecipePage} />
+      <Route path="/admin" component={AdminPage} />
       <Route path="/test-images" component={ImageTestPage} />
       <Route component={NotFound} />
     </Switch>
