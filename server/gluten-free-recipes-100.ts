@@ -9,8 +9,7 @@ function createSlug(title: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-const glutenFreeRecipes100Updated: InsertRecipe[] = [
-  {
+const glutenFreeRecipes100Updated: InsertRecipe[] = [{
     "title": "Fluffy Blueberry Pancakes",
     "slug": "fluffy-blueberry-pancakes",
     "description": "Light and fluffy gluten-free blueberry pancakes that taste better than traditional ones",
@@ -68,8 +67,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Best Gluten-Free Blueberry Pancakes Recipe | Fluffy & Delicious",
     "seoDescription": "Make the fluffiest gluten-free blueberry pancakes with this easy recipe. Light, tender, and bursting with fresh berries - perfect for breakfast or brunch!"
-  },
-  {
+  },{
     "title": "Mediterranean Chickpea Power Bowl",
     "slug": "mediterranean-chickpea-power-bowl",
     "description": "A vibrant, protein-packed Mediterranean bowl with roasted chickpeas and fresh vegetables",
@@ -127,8 +125,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Mediterranean Chickpea Power Bowl Recipe | Gluten-Free & Healthy",
     "seoDescription": "This Mediterranean chickpea bowl is packed with protein, fresh vegetables, and amazing flavors. A perfect gluten-free lunch that's both nutritious and delicious!"
-  },
-  {
+  },{
     "title": "Thai Coconut Curry Shrimp",
     "slug": "thai-coconut-curry-shrimp",
     "description": "Aromatic Thai curry with succulent shrimp in a creamy coconut sauce",
@@ -187,8 +184,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Authentic Thai Coconut Curry Shrimp | Gluten-Free Recipe",
     "seoDescription": "Make restaurant-quality Thai coconut curry shrimp at home! This gluten-free recipe features succulent shrimp in a rich, creamy curry sauce."
-  },
-  {
+  },{
     "title": "Decadent Chocolate Lava Cake",
     "slug": "decadent-chocolate-lava-cake",
     "description": "Individual chocolate cakes with warm, gooey centers that ooze when cut",
@@ -246,8 +242,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Gluten-Free Chocolate Lava Cake Recipe | Molten Center Dessert",
     "seoDescription": "Impress guests with these gluten-free chocolate lava cakes featuring warm, gooey centers. Easy recipe for the ultimate chocolate dessert!"
-  },
-  {
+  },{
     "title": "Savory Spinach and Feta Quiche",
     "slug": "savory-spinach-and-feta-quiche",
     "description": "A fluffy, protein-rich quiche with spinach and tangy feta in a crispy gluten-free crust",
@@ -308,8 +303,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Gluten-Free Spinach Feta Quiche | Almond Flour Crust Recipe",
     "seoDescription": "This gluten-free spinach and feta quiche features a flaky almond flour crust and creamy egg filling. Perfect for brunch or meal prep!"
-  },
-  {
+  },{
     "title": "Crispy Parmesan Zucchini Chips",
     "slug": "crispy-parmesan-zucchini-chips",
     "description": "Baked zucchini chips coated in Parmesan for a healthy, crunchy snack",
@@ -366,8 +360,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Crispy Baked Parmesan Zucchini Chips | Gluten-Free Snack Recipe",
     "seoDescription": "Make crispy, cheesy zucchini chips in the oven! This healthy gluten-free snack recipe is perfect for satisfying crunchy cravings."
-  },
-  {
+  },{
     "title": "Herb-Crusted Salmon with Lemon Butter",
     "slug": "herb-crusted-salmon-with-lemon-butter",
     "description": "Perfectly cooked salmon with a crispy herb crust and rich lemon butter sauce",
@@ -426,8 +419,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Herb-Crusted Salmon Recipe | Gluten-Free with Lemon Butter",
     "seoDescription": "This herb-crusted salmon with lemon butter sauce is an elegant gluten-free dinner. Crispy topping, tender fish, and rich sauce in just 35 minutes!"
-  },
-  {
+  },{
     "title": "New York Style Cheesecake",
     "slug": "new-york-style-cheesecake",
     "description": "Classic creamy cheesecake with a gluten-free graham cracker crust",
@@ -485,8 +477,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Classic New York Cheesecake Recipe | Gluten-Free Version",
     "seoDescription": "Make the perfect gluten-free New York style cheesecake with this foolproof recipe. Creamy, rich, and indulgent with a crispy graham crust!"
-  },
-  {
+  },{
     "title": "Asian Lettuce Wraps",
     "slug": "asian-lettuce-wraps",
     "description": "Flavorful ground chicken and vegetables in crisp lettuce cups with Asian sauce",
@@ -503,7 +494,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "18.6",
     "fat": "14.2",
     "fiber": "3.8",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-rD8cXzZQOIWd7Jc3BWQSJL8A.png",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-0UfVwwQhacz4KLXSAaRgDvdS.png?st=2025-08-26T22%3A53%3A10Z&se=2025-08-27T00%3A53%3A10Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=b1a0ae1f-618f-4548-84fd-8b16cacd5485&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T20%3A25%3A20Z&ske=2025-08-27T20%3A25%3A20Z&sks=b&skv=2024-08-04&sig=qwteLmHijuxjNoYERwLPg68FOXtIk%2BWuOjzRmvqaZE4%3D",
     "ingredients": [
       "1 lb ground chicken",
       "1 can water chestnuts, diced",
@@ -548,8 +539,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Asian Lettuce Wraps Recipe | Gluten-Free PF Chang's Copycat",
     "seoDescription": "These gluten-free Asian lettuce wraps are better than takeout! Quick, healthy, and packed with flavor - ready in just 30 minutes."
-  },
-  {
+  },{
     "title": "Overnight Chia Pudding Parfait",
     "slug": "overnight-chia-pudding-parfait",
     "description": "Creamy chia pudding layered with fresh fruit and granola for a healthy breakfast",
@@ -608,8 +598,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Overnight Chia Pudding Parfait | Gluten-Free Breakfast Recipe",
     "seoDescription": "This gluten-free chia pudding parfait is the perfect make-ahead breakfast. Creamy, nutritious, and customizable with your favorite toppings!"
-  },
-  {
+  },{
     "title": "Stuffed Bell Peppers",
     "slug": "stuffed-bell-peppers",
     "description": "Colorful bell peppers filled with seasoned ground beef, rice, and vegetables",
@@ -626,7 +615,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "31.8",
     "fat": "18.9",
     "fiber": "4.7",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-FjXFrx8MekrLJWJlhNfJfZSj.png",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-OeaBSACKG9AsrcuIic5RK6JV.png?st=2025-08-26T22%3A50%3A47Z&se=2025-08-27T00%3A50%3A47Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=cc612491-d948-4d2e-9821-2683df3719f5&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T23%3A50%3A47Z&ske=2025-08-27T23%3A50%3A47Z&sks=b&skv=2024-08-04&sig=u7GsiqkbLFaJ19cgew1%2BzUDwtySuxbTbB/qr2ggTvSs%3D",
     "ingredients": [
       "6 large bell peppers, tops cut and seeds removed",
       "1 lb ground beef",
@@ -669,8 +658,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Classic Stuffed Bell Peppers Recipe | Gluten-Free Comfort Food",
     "seoDescription": "These gluten-free stuffed bell peppers are filled with seasoned ground beef, rice, and cheese. A complete meal that's perfect for family dinners!"
-  },
-  {
+  },{
     "title": "Flourless Peanut Butter Cookies",
     "slug": "flourless-peanut-butter-cookies",
     "description": "Simple 4-ingredient peanut butter cookies that are naturally gluten-free",
@@ -724,8 +712,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Flourless Peanut Butter Cookies | 4-Ingredient Gluten-Free Recipe",
     "seoDescription": "Make amazing gluten-free peanut butter cookies with just 4 ingredients! No flour needed for these easy, chewy, and delicious cookies."
-  },
-  {
+  },{
     "title": "Mexican Quinoa Salad",
     "slug": "mexican-quinoa-salad",
     "description": "Vibrant quinoa salad with black beans, corn, and zesty lime dressing",
@@ -783,8 +770,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Mexican Quinoa Salad Recipe | Gluten-Free & Meal Prep Friendly",
     "seoDescription": "This colorful Mexican quinoa salad is packed with protein, fiber, and fresh flavors. Perfect gluten-free meal prep option that everyone loves!"
-  },
-  {
+  },{
     "title": "Sweet Potato Hummus",
     "slug": "sweet-potato-hummus",
     "description": "Creamy hummus with roasted sweet potato for natural sweetness and vibrant color",
@@ -843,8 +829,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Sweet Potato Hummus Recipe | Gluten-Free Healthy Dip",
     "seoDescription": "This gluten-free sweet potato hummus is creamy, naturally sweet, and packed with nutrients. Perfect healthy dip for snacking or entertaining!"
-  },
-  {
+  },{
     "title": "Chicken Pad Thai",
     "slug": "chicken-pad-thai",
     "description": "Authentic Thai rice noodles with chicken, peanuts, and tangy-sweet sauce",
@@ -906,8 +891,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Authentic Chicken Pad Thai Recipe | Gluten-Free Thai Noodles",
     "seoDescription": "Make restaurant-quality gluten-free Chicken Pad Thai at home! This authentic recipe features rice noodles in tangy-sweet sauce with peanuts."
-  },
-  {
+  },{
     "title": "Veggie-Packed Frittata",
     "slug": "veggie-packed-frittata",
     "description": "Fluffy egg frittata loaded with colorful vegetables and cheese",
@@ -967,8 +951,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Veggie-Packed Frittata Recipe | Gluten-Free One-Pan Breakfast",
     "seoDescription": "This gluten-free veggie frittata is loaded with colorful vegetables and cheese. Perfect for breakfast, brunch, or meal prep!"
-  },
-  {
+  },{
     "title": "Almond Flour Brownies",
     "slug": "almond-flour-brownies",
     "description": "Rich, fudgy brownies made with almond flour for a gluten-free treat",
@@ -985,7 +968,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "carbs": "18.6",
     "fat": "13.2",
     "fiber": "2.8",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-JKXmSSJvHYt6c9rrQPCZp9kS.png",
+    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-GUxMPabEGe5wxOhTrPAOe1ud.png?st=2025-08-26T22%3A44%3A32Z&se=2025-08-27T00%3A44%3A32Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=77e5a8ec-6bd1-4477-8afc-16703a64f029&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-26T01%3A57%3A25Z&ske=2025-08-27T01%3A57%3A25Z&sks=b&skv=2024-08-04&sig=xXp50oWpVn8n/5Ff6HV7c4fZBpcgdUr5LORlmS3PyUA%3D",
     "ingredients": [
       "1½ cups almond flour",
       "¾ cup cocoa powder",
@@ -1027,8 +1010,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Fudgy Almond Flour Brownies | Best Gluten-Free Brownie Recipe",
     "seoDescription": "These gluten-free almond flour brownies are incredibly fudgy and chocolatey. Easy recipe for the ultimate gluten-free chocolate dessert!"
-  },
-  {
+  },{
     "title": "Vietnamese Spring Rolls",
     "slug": "vietnamese-spring-rolls",
     "description": "Fresh rice paper rolls filled with shrimp, vegetables, and herbs with peanut dipping sauce",
@@ -1090,8 +1072,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Vietnamese Spring Rolls Recipe | Fresh Gluten-Free Summer Rolls",
     "seoDescription": "Make fresh Vietnamese spring rolls at home! These gluten-free rice paper rolls with shrimp and vegetables are perfect with peanut dipping sauce."
-  },
-  {
+  },{
     "title": "Beef and Broccoli Stir-Fry",
     "slug": "beef-and-broccoli-stir-fry",
     "description": "Classic Chinese takeout made gluten-free with tender beef and crisp broccoli",
@@ -1152,8 +1133,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Gluten-Free Beef and Broccoli Stir-Fry | Better Than Takeout",
     "seoDescription": "This gluten-free beef and broccoli stir-fry is quick, easy, and tastes better than takeout. Ready in 35 minutes with simple ingredients!"
-  },
-  {
+  },{
     "title": "Baked Coconut Shrimp",
     "slug": "baked-coconut-shrimp",
     "description": "Crispy coconut-crusted shrimp with sweet chili dipping sauce",
@@ -1213,8 +1193,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Baked Coconut Shrimp Recipe | Crispy Gluten-Free Appetizer",
     "seoDescription": "These gluten-free baked coconut shrimp are crispy, golden, and healthier than fried. Perfect appetizer with sweet chili dipping sauce!"
-  },
-  {
+  },{
     "title": "Gluten-Free Beef Wellington",
     "slug": "gluten-free-beef-wellington",
     "description": "Classic beef Wellington made gluten-free with puff pastry and mushroom duxelles",
@@ -1277,8 +1256,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Gluten-Free Beef Wellington Recipe | Elegant Special Occasion Dish",
     "seoDescription": "Master the art of gluten-free Beef Wellington with this detailed recipe. Perfect for holidays and special occasions!"
-  },
-  {
+  },{
     "title": "Ultimate Gluten-Free Mac and Cheese",
     "slug": "ultimate-gluten-free-mac-and-cheese",
     "description": "Creamy, cheesy pasta with crispy breadcrumb topping",
@@ -1340,8 +1318,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Ultimate Gluten-Free Mac and Cheese | Creamy Comfort Food Recipe",
     "seoDescription": "The creamiest, cheesiest gluten-free mac and cheese with crispy topping. This comfort food classic is perfect for family dinners!"
-  },
-  {
+  },{
     "title": "Fluffy Banana Oat Pancakes",
     "slug": "fluffy-banana-oat-pancakes",
     "description": "Naturally sweet pancakes made with oats and ripe bananas",
@@ -1398,8 +1375,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Fluffy Banana Oat Pancakes | Naturally Gluten-Free Recipe",
     "seoDescription": "Healthy gluten-free banana oat pancakes that are naturally sweet and nutritious. Easy breakfast recipe ready in 25 minutes!"
-  },
-  {
+  },{
     "title": "Greek Quinoa Bowl with Tzatziki",
     "slug": "greek-quinoa-bowl-with-tzatziki",
     "description": "Fresh Mediterranean bowl with quinoa, vegetables, and homemade tzatziki",
@@ -1457,8 +1433,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Greek Quinoa Bowl with Tzatziki | Gluten-Free Mediterranean Recipe",
     "seoDescription": "Fresh and healthy gluten-free Greek quinoa bowl topped with vegetables, feta, and homemade tzatziki. Perfect Mediterranean lunch!"
-  },
-  {
+  },{
     "title": "Coconut Flour Waffles",
     "slug": "coconut-flour-waffles",
     "description": "Light and crispy waffles made with coconut flour",
@@ -1512,8 +1487,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Coconut Flour Waffles | Crispy Gluten-Free Recipe",
     "seoDescription": "Light and crispy gluten-free coconut flour waffles. Perfect low-carb breakfast that's naturally gluten-free and delicious!"
-  },
-  {
+  },{
     "title": "Lentil Soup with Vegetables",
     "slug": "lentil-soup-with-vegetables",
     "description": "Hearty and nutritious lentil soup packed with vegetables",
@@ -1570,8 +1544,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Hearty Lentil Vegetable Soup | Gluten-Free Recipe",
     "seoDescription": "Nutritious gluten-free lentil soup packed with vegetables. High protein, high fiber comfort food that's naturally healthy!"
-  },
-  {
+  },{
     "title": "Teriyaki Chicken Skewers",
     "slug": "teriyaki-chicken-skewers",
     "description": "Grilled chicken skewers with homemade gluten-free teriyaki sauce",
@@ -1628,8 +1601,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Gluten-Free Teriyaki Chicken Skewers | Asian Grilling Recipe",
     "seoDescription": "Delicious gluten-free teriyaki chicken skewers with homemade sauce. Perfect for grilling or oven cooking!"
-  },
-  {
+  },{
     "title": "Chocolate Avocado Mousse",
     "slug": "chocolate-avocado-mousse",
     "description": "Rich and creamy chocolate mousse made with avocado",
@@ -1684,8 +1656,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Chocolate Avocado Mousse | Healthy Gluten-Free Dessert",
     "seoDescription": "Rich and creamy gluten-free chocolate avocado mousse. Dairy-free, healthy dessert ready in just 10 minutes!"
-  },
-  {
+  },{
     "title": "Buffalo Cauliflower Wings",
     "slug": "buffalo-cauliflower-wings",
     "description": "Crispy baked cauliflower wings with spicy buffalo sauce",
@@ -1740,8 +1711,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Buffalo Cauliflower Wings | Gluten-Free Appetizer Recipe",
     "seoDescription": "Crispy gluten-free buffalo cauliflower wings that are baked, not fried. Perfect vegetarian appetizer with all the buffalo flavor!"
-  },
-  {
+  },{
     "title": "Quinoa Tabbouleh Salad",
     "slug": "quinoa-tabbouleh-salad",
     "description": "Fresh Middle Eastern salad with quinoa instead of bulgur",
@@ -1797,8 +1767,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Quinoa Tabbouleh Salad | Gluten-Free Middle Eastern Recipe",
     "seoDescription": "Fresh gluten-free quinoa tabbouleh with herbs and vegetables. Light, healthy Middle Eastern salad perfect for summer!"
-  },
-  {
+  },{
     "title": "Sweet Potato Gnocchi",
     "slug": "sweet-potato-gnocchi",
     "description": "Pillowy soft gnocchi made with sweet potatoes",
@@ -1853,8 +1822,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": false,
     "seoTitle": "Sweet Potato Gnocchi | Gluten-Free Italian Recipe",
     "seoDescription": "Light and pillowy gluten-free sweet potato gnocchi. Learn to make this Italian favorite with our detailed recipe!"
-  },
-  {
+  },{
     "title": "Almond Butter Energy Balls",
     "slug": "almond-butter-energy-balls",
     "description": "No-bake energy balls packed with protein and fiber",
@@ -1905,8 +1873,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Almond Butter Energy Balls | Gluten-Free Protein Snack",
     "seoDescription": "Easy no-bake gluten-free almond butter energy balls. Healthy protein snack ready in 15 minutes!"
-  },
-  {
+  },{
     "title": "Zucchini Lasagna",
     "slug": "zucchini-lasagna",
     "description": "Low-carb lasagna using zucchini slices instead of pasta",
@@ -1963,8 +1930,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Zucchini Lasagna | Low-Carb Gluten-Free Recipe",
     "seoDescription": "Delicious gluten-free zucchini lasagna that's low-carb and satisfying. All the comfort of traditional lasagna without the pasta!"
-  },
-  {
+  },{
     "title": "Coconut Lime Rice",
     "slug": "coconut-lime-rice",
     "description": "Fragrant rice cooked in coconut milk with lime",
@@ -2018,73 +1984,7 @@ const glutenFreeRecipes100Updated: InsertRecipe[] = [
     "isNaturallyGlutenFree": true,
     "seoTitle": "Coconut Lime Rice | Gluten-Free Side Dish Recipe",
     "seoDescription": "Fragrant gluten-free coconut lime rice that's creamy and flavorful. Perfect side dish for Asian meals!"
-  },
-  {
-    "title": "Classic Gluten-Free Gingerbread Cookies",
-    "slug": "classic-gluten-free-gingerbread-cookies",
-    "description": "Perfectly spiced gingerbread cookies that hold their shape for decorating",
-    "longDescription": "These gluten-free gingerbread cookies are everything holiday cookies should be - perfectly spiced, crispy edges with slightly chewy centers, and they hold their shape beautifully for decorating. Made with a blend of warm spices including ginger, cinnamon, and molasses, these cookies fill your kitchen with the most amazing aroma. Perfect for cookie exchanges, gift giving, or building gingerbread houses!",
-    "category": "Desserts",
-    "difficulty": "Medium",
-    "prepTime": 30,
-    "cookTime": 10,
-    "totalTime": 40,
-    "servings": 36,
-    "rating": "4.9",
-    "calories": 95,
-    "protein": "1.8",
-    "carbs": "16.4",
-    "fat": "3.2",
-    "fiber": "0.8",
-    "image": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-RRr2OcqenZPvkzbepd1VRMvi/user-xGKxQZAhnHKRnely7G002aa0/img-gWRAXxp7KuI43xHGuwRy8kHk.png",
-    "ingredients": [
-      "3 cups gluten-free flour blend",
-      "¾ teaspoon baking soda",
-      "1 tablespoon ground ginger",
-      "1 tablespoon ground cinnamon",
-      "½ teaspoon ground cloves",
-      "½ teaspoon nutmeg",
-      "¾ cup butter, softened",
-      "¾ cup brown sugar",
-      "1 large egg",
-      "½ cup molasses",
-      "1 teaspoon vanilla",
-      "Royal icing for decorating"
-    ],
-    "instructions": [
-      "Mix flour, baking soda, and all spices",
-      "Cream butter and brown sugar until fluffy",
-      "Beat in egg, molasses, and vanilla",
-      "Gradually mix in dry ingredients",
-      "Divide dough in half, wrap in plastic",
-      "Refrigerate at least 2 hours or overnight",
-      "Preheat oven to 350°F (175°C)",
-      "Roll dough ¼ inch thick between parchment",
-      "Cut shapes with cookie cutters",
-      "Place on lined baking sheets",
-      "Bake 8-10 minutes until edges are firm",
-      "Cool on pan 5 minutes, then transfer to rack",
-      "Decorate with royal icing when completely cool"
-    ],
-    "tips": "Chill dough well for easier rolling and shapes that don't spread. Roll between parchment paper to prevent sticking. These cookies actually improve in flavor after a day or two!",
-    "variations": [
-      "Add orange zest for citrus note",
-      "Dip in chocolate instead of icing",
-      "Make into sandwich cookies with cream filling"
-    ],
-    "tags": [
-      "Gingerbread",
-      "Cookies",
-      "Holiday",
-      "Christmas",
-      "Decorating",
-      "Traditional"
-    ],
-    "isNaturallyGlutenFree": false,
-    "seoTitle": "Gluten-Free Gingerbread Cookies | Perfect Holiday Recipe",
-    "seoDescription": "These gluten-free gingerbread cookies are perfectly spiced and ideal for decorating. The best holiday cookie recipe that everyone will love!"
-  }
-];
+  }];
 
 export function getRecipeBySlug(slug: string): InsertRecipe | undefined {
   return glutenFreeRecipes100Updated.find(recipe => recipe.slug === slug);
