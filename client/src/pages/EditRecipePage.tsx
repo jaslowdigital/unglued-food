@@ -16,6 +16,7 @@ import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { useToast } from "@/hooks/use-toast";
 import { apiRequest } from "@/lib/queryClient";
+import { ImageUploader } from "@/components/ImageUploader";
 
 // Using string types for form inputs that will be transformed
 const editRecipeFormSchema = z.object({
@@ -35,7 +36,7 @@ const editRecipeFormSchema = z.object({
   carbs: z.string().optional(),
   fat: z.string().optional(),
   fiber: z.string().optional(),
-  image: z.string().url("Please enter a valid image URL"),
+  image: z.string().optional(),
   ingredients: z.array(z.string()),
   instructions: z.array(z.string()),
   tips: z.string().optional(),
@@ -285,12 +286,14 @@ export default function EditRecipePage() {
               </div>
 
               <div>
-                <Label htmlFor="image">Image URL *</Label>
-                <Input
-                  id="image"
-                  {...form.register("image")}
-                  placeholder="https://example.com/image.jpg"
-                  data-testid="input-image"
+                <Label htmlFor="image">Recipe Image</Label>
+                <ImageUploader
+                  onImageUploaded={(imageUrl) => {
+                    form.setValue("image", imageUrl);
+                  }}
+                  currentImage={form.watch("image")}
+                  buttonText="Upload Recipe Image"
+                  className="mt-2"
                 />
                 {form.formState.errors.image && (
                   <p className="text-red-500 text-sm mt-1">{form.formState.errors.image.message}</p>
