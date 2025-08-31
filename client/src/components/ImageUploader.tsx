@@ -42,8 +42,8 @@ export function ImageUploader({
       return;
     }
 
-    if (file.size > 10485760) { // 10MB
-      alert('File size must be less than 10MB');
+    if (file.size > 20971520) { // 20MB
+      alert('File size must be less than 20MB');
       return;
     }
 
@@ -178,7 +178,7 @@ export function ImageUploader({
                 Click to browse or drag and drop an image here
               </p>
               <p className="text-xs text-gray-500 mt-2">
-                Supports JPG, PNG, GIF up to 10MB
+                Supports JPG, PNG, GIF up to 20MB
               </p>
             </div>
           </div>
