@@ -85,7 +85,7 @@ export default function RecipePage() {
         title={`${recipe.title} - Unglued Food`}
         description={recipe.longDescription || recipe.description}
         image={recipe.image}
-        url={`/recipes/${slug}`}
+        url={`/recipe/${slug}`}
         type="article"
       />
       <Header />
@@ -103,7 +103,7 @@ export default function RecipePage() {
                 <SocialShare 
                   title={recipe.title}
                   description={recipe.description}
-                  url={`/recipes/${slug}`}
+                  url={`/recipe/${slug}`}
                   image={recipe.image}
                 />
                 <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
