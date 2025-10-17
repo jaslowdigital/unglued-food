@@ -1,191 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
   <!-- Homepage -->
   <url>
-    <loc>https://glutenfreerecipes.com/</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://unglutedfood.com/</loc>
+    <lastmod>2025-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <!-- Recipe Pages -->
+  <!-- All Recipes Page -->
   <url>
-    <loc>https://glutenfreerecipes.com/recipes</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/recipes/mediterranean-quinoa-bowl</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/recipes/chocolate-avocado-mousse</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/recipes/chickpea-protein-pancakes</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Product Pages -->
-  <url>
-    <loc>https://glutenfreerecipes.com/products</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://unglutedfood.com/recipes</loc>
+    <lastmod>2025-10-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
+  <!-- Halloween Dessert Recipes -->
   <url>
-    <loc>https://glutenfreerecipes.com/products/premium-almond-flour</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://unglutedfood.com/recipe/ghostly-white-chocolate-mousse</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Ghostly_White_Chocolate_Mousse_1c5c472f.png</image:loc>
+      <image:title>Ghostly White Chocolate Mousse - Gluten-Free Halloween Dessert</image:title>
+      <image:caption>Elegant white chocolate mousse perfect for Halloween with ghostly presentation</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/pumpkin-spice-cheesecake-bars</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Pumpkin_Spice_Cheesecake_Bars_80b80892.png</image:loc>
+      <image:title>Pumpkin Spice Cheesecake Bars - Gluten-Free Halloween Dessert</image:title>
+      <image:caption>Rich and creamy pumpkin spice cheesecake bars with gluten-free graham crust</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/chocolate-graveyard-pudding</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Chocolate_Graveyard_Pudding_f8d91176.png</image:loc>
+      <image:title>Chocolate Graveyard Pudding - Fun Halloween Dessert</image:title>
+      <image:caption>Spooky gluten-free chocolate graveyard pudding with cookie crumb dirt</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/orange-black-chocolate-tart</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Orange_Black_Chocolate_Tart_de5af050.png</image:loc>
+      <image:title>Orange and Black Chocolate Tart - Elegant Halloween Dessert</image:title>
+      <image:caption>Sophisticated gluten-free chocolate tart with dramatic orange and black layers</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/spider-web-brownies</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Spider_Web_Brownies_3ce3ed52.png</image:loc>
+      <image:title>Spider Web Brownies - Gluten-Free Halloween Brownies</image:title>
+      <image:caption>Fudgy gluten-free brownies with white chocolate spider web decorations</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/witch-hat-chocolate-cupcakes</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Witch_Hat_Chocolate_Cupcakes_e38a4665.png</image:loc>
+      <image:title>Witch Hat Chocolate Cupcakes - Halloween Gluten-Free Treats</image:title>
+      <image:caption>Spooky gluten-free chocolate cupcakes with witch hat decorations</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/candy-corn-panna-cotta</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Candy_Corn_Panna_Cotta_f6f5fdac.png</image:loc>
+      <image:title>Candy Corn Panna Cotta - Elegant Halloween Dessert</image:title>
+      <image:caption>Beautiful layered gluten-free panna cotta in candy corn colors</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/poison-caramel-apples</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Poison_Caramel_Apples_e9cc4d4b.png</image:loc>
+      <image:title>Poison Caramel Apples - Spooky Halloween Treats</image:title>
+      <image:caption>Classic caramel apples with spooky red candy coating and poison labels</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/black-velvet-halloween-cake</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Black_Velvet_Halloween_Cake_f18096a5.png</image:loc>
+      <image:title>Black Velvet Halloween Cake - Dramatic Gluten-Free Layer Cake</image:title>
+      <image:caption>Stunning black velvet layer cake with orange cream cheese frosting</image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://unglutedfood.com/recipe/mummy-chocolate-truffles</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://unglutedfood.com/generated-images/Mummy_Chocolate_Truffles_262b4dbf.png</image:loc>
+      <image:title>Mummy Chocolate Truffles - Halloween Gluten-Free Confections</image:title>
+      <image:caption>Adorable mummy-wrapped chocolate truffles with candy eyes</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Category Pages -->
+  <url>
+    <loc>https://unglutedfood.com/category/desserts</loc>
+    <lastmod>2025-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Educational Pages -->
+  <url>
+    <loc>https://unglutedfood.com/education/gluten-free-basics</loc>
+    <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://glutenfreerecipes.com/products/coconut-flour</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://unglutedfood.com/education/shopping-guide</loc>
+    <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://glutenfreerecipes.com/products/tapioca-starch</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://unglutedfood.com/education/label-reading</loc>
+    <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://glutenfreerecipes.com/products/rice-flour-blend</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://unglutedfood.com/education/cross-contamination</loc>
+    <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://glutenfreerecipes.com/products/xanthan-gum</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://unglutedfood.com/education/substitutions</loc>
+    <lastmod>2025-10-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <!-- About Page -->
   <url>
-    <loc>https://glutenfreerecipes.com/about</loc>
-    <lastmod>2025-01-30</lastmod>
+    <loc>https://unglutedfood.com/about</loc>
+    <lastmod>2025-10-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   
-  <!-- Contact Page -->
-  <url>
-    <loc>https://glutenfreerecipes.com/contact</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  
-  <!-- Blog/News Pages -->
-  <url>
-    <loc>https://glutenfreerecipes.com/blog</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/blog/celiac-disease-guide</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/blog/gluten-free-baking-tips</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <!-- Category Pages -->
-  <url>
-    <loc>https://glutenfreerecipes.com/categories/breakfast</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/categories/lunch</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/categories/dinner</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/categories/desserts</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/categories/snacks</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Service Pages -->
-  <url>
-    <loc>https://glutenfreerecipes.com/meal-planning</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/nutrition-consultation</loc>
-    <lastmod>2025-01-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <!-- Images -->
-  <url>
-    <loc>https://glutenfreerecipes.com/recipes/mediterranean-quinoa-bowl</loc>
-    <image:image>
-      <image:loc>https://glutenfreerecipes.com/images/mediterranean-quinoa-bowl.jpg</image:loc>
-      <image:caption>Mediterranean Quinoa Bowl - Gluten Free Recipe</image:caption>
-      <image:title>Healthy Mediterranean Quinoa Bowl</image:title>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://glutenfreerecipes.com/recipes/chocolate-avocado-mousse</loc>
-    <image:image>
-      <image:loc>https://glutenfreerecipes.com/images/chocolate-avocado-mousse.jpg</image:loc>
-      <image:caption>Chocolate Avocado Mousse - Gluten Free Dessert</image:caption>
-      <image:title>Rich Chocolate Avocado Mousse</image:title>
-    </image:image>
-  </url>
 </urlset>

@@ -1,14 +1,14 @@
 # Security Policy
-# Gluten Free Recipes Website
+# Unglued Food - Gluten-Free Halloween Desserts
 # RFC 9116 Compliant
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 
-Contact: security@glutenfreerecipes.com
-Contact: https://glutenfreerecipes.com/security
-Contact: tel:+1-800-SECURE-GF
+Contact: security@unglutedfood.com
+Contact: https://unglutedfood.com/security
+Contact: tel:+1-800-UNGLUED
 
-Expires: 2025-12-31T23:59:59.000Z
+Expires: 2026-10-31T23:59:59.000Z
 
 Acknowledgments: https://glutenfreerecipes.com/security/thanks
 

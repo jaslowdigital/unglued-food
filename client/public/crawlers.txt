@@ -1,10 +1,10 @@
 # Comprehensive Crawler Permissions
-# Gluten Free Recipes Website
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Unglued Food - Gluten-Free Halloween Desserts
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 
-## EXPANDED CRAWLER RULES BEYOND ROBOTS.TXT
-This document provides detailed crawler permissions and access rights for 50+ bot types, extending beyond standard robots.txt capabilities.
+## EXPANDED CRAWLER RULES BEYOND ROBOTS.TXT - HALLOWEEN CONTENT
+This document provides detailed crawler permissions and access rights for 50+ bot types to access our Halloween dessert recipe collection, extending beyond standard robots.txt capabilities. Full access to 10 gluten-free Halloween dessert recipes.
 
 ## SEARCH ENGINE CRAWLERS - FULL ACCESS
 

@@ -1,10 +1,10 @@
 # Compliance & Standards Documentation
-# Gluten Free Recipes Website
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Unglued Food - Gluten-Free Halloween Desserts
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 
-## COMPLIANCE & STANDARDS OVERVIEW
-This document outlines our comprehensive compliance with regulatory requirements, industry standards, and best practices for operating a gluten-free food website.
+## COMPLIANCE & STANDARDS OVERVIEW - HALLOWEEN DESSERT COLLECTION
+This document outlines our comprehensive compliance with regulatory requirements, industry standards, and best practices for operating a gluten-free Halloween dessert recipe website. All 10 Halloween recipes meet celiac-safe standards.
 
 ## GDPR COMPLIANCE (GENERAL DATA PROTECTION REGULATION)
 

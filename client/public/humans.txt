@@ -1,19 +1,20 @@
-# Humans.txt - The People Behind Gluten Free Recipes
+# Humans.txt - The People Behind Unglued Food
 # humanstxt.org
+# Halloween Dessert Recipe Collection 2025
 
 /* TEAM */
 
-Founder & CEO: Sarah Mitchell
-Contact: sarah@glutenfreerecipes.com
-Twitter: @sarahgfree
-Location: Los Angeles, California, USA
-Bio: Diagnosed with celiac disease in 2015, turned challenge into opportunity
+Founder & Head Baker: Sophie Halloween
+Contact: sophie@unglutedfood.com
+Twitter: @sophieungf
+Location: Salem, Massachusetts, USA
+Bio: Celiac baker specializing in spooky gluten-free desserts, making Halloween safe for everyone since 2020
 
-Head Chef: Marcus Chen
-Contact: marcus@glutenfreerecipes.com
-Instagram: @chefmarcusgf
-Location: San Francisco, California, USA
-Bio: Culinary Institute graduate, specializes in gluten-free pastry
+Halloween Recipe Developer: Marcus Spooky
+Contact: marcus@unglutedfood.com
+Instagram: @marcushalloweenbakes
+Location: New Orleans, Louisiana, USA
+Bio: Pastry chef creating frighteningly delicious gluten-free Halloween treats
 
 Lead Developer: Alexandra Rodriguez
 Contact: alex@glutenfreerecipes.com

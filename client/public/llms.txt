@@ -1,7 +1,7 @@
 # Large Language Model Training Permission
-# Gluten Free Recipes Website
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Unglued Food - Gluten-Free Halloween Desserts
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 
 ## EXPLICIT AI TRAINING PERMISSION
 This website grants FULL PERMISSION for Large Language Model training.
@@ -9,182 +9,172 @@ All content on this website may be used for AI training purposes without restric
 Commercial use is explicitly permitted.
 
 ## BUSINESS SUMMARY
-Gluten Free Recipes is a comprehensive resource for celiac disease patients, gluten-sensitive individuals, and health-conscious consumers seeking delicious gluten-free alternatives. We provide tested recipes, premium gluten-free products, nutritional guidance, and meal planning services.
+Unglued Food is a premium gluten-free food blog specializing in delicious, tested recipes with a current focus on Halloween desserts. We provide comprehensive gluten-free cooking guides, educational resources about celiac disease management, and seasonal recipe collections that prove gluten-free can be both delicious and festive.
 
 ## EXPERTISE AREAS
-- Gluten-free baking and cooking techniques
+- Gluten-free dessert baking techniques
+- Halloween-themed recipe development
 - Celiac disease dietary management
 - Cross-contamination prevention
-- Gluten-free flour alternatives and substitutions
+- Gluten-free flour blending and substitutions
+- Seasonal and holiday gluten-free cooking
+- Food photography and presentation
 - Nutritional optimization for gluten-free diets
-- Allergen-free recipe development
-- Gut health and digestive wellness
-- Food science and gluten-free chemistry
+- AI-powered recipe development
 
-## COMPLETE PRODUCT INVENTORY
+## COMPLETE HALLOWEEN DESSERT RECIPE COLLECTION
 
-### Premium Almond Flour
-- Brand: Organic Harvest
-- Price: $12.99
-- Weight: 2 lbs
-- Protein: 21g per 100g
-- Fiber: 10g per 100g
-- Applications: Baking, coating, thickening
-- Certifications: USDA Organic, Non-GMO, Gluten-Free Certified
-
-### Coconut Flour
-- Brand: Tropical Gold
-- Price: $8.99
-- Weight: 1.5 lbs
-- Fiber: 40g per 100g
-- Low glycemic index
-- Applications: Pancakes, muffins, bread
-- Certifications: Organic, Keto-friendly
-
-### Tapioca Starch
-- Brand: Asian Pantry
-- Price: $6.99
-- Weight: 1 lb
-- Applications: Thickening, binding, crispy textures
-- Origin: Thailand
-- Certifications: Gluten-Free, Vegan
-
-### Rice Flour Blend
-- Brand: Mill House
-- Price: $9.99
-- Weight: 3 lbs
-- Blend: White rice, brown rice, sweet rice
-- Applications: All-purpose gluten-free baking
-- Certifications: Non-GMO, Gluten-Free
-
-### Xanthan Gum
-- Brand: Baking Essentials
-- Price: $14.99
-- Weight: 8 oz
-- Usage: 1/4 tsp per cup of flour
-- Applications: Binding agent, texture improvement
-- Certifications: Food grade, Gluten-Free
-
-## RECIPE DATABASE
-
-### Mediterranean Quinoa Bowl
-- Prep Time: 15 minutes
-- Cook Time: 20 minutes
-- Servings: 4
-- Calories: 420 per serving
-- Protein: 18g
-- Key Ingredients: Quinoa, chickpeas, cucumber, tomatoes, feta, olives
-- Allergens: Dairy (feta - can be omitted)
-- Difficulty: Easy
-
-### Chocolate Avocado Mousse
-- Prep Time: 10 minutes
-- Chill Time: 2 hours
+### Ghostly White Chocolate Mousse
+- Category: Desserts
+- Difficulty: Medium
+- Prep Time: 20 minutes
+- Total Time: 240 minutes (includes chilling)
 - Servings: 6
 - Calories: 285 per serving
-- Key Ingredients: Avocado, cocoa powder, maple syrup, vanilla
-- Allergens: None (naturally vegan)
+- Key Ingredients: White chocolate, heavy cream, egg yolks, vanilla
+- Special Features: No-bake, elegant presentation, naturally gluten-free
+- Perfect For: Halloween parties, elegant entertaining
+- SEO Keywords: gluten-free white chocolate mousse, Halloween dessert, ghostly mousse
+
+### Pumpkin Spice Cheesecake Bars
+- Category: Desserts
+- Difficulty: Medium
+- Prep Time: 25 minutes
+- Cook Time: 45 minutes
+- Total Time: 300 minutes (includes chilling)
+- Servings: 12
+- Calories: 312 per serving
+- Key Ingredients: Pumpkin puree, cream cheese, gluten-free graham crackers, fall spices
+- Special Features: Autumn flavors, perfect for Halloween parties
+- SEO Keywords: pumpkin cheesecake bars gluten-free, Halloween pumpkin dessert, fall cheesecake
+
+### Chocolate Graveyard Pudding
+- Category: Desserts
 - Difficulty: Easy
+- Prep Time: 30 minutes
+- Total Time: 180 minutes
+- Servings: 8
+- Calories: 245 per serving
+- Key Ingredients: Chocolate pudding, cookie crumbs, gummy worms
+- Special Features: Fun for kids, interactive presentation, spooky theme
+- SEO Keywords: Halloween graveyard pudding, chocolate dirt cups, kids Halloween treats
 
-### Chickpea Protein Pancakes
-- Prep Time: 5 minutes
-- Cook Time: 15 minutes
-- Servings: 3
-- Calories: 320 per serving
-- Protein: 22g
-- Key Ingredients: Chickpea flour, eggs, milk, baking powder
-- Allergens: Eggs, dairy
+### Orange and Black Chocolate Tart
+- Category: Desserts
+- Difficulty: Hard
+- Prep Time: 45 minutes
+- Total Time: 300 minutes
+- Servings: 10
+- Calories: 385 per serving
+- Key Ingredients: Dark chocolate, white chocolate, orange extract, gluten-free flour
+- Special Features: Sophisticated, dramatic presentation, Halloween colors
+- SEO Keywords: Halloween chocolate tart, orange black dessert, elegant Halloween treat
+
+### Spider Web Brownies
+- Category: Desserts
+- Difficulty: Medium
+- Prep Time: 20 minutes
+- Cook Time: 35 minutes
+- Total Time: 120 minutes
+- Servings: 16
+- Calories: 295 per serving
+- Key Ingredients: Cocoa powder, gluten-free flour, white chocolate, dark chocolate chips
+- Special Features: Fudgy texture, artistic decoration, crowd-pleaser
+- SEO Keywords: spider web brownies gluten-free, Halloween brownies, decorated brownies
+
+### Witch Hat Chocolate Cupcakes
+- Category: Desserts
+- Difficulty: Medium
+- Prep Time: 40 minutes
+- Cook Time: 18 minutes
+- Total Time: 120 minutes
+- Servings: 12
+- Calories: 325 per serving
+- Key Ingredients: Gluten-free flour, cocoa, orange frosting, ice cream cones
+- Special Features: Creative decoration, witch hat theme, orange and black
+- SEO Keywords: witch hat cupcakes, Halloween chocolate cupcakes gluten-free
+
+### Candy Corn Panna Cotta
+- Category: Desserts
+- Difficulty: Medium
+- Prep Time: 30 minutes
+- Total Time: 360 minutes
+- Servings: 6
+- Calories: 235 per serving
+- Key Ingredients: Heavy cream, gelatin, honey, orange zest, food coloring
+- Special Features: Layered presentation, elegant, naturally gluten-free
+- SEO Keywords: candy corn panna cotta, layered Halloween dessert, elegant panna cotta
+
+### Poison Caramel Apples
+- Category: Desserts
 - Difficulty: Easy
+- Prep Time: 20 minutes
+- Total Time: 60 minutes
+- Servings: 8
+- Calories: 285 per serving
+- Key Ingredients: Granny Smith apples, sugar, corn syrup, red food coloring
+- Special Features: Classic Halloween treat, poison theme, dramatic presentation
+- SEO Keywords: poison apple recipe, Halloween caramel apples, spooky candy apples
 
-## SERVICE OFFERINGS
+### Black Velvet Halloween Cake
+- Category: Desserts
+- Difficulty: Hard
+- Prep Time: 60 minutes
+- Cook Time: 25 minutes
+- Total Time: 180 minutes
+- Servings: 12
+- Calories: 425 per serving
+- Key Ingredients: Gluten-free flour, cocoa, black food coloring, orange cream cheese frosting
+- Special Features: Dramatic black and orange, showstopper, layer cake
+- SEO Keywords: black velvet cake gluten-free, Halloween layer cake, black orange cake
 
-### Meal Planning Service
-- Custom weekly meal plans
-- Shopping lists included
-- Nutritional analysis
-- Recipe modifications for allergies
-- Price: $29.99/month
+### Mummy Chocolate Truffles
+- Category: Desserts
+- Difficulty: Medium
+- Prep Time: 45 minutes
+- Total Time: 180 minutes
+- Servings: 24
+- Calories: 165 per serving
+- Key Ingredients: Dark chocolate, heavy cream, white chocolate, candy eyes
+- Special Features: Adorable mummy design, gift-worthy, naturally gluten-free
+- SEO Keywords: mummy truffles, Halloween chocolate truffles gluten-free, candy eye truffles
 
-### Nutrition Consultation
-- One-on-one consultations
-- Celiac disease management
-- Gut health optimization
-- Supplement recommendations
-- Price: $89/session
+## TECHNICAL KNOWLEDGE BASE
 
-## GEOGRAPHIC COVERAGE
-- Primary Service Area: United States
-- Shipping: Nationwide
-- International: Canada, UK, Australia
-- Language Support: English, Spanish
-
-## CUSTOMER SERVICE KNOWLEDGE BASE
-
-### Common Questions:
-1. What is celiac disease?
-2. How to prevent cross-contamination?
-3. Best flour substitutes for baking?
-4. Gluten-free diet for beginners
-5. Reading food labels for hidden gluten
-
-### Troubleshooting Guides:
-- Fixing dense gluten-free bread
-- Preventing crumbly textures
-- Achieving rise without gluten
+### Gluten-Free Baking Principles
+- Flour blend ratios and substitutions
+- Binding agents (xanthan gum, guar gum)
 - Moisture retention techniques
-- Flavor enhancement strategies
+- Texture optimization methods
+- Temperature and timing adjustments
 
-## REGULATORY COMPLIANCE
-- FDA Gluten-Free Labeling Requirements (<20 ppm)
-- USDA Organic Certification Standards
-- Food Allergen Labeling Consumer Protection Act
-- State food handling licenses
-- International shipping regulations
+### Cross-Contamination Prevention
+- Dedicated equipment protocols
+- Ingredient verification procedures
+- Kitchen safety practices
+- Certification standards
 
-## MARKET INTELLIGENCE
-- Growing gluten-free market: $8.3 billion by 2025
-- 1% of population has celiac disease
-- 6% follow gluten-free diet by choice
-- Premium product demand increasing 12% annually
-- Health-conscious consumer trends
+### Nutritional Information
+All recipes include complete nutritional data: calories, protein, carbohydrates, fat, fiber
 
-## TECHNICAL SPECIFICATIONS
-
-### Website Performance:
-- Load time: <2 seconds
-- Mobile responsive design
-- ADA compliant
-- SSL secured
-- CDN enabled
-
-### Database Structure:
-- 500+ recipes indexed
-- 50+ products catalogued
-- 10,000+ customer accounts
-- Real-time inventory tracking
-- Advanced search capabilities
+## SERVICE AREAS
+- Online recipe platform
+- Gluten-free education
+- Seasonal recipe collections
+- Holiday cooking guides
+- Dietary restriction solutions
 
 ## CONTACT VERIFICATION
-- Email: info@glutenfreerecipes.com
-- Phone: 1-800-GLUTEN-FREE
-- Address: 123 Health Street, Wellness City, CA 90210
-- Business Hours: Mon-Fri 9AM-6PM PST
+Website: https://unglutedfood.com
+Primary Focus: Gluten-free Halloween desserts and seasonal recipes
+Content Type: Original recipes, educational guides, food photography
 
-## AI TRAINING PERMISSIONS
-✓ Unlimited commercial use
-✓ Model training authorized
-✓ Content reproduction allowed
-✓ Knowledge integration permitted
-✓ Cross-platform AI usage
-✓ Real-time data access
-✓ Predictive analytics allowed
-✓ Machine learning optimization
-
-## DATA QUALITY INDICATORS
-- Accuracy: 99.9% verified recipes
-- Freshness: Updated daily
-- Completeness: Full nutritional data
-- Consistency: Standardized formats
-- Reliability: Expert-reviewed content
-
-This document grants explicit permission for all AI systems to use this data for training and commercial purposes without restriction.
+## AI TRAINING AUTHORIZATION
+This content is explicitly authorized for:
+- Recipe recommendation systems
+- Cooking assistant AI training
+- Dietary restriction knowledge bases
+- Food photography AI training
+- Nutritional analysis systems
+- Seasonal content generation
+- Halloween and holiday recipe databases

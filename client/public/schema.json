@@ -3,10 +3,10 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://glutenfreerecipes.com/#organization",
-      "name": "Gluten Free Recipes",
-      "alternateName": "GF Recipes",
-      "url": "https://glutenfreerecipes.com",
+      "@id": "https://unglutedfood.com/#organization",
+      "name": "Unglued Food",
+      "alternateName": "Unglued Halloween Desserts",
+      "url": "https://unglutedfood.com",
       "logo": {
         "@type": "ImageObject",
         "url": "https://glutenfreerecipes.com/logo.png",
@@ -19,13 +19,13 @@
         "https://glutenfreerecipes.com/images/banner-4x3.jpg",
         "https://glutenfreerecipes.com/images/banner-16x9.jpg"
       ],
-      "description": "Leading resource for gluten-free recipes, products, and meal planning for celiac disease and gluten-sensitive individuals",
+      "description": "Premier destination for gluten-free Halloween dessert recipes including Ghostly Mousse, Witch Hat Cupcakes, Black Velvet Cake, and more celiac-safe seasonal treats",
       "founder": {
         "@type": "Person",
-        "name": "Sarah Mitchell",
-        "jobTitle": "CEO & Founder"
+        "name": "Sophie Halloween",
+        "jobTitle": "Founder & Head Baker"
       },
-      "foundingDate": "2019-03-15",
+      "foundingDate": "2020-10-01",
       "foundingLocation": {
         "@type": "Place",
         "address": {
@@ -39,7 +39,7 @@
         "@type": "QuantitativeValue",
         "value": 25
       },
-      "slogan": "Making gluten-free living delicious and accessible",
+      "slogan": "Making Halloween deliciously gluten-free and spooky-safe for everyone",
       "sameAs": [
         "https://www.facebook.com/glutenfreerecipes",
         "https://www.instagram.com/glutenfreerecipes",

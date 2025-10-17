@@ -1,7 +1,7 @@
 # Ads.txt - Authorized Digital Sellers
-# Gluten Free Recipes Website
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Unglued Food - Gluten-Free Halloween Desserts
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 # IAB Tech Lab Ads.txt Specification Version 1.0.3
 
 # GOOGLE ADSENSE / ADMANAGER
@@ -240,13 +240,13 @@ cedato.com, 501446106, DIRECT
 cedato.com, 501446107, RESELLER
 
 # CONTACT FOR AD OPERATIONS
-# Email: ads@glutenfreerecipes.com
-# Business Development: partnerships@glutenfreerecipes.com
+# Email: ads@unglutedfood.com
+# Business Development: partnerships@unglutedfood.com
 
 # PLEASE NOTE
 # This ads.txt file is regularly updated to reflect our current advertising partnerships.
 # For any questions about our advertising technology partners, please contact us.
 # We are committed to transparency in digital advertising.
 
-# LAST UPDATED: January 30, 2025
-# NEXT REVIEW: February 28, 2025
+# LAST UPDATED: October 17, 2025
+# NEXT REVIEW: November 30, 2025

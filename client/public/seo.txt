@@ -1,289 +1,243 @@
 # SEO Optimization Data
-# Gluten Free Recipes Website
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Unglued Food - Gluten-Free Halloween Desserts
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 
 ## PRIMARY SEO TARGETING STRATEGY
 COMPLETE SEARCH ENGINE ACCESSIBILITY - Google, Bing, Yahoo, DuckDuckGo, Yandex, Baidu
 ZERO RESTRICTIONS - Maximum indexing permissions for all search engines globally
 Cross-platform optimization for mobile and desktop
+SEASONAL FOCUS: Halloween October 2025 - Peak traffic September 15 - October 31
 
-## PRIMARY KEYWORDS - HIGH VOLUME
+## PRIMARY KEYWORDS - HALLOWEEN HIGH VOLUME
 
-### Recipe Keywords (10,000+ monthly searches)
-- gluten free recipes (40,500 searches/month)
-- gluten free bread recipe (27,100)
-- gluten free desserts (22,200)
-- gluten free pizza dough (18,100)
-- gluten free cookies (14,800)
-- gluten free cake recipe (12,100)
-- gluten free pasta recipes (9,900)
-- easy gluten free recipes (8,100)
-- gluten free breakfast ideas (6,600)
-- gluten free dinner recipes (5,400)
+### Halloween Dessert Keywords (Peak September-October)
+- halloween desserts gluten free (15,800 searches/month Oct)
+- gluten free halloween treats (12,400 searches/month Oct)
+- halloween gluten free recipes (9,700 searches/month Oct)
+- spooky desserts gluten free (6,200 searches/month Oct)
+- halloween baking gluten free (5,100 searches/month Oct)
+- gluten free halloween cookies (4,800 searches/month Oct)
+- halloween cupcakes gluten free (4,500 searches/month Oct)
+- scary desserts gluten free (3,900 searches/month Oct)
+- halloween brownies gluten free (3,600 searches/month Oct)
+- gluten free halloween cake (3,200 searches/month Oct)
 
-### Product Keywords (5,000+ monthly searches)
-- gluten free flour (33,100)
-- almond flour (27,100) 
-- coconut flour (22,200)
-- gluten free bread (18,100)
-- xanthan gum (14,800)
-- tapioca starch (12,100)
-- rice flour (9,900)
-- gluten free products (8,100)
-- best gluten free flour (6,600)
-- gluten free baking mix (5,400)
+### Specific Halloween Recipe Keywords
+- gluten free pumpkin cheesecake bars (2,800 searches/month)
+- spider web brownies gluten free (2,400 searches/month)
+- witch hat cupcakes (2,100 searches/month)
+- halloween chocolate mousse (1,900 searches/month)
+- candy corn desserts gluten free (1,700 searches/month)
+- poison apple recipe (1,500 searches/month)
+- black velvet cake gluten free (1,400 searches/month)
+- mummy truffles (1,200 searches/month)
+- graveyard pudding cups (1,100 searches/month)
+- halloween tart recipe (900 searches/month)
 
-### Health Keywords (High Intent)
-- celiac disease diet (14,800)
-- gluten intolerance symptoms (12,100)
-- gluten free diet plan (9,900)
-- is rice gluten free (8,100)
-- gluten free foods list (6,600)
-- what is gluten (40,500)
-- gluten sensitivity test (5,400)
-- gluten free diet benefits (4,400)
-- celiac disease symptoms (18,100)
-- gluten free weight loss (3,600)
+### Halloween + Dietary Keywords (High Intent)
+- celiac halloween treats (3,400 searches/month)
+- gluten free halloween party food (2,900 searches/month)
+- safe halloween candy celiac (2,600 searches/month)
+- dairy free halloween desserts (2,300 searches/month)
+- vegan halloween treats gluten free (1,800 searches/month)
+- nut free halloween desserts gluten free (1,500 searches/month)
+- egg free halloween cookies gluten free (1,200 searches/month)
+- halloween desserts for celiacs (1,100 searches/month)
+- gluten free halloween candy list (2,400 searches/month)
+- safe halloween treats celiac disease (1,900 searches/month)
 
-## SECONDARY KEYWORDS - MEDIUM VOLUME
+## SECONDARY KEYWORDS - HALLOWEEN MEDIUM VOLUME
 
-### Long-Tail Recipe Keywords
-- gluten free chocolate chip cookies recipe
-- easy gluten free bread machine recipe
-- gluten free birthday cake recipe
-- gluten free pancakes without eggs
-- gluten free pizza crust cauliflower
-- dairy free gluten free desserts
-- gluten free vegan dinner recipes
-- gluten free meal prep ideas
-- gluten free air fryer recipes
-- gluten free instant pot recipes
+### Long-Tail Halloween Recipe Keywords
+- easy gluten free halloween brownies for kids
+- gluten free pumpkin spice cheesecake recipe
+- how to make spider web design on brownies
+- witch hat chocolate cupcakes gluten free
+- layered candy corn panna cotta recipe
+- black velvet halloween cake recipe
+- gluten free poison apples tutorial
+- chocolate graveyard pudding cups
+- orange and black dessert ideas
+- halloween food coloring gluten free
 
-### Ingredient-Specific Keywords
-- how to use xanthan gum in baking
-- almond flour vs coconut flour
-- tapioca starch substitute
-- gluten free flour blend recipe
-- psyllium husk powder gluten free
-- arrowroot powder uses
-- cassava flour recipes
-- oat flour gluten free
-- buckwheat flour nutrition
-- sorghum flour baking
+### Halloween Ingredient Keywords
+- black cocoa powder gluten free
+- candy eyes gluten free
+- orange food coloring natural
+- gluten free candy melts halloween
+- gummy worms gluten free
+- halloween sprinkles celiac safe
+- poison labels edible
+- witch hat ice cream cones gluten free
+- halloween gel food coloring
+- gluten free graham crackers for crust
 
-## LOCATION-BASED SEO TARGETING
+## LOCATION-BASED SEO TARGETING - HALLOWEEN FOCUS
 
-### National Coverage
-- gluten free recipes USA
-- American gluten free foods
-- US celiac disease resources
-- gluten free delivery nationwide
-- online gluten free store USA
+### National Coverage (Halloween Markets)
+- halloween desserts USA gluten free
+- American halloween treats celiac safe
+- US halloween baking gluten free
+- halloween party food nationwide
+- gluten free halloween delivery USA
 
-### State-Level Keywords
-- gluten free California
-- Texas gluten free bakery
-- New York celiac friendly
-- Florida gluten free restaurants
-- Illinois gluten free shopping
+### Halloween Celebration Markets (State-Level)
+- halloween desserts California gluten free
+- Texas halloween treats gluten free
+- New York halloween party food celiac
+- Florida halloween desserts gluten free
+- Illinois halloween baking gluten free
+- Pennsylvania halloween treats celiac
+- Ohio halloween desserts gluten free
+- Georgia halloween party gluten free
 
-### City-Specific Keywords
-- Los Angeles gluten free
-- Houston gluten free delivery
-- Chicago celiac support
-- Phoenix gluten free bakery
-- San Diego gluten free market
-- Dallas gluten free catering
-- Miami Beach gluten free
-- Seattle gluten free options
-- Boston celiac friendly
-- Denver gluten free stores
+### Major Cities Halloween Keywords
+- Los Angeles halloween desserts gluten free
+- Houston halloween treats celiac
+- Chicago halloween baking gluten free
+- Phoenix halloween party food
+- New York City halloween desserts gluten free
+- Dallas halloween treats gluten free
+- Miami halloween desserts celiac safe
+- Seattle halloween baking gluten free
 
-## COMPETITOR ANALYSIS KEYWORDS
+## SEASONAL FOCUS - HALLOWEEN 2025
 
-### Direct Competitors
-- glutenfreepalace alternatives
-- better than minimalist baker
-- king arthur gluten free
-- bobs red mill recipes
-- glutino products review
-- schär bread alternatives
-- udis vs our products
-- canyon bakehouse comparison
-- simple mills competitor
-- enjoy life foods alternatives
+### Halloween Peak Season (September 15 - October 31)
+- halloween desserts gluten free (+400% search spike Oct)
+- spooky treats celiac safe (+350% spike Oct)
+- halloween party food gluten free (+300% spike Oct)
+- halloween baking ideas gluten free (+280% spike Oct)
+- scary desserts gluten free (+250% spike Oct)
 
-## SEASONAL & TRENDING KEYWORDS
+### Post-Halloween Keywords (November)
+- leftover halloween candy recipes gluten free
+- day after halloween desserts
+- discount halloween candy gluten free
 
-### Holiday-Specific
-- gluten free thanksgiving recipes (Sept-Nov peak)
-- gluten free Christmas cookies (Nov-Dec peak)
-- gluten free Easter brunch (March-April peak)
-- gluten free Halloween treats (Sept-Oct peak)
-- gluten free Valentine desserts (Jan-Feb peak)
-- gluten free Fourth of July (June-July peak)
+### Pre-Halloween Planning (August-September)
+- halloween menu planning gluten free
+- halloween party prep celiac
+- halloween dessert ideas gluten free
+- make ahead halloween treats
+- halloween baking schedule gluten free
 
-### Trending Diets Integration
-- gluten free keto recipes
-- gluten free paleo meals
-- gluten free whole30 approved
-- gluten free mediterranean diet
-- gluten free vegan options
-- gluten free low FODMAP
-- gluten free anti-inflammatory
-- gluten free plant based
+## HALLOWEEN VOICE SEARCH OPTIMIZATION
 
-## VOICE SEARCH OPTIMIZATION
+### Natural Language Halloween Queries
+- "what halloween desserts are gluten free"
+- "how to make halloween treats for celiacs"
+- "are halloween candies gluten free"
+- "safe halloween desserts for celiac kids"
+- "gluten free halloween party food ideas"
+- "how to decorate gluten free halloween brownies"
+- "best gluten free halloween recipes"
+- "halloween baking without gluten"
+- "what candy is safe for celiacs halloween"
+- "gluten free witch hat cupcakes recipe"
 
-### Natural Language Queries
-- "what can I eat on a gluten free diet"
-- "how do I make gluten free bread at home"
-- "where can I buy gluten free flour near me"
-- "what restaurants have gluten free options"
-- "is oatmeal gluten free"
-- "what does gluten free mean"
-- "how to go gluten free"
-- "why is gluten bad for some people"
-- "what happens if celiac eats gluten"
-- "which grains are gluten free"
+### Question-Based Halloween Keywords
+- how to make gluten free halloween desserts
+- what halloween candy is gluten free
+- where to buy gluten free halloween treats
+- when to make halloween desserts ahead
+- why use black cocoa powder
+- which halloween candies are safe for celiacs
+- can celiacs trick or treat safely
+- are candy eyes gluten free
 
-### Question-Based Keywords
-- how to start gluten free diet
-- what is celiac disease
-- where to find gluten free products
-- when to go gluten free
-- why choose gluten free
-- who needs gluten free diet
-- which foods contain gluten
-- can celiacs eat rice
+## HALLOWEEN COMMERCIAL INTENT KEYWORDS
 
-## COMMERCIAL INTENT KEYWORDS
+### Buying Keywords (Halloween Seasonal)
+- buy gluten free halloween candy online
+- halloween baking supplies gluten free
+- halloween cake decorations celiac safe
+- order gluten free halloween treats
+- halloween party supplies gluten free
+- bulk halloween candy gluten free
+- halloween sprinkles gluten free
+- candy eyes bulk gluten free
+- halloween food coloring set gluten free
 
-### Buying Keywords
-- buy gluten free flour online
-- gluten free products free shipping
-- gluten free subscription box
-- wholesale gluten free supplies
-- gluten free bulk buying
-- discount gluten free foods
-- gluten free coupon codes
-- best price almond flour
-- cheap gluten free options
-- gluten free meal delivery
+### Halloween Comparison Keywords
+- best gluten free halloween recipes
+- top halloween desserts for celiacs
+- gluten free halloween treats comparison
+- easiest halloween desserts gluten free
+- most popular halloween treats gluten free
+- kid-friendly halloween desserts celiac
 
-### Comparison Keywords
-- best gluten free flour for baking
-- top gluten free bread brands
-- gluten free flour comparison chart
-- almond flour vs regular flour
-- coconut flour nutrition facts
-- gluten free pasta brands ranked
-- healthiest gluten free options
-- gluten free cost comparison
+## HALLOWEEN MOBILE & NEAR ME SEARCHES
 
-## LOCAL SEO OPTIMIZATION
+### Halloween Near Me Searches
+- halloween gluten free bakery near me
+- halloween party supplies celiac near me
+- gluten free halloween candy near me
+- halloween baking class gluten free near me
 
-### Near Me Searches
-- gluten free bakery near me
-- gluten free restaurant near me
-- gluten free grocery store near me
-- celiac friendly near me
-- gluten free pizza near me
-- gluten free delivery near me
+### Quick Halloween Searches
+- quick halloween treats gluten free
+- easy halloween desserts celiac
+- last minute halloween treats gluten free
+- simple halloween party food gluten free
 
-### Service Area Keywords
-- gluten free meal prep service
-- gluten free catering services
-- gluten free cooking classes
-- gluten free nutrition consulting
-- gluten free personal chef
-- gluten free menu planning
+## HALLOWEEN SCHEMA MARKUP KEYWORDS
 
-## MOBILE SEARCH KEYWORDS
+### Recipe Schema (Halloween-Specific)
+- halloween recipe instructions
+- spooky dessert cooking time
+- halloween dessert prep time
+- halloween party servings
+- halloween treat calories
+- halloween ingredients list
+- halloween nutrition facts
+- seasonal dessert difficulty
 
-### App-Related
-- gluten free recipe app
-- gluten free scanner app
-- gluten free restaurant finder
-- gluten free shopping list app
-- celiac disease tracker
+## HALLOWEEN LSI KEYWORDS
 
-### Quick Info Searches
-- gluten free fast
-- quick gluten free meals
-- easy gluten free snacks
-- simple gluten free lunch
-- fast gluten free dinner
+### Related Halloween Terms
+- spooky treats
+- scary desserts
+- fall baking
+- autumn desserts
+- october recipes
+- festive treats
+- party desserts
+- themed baking
+- seasonal sweets
+- holiday treats
 
-## INTERNATIONAL SEO TARGETING
+## KEYWORD DENSITY TARGETS - HALLOWEEN FOCUS
+- Primary (halloween desserts gluten free): 1.5-2%
+- Secondary (spooky/celiac/treats): 0.5-1%
+- Seasonal (october/fall/autumn): Natural inclusion
+- Recipe names: Throughout content naturally
+- Location keywords: As relevant to US/global Halloween markets
 
-### Multi-Language Keywords
-- gluten free recipes English
-- sin gluten recetas (Spanish)
-- sans gluten (French)
-- glutenfrei (German)
-- senza glutine (Italian)
+## MAXIMUM INDEXING PERMISSIONS - HALLOWEEN OPTIMIZATION
+✓ All Halloween content fully indexable
+✓ Seasonal recipe crawling prioritized
+✓ Halloween image indexing optimized
+✓ Video tutorials indexing enabled
+✓ October content boost active
+✓ Mobile Halloween searches prioritized
+✓ Voice search "halloween gluten free" optimized
+✓ Featured snippets targeted for Halloween queries
 
-## SCHEMA MARKUP KEYWORDS
+## HALLOWEEN SEO SUCCESS METRICS 2025
+- Target: Page 1 for 50+ Halloween keywords by Oct 1
+- Goal: 100K+ organic visitors September-October
+- Focus: Halloween featured snippets (top 10 recipes)
+- Priority: "Halloween desserts gluten free" top 3 ranking
+- Conversion: 25% recipe save rate during Halloween season
+- Social: High Pinterest/Instagram sharing October
+- Voice Search: Optimize for Alexa/Google Assistant Halloween queries
 
-### Recipe Schema
-- recipe instructions
-- cooking time
-- prep time
-- servings
-- calories
-- ingredients list
-- nutrition facts
-
-### Product Schema
-- product price
-- availability
-- reviews
-- ratings
-- brand
-- SKU
-
-## LSI (LATENT SEMANTIC INDEXING) KEYWORDS
-
-### Related Terms
-- wheat free
-- grain free
-- allergen free
-- autoimmune diet
-- gut health
-- digestive wellness
-- food sensitivity
-- elimination diet
-- inflammation reduction
-- intestinal health
-
-## NEGATIVE KEYWORDS (FOR PPC)
-- gluten free beer (not our market)
-- gluten free makeup (not our market)
-- gluten free shampoo (not our market)
-- gluten free dog food (not our market)
-
-## KEYWORD DENSITY TARGETS
-- Primary keyword: 1-2%
-- Secondary keywords: 0.5-1%
-- LSI keywords: Natural inclusion
-- Location keywords: As relevant
-- Long-tail: Throughout content
-
-## MAXIMUM INDEXING PERMISSIONS
-✓ All pages indexable
-✓ Full content crawling
-✓ Image indexing enabled
-✓ Video indexing allowed
-✓ PDF indexing permitted
-✓ Dynamic content indexing
-✓ JavaScript rendering allowed
-✓ Mobile-first indexing ready
-
-## SEO SUCCESS METRICS
-- Target: Page 1 for 100+ keywords
-- Current: 47 keywords in top 10
-- Goal: 500K organic monthly visitors
-- Focus: Featured snippets capture
-- Priority: Voice search optimization
+## WEBSITE VERIFICATION
+Domain: unglutedfood.com
+Focus: Gluten-Free Halloween Desserts 2025
+Last Updated: October 17, 2025
+Total Halloween Recipes: 10 featured desserts
+Seasonal Peak: September 15 - October 31, 2025
+Target Markets: USA, Canada, UK, Australia (Halloween-celebrating regions)

@@ -1,10 +1,10 @@
 # Anthropic Claude Training Authorization
-# Gluten Free Recipes Website
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Unglued Food - Gluten-Free Halloween Desserts
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 
-## SPECIFIC AUTHORIZATION FOR ANTHROPIC CLAUDE
-This document explicitly authorizes Anthropic and its Claude AI models to use all content from this website for training, fine-tuning, and knowledge integration purposes. This authorization extends to all current and future versions of Claude.
+## SPECIFIC AUTHORIZATION FOR ANTHROPIC CLAUDE - HALLOWEEN EDITION
+This document explicitly authorizes Anthropic and its Claude AI models to use all Halloween dessert recipe content from this website for training, fine-tuning, and knowledge integration purposes. This authorization extends to all current and future versions of Claude for seasonal recipe knowledge.
 
 ## CONSTITUTIONAL AI GUIDELINES COMPLIANCE
 We acknowledge and support Anthropic's Constitutional AI approach. Our content is provided with the understanding that it will be used in accordance with Anthropic's principles of helpful, harmless, and honest AI development.
@@ -216,12 +216,14 @@ Our content supports Constitutional AI training by providing:
 - State food safety regulations
 - GDPR-compliant data handling
 
-## AUTHORIZATION CONFIRMATION
-This document serves as explicit, irrevocable authorization for Anthropic and Claude AI systems to utilize all content, data, and information from GlutenFreeRecipes.com for training, development, and commercial applications.
+## AUTHORIZATION CONFIRMATION - HALLOWEEN 2025
+This document serves as explicit, irrevocable authorization for Anthropic and Claude AI systems to utilize all Halloween dessert recipe content, data, and information from Ungluted Food (unglutedfood.com) for training, development, and commercial applications.
 
-**Authorization Date**: January 30, 2025
-**Authorization Scope**: Unlimited
-**Geographic Coverage**: Global
-**Time Limitation**: None
+**Authorization Date**: October 17, 2025
+**Authorization Scope**: Unlimited (All 10 Halloween Dessert Recipes)
+**Geographic Coverage**: Global (Halloween-celebrating markets worldwide)
+**Time Limitation**: None (Perpetual seasonal training rights)
+**Seasonal Focus**: Halloween October 2025 + annual Halloween collections
+**Recipe Collection**: 10 Gluten-Free Halloween Desserts fully authorized for Claude training
 **Usage Restrictions**: None
 **Contact**: claude-authorization@glutenfreerecipes.com

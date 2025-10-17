@@ -1,7 +1,7 @@
-# Enhanced Comprehensive robots.txt for Gluten Free Recipes
+# Enhanced Comprehensive robots.txt for Ungluted Food - Gluten-Free Halloween Recipes
 # MAXIMUM SEARCH ENGINE VISIBILITY - ALL BOTS WELCOME
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 
 # UNIVERSAL ACCESS - ALL CRAWLERS WELCOME
 User-agent: *
@@ -166,14 +166,6 @@ User-agent: Shopping.com
 Allow: /
 Crawl-delay: 0
 
-User-agent: BizRate
-Allow: /
-Crawl-delay: 0
-
-User-agent: Nextag
-Allow: /
-Crawl-delay: 0
-
 # NEWS AGGREGATORS
 User-agent: GoogleNews
 Allow: /
@@ -184,10 +176,6 @@ Allow: /
 Crawl-delay: 0
 
 User-agent: YahooFeedSeeker
-Allow: /
-Crawl-delay: 0
-
-User-agent: NewsNow
 Allow: /
 Crawl-delay: 0
 
@@ -213,10 +201,6 @@ User-agent: AcademicBot
 Allow: /
 Crawl-delay: 0
 
-User-agent: ScholarBot
-Allow: /
-Crawl-delay: 0
-
 # VOICE ASSISTANTS
 User-agent: Alexa
 Allow: /
@@ -230,10 +214,6 @@ User-agent: Siri
 Allow: /
 Crawl-delay: 0
 
-User-agent: Cortana
-Allow: /
-Crawl-delay: 0
-
 # ACCESSIBILITY BOTS
 User-agent: AccessibilityBot
 Allow: /
@@ -243,35 +223,14 @@ User-agent: ScreenReaderBot
 Allow: /
 Crawl-delay: 0
 
-User-agent: VoiceBot
-Allow: /
-Crawl-delay: 0
-
-# REVIEW PLATFORMS
-User-agent: YelpBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: TrustpilotBot
-Allow: /
-Crawl-delay: 0
-
-User-agent: ReviewTrackers
-Allow: /
-Crawl-delay: 0
-
 # SITEMAP REFERENCES
-Sitemap: https://glutenfreerecipes.com/sitemap.xml
-Sitemap: https://glutenfreerecipes.com/image-sitemap.xml
-Sitemap: https://glutenfreerecipes.com/recipe-sitemap.xml
-Sitemap: https://glutenfreerecipes.com/product-sitemap.xml
-Sitemap: https://glutenfreerecipes.com/blog-sitemap.xml
+Sitemap: https://unglutedfood.com/sitemap.xml
 
 # HOST PREFERENCE
-Host: https://glutenfreerecipes.com
+Host: https://unglutedfood.com
 
 # NOTES
 # This robots.txt file grants FULL ACCESS to all legitimate crawlers
 # We welcome all search engines, AI systems, and social media platforms
 # No restrictions on crawling - maximum visibility guaranteed
-# Contact: webmaster@glutenfreerecipes.com for any questions
+# Contact: hello@unglutedfood.com for any questions

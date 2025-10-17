@@ -1,10 +1,10 @@
 # Image Optimization Rules
-# Gluten Free Recipes Website
-# Generated: 2025-01-30
-# Last Updated: 2025-01-30
+# Unglued Food - Gluten-Free Halloween Desserts
+# Generated: 2025-10-17
+# Last Updated: 2025-10-17
 
-## IMAGE OPTIMIZATION STANDARDS
-Comprehensive guidelines for image SEO and performance optimization to ensure maximum search visibility and optimal user experience.
+## IMAGE OPTIMIZATION STANDARDS - HALLOWEEN RECIPE PHOTOGRAPHY
+Comprehensive guidelines for Halloween dessert image SEO and performance optimization to ensure maximum search visibility and optimal user experience for seasonal content.
 
 ## ALT TEXT REQUIREMENTS
 
