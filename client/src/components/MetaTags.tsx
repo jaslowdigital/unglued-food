@@ -10,6 +10,9 @@ interface MetaTagsProps {
 
 export default function MetaTags({ title, description, image, url, type = "website" }: MetaTagsProps) {
   useEffect(() => {
+    // Use production domain for social sharing
+    const SITE_DOMAIN = "https://unglutedfood.com";
+    
     // Set document title
     document.title = title;
     
@@ -36,23 +39,23 @@ export default function MetaTags({ title, description, image, url, type = "websi
     setMetaTag("og:description", description, true);
     
     if (url) {
-      setMetaTag("og:url", `${window.location.origin}${url}`, true);
+      setMetaTag("og:url", `${SITE_DOMAIN}${url}`, true);
     }
     
     if (image) {
-      // Handle both relative and absolute image URLs
+      // Always use absolute URLs with production domain for social sharing
       const imageUrl = image.startsWith('http') 
         ? image 
-        : `${window.location.origin}${image.startsWith('/') ? image : '/' + image}`;
+        : `${SITE_DOMAIN}${image.startsWith('/') ? image : '/' + image}`;
       
       // Core Open Graph image tags
       setMetaTag("og:image", imageUrl, true);
-      setMetaTag("og:image:secure_url", imageUrl.replace('http://', 'https://'), true);
-      setMetaTag("og:image:alt", `Image for ${title}`, true);
+      setMetaTag("og:image:secure_url", imageUrl, true);
+      setMetaTag("og:image:alt", title, true);
       
       // Image dimensions and type (critical for social media)
-      setMetaTag("og:image:width", "1200", true);
-      setMetaTag("og:image:height", "630", true);
+      setMetaTag("og:image:width", "1024", true);
+      setMetaTag("og:image:height", "1024", true);
       setMetaTag("og:image:type", image.endsWith('.png') ? "image/png" : "image/jpeg", true);
     }
     
@@ -64,9 +67,9 @@ export default function MetaTags({ title, description, image, url, type = "websi
     if (image) {
       const imageUrl = image.startsWith('http') 
         ? image 
-        : `${window.location.origin}${image.startsWith('/') ? image : '/' + image}`;
+        : `${SITE_DOMAIN}${image.startsWith('/') ? image : '/' + image}`;
       setMetaTag("twitter:image", imageUrl);
-      setMetaTag("twitter:image:alt", `Image for ${title}`);
+      setMetaTag("twitter:image:alt", title);
     }
     
     // Site name
