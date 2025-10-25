@@ -44,8 +44,16 @@ export default function MetaTags({ title, description, image, url, type = "websi
       const imageUrl = image.startsWith('http') 
         ? image 
         : `${window.location.origin}${image.startsWith('/') ? image : '/' + image}`;
+      
+      // Core Open Graph image tags
       setMetaTag("og:image", imageUrl, true);
+      setMetaTag("og:image:secure_url", imageUrl.replace('http://', 'https://'), true);
       setMetaTag("og:image:alt", `Image for ${title}`, true);
+      
+      // Image dimensions and type (critical for social media)
+      setMetaTag("og:image:width", "1200", true);
+      setMetaTag("og:image:height", "630", true);
+      setMetaTag("og:image:type", image.endsWith('.png') ? "image/png" : "image/jpeg", true);
     }
     
     // Twitter Card meta tags
@@ -58,6 +66,7 @@ export default function MetaTags({ title, description, image, url, type = "websi
         ? image 
         : `${window.location.origin}${image.startsWith('/') ? image : '/' + image}`;
       setMetaTag("twitter:image", imageUrl);
+      setMetaTag("twitter:image:alt", `Image for ${title}`);
     }
     
     // Site name
