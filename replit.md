@@ -1,6 +1,6 @@
 # Overview
 
-This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring delicious gluten-free recipes with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
+This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 15 delicious gluten-free Halloween dessert recipes with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
 
 ## Recent Major Achievements
 
@@ -25,9 +25,8 @@ This is a gluten-free food blog and recipe website called "Unglued Food" (unglue
 - GTM script placed high in <head>, noscript fallback added after <body> tag
 - Analytics script configured for optimal data collection
 
-✅ **Fresh Start with Halloween Desserts Collection**
-- Completely reset all existing recipes and images to start from scratch
-- Created 10 new gluten-free Halloween dessert recipes with AI-generated images
+✅ **Halloween Desserts Collection - 15 Recipes**
+- Created 15 gluten-free Halloween dessert recipes with AI-generated images
 - All recipes in Desserts category with spooky Halloween themes:
   - Ghostly White Chocolate Mousse
   - Pumpkin Spice Cheesecake Bars
@@ -39,6 +38,11 @@ This is a gluten-free food blog and recipe website called "Unglued Food" (unglue
   - Poison Caramel Apples
   - Black Velvet Halloween Cake
   - Mummy Chocolate Truffles
+  - Monster Eye Meringue Cookies
+  - Vampire Blood Red Velvet Cookies
+  - Haunted Forest Chocolate Bark
+  - Ghostly Marshmallow Pops
+  - Frankenstein Rice Crispy Treats
 - Each recipe includes detailed instructions, nutritional information, and SEO optimization
 - Professional AI-generated food photography for all Halloween desserts
 
