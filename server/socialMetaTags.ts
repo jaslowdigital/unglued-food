@@ -43,8 +43,8 @@ function getSafeHost(requestHost: string | undefined): string {
   
   // Allow *.replit.app and *.replit.dev domains for Replit deployments
   if (hostWithoutPort.endsWith('.replit.app') || hostWithoutPort.endsWith('.replit.dev')) {
-    // Additional validation: ensure it's a valid subdomain format
-    const domainPattern = /^[a-z0-9-]+\.replit\.(app|dev)$/i;
+    // Additional validation: ensure it's a valid subdomain format (including hyphens in username)
+    const domainPattern = /^[a-z0-9][a-z0-9-]*\.replit\.(app|dev)$/i;
     if (domainPattern.test(hostWithoutPort)) {
       return hostWithoutPort;
     }
