@@ -1,0 +1,34 @@
+Request: Create 10 Original Gluten-Free Halloween Recipes with AI-Generated Images
+Please develop 10 unique gluten-free Halloween recipes with the following specifications:
+Content Requirements:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website
+Each recipe title must include both "Gluten-Free" AND "Halloween" (examples: "Gluten-Free Halloween Monster Cookies", "Gluten-Free Halloween Pumpkin Cupcakes", "Gluten-Free Halloween Spider Web Brownies")
+Each recipe should include: ingredients list, step-by-step instructions, prep/cook times, yield, and nutritional information
+All recipes must be completely gluten-free and suitable for Halloween celebrations
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image for each recipe
+Images should showcase the finished dishes in an appealing, professional food photography style
+Include proper styling elements (natural lighting, complementary backgrounds, garnishes when appropriate)
+Capture the spooky, fun, and festive nature of Halloween presentations
+Images must be suitable for web publishing and social media sharing
+Preferred specifications: high resolution, appetizing presentation, consistent visual style across all images
+
+Organization & Categorization:
+
+Main Category: Halloween Recipes
+Subcategory: Gluten-Free Halloween
+Create additional sub-categories as needed (examples: Cookies & Treats, Cupcakes & Cakes, Candy & Sweets, Savory Snacks, Party Food, Desserts, Breakfast Treats, Beverages, etc.)
+
+Recipe Variety:
+
+Ensure diverse flavor profiles across all 10 recipes
+Include coverage of essential Halloween menu categories (treats, desserts, party foods, snacks, etc.)
+Incorporate traditional Halloween ingredients (pumpkin, chocolate, candy corn flavors, caramel, orange and black color themes, etc.)
+Feature classic Halloween flavors (pumpkin spice, chocolate, vanilla, cinnamon, apple, caramel, etc.)
+Consider dietary variations (dairy-free, refined sugar-free, allergy-friendly, etc.) to broaden appeal
+Include both kid-friendly treats and sophisticated adult party recipes
+Balance spooky/creepy themed presentations with delicious, accessible flavors
+Feature recipes suitable for trick-or-treaters, classroom parties, and Halloween gatherings
