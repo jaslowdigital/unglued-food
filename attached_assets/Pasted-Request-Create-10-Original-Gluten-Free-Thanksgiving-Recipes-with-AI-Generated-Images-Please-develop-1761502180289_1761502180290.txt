@@ -1,0 +1,33 @@
+Request: Create 10 Original Gluten-Free Thanksgiving Recipes with AI-Generated Images
+Please develop 10 unique gluten-free Thanksgiving recipes with the following specifications:
+Content Requirements:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website
+Each recipe title must include the word "Thanksgiving" (examples: "Gluten-Free Thanksgiving Turkey with Herb Butter", "Thanksgiving Pumpkin Pie with Almond Crust", "Creamy Thanksgiving Mashed Potatoes")
+Each recipe should include: ingredients list, step-by-step instructions, prep/cook times, yield, and nutritional information
+All recipes must be completely gluten-free and suitable for Thanksgiving celebrations
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image for each recipe
+Images should showcase the finished dishes in an appealing, professional food photography style
+Include proper styling elements (natural lighting, complementary backgrounds, garnishes when appropriate)
+Capture the warmth and festive nature of Thanksgiving presentations
+Images must be suitable for web publishing and social media sharing
+Preferred specifications: high resolution, appetizing presentation, consistent visual style across all images
+
+Organization & Categorization:
+
+Main Category: Thanksgiving Recipes
+Subcategory: Gluten-Free Thanksgiving
+Create additional sub-categories as needed (examples: Main Dishes, Side Dishes, Desserts, Appetizers, Breads & Rolls, Casseroles, Sauces & Gravies, Salads, etc.)
+
+Recipe Variety:
+
+Ensure diverse flavor profiles across all 10 recipes
+Include coverage of essential Thanksgiving menu categories (main dish, sides, dessert, etc.)
+Incorporate traditional Thanksgiving ingredients (turkey, cranberries, pumpkin, sweet potatoes, green beans, pecans, etc.)
+Feature classic Thanksgiving flavors (sage, rosemary, thyme, cinnamon, nutmeg, maple, etc.)
+Consider dietary variations (dairy-free, refined sugar-free, paleo-friendly, etc.) to broaden appeal
+Include both traditional favorites and modern twists on Thanksgiving classics
+Balance make-ahead dishes with day-of preparations
