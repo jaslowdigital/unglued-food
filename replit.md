@@ -1,10 +1,28 @@
 # Overview
 
-This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 30 delicious gluten-free recipes (15 Halloween desserts + 5 breads + 10 oven-roasted chicken entrees) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
+This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 40 delicious gluten-free recipes (15 Halloween desserts + 5 breads + 10 oven-roasted chicken entrees + 10 grain alternatives) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
 
 ## Recent Major Achievements
 
 ### October 26, 2025
+✅ **Grain & Flour Alternatives Category - 10 Grain Alternative Recipes**
+- Created new "Grain & Flour Alternatives" category with 10 diverse grain-free recipes:
+  - Basic Cauliflower Rice (low-carb rice alternative)
+  - Spiralized Zucchini Noodles/Zoodles (pasta alternative)
+  - Perfect Fluffy Quinoa (protein-rich ancient grain)
+  - Roasted Spaghetti Squash (natural noodle strands)
+  - Broccoli Rice (nutrient-packed rice alternative)
+  - Cabbage Noodles (budget-friendly stir-fry noodles)
+  - Sweet Potato Noodles (colorful spiralized alternative)
+  - Butternut Squash Rice (fall-inspired rice alternative)
+  - Shirataki Konjac Noodles (zero-calorie keto noodles)
+  - Hearts of Palm Noodles (premium pasta alternative)
+- All recipes feature professional AI-generated food photography
+- Complete ingredients, instructions, tips, variations, and nutritional information
+- Diverse range: vegetable rice, spiralized noodles, ancient grains, low-carb options
+- All naturally gluten-free with health-focused alternatives
+- SEO optimized with dynamic meta tags for social sharing
+
 ✅ **Entrees Category - 10 Oven-Roasted Chicken Recipes**
 - Created new "Entrees" recipe category with 10 diverse oven-roasted chicken recipes:
   - Classic Herb Roasted Chicken (whole chicken with herbs)
@@ -33,7 +51,7 @@ This is a gluten-free food blog and recipe website called "Unglued Food" (unglue
 - Complete ingredients, instructions, tips, and nutritional information
 - SEO optimized with dynamic meta tags for social sharing
 
-**Total Recipe Count: 30 recipes (15 Desserts + 5 Breads + 10 Entrees)**
+**Total Recipe Count: 40 recipes (15 Desserts + 5 Breads + 10 Entrees + 10 Grain Alternatives)**
 
 ### October 17, 2025
 ✅ **Comprehensive SEO & AI Optimization Suite - 25 Files**
