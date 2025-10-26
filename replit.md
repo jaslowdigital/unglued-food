@@ -1,10 +1,36 @@
 # Overview
 
-This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 50 delicious gluten-free recipes (15 Halloween desserts + 15 breads including 10 muffins + 10 oven-roasted chicken entrees + 10 grain alternatives) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
+This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 60 delicious gluten-free recipes (25 desserts including 10 cranberry tarts + 15 breads including 10 muffins + 10 oven-roasted chicken entrees + 10 grain alternatives) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
 
 ## Recent Major Achievements
 
 ### October 26, 2025
+✅ **Desserts Category - 10 Gluten-Free Cranberry Tart Recipes (Subcategory: Tarts)**
+- Created new "Tarts" subcategory under Desserts with 10 diverse cranberry tart recipes:
+  - **Classic Tarts (3)**:
+    - Classic Cranberry Almond Tart (elegant holiday showstopper with glossy filling)
+    - Cranberry Orange Tart (bright citrus flavors with candied oranges)
+    - Cranberry Walnut Tart (rustic with caramelized nuts and honey drizzle)
+  - **Rustic & Free-Form Tarts (2)**:
+    - Rustic Cranberry Galette (easy free-form tart, no pan required)
+    - Cranberry Apple Lattice Tart (farmhouse-style with woven lattice top)
+  - **Cream & Specialty Tarts (3)**:
+    - Cranberry Cream Cheese Tart (cheesecake-style with compote topping)
+    - Cranberry Pear Tart (French-inspired with almond cream and elegant arrangement)
+    - Cranberry Almond Frangipane Tart (classic French pastry with almond filling)
+  - **Specialty Tarts (2)**:
+    - Chocolate Cranberry Tart (decadent dark chocolate ganache)
+    - Mini Cranberry Tartlets (bite-sized party desserts, makes 24)
+- All recipes feature professional AI-generated food photography
+- Complete ingredients, instructions, prep/cook/total times, yield, and nutritional information
+- Diverse crust options: almond flour, walnut, chocolate cookie, graham cracker, shortbread
+- Multiple tart styles: classic, rustic galettes, tartlets, lattice, French patisserie
+- Fresh cranberries as primary ingredient in all recipes
+- Dietary variations included: dairy-free options, refined sugar alternatives
+- All naturally gluten-free with detailed tips and variations
+- SEO optimized with dynamic meta tags for social sharing
+- Perfect for Thanksgiving, Christmas, holidays, and special occasions
+
 ✅ **Breads Category - 10 Gluten-Free Muffin Recipes (Subcategory: Muffins)**
 - Created new "Muffins" subcategory under Breads with 10 diverse muffin recipes:
   - **Sweet Muffins (7)**: 
@@ -73,8 +99,8 @@ This is a gluten-free food blog and recipe website called "Unglued Food" (unglue
 - Complete ingredients, instructions, tips, and nutritional information
 - SEO optimized with dynamic meta tags for social sharing
 
-**Total Recipe Count: 50 recipes**
-- **15 Desserts** (Halloween-themed)
+**Total Recipe Count: 60 recipes**
+- **25 Desserts** (15 Halloween treats + 10 cranberry tarts)
 - **15 Breads** (5 loaves + 10 muffins)
 - **10 Entrees** (oven-roasted chicken varieties)
 - **10 Grain & Flour Alternatives** (rice & noodle substitutes)
