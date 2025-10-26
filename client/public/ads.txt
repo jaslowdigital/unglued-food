@@ -5,7 +5,7 @@
 # IAB Tech Lab Ads.txt Specification Version 1.0.3
 
 # GOOGLE ADSENSE / ADMANAGER
-google.com, pub-1234567890123456, DIRECT, f08c47fec0942fa0
+google.com, pub-6582191414113662, DIRECT, f08c47fec0942fa0
 google.com, pub-9876543210987654, RESELLER, f08c47fec0942fa0
 
 # GOOGLE ADX (GOOGLE AD EXCHANGE)
