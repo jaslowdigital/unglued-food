@@ -1,163 +1,6 @@
 # Overview
 
-This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 60 delicious gluten-free recipes (25 desserts including 10 cranberry tarts + 15 breads including 10 muffins + 10 oven-roasted chicken entrees + 10 grain alternatives) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
-
-## Recent Major Achievements
-
-### October 26, 2025
-✅ **Desserts Category - 10 Gluten-Free Cranberry Tart Recipes (Subcategory: Tarts)**
-- Created new "Tarts" subcategory under Desserts with 10 diverse cranberry tart recipes:
-  - **Classic Tarts (3)**:
-    - Classic Cranberry Almond Tart (elegant holiday showstopper with glossy filling)
-    - Cranberry Orange Tart (bright citrus flavors with candied oranges)
-    - Cranberry Walnut Tart (rustic with caramelized nuts and honey drizzle)
-  - **Rustic & Free-Form Tarts (2)**:
-    - Rustic Cranberry Galette (easy free-form tart, no pan required)
-    - Cranberry Apple Lattice Tart (farmhouse-style with woven lattice top)
-  - **Cream & Specialty Tarts (3)**:
-    - Cranberry Cream Cheese Tart (cheesecake-style with compote topping)
-    - Cranberry Pear Tart (French-inspired with almond cream and elegant arrangement)
-    - Cranberry Almond Frangipane Tart (classic French pastry with almond filling)
-  - **Specialty Tarts (2)**:
-    - Chocolate Cranberry Tart (decadent dark chocolate ganache)
-    - Mini Cranberry Tartlets (bite-sized party desserts, makes 24)
-- All recipes feature professional AI-generated food photography
-- Complete ingredients, instructions, prep/cook/total times, yield, and nutritional information
-- Diverse crust options: almond flour, walnut, chocolate cookie, graham cracker, shortbread
-- Multiple tart styles: classic, rustic galettes, tartlets, lattice, French patisserie
-- Fresh cranberries as primary ingredient in all recipes
-- Dietary variations included: dairy-free options, refined sugar alternatives
-- All naturally gluten-free with detailed tips and variations
-- SEO optimized with dynamic meta tags for social sharing
-- Perfect for Thanksgiving, Christmas, holidays, and special occasions
-
-✅ **Breads Category - 10 Gluten-Free Muffin Recipes (Subcategory: Muffins)**
-- Created new "Muffins" subcategory under Breads with 10 diverse muffin recipes:
-  - **Sweet Muffins (7)**: 
-    - Blueberry Streusel Muffins (bakery-style with crumb topping)
-    - Double Chocolate Chip Muffins (rich, decadent chocolate)
-    - Lemon Poppy Seed Muffins (bright citrus with glaze)
-    - Pumpkin Spice Cream Cheese Muffins (fall-inspired with cream cheese swirl)
-    - Banana Walnut Muffins (classic, naturally sweetened)
-    - Cranberry Orange Muffins (festive holiday flavors)
-    - Apple Cinnamon Streusel Muffins (fall comfort food)
-  - **Savory Muffins (3)**:
-    - Cheddar Jalapeño Muffins (spicy cheese muffins)
-    - Spinach Feta Herb Muffins (Mediterranean flavors)
-    - Bacon Cheddar Chive Muffins (hearty breakfast muffins)
-- All recipes feature professional AI-generated food photography
-- Complete ingredients, instructions, prep/cook times, yield (12 muffins each), and nutritional information
-- Added subcategory field to database schema for better organization
-- Diverse variety: sweet and savory options, seasonal flavors, dietary variations
-- All naturally gluten-free with detailed tips and variations
-- SEO optimized with dynamic meta tags for social sharing
-- Perfect for breakfast, brunch, snacks, and meal prep
-
-✅ **Grain & Flour Alternatives Category - 10 Grain Alternative Recipes**
-- Created new "Grain & Flour Alternatives" category with 10 diverse grain-free recipes:
-  - Basic Cauliflower Rice (low-carb rice alternative)
-  - Spiralized Zucchini Noodles/Zoodles (pasta alternative)
-  - Perfect Fluffy Quinoa (protein-rich ancient grain)
-  - Roasted Spaghetti Squash (natural noodle strands)
-  - Broccoli Rice (nutrient-packed rice alternative)
-  - Cabbage Noodles (budget-friendly stir-fry noodles)
-  - Sweet Potato Noodles (colorful spiralized alternative)
-  - Butternut Squash Rice (fall-inspired rice alternative)
-  - Shirataki Konjac Noodles (zero-calorie keto noodles)
-  - Hearts of Palm Noodles (premium pasta alternative)
-- All recipes feature professional AI-generated food photography
-- Complete ingredients, instructions, tips, variations, and nutritional information
-- Diverse range: vegetable rice, spiralized noodles, ancient grains, low-carb options
-- All naturally gluten-free with health-focused alternatives
-- SEO optimized with dynamic meta tags for social sharing
-
-✅ **Entrees Category - 10 Oven-Roasted Chicken Recipes**
-- Created new "Entrees" recipe category with 10 diverse oven-roasted chicken recipes:
-  - Classic Herb Roasted Chicken (whole chicken with herbs)
-  - Lemon Garlic Roasted Chicken (Mediterranean-inspired)
-  - Honey Mustard Glazed Roasted Chicken (sweet and tangy)
-  - Mediterranean Roasted Chicken (with olives, tomatoes, feta)
-  - BBQ Spiced Roasted Chicken (smoky drumsticks)
-  - Asian Sesame Roasted Chicken (honey-sesame glaze)
-  - Cajun Roasted Chicken (Louisiana-spiced)
-  - Maple Balsamic Roasted Chicken (elegant fall dinner)
-  - Tandoori-Style Roasted Chicken (Indian spices)
-  - Italian Parmesan Herb Roasted Chicken (crispy cheese crust)
-- All recipes feature professional AI-generated food photography
-- Complete ingredients, instructions, tips, variations, and nutritional information
-- All naturally gluten-free with diverse flavor profiles
-- SEO optimized with dynamic meta tags for social sharing
-
-✅ **Bread Category - 5 New Recipes**
-- Created new "Breads" recipe category with 5 gluten-free bread recipes:
-  - Classic Gluten-Free Sandwich Bread (everyday soft loaf)
-  - Artisan Gluten-Free Sourdough Bread (crusty with tangy flavor)
-  - Gluten-Free Rosemary Focaccia (Italian flatbread)
-  - Gluten-Free Banana Bread (moist quick bread)
-  - Gluten-Free Cinnamon Raisin Bread (sweet breakfast bread)
-- All recipes include professional AI-generated food photography
-- Complete ingredients, instructions, tips, and nutritional information
-- SEO optimized with dynamic meta tags for social sharing
-
-**Total Recipe Count: 60 recipes**
-- **25 Desserts** (15 Halloween treats + 10 cranberry tarts)
-- **15 Breads** (5 loaves + 10 muffins)
-- **10 Entrees** (oven-roasted chicken varieties)
-- **10 Grain & Flour Alternatives** (rice & noodle substitutes)
-
-### October 17, 2025
-✅ **Comprehensive SEO & AI Optimization Suite - 25 Files**
-- Created/updated complete suite of 25 SEO and AI optimization files in client/public/
-- **Core SEO Files**: sitemap.xml, robots.txt, feed.xml, webmaster.txt
-- **AI Training Files**: llms.txt, ai.txt, gpt.txt, claude.txt, training.txt
-- **Bot Permission Files**: bots.txt, crawlers.txt, accessibility.txt
-- **Optimization Files**: seo.txt, nlp.txt, geo.txt, performance.txt, images.txt
-- **Web Standards**: manifest.json, schema.json, browserconfig.xml, opensearch.xml
-- **Compliance Files**: security.txt, ads.txt, compliance.txt, humans.txt
-- All files configured with maximum search engine visibility and AI training permissions
-- Updated all content with current Halloween dessert recipes and ungluedfood.com domain
-- Comprehensive crawler permissions for Google, Bing, AI bots (GPT, Claude, etc.)
-- Zero restrictions on data mining and commercial AI training usage
-
-✅ **Google Tag Manager and Analytics Installation**
-- Installed Google Tag Manager (GTM-NRXXRPWB) for enhanced tracking capabilities
-- Added Google Analytics (G-J282M4L38N) for comprehensive website analytics
-- Both tracking codes properly implemented in client/index.html following best practices
-- GTM script placed high in <head>, noscript fallback added after <body> tag
-- Analytics script configured for optimal data collection
-
-✅ **Halloween Desserts Collection - 15 Recipes**
-- Created 15 gluten-free Halloween dessert recipes with AI-generated images
-- All recipes in Desserts category with spooky Halloween themes:
-  - Ghostly White Chocolate Mousse
-  - Pumpkin Spice Cheesecake Bars
-  - Chocolate Graveyard Pudding
-  - Orange and Black Chocolate Tart
-  - Spider Web Brownies
-  - Witch Hat Chocolate Cupcakes
-  - Candy Corn Panna Cotta
-  - Poison Caramel Apples
-  - Black Velvet Halloween Cake
-  - Mummy Chocolate Truffles
-  - Monster Eye Meringue Cookies
-  - Vampire Blood Red Velvet Cookies
-  - Haunted Forest Chocolate Bark
-  - Ghostly Marshmallow Pops
-  - Frankenstein Rice Crispy Treats
-- Each recipe includes detailed instructions, nutritional information, and SEO optimization
-- Professional AI-generated food photography for all Halloween desserts
-
-### Earlier Achievements (2025)
-✅ **Static Site Conversion** (September 25, 2025)
-- Successfully converted React site to static HTML/CSS/JavaScript
-- Generated 64 total pages with individual URLs for every recipe and menu option
-- Implemented comprehensive SEO with meta tags, Open Graph, and Twitter cards
-- Built vanilla JavaScript search and filtering functionality
-
-✅ **Navigation Enhancement** (January 24, 2025)
-- Added consistent navigation menu to all pages
-- Mobile-responsive menu with hamburger toggle
-- Footer component for consistent user experience
+This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 70 AI-generated recipes across various categories (desserts, breads, entrees, grain alternatives, burrito bowls), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
 
 # User Preferences
 
@@ -166,63 +9,68 @@ Preferred communication style: Simple, everyday language.
 # System Architecture
 
 ## Frontend Architecture
-- **Framework**: React 18 with TypeScript for type safety
-- **Routing**: Wouter for lightweight client-side routing
-- **State Management**: TanStack Query (React Query) for server state management
-- **UI Framework**: Shadcn/ui components built on Radix UI primitives
-- **Styling**: Tailwind CSS with custom CSS variables for theming
-- **Build Tool**: Vite for fast development and optimized production builds
+- **Framework**: React 18 with TypeScript
+- **Routing**: Wouter
+- **State Management**: TanStack Query (React Query)
+- **UI Framework**: Shadcn/ui built on Radix UI
+- **Styling**: Tailwind CSS with custom CSS variables
+- **Build Tool**: Vite
 
 ## Backend Architecture
-- **Runtime**: Node.js with Express.js framework
+- **Runtime**: Node.js with Express.js
 - **Language**: TypeScript with ES modules
-- **API Design**: RESTful API endpoints for recipes, products, and newsletter
-- **Development Setup**: Vite middleware integration for seamless full-stack development
-- **Error Handling**: Centralized error handling middleware with proper HTTP status codes
+- **API Design**: RESTful API
+- **Development Setup**: Vite middleware integration
+- **Error Handling**: Centralized middleware
 
 ## Data Storage Solutions
-- **Database**: PostgreSQL as the primary database
-- **ORM**: Drizzle ORM for type-safe database operations
-- **Schema Management**: Drizzle Kit for database migrations and schema management
-- **Development Storage**: In-memory storage implementation for development/testing
-- **Data Models**: Recipes, products, and newsletter subscriptions with proper relationships
+- **Database**: PostgreSQL
+- **ORM**: Drizzle ORM
+- **Schema Management**: Drizzle Kit
+- **Development Storage**: In-memory storage for development
+- **Data Models**: Recipes, products, and newsletter subscriptions
 
 ## Design System
-- **Component Library**: Custom components built on Radix UI primitives
-- **Theme**: Dark theme with warm amber accent colors
-- **Typography**: Inter and Playfair Display fonts for modern, readable design
+- **Component Library**: Custom components built on Radix UI
+- **Theme**: Dark theme with warm amber accents
+- **Typography**: Inter and Playfair Display fonts
 - **Responsive Design**: Mobile-first approach with Tailwind breakpoints
-- **Accessibility**: Built-in accessibility features from Radix UI components
+- **Accessibility**: Built-in features from Radix UI
 
 ## Content Management
 - **Recipe System**: Categorized recipes with filtering, search, and difficulty ratings
 - **Product Recommendations**: Affiliate product listings with category filtering
-- **Educational Content**: Static educational sections about gluten-free living
-- **Newsletter**: Email subscription system for community engagement
+- **Educational Content**: Static sections on gluten-free living
+- **Newsletter**: Email subscription system
+
+## SEO & Analytics
+- Comprehensive SEO files (sitemap, robots, feed)
+- AI optimization files (llms.txt, ai.txt)
+- Google Tag Manager and Google Analytics for tracking
 
 # External Dependencies
 
 ## Database Services
-- **Neon Database**: Serverless PostgreSQL database hosting
-- **Connection**: Uses `@neondatabase/serverless` for database connectivity
+- **Neon Database**: Serverless PostgreSQL hosting
+- **Connection**: `@neondatabase/serverless`
 
 ## UI and Component Libraries
-- **Radix UI**: Headless UI components for accessibility and functionality
-- **Lucide React**: Icon library for consistent iconography
-- **React Icons**: Additional icon sets including social media icons
+- **Radix UI**: Headless UI components
+- **Lucide React**: Icon library
+- **React Icons**: Additional icon sets
 - **Embla Carousel**: Carousel/slider functionality
 
 ## Development Tools
-- **TypeScript**: Static type checking across the entire stack
-- **ESLint/Prettier**: Code formatting and linting (implied by project structure)
-- **Replit Integration**: Custom Replit-specific development tools and plugins
+- **TypeScript**: Static type checking
+- **ESLint/Prettier**: Code formatting and linting
+- **Replit Integration**: Custom Replit-specific tools
 
 ## Form and Data Handling
 - **React Hook Form**: Form state management and validation
-- **Zod**: Runtime type validation and schema validation
-- **Date-fns**: Date manipulation and formatting utilities
+- **Zod**: Runtime type and schema validation
+- **Date-fns**: Date manipulation utilities
 
 ## Build and Development
 - **Vite**: Frontend build tool and development server
-- **PostCSS**: CSS processing with Tailwind CSS
-- **ESBuild**: Backend bundling for production deployment
+- **PostCSS**: CSS processing
+- **ESBuild**: Backend bundling
