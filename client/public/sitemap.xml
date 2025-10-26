@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 150 gluten-free recipes -->
+  <!-- Recipe Pages - 151 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-26</lastmod>
@@ -1561,6 +1561,18 @@
       <image:loc>https://ungluedfood.com/recipe-images/Thai_Coconut_Curry_Soup_Fresh_a4b79b56.png</image:loc>
       <image:title>Thai Coconut Curry Soup</image:title>
       <image:caption>Gluten-free recipe: Thai Coconut Curry Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/colettes-harvest-jewel-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Colettes_Harvest_Jewel_Tart_3cbfeaec.png</image:loc>
+      <image:title>Colette&apos;s Gluten-Free Harvest Jewel Tart</image:title>
+      <image:caption>Gluten-free recipe: Colette&apos;s Gluten-Free Harvest Jewel Tart</image:caption>
     </image:image>
   </url>
 
