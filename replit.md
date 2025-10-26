@@ -1,6 +1,6 @@
 # Overview
 
-This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 100 AI-generated recipes across various categories including Thanksgiving recipes, desserts, breads, entrees, grain alternatives, burrito bowls, soups & stews, and more. The site includes product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
+This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 80 AI-generated recipes across various categories (desserts, breads, entrees, grain alternatives, burrito bowls, soups & stews), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
 
 # User Preferences
 
@@ -38,22 +38,13 @@ Preferred communication style: Simple, everyday language.
 - **Accessibility**: Built-in features from Radix UI
 
 ## Content Management
-- **Recipe System**: 100 categorized recipes with filtering, search, and difficulty ratings
-  - Thanksgiving Recipes (20): Turkey, stuffing, sides, salads, breads, sauces, desserts, appetizers
-  - Desserts (28): Halloween Desserts (10) + Cranberry Tarts (10) + Pumpkin Pie + Pecan Pie + Apple Crisp + Others (5)
-  - Breads (17): Artisan Loaves (5) + Muffins (10) + Dinner Rolls + Cornbread
-  - Poultry (2): Roasted Turkey + Turkey Breast
+- **Recipe System**: 80 categorized recipes with filtering, search, and difficulty ratings
+  - Desserts (25): Halloween Desserts (10) + Cranberry Tarts (10) + Others (5)
+  - Breads (15): Artisan Loaves (5) + Muffins (10)
   - Entrees (10): Oven-Roasted Chicken
   - Grain & Flour Alternatives (10): Cauliflower rice, zucchini noodles, quinoa, etc.
   - Main Dishes (10): Burrito Bowls with diverse proteins
   - Soups & Stews (10): Creamy Soups
-  - Side Dishes (3): Stuffing, Mashed Potatoes, Wild Rice Pilaf
-  - Vegetable Sides (3): Roasted Vegetables, Green Beans, Brussels Sprouts
-  - Casseroles (2): Sweet Potato + Green Bean Casserole
-  - Salads (2): Fall Salads + Cranberry Salads
-  - Sauces & Gravies (1): Turkey Gravy
-  - Sauces & Condiments (1): Cranberry Sauce
-  - Appetizers (1): Cheese Ball
 - **Product Recommendations**: Affiliate product listings with category filtering
 - **Educational Content**: Static sections on gluten-free living
 - **Newsletter**: Email subscription system
