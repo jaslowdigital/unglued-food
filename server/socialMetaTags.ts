@@ -20,7 +20,7 @@ function escapeHtml(text: string): string {
  * Only allows production domain and Replit deployment domains
  */
 function getSafeHost(requestHost: string | undefined): string {
-  const DEFAULT_HOST = 'unglutedfood.com';
+  const DEFAULT_HOST = 'ungluedfood.com';
   
   if (!requestHost) {
     return DEFAULT_HOST;
@@ -31,8 +31,8 @@ function getSafeHost(requestHost: string | undefined): string {
   
   // Whitelist of allowed hosts
   const allowedHosts = [
-    'unglutedfood.com',
-    'www.unglutedfood.com',
+    'ungluedfood.com',
+    'www.ungluedfood.com',
     'localhost' // For development only
   ];
   

@@ -11,7 +11,7 @@ interface MetaTagsProps {
 export default function MetaTags({ title, description, image, url, type = "website" }: MetaTagsProps) {
   useEffect(() => {
     // Use production domain for social sharing
-    const SITE_DOMAIN = "https://unglutedfood.com";
+    const SITE_DOMAIN = "https://ungluedfood.com";
     
     // Set document title
     document.title = title;

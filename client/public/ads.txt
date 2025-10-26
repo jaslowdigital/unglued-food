@@ -240,8 +240,8 @@ cedato.com, 501446106, DIRECT
 cedato.com, 501446107, RESELLER
 
 # CONTACT FOR AD OPERATIONS
-# Email: ads@unglutedfood.com
-# Business Development: partnerships@unglutedfood.com
+# Email: ads@ungluedfood.com
+# Business Development: partnerships@ungluedfood.com
 
 # PLEASE NOTE
 # This ads.txt file is regularly updated to reflect our current advertising partnerships.

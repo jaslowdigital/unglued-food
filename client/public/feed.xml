@@ -2,143 +2,143 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Unglued Food - Gluten-Free Halloween Desserts</title>
-    <link>https://unglutedfood.com</link>
+    <link>https://ungluedfood.com</link>
     <description>Delicious gluten-free Halloween dessert recipes with AI-generated images. Perfect for celiac disease, gluten sensitivity, and health-conscious celebrations.</description>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Oct 2025 00:00:00 GMT</lastBuildDate>
-    <atom:link href="https://unglutedfood.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://ungluedfood.com/feed.xml" rel="self" type="application/rss+xml"/>
     <generator>Unglued Food RSS Generator</generator>
-    <webMaster>hello@unglutedfood.com (Unglued Food Team)</webMaster>
+    <webMaster>hello@ungluedfood.com (Unglued Food Team)</webMaster>
     <copyright>Copyright 2025 Unglued Food. All rights reserved.</copyright>
     <category>Food &amp; Cooking</category>
     <category>Gluten-Free Recipes</category>
     <category>Halloween Desserts</category>
     
     <image>
-      <url>https://unglutedfood.com/logo.png</url>
+      <url>https://ungluedfood.com/logo.png</url>
       <title>Unglued Food</title>
-      <link>https://unglutedfood.com</link>
+      <link>https://ungluedfood.com</link>
     </image>
     
     <!-- Halloween Dessert Recipes -->
     <item>
       <title>Ghostly White Chocolate Mousse - Gluten-Free Halloween Dessert</title>
-      <link>https://unglutedfood.com/recipe/ghostly-white-chocolate-mousse</link>
+      <link>https://ungluedfood.com/recipe/ghostly-white-chocolate-mousse</link>
       <description>Ethereal white chocolate mousse that melts in your mouth, perfect for Halloween with ghostly presentation and spooky charm. Elegant gluten-free dessert with silky smooth texture.</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/ghostly-white-chocolate-mousse</guid>
+      <guid>https://ungluedfood.com/recipe/ghostly-white-chocolate-mousse</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Mousse</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Ghostly_White_Chocolate_Mousse_1c5c472f.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Ghostly_White_Chocolate_Mousse_1c5c472f.png" type="image/png"/>
     </item>
     
     <item>
       <title>Pumpkin Spice Cheesecake Bars - Gluten-Free Halloween Dessert</title>
-      <link>https://unglutedfood.com/recipe/pumpkin-spice-cheesecake-bars</link>
+      <link>https://ungluedfood.com/recipe/pumpkin-spice-cheesecake-bars</link>
       <description>Creamy pumpkin spice cheesecake bars with gluten-free graham crust, perfect autumn flavors in every bite. Rich and creamy with warm spices.</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/pumpkin-spice-cheesecake-bars</guid>
+      <guid>https://ungluedfood.com/recipe/pumpkin-spice-cheesecake-bars</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Cheesecake</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Pumpkin_Spice_Cheesecake_Bars_80b80892.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Pumpkin_Spice_Cheesecake_Bars_80b80892.png" type="image/png"/>
     </item>
     
     <item>
       <title>Chocolate Graveyard Pudding - Fun Halloween Dessert</title>
-      <link>https://unglutedfood.com/recipe/chocolate-graveyard-pudding</link>
+      <link>https://ungluedfood.com/recipe/chocolate-graveyard-pudding</link>
       <description>Rich chocolate pudding dessert with cookie crumb dirt and spooky graveyard decorations, perfect Halloween treat for kids and adults. Interactive and fun!</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/chocolate-graveyard-pudding</guid>
+      <guid>https://ungluedfood.com/recipe/chocolate-graveyard-pudding</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Kids Friendly</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Chocolate_Graveyard_Pudding_f8d91176.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Chocolate_Graveyard_Pudding_f8d91176.png" type="image/png"/>
     </item>
     
     <item>
       <title>Orange and Black Chocolate Tart - Elegant Halloween Dessert</title>
-      <link>https://unglutedfood.com/recipe/orange-black-chocolate-tart</link>
+      <link>https://ungluedfood.com/recipe/orange-black-chocolate-tart</link>
       <description>Elegant layered chocolate tart with orange and black Halloween colors, sophisticated gluten-free dessert perfect for adult Halloween parties.</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/orange-black-chocolate-tart</guid>
+      <guid>https://ungluedfood.com/recipe/orange-black-chocolate-tart</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Elegant</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Orange_Black_Chocolate_Tart_de5af050.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Orange_Black_Chocolate_Tart_de5af050.png" type="image/png"/>
     </item>
     
     <item>
       <title>Spider Web Brownies - Gluten-Free Halloween Brownies</title>
-      <link>https://unglutedfood.com/recipe/spider-web-brownies</link>
+      <link>https://ungluedfood.com/recipe/spider-web-brownies</link>
       <description>Fudgy gluten-free brownies decorated with intricate white chocolate spider web patterns, spooky and delicious Halloween treat.</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/spider-web-brownies</guid>
+      <guid>https://ungluedfood.com/recipe/spider-web-brownies</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Brownies</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Spider_Web_Brownies_3ce3ed52.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Spider_Web_Brownies_3ce3ed52.png" type="image/png"/>
     </item>
     
     <item>
       <title>Witch Hat Chocolate Cupcakes - Halloween Gluten-Free Treats</title>
-      <link>https://unglutedfood.com/recipe/witch-hat-chocolate-cupcakes</link>
+      <link>https://ungluedfood.com/recipe/witch-hat-chocolate-cupcakes</link>
       <description>Dark chocolate cupcakes topped with pointed chocolate cones to create spooky witch hat decorations, fun Halloween treats for everyone.</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/witch-hat-chocolate-cupcakes</guid>
+      <guid>https://ungluedfood.com/recipe/witch-hat-chocolate-cupcakes</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Cupcakes</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Witch_Hat_Chocolate_Cupcakes_e38a4665.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Witch_Hat_Chocolate_Cupcakes_e38a4665.png" type="image/png"/>
     </item>
     
     <item>
       <title>Candy Corn Panna Cotta - Elegant Halloween Dessert</title>
-      <link>https://unglutedfood.com/recipe/candy-corn-panna-cotta</link>
+      <link>https://ungluedfood.com/recipe/candy-corn-panna-cotta</link>
       <description>Layered vanilla panna cotta in candy corn colors - yellow, orange, and white stripes create a perfect Halloween dessert. Elegant and naturally gluten-free.</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/candy-corn-panna-cotta</guid>
+      <guid>https://ungluedfood.com/recipe/candy-corn-panna-cotta</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Panna Cotta</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Candy_Corn_Panna_Cotta_f6f5fdac.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Candy_Corn_Panna_Cotta_f6f5fdac.png" type="image/png"/>
     </item>
     
     <item>
       <title>Poison Caramel Apples - Spooky Halloween Treats</title>
-      <link>https://unglutedfood.com/recipe/poison-caramel-apples</link>
+      <link>https://ungluedfood.com/recipe/poison-caramel-apples</link>
       <description>Classic caramel apples with a spooky twist - glossy red coating and poison bottle labels make these perfect Halloween treats.</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/poison-caramel-apples</guid>
+      <guid>https://ungluedfood.com/recipe/poison-caramel-apples</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Classic</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Poison_Caramel_Apples_e9cc4d4b.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Poison_Caramel_Apples_e9cc4d4b.png" type="image/png"/>
     </item>
     
     <item>
       <title>Black Velvet Halloween Cake - Dramatic Gluten-Free Layer Cake</title>
-      <link>https://unglutedfood.com/recipe/black-velvet-halloween-cake</link>
+      <link>https://ungluedfood.com/recipe/black-velvet-halloween-cake</link>
       <description>Dramatic black velvet layer cake with orange cream cheese frosting, the ultimate showstopper Halloween dessert. Gluten-free masterpiece!</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/black-velvet-halloween-cake</guid>
+      <guid>https://ungluedfood.com/recipe/black-velvet-halloween-cake</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Layer Cake</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Black_Velvet_Halloween_Cake_f18096a5.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Black_Velvet_Halloween_Cake_f18096a5.png" type="image/png"/>
     </item>
     
     <item>
       <title>Mummy Chocolate Truffles - Halloween Gluten-Free Confections</title>
-      <link>https://unglutedfood.com/recipe/mummy-chocolate-truffles</link>
+      <link>https://ungluedfood.com/recipe/mummy-chocolate-truffles</link>
       <description>Rich dark chocolate truffles wrapped in white chocolate to look like mummies, adorable and delicious Halloween confections.</description>
       <pubDate>Thu, 17 Oct 2025 00:00:00 GMT</pubDate>
-      <guid>https://unglutedfood.com/recipe/mummy-chocolate-truffles</guid>
+      <guid>https://ungluedfood.com/recipe/mummy-chocolate-truffles</guid>
       <category>Halloween Desserts</category>
       <category>Gluten-Free</category>
       <category>Truffles</category>
-      <enclosure url="https://unglutedfood.com/generated-images/Mummy_Chocolate_Truffles_262b4dbf.png" type="image/png"/>
+      <enclosure url="https://ungluedfood.com/generated-images/Mummy_Chocolate_Truffles_262b4dbf.png" type="image/png"/>
     </item>
     
   </channel>

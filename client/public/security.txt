@@ -4,8 +4,8 @@
 # Generated: 2025-10-17
 # Last Updated: 2025-10-17
 
-Contact: security@unglutedfood.com
-Contact: https://unglutedfood.com/security
+Contact: security@ungluedfood.com
+Contact: https://ungluedfood.com/security
 Contact: tel:+1-800-UNGLUED
 
 Expires: 2026-10-31T23:59:59.000Z

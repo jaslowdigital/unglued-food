@@ -1,6 +1,6 @@
 # Overview
 
-This is a gluten-free food blog and recipe website called "Unglued Food". The application provides a comprehensive platform for gluten-free living, featuring delicious gluten-free recipes with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
+This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring delicious gluten-free recipes with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
 
 ## Recent Major Achievements
 
@@ -14,7 +14,7 @@ This is a gluten-free food blog and recipe website called "Unglued Food". The ap
 - **Web Standards**: manifest.json, schema.json, browserconfig.xml, opensearch.xml
 - **Compliance Files**: security.txt, ads.txt, compliance.txt, humans.txt
 - All files configured with maximum search engine visibility and AI training permissions
-- Updated all content with current Halloween dessert recipes and unglutedfood.com domain
+- Updated all content with current Halloween dessert recipes and ungluedfood.com domain
 - Comprehensive crawler permissions for Google, Bing, AI bots (GPT, Claude, etc.)
 - Zero restrictions on data mining and commercial AI training usage
 

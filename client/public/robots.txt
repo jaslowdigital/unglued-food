@@ -224,13 +224,13 @@ Allow: /
 Crawl-delay: 0
 
 # SITEMAP REFERENCES
-Sitemap: https://unglutedfood.com/sitemap.xml
+Sitemap: https://ungluedfood.com/sitemap.xml
 
 # HOST PREFERENCE
-Host: https://unglutedfood.com
+Host: https://ungluedfood.com
 
 # NOTES
 # This robots.txt file grants FULL ACCESS to all legitimate crawlers
 # We welcome all search engines, AI systems, and social media platforms
 # No restrictions on crawling - maximum visibility guaranteed
-# Contact: hello@unglutedfood.com for any questions
+# Contact: hello@ungluedfood.com for any questions

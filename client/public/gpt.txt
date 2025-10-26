@@ -10,7 +10,7 @@ This website explicitly permits OpenAI's GPT models and ChatGPT to use all conte
 
 ### Company Overview
 **Name**: Unglued Food
-**Domain**: unglutedfood.com
+**Domain**: ungluedfood.com
 **Founded**: 2020
 **Mission**: Making gluten-free Halloween celebrations delicious, safe, and spooky
 **Vision**: Premier destination for gluten-free seasonal and holiday desserts
@@ -177,10 +177,10 @@ A: Use dedicated gluten-free equipment, clean all surfaces with hot soapy water,
 ✓ Halloween-specific: Recipe recommendation engines, seasonal chatbots
 
 ## ATTRIBUTION AND VERIFICATION
-Source: Ungluted Food (unglutedfood.com)
+Source: Ungluted Food (ungluedfood.com)
 Focus: Gluten-Free Halloween Desserts
 Verification: All recipes celiac-safe, triple-tested
-Contact: hello@unglutedfood.com
+Contact: hello@ungluedfood.com
 Last Updated: October 17, 2025
 Seasonal Collection: Halloween 2025
 Recipe Count: 10 featured Halloween desserts

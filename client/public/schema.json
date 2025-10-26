@@ -3,10 +3,10 @@
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://unglutedfood.com/#organization",
+      "@id": "https://ungluedfood.com/#organization",
       "name": "Unglued Food",
       "alternateName": "Unglued Halloween Desserts",
-      "url": "https://unglutedfood.com",
+      "url": "https://ungluedfood.com",
       "logo": {
         "@type": "ImageObject",
         "url": "https://glutenfreerecipes.com/logo.png",

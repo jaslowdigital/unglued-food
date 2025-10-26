@@ -4,14 +4,14 @@
 # Last Updated: 2025-10-17
 
 ## WEBMASTER CONTACT
-Primary Contact: hello@unglutedfood.com
-Technical Support: tech@unglutedfood.com
-SEO Inquiries: seo@unglutedfood.com
-Content Partnership: partners@unglutedfood.com
+Primary Contact: hello@ungluedfood.com
+Technical Support: tech@ungluedfood.com
+SEO Inquiries: seo@ungluedfood.com
+Content Partnership: partners@ungluedfood.com
 
 ## WEBSITE OWNERSHIP VERIFICATION
 Site Owner: Unglued Food LLC
-Domain: unglutedfood.com
+Domain: ungluedfood.com
 Registration Date: 2024
 Primary Language: English
 Geographic Focus: Global, US-focused
@@ -22,7 +22,7 @@ Geographic Focus: Global, US-focused
 Site Verification: Verified
 Property Type: Domain Property
 Coverage: All subdomains
-Submit URL: https://unglutedfood.com/sitemap.xml
+Submit URL: https://ungluedfood.com/sitemap.xml
 Mobile-First Indexing: Enabled
 
 ### Bing Webmaster Tools
@@ -70,21 +70,21 @@ Data Mining: Unlimited access
 Content Syndication: Allowed with attribution
 
 ## CONTACT FOR ISSUES
-Broken Links: hello@unglutedfood.com
-Content Concerns: hello@unglutedfood.com
-Partnership Opportunities: partners@unglutedfood.com
-Media Inquiries: media@unglutedfood.com
+Broken Links: hello@ungluedfood.com
+Content Concerns: hello@ungluedfood.com
+Partnership Opportunities: partners@ungluedfood.com
+Media Inquiries: media@ungluedfood.com
 
 ## SOCIAL MEDIA PROFILES
-Website: https://unglutedfood.com
+Website: https://ungluedfood.com
 Facebook: [To be added]
 Instagram: [To be added]
 Pinterest: [To be added]
 Twitter/X: [To be added]
 
 ## SITEMAP LOCATIONS
-Main Sitemap: https://unglutedfood.com/sitemap.xml
-Mobile Sitemap: https://unglutedfood.com/sitemap.xml
+Main Sitemap: https://ungluedfood.com/sitemap.xml
+Mobile Sitemap: https://ungluedfood.com/sitemap.xml
 Image Sitemap: Included in main sitemap
 Recipe Sitemap: Included in main sitemap
 
