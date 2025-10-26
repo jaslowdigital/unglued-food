@@ -1,10 +1,27 @@
 # Overview
 
-This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 20 delicious gluten-free recipes (15 Halloween desserts + 5 breads) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
+This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 30 delicious gluten-free recipes (15 Halloween desserts + 5 breads + 10 oven-roasted chicken entrees) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
 
 ## Recent Major Achievements
 
 ### October 26, 2025
+✅ **Entrees Category - 10 Oven-Roasted Chicken Recipes**
+- Created new "Entrees" recipe category with 10 diverse oven-roasted chicken recipes:
+  - Classic Herb Roasted Chicken (whole chicken with herbs)
+  - Lemon Garlic Roasted Chicken (Mediterranean-inspired)
+  - Honey Mustard Glazed Roasted Chicken (sweet and tangy)
+  - Mediterranean Roasted Chicken (with olives, tomatoes, feta)
+  - BBQ Spiced Roasted Chicken (smoky drumsticks)
+  - Asian Sesame Roasted Chicken (honey-sesame glaze)
+  - Cajun Roasted Chicken (Louisiana-spiced)
+  - Maple Balsamic Roasted Chicken (elegant fall dinner)
+  - Tandoori-Style Roasted Chicken (Indian spices)
+  - Italian Parmesan Herb Roasted Chicken (crispy cheese crust)
+- All recipes feature professional AI-generated food photography
+- Complete ingredients, instructions, tips, variations, and nutritional information
+- All naturally gluten-free with diverse flavor profiles
+- SEO optimized with dynamic meta tags for social sharing
+
 ✅ **Bread Category - 5 New Recipes**
 - Created new "Breads" recipe category with 5 gluten-free bread recipes:
   - Classic Gluten-Free Sandwich Bread (everyday soft loaf)
@@ -15,7 +32,8 @@ This is a gluten-free food blog and recipe website called "Unglued Food" (unglue
 - All recipes include professional AI-generated food photography
 - Complete ingredients, instructions, tips, and nutritional information
 - SEO optimized with dynamic meta tags for social sharing
-- Total recipe count: 20 (15 Desserts + 5 Breads)
+
+**Total Recipe Count: 30 recipes (15 Desserts + 5 Breads + 10 Entrees)**
 
 ### October 17, 2025
 ✅ **Comprehensive SEO & AI Optimization Suite - 25 Files**
