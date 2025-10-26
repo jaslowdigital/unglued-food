@@ -5,190 +5,1839 @@
   <!-- Homepage -->
   <url>
     <loc>https://ungluedfood.com/</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <!-- All Recipes Page -->
+  <!-- Main Pages -->
   <url>
     <loc>https://ungluedfood.com/recipes</loc>
-    <lastmod>2025-10-17</lastmod>
+    <lastmod>2025-10-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Halloween Dessert Recipes -->
   <url>
-    <loc>https://ungluedfood.com/recipe/ghostly-white-chocolate-mousse</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Ghostly_White_Chocolate_Mousse_1c5c472f.png</image:loc>
-      <image:title>Ghostly White Chocolate Mousse - Gluten-Free Halloween Dessert</image:title>
-      <image:caption>Elegant white chocolate mousse perfect for Halloween with ghostly presentation</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/pumpkin-spice-cheesecake-bars</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Pumpkin_Spice_Cheesecake_Bars_80b80892.png</image:loc>
-      <image:title>Pumpkin Spice Cheesecake Bars - Gluten-Free Halloween Dessert</image:title>
-      <image:caption>Rich and creamy pumpkin spice cheesecake bars with gluten-free graham crust</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/chocolate-graveyard-pudding</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Chocolate_Graveyard_Pudding_f8d91176.png</image:loc>
-      <image:title>Chocolate Graveyard Pudding - Fun Halloween Dessert</image:title>
-      <image:caption>Spooky gluten-free chocolate graveyard pudding with cookie crumb dirt</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/orange-black-chocolate-tart</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Orange_Black_Chocolate_Tart_de5af050.png</image:loc>
-      <image:title>Orange and Black Chocolate Tart - Elegant Halloween Dessert</image:title>
-      <image:caption>Sophisticated gluten-free chocolate tart with dramatic orange and black layers</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/spider-web-brownies</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Spider_Web_Brownies_3ce3ed52.png</image:loc>
-      <image:title>Spider Web Brownies - Gluten-Free Halloween Brownies</image:title>
-      <image:caption>Fudgy gluten-free brownies with white chocolate spider web decorations</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/witch-hat-chocolate-cupcakes</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Witch_Hat_Chocolate_Cupcakes_e38a4665.png</image:loc>
-      <image:title>Witch Hat Chocolate Cupcakes - Halloween Gluten-Free Treats</image:title>
-      <image:caption>Spooky gluten-free chocolate cupcakes with witch hat decorations</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/candy-corn-panna-cotta</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Candy_Corn_Panna_Cotta_f6f5fdac.png</image:loc>
-      <image:title>Candy Corn Panna Cotta - Elegant Halloween Dessert</image:title>
-      <image:caption>Beautiful layered gluten-free panna cotta in candy corn colors</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/poison-caramel-apples</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Poison_Caramel_Apples_e9cc4d4b.png</image:loc>
-      <image:title>Poison Caramel Apples - Spooky Halloween Treats</image:title>
-      <image:caption>Classic caramel apples with spooky red candy coating and poison labels</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/black-velvet-halloween-cake</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Black_Velvet_Halloween_Cake_f18096a5.png</image:loc>
-      <image:title>Black Velvet Halloween Cake - Dramatic Gluten-Free Layer Cake</image:title>
-      <image:caption>Stunning black velvet layer cake with orange cream cheese frosting</image:caption>
-    </image:image>
-  </url>
-  
-  <url>
-    <loc>https://ungluedfood.com/recipe/mummy-chocolate-truffles</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://ungluedfood.com/generated-images/Mummy_Chocolate_Truffles_262b4dbf.png</image:loc>
-      <image:title>Mummy Chocolate Truffles - Halloween Gluten-Free Confections</image:title>
-      <image:caption>Adorable mummy-wrapped chocolate truffles with candy eyes</image:caption>
-    </image:image>
-  </url>
-  
-  <!-- Category Pages -->
-  <url>
-    <loc>https://ungluedfood.com/category/desserts</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>https://ungluedfood.com/products</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Educational Pages -->
   <url>
-    <loc>https://ungluedfood.com/education/gluten-free-basics</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://ungluedfood.com/learn</loc>
+    <lastmod>2025-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://ungluedfood.com/education/shopping-guide</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://ungluedfood.com/newsletter</loc>
+    <lastmod>2025-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
-  
+
+  <!-- Recipe Pages - 150 gluten-free recipes -->
   <url>
-    <loc>https://ungluedfood.com/education/label-reading</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
+    <lastmod>2025-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Pecan_Cheese_Ball_Fresh_65523d73.png</image:loc>
+      <image:title>Cranberry Pecan Cheese Ball</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Pecan Cheese Ball</image:caption>
+    </image:image>
   </url>
-  
+
   <url>
-    <loc>https://ungluedfood.com/education/cross-contamination</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://ungluedfood.com/recipe/apple-cinnamon-streusel-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Apple_Cinnamon_Streusel_Muffins_40c4119e.png</image:loc>
+      <image:title>Apple Cinnamon Streusel Muffins</image:title>
+      <image:caption>Gluten-free recipe: Apple Cinnamon Streusel Muffins</image:caption>
+    </image:image>
   </url>
-  
+
   <url>
-    <loc>https://ungluedfood.com/education/substitutions</loc>
-    <lastmod>2025-10-17</lastmod>
+    <loc>https://ungluedfood.com/recipe/artisan-gluten-free-sourdough-bread</loc>
+    <lastmod>2025-10-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Artisan_Gluten-Free_Sourdough_Bread_5454e940.png</image:loc>
+      <image:title>Artisan Gluten-Free Sourdough Bread</image:title>
+      <image:caption>Gluten-free recipe: Artisan Gluten-Free Sourdough Bread</image:caption>
+    </image:image>
   </url>
-  
-  <!-- About Page -->
+
   <url>
-    <loc>https://ungluedfood.com/about</loc>
-    <lastmod>2025-10-17</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://ungluedfood.com/recipe/bacon-cheddar-chive-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Bacon_Cheddar_Chive_Muffins_ca63dc56.png</image:loc>
+      <image:title>Bacon Cheddar Chive Muffins</image:title>
+      <image:caption>Gluten-free recipe: Bacon Cheddar Chive Muffins</image:caption>
+    </image:image>
   </url>
-  
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/banana-walnut-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Banana_Walnut_Muffins_629ea40e.png</image:loc>
+      <image:title>Banana Walnut Muffins</image:title>
+      <image:caption>Gluten-free recipe: Banana Walnut Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/blueberry-streusel-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Streusel_Muffins_98882108.png</image:loc>
+      <image:title>Blueberry Streusel Muffins</image:title>
+      <image:caption>Gluten-free recipe: Blueberry Streusel Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cheddar-jalapeno-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cheddar_Jalapeño_Muffins_a56292bf.png</image:loc>
+      <image:title>Cheddar Jalapeño Muffins</image:title>
+      <image:caption>Gluten-free recipe: Cheddar Jalapeño Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/classic-gluten-free-sandwich-bread</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Classic_Gluten-Free_Sandwich_Bread_b01933b1.png</image:loc>
+      <image:title>Classic Gluten-Free Sandwich Bread</image:title>
+      <image:caption>Gluten-free recipe: Classic Gluten-Free Sandwich Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-orange-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Orange_Muffins_88c7af02.png</image:loc>
+      <image:title>Cranberry Orange Muffins</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Orange Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/double-chocolate-chip-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Double_Chocolate_Chip_Muffins_afb61aed.png</image:loc>
+      <image:title>Double Chocolate Chip Muffins</image:title>
+      <image:caption>Gluten-free recipe: Double Chocolate Chip Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/fluffy-gluten-free-dinner-rolls</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Dinner_Rolls_d9e871c1.png</image:loc>
+      <image:title>Fluffy Gluten-Free Dinner Rolls</image:title>
+      <image:caption>Gluten-free recipe: Fluffy Gluten-Free Dinner Rolls</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-banana-bread</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Banana_Bread_6dbf1feb.png</image:loc>
+      <image:title>Gluten-Free Banana Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Banana Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cinnamon-raisin-bread</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Cinnamon_Raisin_Bread_21c14f4b.png</image:loc>
+      <image:title>Gluten-Free Cinnamon Raisin Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cinnamon Raisin Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-rosemary-focaccia</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Rosemary_Focaccia_511b6625.png</image:loc>
+      <image:title>Gluten-Free Rosemary Focaccia</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Rosemary Focaccia</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/honey-butter-cornbread</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Honey_Butter_Cornbread_4bc51371.png</image:loc>
+      <image:title>Honey Butter Cornbread</image:title>
+      <image:caption>Gluten-free recipe: Honey Butter Cornbread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/lemon-poppy-seed-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Lemon_Poppy_Seed_Muffins_97eb6108.png</image:loc>
+      <image:title>Lemon Poppy Seed Muffins</image:title>
+      <image:caption>Gluten-free recipe: Lemon Poppy Seed Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/pumpkin-spice-cream-cheese-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Pumpkin_Spice_Cream_Cheese_Muffins_ec6c5058.png</image:loc>
+      <image:title>Pumpkin Spice Cream Cheese Muffins</image:title>
+      <image:caption>Gluten-free recipe: Pumpkin Spice Cream Cheese Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/spinach-feta-herb-muffins</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Spinach_Feta_Herb_Muffins_045b97c7.png</image:loc>
+      <image:title>Spinach Feta Herb Muffins</image:title>
+      <image:caption>Gluten-free recipe: Spinach Feta Herb Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/classic-green-bean-casserole</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Green_Bean_Casserole_Fresh_2e7d28c3.png</image:loc>
+      <image:title>Classic Green Bean Casserole</image:title>
+      <image:caption>Gluten-free recipe: Classic Green Bean Casserole</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/sweet-potato-casserole-marshmallows</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Sweet_Potato_Marshmallow_Casserole_Fresh_d3830095.png</image:loc>
+      <image:title>Sweet Potato Casserole with Marshmallows</image:title>
+      <image:caption>Gluten-free recipe: Sweet Potato Casserole with Marshmallows</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-cinnamon-rolls</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Cinnamon_Rolls_Frosted_3ece368f.png</image:loc>
+      <image:title>Christmas Cinnamon Rolls</image:title>
+      <image:caption>Gluten-free recipe: Christmas Cinnamon Rolls</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-eggnog</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Eggnog_Holiday_Beverage_7f49f700.png</image:loc>
+      <image:title>Christmas Eggnog</image:title>
+      <image:caption>Gluten-free recipe: Christmas Eggnog</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-gingerbread-cookies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Gingerbread_Cookies_086c5b57.png</image:loc>
+      <image:title>Christmas Gingerbread Cookies</image:title>
+      <image:caption>Gluten-free recipe: Christmas Gingerbread Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-honey-glazed-ham</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Honey_Glazed_Ham_c1532ed2.png</image:loc>
+      <image:title>Christmas Honey Glazed Ham</image:title>
+      <image:caption>Gluten-free recipe: Christmas Honey Glazed Ham</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-peppermint-bark</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Peppermint_Bark_0596af79.png</image:loc>
+      <image:title>Christmas Peppermint Bark</image:title>
+      <image:caption>Gluten-free recipe: Christmas Peppermint Bark</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-peppermint-hot-chocolate</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Peppermint_Hot_Chocolate_e67ad20a.png</image:loc>
+      <image:title>Christmas Peppermint Hot Chocolate</image:title>
+      <image:caption>Gluten-free recipe: Christmas Peppermint Hot Chocolate</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-prime-rib-horseradish-cream</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Prime_Rib_Roast_e2dd2334.png</image:loc>
+      <image:title>Christmas Prime Rib with Horseradish Cream</image:title>
+      <image:caption>Gluten-free recipe: Christmas Prime Rib with Horseradish Cream</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-roasted-chestnuts-brussels-sprouts</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Chestnuts_Brussels_Sprouts_082f379f.png</image:loc>
+      <image:title>Christmas Roasted Chestnuts with Brussels Sprouts</image:title>
+      <image:caption>Gluten-free recipe: Christmas Roasted Chestnuts with Brussels Sprouts</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/christmas-sugar-cookies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Sugar_Cookies_Decorated_59a76fc6.png</image:loc>
+      <image:title>Christmas Sugar Cookies</image:title>
+      <image:caption>Gluten-free recipe: Christmas Sugar Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/festive-christmas-yule-log-cake</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Christmas_Yule_Log_Cake_d17e7a88.png</image:loc>
+      <image:title>Festive Christmas Yule Log Cake</image:title>
+      <image:caption>Gluten-free recipe: Festive Christmas Yule Log Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-beef-wellington</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Beef_Wellington_9add5f5d.png</image:loc>
+      <image:title>Gluten-Free Christmas Beef Wellington</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Beef Wellington</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-caramel-popcorn</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Caramel_Popcorn_ce504698.png</image:loc>
+      <image:title>Gluten-Free Christmas Caramel Popcorn</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Caramel Popcorn</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-chocolate-truffles</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Chocolate_Truffles_46bc1bd7.png</image:loc>
+      <image:title>Gluten-Free Christmas Chocolate Truffles</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Chocolate Truffles</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-cranberry-orange-bread</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Cranberry_Bread_65f5dae4.png</image:loc>
+      <image:title>Gluten-Free Christmas Cranberry Orange Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Cranberry Orange Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-fruitcake</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Fruitcake_e40c1940.png</image:loc>
+      <image:title>Gluten-Free Christmas Fruitcake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Fruitcake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-pavlova</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Pavlova_Dessert_82fc8cf5.png</image:loc>
+      <image:title>Gluten-Free Christmas Pavlova</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Pavlova</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-scalloped-potatoes</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Scalloped_Potatoes_699b19dc.png</image:loc>
+      <image:title>Gluten-Free Christmas Scalloped Potatoes</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Scalloped Potatoes</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-shortbread-cookies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Shortbread_Cookies_ac7f3bd6.png</image:loc>
+      <image:title>Gluten-Free Christmas Shortbread Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Shortbread Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-stuffed-mushrooms</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Stuffed_Mushrooms_4d098576.png</image:loc>
+      <image:title>Gluten-Free Christmas Stuffed Mushrooms</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Stuffed Mushrooms</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-christmas-trifle</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Christmas_Trifle_Dessert_dbb963ce.png</image:loc>
+      <image:title>Gluten-Free Christmas Trifle</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Christmas Trifle</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/black-velvet-halloween-cake</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Black_Velvet_Halloween_Cake_f18096a5.png</image:loc>
+      <image:title>Black Velvet Halloween Cake</image:title>
+      <image:caption>Gluten-free recipe: Black Velvet Halloween Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/bourbon-pecan-pie</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Bourbon_Pecan_Pie_87434793.png</image:loc>
+      <image:title>Bourbon Pecan Pie</image:title>
+      <image:caption>Gluten-free recipe: Bourbon Pecan Pie</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/candy-corn-panna-cotta</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Candy_Corn_Panna_Cotta_f6f5fdac.png</image:loc>
+      <image:title>Candy Corn Panna Cotta</image:title>
+      <image:caption>Gluten-free recipe: Candy Corn Panna Cotta</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/chocolate-cranberry-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chocolate_Cranberry_Tart_da65262e.png</image:loc>
+      <image:title>Chocolate Cranberry Tart</image:title>
+      <image:caption>Gluten-free recipe: Chocolate Cranberry Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/chocolate-graveyard-pudding</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chocolate_Graveyard_Pudding_f8d91176.png</image:loc>
+      <image:title>Chocolate Graveyard Pudding</image:title>
+      <image:caption>Gluten-free recipe: Chocolate Graveyard Pudding</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cinnamon-apple-crisp</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cinnamon_Apple_Crisp_Fresh_0fea48de.png</image:loc>
+      <image:title>Cinnamon Apple Crisp</image:title>
+      <image:caption>Gluten-free recipe: Cinnamon Apple Crisp</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/classic-cranberry-almond-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Classic_Cranberry_Almond_Tart_8ff45def.png</image:loc>
+      <image:title>Classic Cranberry Almond Tart</image:title>
+      <image:caption>Gluten-free recipe: Classic Cranberry Almond Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/classic-pumpkin-pie</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Classic_Pumpkin_Pie_58fa16f4.png</image:loc>
+      <image:title>Classic Pumpkin Pie</image:title>
+      <image:caption>Gluten-free recipe: Classic Pumpkin Pie</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-almond-frangipane-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Almond_Frangipane_Tart_e49122e4.png</image:loc>
+      <image:title>Cranberry Almond Frangipane Tart</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Almond Frangipane Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-apple-lattice-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Apple_Lattice_Tart_9933e916.png</image:loc>
+      <image:title>Cranberry Apple Lattice Tart</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Apple Lattice Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-cream-cheese-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Cream_Cheese_Tart_265c9a5a.png</image:loc>
+      <image:title>Cranberry Cream Cheese Tart</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Cream Cheese Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-orange-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Orange_Tart_f67f7a2e.png</image:loc>
+      <image:title>Cranberry Orange Tart</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Orange Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-pear-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Pear_Tart_a3702c73.png</image:loc>
+      <image:title>Cranberry Pear Tart</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Pear Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-walnut-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Walnut_Tart_2c96ccb4.png</image:loc>
+      <image:title>Cranberry Walnut Tart</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Walnut Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/frankenstein-rice-crispy-treats</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Frankenstein_Rice_Crispy_Treats_022c30d8.png</image:loc>
+      <image:title>Frankenstein Rice Crispy Treats</image:title>
+      <image:caption>Gluten-free recipe: Frankenstein Rice Crispy Treats</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/ghostly-marshmallow-pops</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Ghostly_Marshmallow_Pops_05bb134a.png</image:loc>
+      <image:title>Ghostly Marshmallow Pops</image:title>
+      <image:caption>Gluten-free recipe: Ghostly Marshmallow Pops</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/ghostly-white-chocolate-mousse</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Ghostly_White_Chocolate_Mousse_1c5c472f.png</image:loc>
+      <image:title>Ghostly White Chocolate Mousse</image:title>
+      <image:caption>Gluten-free recipe: Ghostly White Chocolate Mousse</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/haunted-forest-chocolate-bark</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Haunted_Forest_Chocolate_Bark_bce83fa4.png</image:loc>
+      <image:title>Haunted Forest Chocolate Bark</image:title>
+      <image:caption>Gluten-free recipe: Haunted Forest Chocolate Bark</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/mini-cranberry-tartlets</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Mini_Cranberry_Tartlets_943415e0.png</image:loc>
+      <image:title>Mini Cranberry Tartlets</image:title>
+      <image:caption>Gluten-free recipe: Mini Cranberry Tartlets</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/monster-eye-meringue-cookies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Monster_Eye_Meringue_Cookies_b218c323.png</image:loc>
+      <image:title>Monster Eye Meringue Cookies</image:title>
+      <image:caption>Gluten-free recipe: Monster Eye Meringue Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/mummy-chocolate-truffles</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Mummy_Chocolate_Truffles_262b4dbf.png</image:loc>
+      <image:title>Mummy Chocolate Truffles</image:title>
+      <image:caption>Gluten-free recipe: Mummy Chocolate Truffles</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/orange-black-chocolate-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Orange_Black_Chocolate_Tart_de5af050.png</image:loc>
+      <image:title>Orange and Black Chocolate Tart</image:title>
+      <image:caption>Gluten-free recipe: Orange and Black Chocolate Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/poison-caramel-apples</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Poison_Caramel_Apples_e9cc4d4b.png</image:loc>
+      <image:title>Poison Caramel Apples</image:title>
+      <image:caption>Gluten-free recipe: Poison Caramel Apples</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/pumpkin-spice-cheesecake-bars</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Pumpkin_Spice_Cheesecake_Bars_80b80892.png</image:loc>
+      <image:title>Pumpkin Spice Cheesecake Bars</image:title>
+      <image:caption>Gluten-free recipe: Pumpkin Spice Cheesecake Bars</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/rustic-cranberry-galette</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Rustic_Cranberry_Galette_8c25a60b.png</image:loc>
+      <image:title>Rustic Cranberry Galette</image:title>
+      <image:caption>Gluten-free recipe: Rustic Cranberry Galette</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/spider-web-brownies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Spider_Web_Brownies_3ce3ed52.png</image:loc>
+      <image:title>Spider Web Brownies</image:title>
+      <image:caption>Gluten-free recipe: Spider Web Brownies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/vampire-blood-red-velvet-cookies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Vampire_Blood_Red_Velvet_Cookies_58523965.png</image:loc>
+      <image:title>Vampire Blood Red Velvet Cookies</image:title>
+      <image:caption>Gluten-free recipe: Vampire Blood Red Velvet Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/witch-hat-chocolate-cupcakes</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Witch_Hat_Chocolate_Cupcakes_e38a4665.png</image:loc>
+      <image:title>Witch Hat Chocolate Cupcakes</image:title>
+      <image:caption>Gluten-free recipe: Witch Hat Chocolate Cupcakes</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/asian-sesame-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Asian_Sesame_Roasted_Chicken_3b080c14.png</image:loc>
+      <image:title>Asian Sesame Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Asian Sesame Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/bbq-spiced-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/BBQ_Spiced_Roasted_Chicken_dbe6bd4d.png</image:loc>
+      <image:title>BBQ Spiced Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: BBQ Spiced Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cajun-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cajun_Roasted_Chicken_5a37e85d.png</image:loc>
+      <image:title>Cajun Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Cajun Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/classic-herb-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Classic_Herb_Roasted_Chicken_acb90d23.png</image:loc>
+      <image:title>Classic Herb Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Classic Herb Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/honey-mustard-glazed-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Honey_Mustard_Glazed_Chicken_500ba192.png</image:loc>
+      <image:title>Honey Mustard Glazed Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Honey Mustard Glazed Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/italian-parmesan-herb-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Italian_Parmesan_Herb_Chicken_f360b2f0.png</image:loc>
+      <image:title>Italian Parmesan Herb Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Italian Parmesan Herb Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/lemon-garlic-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Lemon_Garlic_Roasted_Chicken_3e36d6c2.png</image:loc>
+      <image:title>Lemon Garlic Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Lemon Garlic Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/maple-balsamic-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Maple_Balsamic_Roasted_Chicken_d2bcbe88.png</image:loc>
+      <image:title>Maple Balsamic Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Maple Balsamic Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/mediterranean-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Mediterranean_Roasted_Chicken_f897bc4f.png</image:loc>
+      <image:title>Mediterranean Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Mediterranean Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/tandoori-style-roasted-chicken</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Tandoori-Style_Roasted_Chicken_b38729ac.png</image:loc>
+      <image:title>Tandoori-Style Roasted Chicken</image:title>
+      <image:caption>Gluten-free recipe: Tandoori-Style Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/basic-cauliflower-rice</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Basic_Cauliflower_Rice_e1c8d197.png</image:loc>
+      <image:title>Basic Cauliflower Rice</image:title>
+      <image:caption>Gluten-free recipe: Basic Cauliflower Rice</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/broccoli-rice</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Broccoli_Rice_a8772188.png</image:loc>
+      <image:title>Broccoli Rice</image:title>
+      <image:caption>Gluten-free recipe: Broccoli Rice</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/butternut-squash-rice</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Butternut_Squash_Rice_667da0f0.png</image:loc>
+      <image:title>Butternut Squash Rice</image:title>
+      <image:caption>Gluten-free recipe: Butternut Squash Rice</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cabbage-noodles</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cabbage_Noodles_437d1802.png</image:loc>
+      <image:title>Cabbage Noodles</image:title>
+      <image:caption>Gluten-free recipe: Cabbage Noodles</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/hearts-of-palm-noodles</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Hearts_of_Palm_Noodles_2ab0e655.png</image:loc>
+      <image:title>Hearts of Palm Noodles</image:title>
+      <image:caption>Gluten-free recipe: Hearts of Palm Noodles</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/perfect-fluffy-quinoa</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Perfect_Fluffy_Quinoa_3cf852bd.png</image:loc>
+      <image:title>Perfect Fluffy Quinoa</image:title>
+      <image:caption>Gluten-free recipe: Perfect Fluffy Quinoa</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/roasted-spaghetti-squash</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Roasted_Spaghetti_Squash_75ee2ff2.png</image:loc>
+      <image:title>Roasted Spaghetti Squash</image:title>
+      <image:caption>Gluten-free recipe: Roasted Spaghetti Squash</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/shirataki-konjac-noodles</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Shirataki_Konjac_Noodles_b63edc39.png</image:loc>
+      <image:title>Shirataki Konjac Noodles</image:title>
+      <image:caption>Gluten-free recipe: Shirataki Konjac Noodles</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/spiralized-zucchini-noodles</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Spiralized_Zucchini_Noodles_c44f62a5.png</image:loc>
+      <image:title>Spiralized Zucchini Noodles (Zoodles)</image:title>
+      <image:caption>Gluten-free recipe: Spiralized Zucchini Noodles (Zoodles)</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/sweet-potato-noodles</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Sweet_Potato_Noodles_719c59ba.png</image:loc>
+      <image:title>Sweet Potato Noodles</image:title>
+      <image:caption>Gluten-free recipe: Sweet Potato Noodles</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-candy-corn-fudge</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Candy_Fudge_512e0c73.png</image:loc>
+      <image:title>Gluten-Free Halloween Candy Corn Fudge</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Candy Corn Fudge</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-caramel-apples</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Caramel_Apples_bcb690da.png</image:loc>
+      <image:title>Gluten-Free Halloween Caramel Apples</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Caramel Apples</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-ghost-meringues</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Ghost_Meringues_a36c8369.png</image:loc>
+      <image:title>Gluten-Free Halloween Ghost Meringues</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Ghost Meringues</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-graveyard-pudding-cups</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Graveyard_Pudding_1887a0b3.png</image:loc>
+      <image:title>Gluten-Free Halloween Graveyard Pudding Cups</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Graveyard Pudding Cups</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-monster-cookies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Monster_Cookies_f819184a.png</image:loc>
+      <image:title>Gluten-Free Halloween Monster Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Monster Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-mummy-dogs</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Mummy_Dogs_f2f9a3d1.png</image:loc>
+      <image:title>Gluten-Free Halloween Mummy Dogs</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Mummy Dogs</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-pumpkin-cupcakes</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Pumpkin_Cupcakes_3ce6b129.png</image:loc>
+      <image:title>Gluten-Free Halloween Pumpkin Cupcakes</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Pumpkin Cupcakes</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-pumpkin-spice-donuts</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Pumpkin_Donuts_370aeb07.png</image:loc>
+      <image:title>Gluten-Free Halloween Pumpkin Spice Donuts</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Pumpkin Spice Donuts</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-spider-web-brownies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Spider_Brownies_7295948f.png</image:loc>
+      <image:title>Gluten-Free Halloween Spider Web Brownies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Spider Web Brownies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-halloween-witch-finger-cookies</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Halloween_Witch_Fingers_864ace55.png</image:loc>
+      <image:title>Gluten-Free Halloween Witch Finger Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Halloween Witch Finger Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/barbacoa-beef-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Barbacoa_Beef_Bowl_Fresh_8047070e.png</image:loc>
+      <image:title>Barbacoa Beef Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Barbacoa Beef Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/blackened-fish-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blackened_Fish_Bowl_Fresh_df6c4a28.png</image:loc>
+      <image:title>Blackened Fish Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Blackened Fish Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/breakfast-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Breakfast_Burrito_Bowl_Fresh_0b3f88f7.png</image:loc>
+      <image:title>Breakfast Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Breakfast Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/carne-asada-steak-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Carne_Asada_Steak_Bowl_Fresh_d15af7e0.png</image:loc>
+      <image:title>Carne Asada Steak Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Carne Asada Steak Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/carnitas-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Carnitas_Burrito_Bowl_Fresh_d0039bc4.png</image:loc>
+      <image:title>Carnitas Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Carnitas Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/chicken-fajita-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chicken_Fajita_Burrito_Bowl_Fresh_395ee331.png</image:loc>
+      <image:title>Chicken Fajita Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Chicken Fajita Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/chipotle-lime-shrimp-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chipotle_Lime_Shrimp_Bowl_Fresh_91c874aa.png</image:loc>
+      <image:title>Chipotle Lime Shrimp Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Chipotle Lime Shrimp Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/classic-chicken-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Classic_Chicken_Burrito_Bowl_Fresh_67e3b54b.png</image:loc>
+      <image:title>Classic Chicken Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Classic Chicken Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/vegan-tofu-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Vegan_Tofu_Bowl_Fresh_d584fd58.png</image:loc>
+      <image:title>Vegan Tofu Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Vegan Tofu Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/vegetarian-sweet-potato-burrito-bowl</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Vegetarian_Sweet_Potato_Bowl_Fresh_4fda4207.png</image:loc>
+      <image:title>Vegetarian Sweet Potato Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Vegetarian Sweet Potato Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-orange-glazed-turkey-breast</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Orange_Turkey_Fresh_1ef2b5c0.png</image:loc>
+      <image:title>Cranberry Orange Glazed Turkey Breast</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Orange Glazed Turkey Breast</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/herb-butter-roasted-turkey</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Herb_Butter_Roasted_Turkey_3d915a41.png</image:loc>
+      <image:title>Herb Butter Roasted Turkey</image:title>
+      <image:caption>Gluten-free recipe: Herb Butter Roasted Turkey</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/autumn-harvest-salad</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Autumn_Harvest_Salad_Fresh_b9799b02.png</image:loc>
+      <image:title>Autumn Harvest Salad</image:title>
+      <image:caption>Gluten-free recipe: Autumn Harvest Salad</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-walnut-spinach-salad</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Walnut_Salad_Fresh_3770ff51.png</image:loc>
+      <image:title>Cranberry Walnut Spinach Salad</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Walnut Spinach Salad</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/orange-spiced-cranberry-sauce</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Orange_Spiced_Cranberry_Sauce_eceb40b5.png</image:loc>
+      <image:title>Orange Spiced Cranberry Sauce</image:title>
+      <image:caption>Gluten-free recipe: Orange Spiced Cranberry Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/rich-turkey-giblet-gravy</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Turkey_Giblet_Gravy_459adb72.png</image:loc>
+      <image:title>Rich Turkey Giblet Gravy</image:title>
+      <image:caption>Gluten-free recipe: Rich Turkey Giblet Gravy</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/classic-sausage-herb-stuffing</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Sausage_Herb_Stuffing_Fresh_8d37dcd0.png</image:loc>
+      <image:title>Classic Sausage and Herb Stuffing</image:title>
+      <image:caption>Gluten-free recipe: Classic Sausage and Herb Stuffing</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/cranberry-pecan-wild-rice-pilaf</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Pecan_Rice_Pilaf_Fresh_eb443bbd.png</image:loc>
+      <image:title>Cranberry Pecan Wild Rice Pilaf</image:title>
+      <image:caption>Gluten-free recipe: Cranberry Pecan Wild Rice Pilaf</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/garlic-herb-mashed-potatoes</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Garlic_Herb_Mashed_Potatoes_Fresh_27a4f091.png</image:loc>
+      <image:title>Garlic Herb Mashed Potatoes</image:title>
+      <image:caption>Gluten-free recipe: Garlic Herb Mashed Potatoes</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/classic-cream-of-mushroom-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cream_Mushroom_Soup_Fresh_7ddc1cd7.png</image:loc>
+      <image:title>Classic Cream of Mushroom Soup</image:title>
+      <image:caption>Gluten-free recipe: Classic Cream of Mushroom Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/creamy-broccoli-cheddar-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Broccoli_Cheddar_Soup_Fresh_4ec28bc9.png</image:loc>
+      <image:title>Creamy Broccoli Cheddar Soup</image:title>
+      <image:caption>Gluten-free recipe: Creamy Broccoli Cheddar Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/creamy-chicken-wild-rice-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chicken_Wild_Rice_Soup_Fresh_2a90236b.png</image:loc>
+      <image:title>Creamy Chicken and Wild Rice Soup</image:title>
+      <image:caption>Gluten-free recipe: Creamy Chicken and Wild Rice Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/creamy-tomato-basil-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Tomato_Basil_Soup_Fresh_70539bc3.png</image:loc>
+      <image:title>Creamy Tomato Basil Soup</image:title>
+      <image:caption>Gluten-free recipe: Creamy Tomato Basil Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/lobster-bisque</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Lobster_Bisque_Fresh_6976903e.png</image:loc>
+      <image:title>Lobster Bisque</image:title>
+      <image:caption>Gluten-free recipe: Lobster Bisque</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/new-england-clam-chowder</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/New_England_Clam_Chowder_Fresh_cb7fd766.png</image:loc>
+      <image:title>New England Clam Chowder</image:title>
+      <image:caption>Gluten-free recipe: New England Clam Chowder</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/roasted-butternut-squash-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Butternut_Squash_Soup_Fresh_d6dbfaab.png</image:loc>
+      <image:title>Roasted Butternut Squash Soup</image:title>
+      <image:caption>Gluten-free recipe: Roasted Butternut Squash Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/roasted-cauliflower-cream-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Roasted_Cauliflower_Soup_Fresh_545e0c42.png</image:loc>
+      <image:title>Roasted Cauliflower Cream Soup</image:title>
+      <image:caption>Gluten-free recipe: Roasted Cauliflower Cream Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/spring-asparagus-cream-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Asparagus_Cream_Soup_Fresh_d9ea4591.png</image:loc>
+      <image:title>Spring Asparagus Cream Soup</image:title>
+      <image:caption>Gluten-free recipe: Spring Asparagus Cream Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thai-coconut-curry-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thai_Coconut_Curry_Soup_Fresh_a4b79b56.png</image:loc>
+      <image:title>Thai Coconut Curry Soup</image:title>
+      <image:caption>Gluten-free recipe: Thai Coconut Curry Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/creamy-thanksgiving-mashed-potatoes</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Creamy_Mashed_Potatoes_d1c31068.png</image:loc>
+      <image:title>Creamy Thanksgiving Mashed Potatoes</image:title>
+      <image:caption>Gluten-free recipe: Creamy Thanksgiving Mashed Potatoes</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-apple-cider-gravy</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Cider_Gravy_f03e9ce3.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Apple Cider Gravy</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Apple Cider Gravy</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-butternut-squash-soup</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Butternut_Soup_e8965797.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Butternut Squash Soup</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Butternut Squash Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-chocolate-pecan-tart</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Chocolate_Tart_be729ac4.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Chocolate Pecan Tart</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Chocolate Pecan Tart</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-cornbread</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Cornbread_d18b1756.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Cornbread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Cornbread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-dinner-rolls</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Dinner_Rolls_1f0801bc.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Dinner Rolls</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Dinner Rolls</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-harvest-salad</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Harvest_Salad_b3a69d94.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Harvest Salad</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Harvest Salad</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-maple-glazed-carrots</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Maple_Carrots_fb1cc48b.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Maple Glazed Carrots</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Maple Glazed Carrots</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-pumpkin-cheesecake</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Pumpkin_Cheesecake_71910715.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Pumpkin Cheesecake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Pumpkin Cheesecake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-sausage-balls</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Sausage_Balls_debb9c4d.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Sausage Balls</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Sausage Balls</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-turkey-herb-butter</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Turkey_Herb_Butter_01ef880e.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Turkey with Herb Butter</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Turkey with Herb Butter</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-thanksgiving-wild-rice-pilaf</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Thanksgiving_Wild_Rice_061a64c6.png</image:loc>
+      <image:title>Gluten-Free Thanksgiving Wild Rice Pilaf</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Thanksgiving Wild Rice Pilaf</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thanksgiving-apple-crisp</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Apple_Crisp_ed7fe9be.png</image:loc>
+      <image:title>Thanksgiving Apple Crisp</image:title>
+      <image:caption>Gluten-free recipe: Thanksgiving Apple Crisp</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thanksgiving-cranberry-sauce</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Cranberry_Sauce_f62410e4.png</image:loc>
+      <image:title>Thanksgiving Cranberry Sauce</image:title>
+      <image:caption>Gluten-free recipe: Thanksgiving Cranberry Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thanksgiving-green-bean-casserole</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Green_Bean_Casserole_841401f3.png</image:loc>
+      <image:title>Thanksgiving Green Bean Casserole</image:title>
+      <image:caption>Gluten-free recipe: Thanksgiving Green Bean Casserole</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thanksgiving-pecan-pie-bars</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Pecan_Pie_Bars_d81c71c8.png</image:loc>
+      <image:title>Thanksgiving Pecan Pie Bars</image:title>
+      <image:caption>Gluten-free recipe: Thanksgiving Pecan Pie Bars</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thanksgiving-pumpkin-pie-almond-crust</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Pumpkin_Pie_Almond_1103d9c9.png</image:loc>
+      <image:title>Thanksgiving Pumpkin Pie with Almond Crust</image:title>
+      <image:caption>Gluten-free recipe: Thanksgiving Pumpkin Pie with Almond Crust</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thanksgiving-roasted-brussels-sprouts-bacon</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Roasted_Brussels_Sprouts_35831d93.png</image:loc>
+      <image:title>Thanksgiving Roasted Brussels Sprouts with Bacon</image:title>
+      <image:caption>Gluten-free recipe: Thanksgiving Roasted Brussels Sprouts with Bacon</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thanksgiving-stuffing-sausage-herbs</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Stuffing_Sausage_Herbs_67d41575.png</image:loc>
+      <image:title>Thanksgiving Stuffing with Sausage and Herbs</image:title>
+      <image:caption>Gluten-free recipe: Thanksgiving Stuffing with Sausage and Herbs</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/thanksgiving-sweet-potato-casserole</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Thanksgiving_Sweet_Potato_Casserole_6ad885a5.png</image:loc>
+      <image:title>Thanksgiving Sweet Potato Casserole</image:title>
+      <image:caption>Gluten-free recipe: Thanksgiving Sweet Potato Casserole</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/balsamic-bacon-brussels-sprouts</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Balsamic_Bacon_Brussels_Sprouts_Fresh_51811257.png</image:loc>
+      <image:title>Balsamic Bacon Brussels Sprouts</image:title>
+      <image:caption>Gluten-free recipe: Balsamic Bacon Brussels Sprouts</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/brown-butter-green-beans-almondine</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Green_Beans_Almondine_Fresh_b25b4b62.png</image:loc>
+      <image:title>Brown Butter Green Beans Almondine</image:title>
+      <image:caption>Gluten-free recipe: Brown Butter Green Beans Almondine</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/maple-roasted-root-vegetables</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Maple_Roasted_Vegetables_Fresh_4f596e36.png</image:loc>
+      <image:title>Maple Roasted Root Vegetables</image:title>
+      <image:caption>Gluten-free recipe: Maple Roasted Root Vegetables</image:caption>
+    </image:image>
+  </url>
+
 </urlset>
