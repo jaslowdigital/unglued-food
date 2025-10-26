@@ -10,6 +10,7 @@ export const recipes = pgTable("recipes", {
   description: text("description").notNull(),
   longDescription: text("long_description").notNull(),
   category: text("category").notNull(),
+  subcategory: text("subcategory"),
   difficulty: text("difficulty").notNull(),
   prepTime: integer("prep_time").notNull(),
   cookTime: integer("cook_time").notNull(),

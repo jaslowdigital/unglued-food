@@ -1,10 +1,32 @@
 # Overview
 
-This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 40 delicious gluten-free recipes (15 Halloween desserts + 5 breads + 10 oven-roasted chicken entrees + 10 grain alternatives) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
+This is a gluten-free food blog and recipe website called "Unglued Food" (ungluedfood.com). The application provides a comprehensive platform for gluten-free living, featuring 50 delicious gluten-free recipes (15 Halloween desserts + 15 breads including 10 muffins + 10 oven-roasted chicken entrees + 10 grain alternatives) with AI-generated images, product recommendations, educational content, and newsletter functionality. It's built as a full-stack web application with a React frontend and Express backend, using a PostgreSQL database for data persistence.
 
 ## Recent Major Achievements
 
 ### October 26, 2025
+✅ **Breads Category - 10 Gluten-Free Muffin Recipes (Subcategory: Muffins)**
+- Created new "Muffins" subcategory under Breads with 10 diverse muffin recipes:
+  - **Sweet Muffins (7)**: 
+    - Blueberry Streusel Muffins (bakery-style with crumb topping)
+    - Double Chocolate Chip Muffins (rich, decadent chocolate)
+    - Lemon Poppy Seed Muffins (bright citrus with glaze)
+    - Pumpkin Spice Cream Cheese Muffins (fall-inspired with cream cheese swirl)
+    - Banana Walnut Muffins (classic, naturally sweetened)
+    - Cranberry Orange Muffins (festive holiday flavors)
+    - Apple Cinnamon Streusel Muffins (fall comfort food)
+  - **Savory Muffins (3)**:
+    - Cheddar Jalapeño Muffins (spicy cheese muffins)
+    - Spinach Feta Herb Muffins (Mediterranean flavors)
+    - Bacon Cheddar Chive Muffins (hearty breakfast muffins)
+- All recipes feature professional AI-generated food photography
+- Complete ingredients, instructions, prep/cook times, yield (12 muffins each), and nutritional information
+- Added subcategory field to database schema for better organization
+- Diverse variety: sweet and savory options, seasonal flavors, dietary variations
+- All naturally gluten-free with detailed tips and variations
+- SEO optimized with dynamic meta tags for social sharing
+- Perfect for breakfast, brunch, snacks, and meal prep
+
 ✅ **Grain & Flour Alternatives Category - 10 Grain Alternative Recipes**
 - Created new "Grain & Flour Alternatives" category with 10 diverse grain-free recipes:
   - Basic Cauliflower Rice (low-carb rice alternative)
@@ -51,7 +73,11 @@ This is a gluten-free food blog and recipe website called "Unglued Food" (unglue
 - Complete ingredients, instructions, tips, and nutritional information
 - SEO optimized with dynamic meta tags for social sharing
 
-**Total Recipe Count: 40 recipes (15 Desserts + 5 Breads + 10 Entrees + 10 Grain Alternatives)**
+**Total Recipe Count: 50 recipes**
+- **15 Desserts** (Halloween-themed)
+- **15 Breads** (5 loaves + 10 muffins)
+- **10 Entrees** (oven-roasted chicken varieties)
+- **10 Grain & Flour Alternatives** (rice & noodle substitutes)
 
 ### October 17, 2025
 ✅ **Comprehensive SEO & AI Optimization Suite - 25 Files**
