@@ -1,0 +1,33 @@
+Request: Create 10 Original Gluten-Free Christmas Recipes with AI-Generated Images
+Please develop 10 unique gluten-free Christmas recipes with the following specifications:
+Content Requirements:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website
+Each recipe title must include the word "Christmas" (examples: "Gluten-Free Christmas Sugar Cookies", "Christmas Prime Rib with Horseradish Cream", "Festive Christmas Yule Log Cake")
+Each recipe should include: ingredients list, step-by-step instructions, prep/cook times, yield, and nutritional information
+All recipes must be completely gluten-free and suitable for Christmas celebrations
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image for each recipe
+Images should showcase the finished dishes in an appealing, professional food photography style
+Include proper styling elements (natural lighting, complementary backgrounds, garnishes when appropriate)
+Capture the festive and celebratory nature of Christmas presentations
+Images must be suitable for web publishing and social media sharing
+Preferred specifications: high resolution, appetizing presentation, consistent visual style across all images
+
+Organization & Categorization:
+
+Main Category: Christmas Recipes
+Subcategory: Gluten-Free Christmas
+Create additional sub-categories as needed (examples: Main Dishes, Side Dishes, Desserts, Cookies & Treats, Appetizers, Breads, Beverages, Breakfast & Brunch, etc.)
+
+Recipe Variety:
+
+Ensure diverse flavor profiles across all 10 recipes
+Include coverage of essential Christmas menu categories (main dish, sides, desserts, cookies, etc.)
+Incorporate traditional Christmas ingredients (ham, prime rib, cranberries, gingerbread spices, peppermint, chocolate, nuts, dried fruits, etc.)
+Feature classic Christmas flavors (cinnamon, nutmeg, cloves, vanilla, almond, orange, etc.)
+Consider dietary variations (dairy-free, refined sugar-free, paleo-friendly, etc.) to broaden appeal
+Include both traditional holiday favorites and modern festive creations
+Balance elegant dinner party dishes with casual cookie exchange and gift-giving recipes
