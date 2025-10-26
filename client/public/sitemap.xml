@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 151 gluten-free recipes -->
+  <!-- Recipe Pages - 161 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-26</lastmod>
@@ -893,6 +893,18 @@
   </url>
 
   <url>
+    <loc>https://ungluedfood.com/recipe/classic-gluten-free-beef-lasagna</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Classic_Beef_Lasagna_a5bfae67.png</image:loc>
+      <image:title>Classic Gluten-Free Beef Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Classic Gluten-Free Beef Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://ungluedfood.com/recipe/classic-herb-roasted-chicken</loc>
     <lastmod>2025-10-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -901,6 +913,114 @@
       <image:loc>https://ungluedfood.com/recipe-images/Classic_Herb_Roasted_Chicken_acb90d23.png</image:loc>
       <image:title>Classic Herb Roasted Chicken</image:title>
       <image:caption>Gluten-free recipe: Classic Herb Roasted Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cauliflower-lasagna-bake</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Cauliflower_Lasagna_2058a5d4.png</image:loc>
+      <image:title>Gluten-Free Cauliflower Lasagna Bake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cauliflower Lasagna Bake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cottage-cheese-lasagna-high-protein</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Cottage_Cheese_Lasagna_ec392419.png</image:loc>
+      <image:title>Gluten-Free Cottage Cheese Lasagna (High-Protein)</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cottage Cheese Lasagna (High-Protein)</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-italian-sausage-ricotta-lasagna</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Italian_Sausage_Lasagna_aca800df.png</image:loc>
+      <image:title>Gluten-Free Italian Sausage &amp; Ricotta Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Italian Sausage &amp; Ricotta Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-vegan-tofu-ricotta-lasagna</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Vegan_Tofu_Lasagna_da4314fd.png</image:loc>
+      <image:title>Gluten-Free Vegan Lasagna with Tofu Ricotta</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Vegan Lasagna with Tofu Ricotta</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-vegetarian-spinach-lasagna</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Spinach_Vegetarian_Lasagna_3e66989d.png</image:loc>
+      <image:title>Gluten-Free Vegetarian Spinach Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Vegetarian Spinach Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-veggie-loaded-lasagna</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Veggie_Loaded_Lasagna_a1c7708f.png</image:loc>
+      <image:title>Gluten-Free Veggie-Loaded Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Veggie-Loaded Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-lasagna-tomato-sauce</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Lasagna_bbac7378.png</image:loc>
+      <image:title>Gluten-Free Venison Lasagna with Tomato Sauce</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Lasagna with Tomato Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-chicken-lasagna</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_White_Chicken_Lasagna_d6bee51f.png</image:loc>
+      <image:title>Gluten-Free White Chicken Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Chicken Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zucchini-lasagna-low-carb</loc>
+    <lastmod>2025-10-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Zucchini_Lasagna_624f0792.png</image:loc>
+      <image:title>Gluten-Free Zucchini Lasagna (Low-Carb)</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zucchini Lasagna (Low-Carb)</image:caption>
     </image:image>
   </url>
 
