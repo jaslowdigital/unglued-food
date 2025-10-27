@@ -1,0 +1,108 @@
+🍲 Request: Create 10 Original Gluten-Free Slow Cooker Recipes with AI-Generated Images
+Content Requirements:
+
+Please develop 10 unique gluten-free slow cooker recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Slow Cooker” (examples:
+
+Gluten-Free Slow Cooker Chicken and Dumplings
+
+Gluten-Free Slow Cooker Beef Stroganoff
+
+Gluten-Free Slow Cooker White Bean Chili
+
+Gluten-Free Slow Cooker Apple Crisp
+
+Gluten-Free Slow Cooker BBQ Pulled Pork)
+
+Each recipe should include:
+
+Complete ingredients list
+
+Step-by-step cooking instructions (including cook time settings: low/high/manual)
+
+Prep time, cook time, and total time
+
+Yield (serving size)
+
+Nutritional information (calories, macros, sodium, etc.)
+
+All recipes must use certified gluten-free ingredients and avoid any cross-contamination risks.
+
+Include both savory and sweet recipes to provide variety.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase the finished dish plated beautifully, not just inside the slow cooker.
+
+Maintain a warm, homestyle aesthetic using natural lighting and rustic props (bowls, wooden boards, herbs, napkins).
+
+Capture steam, sauce textures, melted cheese, tender meat, or colorful veggies for appetite appeal.
+
+Images must be suitable for website publishing and social media sharing.
+
+Ensure consistent lighting, color balance, and photography style across all 10 recipes.
+
+High-resolution preferred, ready for print or digital publication.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Slow Cooker Meals
+
+Additional Subcategories:
+
+Soups & Stews
+
+Main Dishes
+
+Side Dishes
+
+Breakfast & Brunch
+
+Desserts
+
+Family Favorites
+
+Recipe Variety & Focus:
+
+Ensure diversity across types of slow cooker meals:
+
+Gluten-Free Slow Cooker Chicken & Dumplings – classic comfort food
+
+Gluten-Free Slow Cooker Beef Stroganoff – creamy, hearty, rich flavor
+
+Gluten-Free Slow Cooker Vegetarian Chili – packed with beans and vegetables
+
+Gluten-Free Slow Cooker BBQ Pulled Pork – smoky, tender, and crowd-pleasing
+
+Gluten-Free Slow Cooker Chicken Tikka Masala – aromatic and spiced
+
+Gluten-Free Slow Cooker White Bean & Kale Soup – nutritious and cozy
+
+Gluten-Free Slow Cooker Apple Crisp – sweet fall dessert
+
+Gluten-Free Slow Cooker Lasagna Soup – rich Italian-inspired comfort dish
+
+Gluten-Free Slow Cooker Breakfast Casserole – eggs, veggies, and hash browns
+
+Gluten-Free Slow Cooker Cauliflower Curry – flavorful, low-carb vegan option
+
+Additional Notes:
+
+Include storage and reheating instructions (refrigeration/freezing friendly).
+
+Add optional toppings or sides (e.g., gluten-free bread, rice, cornbread, salad).
+
+Include tips for meal prep, such as “assemble the night before and refrigerate.”
+
+Incorporate dietary variations (dairy-free, low-carb, vegan, or high-protein).
+
+Emphasize set-it-and-forget-it simplicity for busy families and professionals.
+
+Ensure a balance of global flavors (Italian, Indian, American, Mexican, etc.).
