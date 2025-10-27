@@ -32,6 +32,7 @@ import { eq, desc, avg, and } from "drizzle-orm";
 export interface IStorage {
   // Recipes
   getRecipes(): Promise<Recipe[]>;
+  getRecipesPaginated(limit: number, offset: number, category?: string, search?: string): Promise<{ recipes: Recipe[]; total: number }>;
   getRecipesByCategory(category: string): Promise<Recipe[]>;
   getRecipe(id: string): Promise<Recipe | undefined>;
   getRecipeBySlug(slug: string): Promise<Recipe | undefined>;
@@ -73,7 +74,37 @@ export interface IStorage {
 
 export class DatabaseStorage implements IStorage {
   async getRecipes(): Promise<Recipe[]> {
-    return await db.select().from(recipes).where(eq(recipes.status, 'published'));
+    return await db.select().from(recipes).where(eq(recipes.status, 'published')).orderBy(desc(recipes.publishedAt));
+  }
+
+  async getRecipesPaginated(limit: number, offset: number, category?: string, search?: string): Promise<{ recipes: Recipe[]; total: number }> {
+    let query = db.select().from(recipes).where(eq(recipes.status, 'published'));
+    
+    if (category) {
+      query = query.where(and(eq(recipes.status, 'published'), eq(recipes.category, category)));
+    }
+    
+    const allRecipes = await query;
+    
+    let filteredRecipes = allRecipes;
+    if (search) {
+      filteredRecipes = allRecipes.filter(recipe => 
+        recipe.title.toLowerCase().includes(search.toLowerCase()) ||
+        recipe.description.toLowerCase().includes(search.toLowerCase()) ||
+        recipe.tags.some(tag => tag.toLowerCase().includes(search.toLowerCase()))
+      );
+    }
+    
+    filteredRecipes.sort((a, b) => {
+      const dateA = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+      const dateB = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+      return dateB - dateA;
+    });
+    
+    const total = filteredRecipes.length;
+    const paginatedRecipes = filteredRecipes.slice(offset, offset + limit);
+    
+    return { recipes: paginatedRecipes, total };
   }
 
   async getRecipesByCategory(category: string): Promise<Recipe[]> {

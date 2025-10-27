@@ -14,7 +14,21 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Recipe routes
   app.get("/api/recipes", async (req, res) => {
     try {
-      const { category, search } = req.query;
+      const { category, search, limit, offset } = req.query;
+      
+      if (limit !== undefined && offset !== undefined) {
+        const limitNum = parseInt(limit as string, 10);
+        const offsetNum = parseInt(offset as string, 10);
+        const { recipes, total } = await storage.getRecipesPaginated(
+          limitNum,
+          offsetNum,
+          category as string | undefined,
+          search as string | undefined
+        );
+        const page = Math.floor(offsetNum / limitNum) + 1;
+        const pageSize = limitNum;
+        return res.json({ recipes, total, page, pageSize });
+      }
       
       let recipes;
       if (search) {

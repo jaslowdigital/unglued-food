@@ -1,0 +1,119 @@
+Prompt for Replit: Add-Only Pagination (48/page, newest first) — No Other Changes
+
+STRICT SCOPE:
+
+Do not change any site settings.
+
+Do not change any settings on the recipes page or any recipe settings.
+
+Do not change recipes, slugs, data, SEO, or existing styles/components.
+
+Only add pagination and the minimal code needed to render it.
+
+Keep all existing functionality, routes, and styling intact.
+
+What to Build
+
+Add a reusable pagination for the existing recipe grid used on Home (/) and Recipes (/recipes):
+
+Page size: 48 recipes (newest first).
+
+Desktop: 4 columns × 12 rows
+
+Mobile (≤768px): 2 columns × 24 rows
+
+Ordering: published_at DESC so newest appear first on page 1 and each new recipe becomes the first card.
+
+Pagination UI: Page numbers + chevrons (« ‹ › ») under the 48 cards.
+
+Unlimited pages (site grows over time).
+
+Lazy load pages: fetch/render only the current page’s 48 items.
+
+URL sync: ?page=N, supports back/forward.
+
+A11y: Keyboard navigable, ARIA labels, focus management.
+
+Add-Only Implementation Rules
+
+Do not modify existing templates/components beyond adding a single script tag and single stylesheet link (if needed). No refactors, no renames.
+
+Create new files only (recommended):
+
+/assets/pagination.js
+
+/assets/pagination.css
+
+Attach them by adding (not replacing) the following to the base layout (or both pages if there’s no shared layout):
+
+<link rel="stylesheet" href="/assets/pagination.css">
+<script defer src="/assets/pagination.js"></script>
+
+
+Progressive enhancement: if JS fails, existing full list (if any) should still be visible exactly as before (no visual regressions).
+
+How to Hook In (Non-Destructive)
+
+Do not edit the recipe item markup.
+
+Select the existing grid containers by stable selectors (e.g., #home-recipe-grid on / and #recipes-grid on /recipes). If IDs don’t exist, only add unobtrusive IDs to those two container elements—no other edits.
+
+Render a small <nav aria-label="Pagination"> under the grid (inserted by JS only).
+
+Never alter or restyle existing cards; any new CSS must be namespaced (e.g., .pg-* classes) and only affect the pagination UI.
+
+Data Source (Unchanged)
+
+Use the existing API if present (do not change it):
+GET /api/recipes?limit=48&offset={offset}&sort=published_at:desc
+Response (example—do not change):
+
+{
+  "total": 1234,
+  "page": 3,
+  "pageSize": 48,
+  "recipes": [
+    {"id":"slug","title":"…","image":"/images/…","published_at":"2025-10-23T12:34:56Z","url":"/recipes/slug"}
+  ]
+}
+
+
+If no API exists, read-only static fallback: /data/recipes-index.json (pre-sorted newest→oldest) and slice client-side. Do not change that file.
+
+Behavior Details
+
+Compute offset = (page - 1) * 48.
+
+totalPages = Math.ceil(total / 48).
+
+Compact numbers: show page 1, last page, current ±2, with ellipses as needed.
+
+Disable chevrons on boundaries.
+
+On page click: fetch only that page’s 48, update grid, pushState to ?page=N, move focus to <main> heading for a11y.
+
+Initial load reads ?page=N (default 1). If N > totalPages, go to last page.
+
+Images must keep loading="lazy" and not change existing card HTML.
+
+Deliverables (Add-Only)
+
+/assets/pagination.js and /assets/pagination.css (new files only).
+
+One added <script> and one added <link> tag (no other template edits).
+
+Works on both Home (/) and Recipes (/recipes) with the existing grids.
+
+Acceptance Criteria
+
+Exactly 48 recipes render per page, newest first.
+
+Pagination (chevrons + numbers) appears under the grid on both pages.
+
+Navigating pages fetches/renders only those 48, and the URL syncs to ?page=N.
+
+Back/forward works; a11y labels and keyboard navigation are present.
+
+No other settings, recipe data, or existing styles/behavior are changed.
+
+Please implement now with the above “add-only” constraints.
