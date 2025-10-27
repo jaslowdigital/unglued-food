@@ -1,0 +1,112 @@
+🍕 Request: Create 10 Original Gluten-Free Pizza Recipes with AI-Generated Images
+Content Requirements:
+
+Please develop 10 unique gluten-free pizza recipes, each featuring a distinct type of gluten-free dough, with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Pizza” and specify the dough type or base (examples:
+
+Gluten-Free Pizza with Cauliflower Crust
+
+Gluten-Free Sweet Potato Pizza Crust
+
+Gluten-Free Almond Flour Pizza with Pesto Chicken
+
+Gluten-Free Greek Yogurt Flatbread Pizza
+
+Gluten-Free Cassava Flour Margherita Pizza)
+
+Each recipe should include:
+
+Full ingredients list (for both crust and toppings)
+
+Step-by-step preparation instructions (dough mixing, resting, baking, topping)
+
+Prep time, rise time, bake time, and total time
+
+Yield and nutritional breakdown (calories, macros, fiber, etc.)
+
+All ingredients and flours must be certified gluten-free.
+
+Each recipe must highlight a unique crust texture (crispy, chewy, thin, fluffy, etc.) and complementary topping pairings.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Each image should showcase the whole pizza and one sliced view, highlighting texture, cheese melt, and crust color.
+
+Use natural lighting with a rustic, casual pizza-night atmosphere (wooden boards, stone plates, herbs, melted cheese strings).
+
+Maintain consistent visual style and warm tones across all 10 images.
+
+Images must be optimized for web, print, and social sharing — high-resolution, clear, and appetizing.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Pizza
+
+Additional Subcategories:
+
+Pizza Crusts & Doughs
+
+Classic & Specialty Pizzas
+
+Vegetarian & Vegan Pizzas
+
+Protein & Keto-Friendly Pizzas
+
+Family & Party Pizzas
+
+Recipe Variety & Focus:
+
+Each recipe must use a different gluten-free dough base, offering variety in texture, nutrition, and ingredients.
+
+Gluten-Free Cauliflower Crust Pizza
+A light, crispy crust made with riced cauliflower, mozzarella, and egg — topped with tomato sauce, basil, and fresh mozzarella for a Margherita-style finish.
+
+Gluten-Free Almond Flour Pizza
+A nutty, protein-rich dough made with almond flour and olive oil — baked thin and topped with pesto chicken and roasted red peppers.
+
+Gluten-Free Cassava Flour Pizza
+Soft and slightly chewy dough made from cassava flour — perfect for a traditional Margherita or veggie-loaded pizza.
+
+Gluten-Free Chickpea Flour Pizza (Socca Style)
+Mediterranean-inspired chickpea crust with crisp edges — topped with caramelized onions, feta, and arugula.
+
+Gluten-Free Sweet Potato Pizza Crust
+Naturally sweet and vibrant orange dough made from mashed sweet potatoes — ideal for BBQ chicken or breakfast pizza variations.
+
+Gluten-Free Greek Yogurt Pizza Dough
+A high-protein, 2-ingredient dough made with gluten-free flour and Greek yogurt — soft, fluffy, and perfect for breakfast or flatbread-style pizzas.
+
+Gluten-Free Oat Flour Pizza
+Hearty, whole-grain dough made with gluten-free oats — slightly chewy and perfect for veggie-heavy toppings.
+
+Gluten-Free Zucchini Crust Pizza
+Light, green crust made with shredded zucchini, mozzarella, and almond flour — fresh and garden-inspired.
+
+Gluten-Free Quinoa Pizza Crust
+Pre-cooked quinoa blended into a protein-packed, crisp crust — topped with spinach, goat cheese, and sun-dried tomatoes.
+
+Gluten-Free Cauliflower & Cheese “Fathead” Pizza Dough
+Keto-inspired mozzarella and almond flour dough for a rich, chewy base — perfect with pepperoni, mushrooms, and fresh oregano.
+
+Additional Notes:
+
+Include detailed dough prep notes (hydration ratios, binding agents, par-bake times).
+
+Offer substitution tips for dairy-free or egg-free versions.
+
+Provide texture comparison chart (thin/crispy vs thick/chewy).
+
+Include storage and reheating instructions for leftover slices and crusts.
+
+Suggest sauce and topping pairings for each crust type.
+
+Ensure at least one vegetarian, one vegan, and one high-protein pizza option.
+
+Highlight nutritional advantages (fiber content, low-carb, high-protein, etc.) per crust type.
