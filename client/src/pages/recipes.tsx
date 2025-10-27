@@ -1,7 +1,9 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
+import { useLocation } from "wouter";
 import { Search, Filter } from "lucide-react";
 import RecipeCard from "@/components/recipe-card";
+import RecipesPagination from "@/components/recipes-pagination";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import { Card, CardContent } from "@/components/ui/card";
@@ -17,15 +19,55 @@ import {
 import { Badge } from "@/components/ui/badge";
 import type { Recipe } from "@shared/schema";
 
+const RECIPES_PER_PAGE = 48;
+
+interface RecipesResponse {
+  recipes: Recipe[];
+  total: number;
+  page: number;
+  pageSize: number;
+}
+
 export default function RecipesPage() {
+  const [location] = useLocation();
+  const searchParams = new URLSearchParams(window.location.search);
+  const pageParam = searchParams.get('page');
+  const initialPage = pageParam ? parseInt(pageParam, 10) : 1;
+  
+  const [currentPage, setCurrentPage] = useState(initialPage);
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedDifficulty, setSelectedDifficulty] = useState("all");
   const [selectedCookTime, setSelectedCookTime] = useState("all");
 
-  const { data: recipes = [], isLoading } = useQuery<Recipe[]>({
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const pageParam = searchParams.get('page');
+    if (pageParam) {
+      setCurrentPage(parseInt(pageParam, 10));
+    } else {
+      setCurrentPage(1);
+    }
+  }, [location]);
+
+  const offset = (currentPage - 1) * RECIPES_PER_PAGE;
+
+  const { data: allRecipesData, isLoading } = useQuery<RecipesResponse>({
+    queryKey: ["/api/recipes", {
+      limit: RECIPES_PER_PAGE,
+      offset,
+      category: selectedCategory !== "all" ? selectedCategory : undefined,
+      search: searchTerm || undefined,
+    }],
+  });
+
+  const allRecipes = allRecipesData?.recipes || [];
+  
+  const { data: categoriesData } = useQuery<Recipe[]>({
     queryKey: ["/api/recipes"],
   });
+  
+  const recipes = categoriesData || [];
 
   // Get unique categories, difficulties, and cook time ranges
   const categories = useMemo(() => {
@@ -36,13 +78,7 @@ export default function RecipesPage() {
   const difficulties = ["all", "Easy", "Medium", "Hard"];
 
   const filteredRecipes = useMemo(() => {
-    return recipes.filter(recipe => {
-      const matchesSearch = searchTerm === "" || 
-        recipe.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        recipe.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
-      
-      const matchesCategory = selectedCategory === "all" || recipe.category === selectedCategory;
+    return allRecipes.filter(recipe => {
       const matchesDifficulty = selectedDifficulty === "all" || recipe.difficulty === selectedDifficulty;
       
       const matchesCookTime = selectedCookTime === "all" || 
@@ -50,9 +86,16 @@ export default function RecipesPage() {
         (selectedCookTime === "medium" && recipe.cookTime > 30 && recipe.cookTime <= 60) ||
         (selectedCookTime === "long" && recipe.cookTime > 60);
       
-      return matchesSearch && matchesCategory && matchesDifficulty && matchesCookTime;
+      return matchesDifficulty && matchesCookTime;
     });
-  }, [recipes, searchTerm, selectedCategory, selectedDifficulty, selectedCookTime]);
+  }, [allRecipes, selectedDifficulty, selectedCookTime]);
+  
+  const totalRecipes = allRecipesData?.total || 0;
+  const totalPages = Math.ceil(totalRecipes / RECIPES_PER_PAGE);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+  };
 
   const clearFilters = () => {
     setSearchTerm("");
@@ -174,8 +217,8 @@ export default function RecipesPage() {
 
         {/* Loading State */}
         {isLoading && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[...Array(6)].map((_, i) => (
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[...Array(48)].map((_, i) => (
               <div key={i} className="bg-dark-accent rounded-xl h-96 animate-pulse" />
             ))}
           </div>
@@ -183,11 +226,19 @@ export default function RecipesPage() {
 
         {/* Recipe Grid */}
         {!isLoading && filteredRecipes.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredRecipes.map((recipe) => (
-              <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6" id="recipes-grid">
+              {filteredRecipes.map((recipe) => (
+                <RecipeCard key={recipe.id} recipe={recipe} />
+              ))}
+            </div>
+            
+            <RecipesPagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+            />
+          </>
         )}
 
         {/* No Results */}
