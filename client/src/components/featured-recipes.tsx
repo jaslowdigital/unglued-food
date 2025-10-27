@@ -40,13 +40,21 @@ export default function FeaturedRecipes() {
 
   const offset = (currentPage - 1) * RECIPES_PER_PAGE;
   
+  const buildQueryUrl = () => {
+    const params = new URLSearchParams();
+    params.set('limit', RECIPES_PER_PAGE.toString());
+    params.set('offset', offset.toString());
+    if (selectedCategory !== "all") {
+      params.set('category', selectedCategory);
+    }
+    if (searchQuery) {
+      params.set('search', searchQuery);
+    }
+    return `/api/recipes?${params.toString()}`;
+  };
+  
   const { data, isLoading } = useQuery<RecipesResponse>({
-    queryKey: ["/api/recipes", {
-      limit: RECIPES_PER_PAGE,
-      offset,
-      category: selectedCategory !== "all" ? selectedCategory : undefined,
-      search: searchQuery || undefined,
-    }],
+    queryKey: [buildQueryUrl()],
   });
 
   const recipes = data?.recipes || [];

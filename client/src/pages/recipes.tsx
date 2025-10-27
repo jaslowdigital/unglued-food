@@ -52,13 +52,21 @@ export default function RecipesPage() {
 
   const offset = (currentPage - 1) * RECIPES_PER_PAGE;
 
+  const buildQueryUrl = () => {
+    const params = new URLSearchParams();
+    params.set('limit', RECIPES_PER_PAGE.toString());
+    params.set('offset', offset.toString());
+    if (selectedCategory !== "all") {
+      params.set('category', selectedCategory);
+    }
+    if (searchTerm) {
+      params.set('search', searchTerm);
+    }
+    return `/api/recipes?${params.toString()}`;
+  };
+
   const { data: allRecipesData, isLoading } = useQuery<RecipesResponse>({
-    queryKey: ["/api/recipes", {
-      limit: RECIPES_PER_PAGE,
-      offset,
-      category: selectedCategory !== "all" ? selectedCategory : undefined,
-      search: searchTerm || undefined,
-    }],
+    queryKey: [buildQueryUrl()],
   });
 
   const allRecipes = allRecipesData?.recipes || [];
