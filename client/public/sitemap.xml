@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 201 gluten-free recipes -->
+  <!-- Recipe Pages - 211 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -493,6 +493,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Spinach_Feta_Herb_Muffins_045b97c7.png</image:loc>
       <image:title>Spinach Feta Herb Muffins</image:title>
       <image:caption>Gluten-free recipe: Spinach Feta Herb Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-apple-cinnamon-breakfast-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Bread_04d51f63.png</image:loc>
+      <image:title>Gluten-Free Apple Cinnamon Breakfast Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Apple Cinnamon Breakfast Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-avocado-toast-sweet-potato</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Avocado_60414129.png</image:loc>
+      <image:title>Gluten-Free Avocado Toast on Sweet Potato Slices</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Avocado Toast on Sweet Potato Slices</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-baked-oatmeal-cups</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Oatmeal_c797b826.png</image:loc>
+      <image:title>Gluten-Free Baked Oatmeal Cups</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Baked Oatmeal Cups</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-banana-protein-waffles</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Waffles_6cbce3e5.png</image:loc>
+      <image:title>Gluten-Free Banana Protein Waffles</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Banana Protein Waffles</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-blueberry-oat-pancakes</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Pancakes_cec4203c.png</image:loc>
+      <image:title>Gluten-Free Blueberry Oat Pancakes</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Blueberry Oat Pancakes</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-breakfast-burrito-bowl</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Burrito_Bowl_edaf628c.png</image:loc>
+      <image:title>Gluten-Free Breakfast Burrito Bowl</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Breakfast Burrito Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-breakfast-egg-muffins</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Muffins_f881bb68.png</image:loc>
+      <image:title>Gluten-Free Breakfast Egg Muffins</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Breakfast Egg Muffins</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-breakfast-hash-browns-sausage</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Hash_6a3ca2f7.png</image:loc>
+      <image:title>Gluten-Free Breakfast Hash Browns with Sausage &amp; Veggies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Breakfast Hash Browns with Sausage &amp; Veggies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-breakfast-parfait-yogurt-granola</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Parfait_49565042.png</image:loc>
+      <image:title>Gluten-Free Breakfast Parfait with Yogurt &amp; Granola</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Breakfast Parfait with Yogurt &amp; Granola</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-breakfast-quesadilla</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Quesadilla_b528e429.png</image:loc>
+      <image:title>Gluten-Free Breakfast Quesadilla</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Breakfast Quesadilla</image:caption>
     </image:image>
   </url>
 
