@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 191 gluten-free recipes -->
+  <!-- Recipe Pages - 201 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -505,6 +505,18 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_SC_Breakfast_Casserole_6efe91e7.png</image:loc>
       <image:title>Gluten-Free Slow Cooker Breakfast Casserole</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Slow Cooker Breakfast Casserole</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-breakfast-hash</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Hash_b55bed77.png</image:loc>
+      <image:title>Gluten-Free Venison Breakfast Hash</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Breakfast Hash</image:caption>
     </image:image>
   </url>
 
@@ -1313,6 +1325,30 @@
   </url>
 
   <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-burgers-caramelized-onions</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Burger_c083ac31.png</image:loc>
+      <image:title>Gluten-Free Venison Burgers with Caramelized Onions</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Burgers with Caramelized Onions</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-chili-cornbread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Chili_b688a7b3.png</image:loc>
+      <image:title>Gluten-Free Venison Chili with Sweet Cornbread Crumble</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Chili with Sweet Cornbread Crumble</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://ungluedfood.com/recipe/gluten-free-venison-lasagna-tomato-sauce</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -1321,6 +1357,78 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Lasagna_bbac7378.png</image:loc>
       <image:title>Gluten-Free Venison Lasagna with Tomato Sauce</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Venison Lasagna with Tomato Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-meatballs-marinara</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Meatballs_66d089c0.png</image:loc>
+      <image:title>Gluten-Free Venison Meatballs in Marinara Sauce</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Meatballs in Marinara Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-pot-roast-rosemary-garlic</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Roast_437faa04.png</image:loc>
+      <image:title>Gluten-Free Venison Pot Roast with Rosemary &amp; Garlic</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Pot Roast with Rosemary &amp; Garlic</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-shepherds-pie</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Shepherds_764e6f4a.png</image:loc>
+      <image:title>Gluten-Free Venison Shepherd&apos;s Pie</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Shepherd&apos;s Pie</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-stir-fry-ginger-broccoli</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Stirfry_451ca724.png</image:loc>
+      <image:title>Gluten-Free Venison Stir-Fry with Ginger &amp; Broccoli</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Stir-Fry with Ginger &amp; Broccoli</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-stroganoff</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Stroganoff_7309fac2.png</image:loc>
+      <image:title>Gluten-Free Venison Stroganoff</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Stroganoff</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-tacos-chipotle-slaw</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Tacos_87c673f6.png</image:loc>
+      <image:title>Gluten-Free Venison Tacos with Chipotle Lime Slaw</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Tacos with Chipotle Lime Slaw</image:caption>
     </image:image>
   </url>
 
@@ -1969,6 +2077,18 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_SC_White_Bean_Soup_505df134.png</image:loc>
       <image:title>Gluten-Free Slow Cooker White Bean &amp; Kale Soup</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Slow Cooker White Bean &amp; Kale Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-venison-stew-root-vegetables</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Venison_Stew_0adcd8e7.png</image:loc>
+      <image:title>Gluten-Free Venison Stew with Root Vegetables</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Venison Stew with Root Vegetables</image:caption>
     </image:image>
   </url>
 
