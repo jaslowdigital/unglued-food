@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 221 gluten-free recipes -->
+  <!-- Recipe Pages - 231 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -49,6 +49,42 @@
       <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Pecan_Cheese_Ball_Fresh_65523d73.png</image:loc>
       <image:title>Cranberry Pecan Cheese Ball</image:title>
       <image:caption>Gluten-free recipe: Cranberry Pecan Cheese Ball</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-watermelon-skewers</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Skewers_fa277781.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi &amp; Watermelon Skewers</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi &amp; Watermelon Skewers</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-bites-honey-chili</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Bites_3e9f8a12.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi Bites with Honey Chili Drizzle</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi Bites with Honey Chili Drizzle</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-fries-garlic-aioli</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Fries_58c8c843.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi Fries with Garlic Aioli</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi Fries with Garlic Aioli</image:caption>
     </image:image>
   </url>
 
@@ -1393,6 +1429,90 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_Cottage_Cheese_Lasagna_ec392419.png</image:loc>
       <image:title>Gluten-Free Cottage Cheese Lasagna (High-Protein)</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Cottage Cheese Lasagna (High-Protein)</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-roasted-garlic-flatbread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Flatbread_d1193804.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi &amp; Roasted Garlic Flatbread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi &amp; Roasted Garlic Flatbread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-spiced-lentil-curry</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Curry_a30f6245.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi &amp; Spiced Lentil Curry</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi &amp; Spiced Lentil Curry</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-burger-pesto</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Burger_db4f1646.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi Burger with Pesto Sauce</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi Burger with Pesto Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-grain-bowl</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Bowl_7e04d1f2.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi Grain Bowl</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi Grain Bowl</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-salad-lemon-tahini</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Salad_e20a6d09.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi Salad with Lemon Tahini Dressing</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi Salad with Lemon Tahini Dressing</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-stir-fry</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Stirfry_aaffba4b.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi Stir-Fry</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi Stir-Fry</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-crispy-halloumi-tacos-lime-slaw</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Halloumi_Tacos_4e70d3d1.png</image:loc>
+      <image:title>Gluten-Free Crispy Halloumi Tacos with Lime Slaw</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Crispy Halloumi Tacos with Lime Slaw</image:caption>
     </image:image>
   </url>
 
