@@ -50,6 +50,10 @@ export default function RecipesPage() {
     }
   }, [location]);
 
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedCategory, selectedDifficulty, selectedCookTime, searchTerm]);
+
   const offset = (currentPage - 1) * RECIPES_PER_PAGE;
 
   const buildQueryUrl = () => {

@@ -38,6 +38,10 @@ export default function FeaturedRecipes() {
     }
   }, [location]);
 
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedCategory, selectedDifficulty, searchQuery]);
+
   const offset = (currentPage - 1) * RECIPES_PER_PAGE;
   
   const buildQueryUrl = () => {
