@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 211 gluten-free recipes -->
+  <!-- Recipe Pages - 221 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -613,6 +613,18 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_Breakfast_Quesadilla_b528e429.png</image:loc>
       <image:title>Gluten-Free Breakfast Quesadilla</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Breakfast Quesadilla</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-greek-yogurt-flatbread-pizza</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Yogurt_ed769dde.png</image:loc>
+      <image:title>Gluten-Free Greek Yogurt Flatbread Pizza</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Greek Yogurt Flatbread Pizza</image:caption>
     </image:image>
   </url>
 
@@ -1313,6 +1325,42 @@
   </url>
 
   <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-almond-flour-pizza-pesto-chicken</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Almond_9ea363d9.png</image:loc>
+      <image:title>Gluten-Free Almond Flour Pizza with Pesto Chicken</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Almond Flour Pizza with Pesto Chicken</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cassava-flour-margherita-pizza</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Cassava_6017bd5a.png</image:loc>
+      <image:title>Gluten-Free Cassava Flour Margherita Pizza</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cassava Flour Margherita Pizza</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-fathead-pizza-cauliflower-cheese</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Fathead_d5010aff.png</image:loc>
+      <image:title>Gluten-Free Cauliflower &amp; Cheese &quot;Fathead&quot; Pizza</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cauliflower &amp; Cheese &quot;Fathead&quot; Pizza</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://ungluedfood.com/recipe/gluten-free-cauliflower-lasagna-bake</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -1321,6 +1369,18 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_Cauliflower_Lasagna_2058a5d4.png</image:loc>
       <image:title>Gluten-Free Cauliflower Lasagna Bake</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Cauliflower Lasagna Bake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-chickpea-flour-socca-pizza</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Chickpea_502d0019.png</image:loc>
+      <image:title>Gluten-Free Chickpea Flour Pizza (Socca Style)</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Chickpea Flour Pizza (Socca Style)</image:caption>
     </image:image>
   </url>
 
@@ -1345,6 +1405,42 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_Italian_Sausage_Lasagna_aca800df.png</image:loc>
       <image:title>Gluten-Free Italian Sausage &amp; Ricotta Lasagna</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Italian Sausage &amp; Ricotta Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-oat-flour-veggie-pizza</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Oat_3e531c2d.png</image:loc>
+      <image:title>Gluten-Free Oat Flour Veggie Pizza</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Oat Flour Veggie Pizza</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-pizza-cauliflower-crust</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Cauliflower_db19806b.png</image:loc>
+      <image:title>Gluten-Free Pizza with Cauliflower Crust</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Pizza with Cauliflower Crust</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-quinoa-crust-pizza</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Quinoa_946b4530.png</image:loc>
+      <image:title>Gluten-Free Quinoa Crust Pizza</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Quinoa Crust Pizza</image:caption>
     </image:image>
   </url>
 
@@ -1405,6 +1501,18 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_SC_Chicken_Dumplings_138cf209.png</image:loc>
       <image:title>Gluten-Free Slow Cooker Chicken and Dumplings</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Slow Cooker Chicken and Dumplings</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-sweet-potato-pizza-bbq-chicken</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_SweetPotato_410ffc7f.png</image:loc>
+      <image:title>Gluten-Free Sweet Potato Pizza Crust with BBQ Chicken</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Sweet Potato Pizza Crust with BBQ Chicken</image:caption>
     </image:image>
   </url>
 
@@ -1561,6 +1669,18 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_White_Chicken_Lasagna_d6bee51f.png</image:loc>
       <image:title>Gluten-Free White Chicken Lasagna</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free White Chicken Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zucchini-crust-garden-pizza</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pizza_Zucchini_e333bd93.png</image:loc>
+      <image:title>Gluten-Free Zucchini Crust Garden Pizza</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zucchini Crust Garden Pizza</image:caption>
     </image:image>
   </url>
 
