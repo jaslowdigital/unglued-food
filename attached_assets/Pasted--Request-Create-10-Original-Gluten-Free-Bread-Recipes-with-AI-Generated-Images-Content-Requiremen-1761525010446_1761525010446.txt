@@ -1,0 +1,108 @@
+🍞 Request: Create 10 Original Gluten-Free Bread Recipes with AI-Generated Images
+Content Requirements:
+
+Please develop 10 unique gluten-free bread recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Bread” (examples:
+
+Gluten-Free Bread with Honey and Oats
+
+Gluten-Free Garlic Herb Pull-Apart Bread
+
+Gluten-Free Banana Bread with Walnuts
+
+Gluten-Free Artisan Sourdough Bread
+
+Gluten-Free Zucchini Bread)
+
+Each recipe should include:
+
+Full ingredients list (with recommended gluten-free flour blends)
+
+Step-by-step baking instructions (including proofing, rise times, and baking temperatures)
+
+Prep time, rise time, and bake time
+
+Yield (loaves, muffins, rolls, etc.)
+
+Nutritional information (calories, carbs, fiber, protein, etc.)
+
+All recipes must use certified gluten-free ingredients and emphasize proper texture and rise.
+
+Include a variety of yeast-based, quick, and specialty breads.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should display the finished bread clearly—sliced, buttered, or freshly baked for visual appeal.
+
+Capture crumb texture, crust color, and steam where possible.
+
+Use natural lighting and clean, bright backgrounds (e.g., wood boards, linen towels, or rustic cutting surfaces).
+
+Highlight artisan, wholesome, and homestyle qualities.
+
+Maintain a consistent visual style across all 10 images, suitable for both web and print.
+
+Preferred specifications: high resolution, warm tone, appetizing focus.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Breads
+
+Additional Subcategories:
+
+Yeast Breads
+
+Quick Breads
+
+Sweet Breads
+
+Savory Breads
+
+Rolls & Flatbreads
+
+Breakfast & Snack Breads
+
+Recipe Variety & Focus:
+
+Ensure diversity in bread types, flavors, and purposes:
+
+Gluten-Free Sandwich Bread – soft, sliceable, everyday loaf
+
+Gluten-Free Artisan Sourdough Bread – tangy and crusty
+
+Gluten-Free Banana Bread – moist and naturally sweet
+
+Gluten-Free Zucchini Bread – veggie-packed and subtly spiced
+
+Gluten-Free Garlic Herb Pull-Apart Bread – savory, buttery, perfect for dinner
+
+Gluten-Free Cinnamon Swirl Bread – sweet breakfast or dessert loaf
+
+Gluten-Free Flatbread – perfect for wraps, pizza bases, or dipping
+
+Gluten-Free Cornbread – classic, golden, and slightly crumbly
+
+Gluten-Free Dinner Rolls – fluffy, light, and buttery
+
+Gluten-Free Seeded Multigrain Bread – hearty, nutritious, and high in fiber
+
+Additional Notes:
+
+Include tips for flour blends (rice, sorghum, almond, tapioca, potato starch, etc.).
+
+Add baking success tips (hydration ratios, rest times, avoiding dense texture).
+
+Provide storage and reheating instructions for freshness.
+
+Offer substitutions (e.g., dairy-free milk, flax eggs, coconut sugar).
+
+Include at least one low-carb or paleo-friendly bread.
+
+Emphasize texture perfection (soft inside, crisp crust) and easy home baking methods.
