@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 181 gluten-free recipes -->
+  <!-- Recipe Pages - 191 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -209,6 +209,30 @@
   </url>
 
   <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-beet-rosemary-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Beet_Bread_d7219c77.png</image:loc>
+      <image:title>Gluten-Free Beet &amp; Rosemary Rustic Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Beet &amp; Rosemary Rustic Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cheddar-jalapeno-cornbread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Cheddar_Jalapeno_e29eb56f.png</image:loc>
+      <image:title>Gluten-Free Cheddar Jalapeño Cornbread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cheddar Jalapeño Cornbread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://ungluedfood.com/recipe/gluten-free-cinnamon-raisin-bread</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -257,6 +281,18 @@
   </url>
 
   <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-espresso-chocolate-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Espresso_Bread_58a3d081.png</image:loc>
+      <image:title>Gluten-Free Espresso Chocolate Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Espresso Chocolate Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://ungluedfood.com/recipe/gluten-free-flatbread</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -277,6 +313,54 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_Garlic_Bread_b8921783.png</image:loc>
       <image:title>Gluten-Free Garlic Herb Pull-Apart Bread</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Garlic Herb Pull-Apart Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-lemon-blueberry-yogurt-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Lemon_Blueberry_754f68a8.png</image:loc>
+      <image:title>Gluten-Free Lemon Blueberry Yogurt Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Lemon Blueberry Yogurt Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-matcha-pistachio-loaf</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Matcha_Bread_636bf1fa.png</image:loc>
+      <image:title>Gluten-Free Matcha Pistachio Loaf</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Matcha Pistachio Loaf</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-pineapple-coconut-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Pineapple_Bread_6a594f5f.png</image:loc>
+      <image:title>Gluten-Free Pineapple Coconut Quick Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Pineapple Coconut Quick Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-roasted-garlic-parmesan-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Garlic_Parmesan_57a51bcd.png</image:loc>
+      <image:title>Gluten-Free Roasted Garlic &amp; Parmesan Pull-Apart Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Roasted Garlic &amp; Parmesan Pull-Apart Bread</image:caption>
     </image:image>
   </url>
 
@@ -313,6 +397,42 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_Multigrain_Bread_160efa78.png</image:loc>
       <image:title>Gluten-Free Seeded Multigrain Bread</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Seeded Multigrain Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-sun-dried-tomato-olive-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Tomato_Olive_Bread_86c5ebce.png</image:loc>
+      <image:title>Gluten-Free Sun-Dried Tomato &amp; Olive Artisan Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Sun-Dried Tomato &amp; Olive Artisan Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-sweet-potato-sage-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Sweet_Potato_Bread_9f46669e.png</image:loc>
+      <image:title>Gluten-Free Sweet Potato &amp; Sage Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Sweet Potato &amp; Sage Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-tahini-honey-flatbread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Tahini_Flatbread_b811b239.png</image:loc>
+      <image:title>Gluten-Free Tahini &amp; Honey Flatbread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Tahini &amp; Honey Flatbread</image:caption>
     </image:image>
   </url>
 
