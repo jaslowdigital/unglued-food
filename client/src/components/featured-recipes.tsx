@@ -1,21 +1,57 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { Link } from "wouter";
+import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import RecipeCard from "@/components/recipe-card";
+import RecipesPagination from "@/components/recipes-pagination";
 import { type Recipe } from "@shared/schema";
 
+const RECIPES_PER_PAGE = 48;
+
+interface RecipesResponse {
+  recipes: Recipe[];
+  total: number;
+  page: number;
+  pageSize: number;
+}
+
 export default function FeaturedRecipes() {
+  const [location] = useLocation();
+  const searchParams = new URLSearchParams(window.location.search);
+  const pageParam = searchParams.get('page');
+  const initialPage = pageParam ? parseInt(pageParam, 10) : 1;
+  
+  const [currentPage, setCurrentPage] = useState(initialPage);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedDifficulty, setSelectedDifficulty] = useState("all");
 
-  const { data: recipes = [], isLoading } = useQuery<Recipe[]>({
-    queryKey: ["/api/recipes", searchQuery, selectedCategory !== "all" ? selectedCategory : undefined],
-    enabled: true,
+  useEffect(() => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const pageParam = searchParams.get('page');
+    if (pageParam) {
+      setCurrentPage(parseInt(pageParam, 10));
+    } else {
+      setCurrentPage(1);
+    }
+  }, [location]);
+
+  const offset = (currentPage - 1) * RECIPES_PER_PAGE;
+  
+  const { data, isLoading } = useQuery<RecipesResponse>({
+    queryKey: ["/api/recipes", {
+      limit: RECIPES_PER_PAGE,
+      offset,
+      category: selectedCategory !== "all" ? selectedCategory : undefined,
+      search: searchQuery || undefined,
+    }],
   });
+
+  const recipes = data?.recipes || [];
+  const totalRecipes = data?.total || 0;
+  const totalPages = Math.ceil(totalRecipes / RECIPES_PER_PAGE);
 
   const filteredRecipes = recipes.filter(recipe => {
     if (selectedDifficulty !== "all" && recipe.difficulty !== selectedDifficulty) {
@@ -23,6 +59,10 @@ export default function FeaturedRecipes() {
     }
     return true;
   });
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+  };
 
   return (
     <section id="recipes" className="py-16 bg-dark-primary">
@@ -93,17 +133,25 @@ export default function FeaturedRecipes() {
 
         {/* Recipe Cards */}
         {isLoading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[...Array(6)].map((_, i) => (
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[...Array(48)].map((_, i) => (
               <div key={i} className="bg-dark-secondary rounded-xl overflow-hidden h-96 animate-pulse" />
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredRecipes.map((recipe) => (
-              <RecipeCard key={recipe.id} recipe={recipe} />
-            ))}
-          </div>
+          <>
+            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6" id="home-recipe-grid">
+              {filteredRecipes.map((recipe) => (
+                <RecipeCard key={recipe.id} recipe={recipe} />
+              ))}
+            </div>
+            
+            <RecipesPagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={handlePageChange}
+            />
+          </>
         )}
 
         {!isLoading && filteredRecipes.length === 0 && (
