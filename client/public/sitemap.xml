@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 231 gluten-free recipes -->
+  <!-- Recipe Pages - 241 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -1525,6 +1525,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/GF_Italian_Sausage_Lasagna_aca800df.png</image:loc>
       <image:title>Gluten-Free Italian Sausage &amp; Ricotta Lasagna</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Italian Sausage &amp; Ricotta Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-apple-cider</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Apple_31b54530.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Apple Cider Reduction</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Apple Cider Reduction</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-apricot-rosemary</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Apricot_f20f619d.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Apricot &amp; Rosemary</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Apricot &amp; Rosemary</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-blueberry-ginger</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Blueberry_85327e21.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Blueberry Ginger Glaze</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Blueberry Ginger Glaze</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-cherry-balsamic</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Cherry_14136c68.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Cherry Balsamic Glaze</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Cherry Balsamic Glaze</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-fig-thyme</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Fig_2128b1b6.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Fig &amp; Thyme Sauce</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Fig &amp; Thyme Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-mango-lime</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Mango_53475c5c.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Mango &amp; Lime Zest</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Mango &amp; Lime Zest</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-orange-sesame</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Orange_90e216bb.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Orange &amp; Sesame</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Orange &amp; Sesame</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-peach-basil</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Peach_49cb996f.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Peach Basil Sauce</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Peach Basil Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-pineapple-ginger</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Pineapple_c6c06626.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Pineapple &amp; Ginger Glaze</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Pineapple &amp; Ginger Glaze</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-miso-butter-chicken-pomegranate-molasses</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_MisoChicken_Pomegranate_33ee5a8c.png</image:loc>
+      <image:title>Gluten-Free Miso-Butter Chicken with Pomegranate Molasses</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Miso-Butter Chicken with Pomegranate Molasses</image:caption>
     </image:image>
   </url>
 
