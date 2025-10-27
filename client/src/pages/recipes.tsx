@@ -71,7 +71,7 @@ export default function RecipesPage() {
 
   // Get unique categories, difficulties, and cook time ranges
   const categories = useMemo(() => {
-    const cats = [...new Set(recipes.map(r => r.category))];
+    const cats = Array.from(new Set(recipes.map(r => r.category)));
     return ["all", ...cats.sort()];
   }, [recipes]);
 

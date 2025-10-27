@@ -74,17 +74,20 @@ export interface IStorage {
 
 export class DatabaseStorage implements IStorage {
   async getRecipes(): Promise<Recipe[]> {
-    return await db.select().from(recipes).where(eq(recipes.status, 'published')).orderBy(desc(recipes.publishedAt));
+    return await db.select().from(recipes).where(eq(recipes.status, 'published')).orderBy(desc(recipes.createdAt));
   }
 
   async getRecipesPaginated(limit: number, offset: number, category?: string, search?: string): Promise<{ recipes: Recipe[]; total: number }> {
-    let query = db.select().from(recipes).where(eq(recipes.status, 'published'));
+    const conditions = [eq(recipes.status, 'published')];
     
     if (category) {
-      query = query.where(and(eq(recipes.status, 'published'), eq(recipes.category, category)));
+      conditions.push(eq(recipes.category, category));
     }
     
-    const allRecipes = await query;
+    const allRecipes = await db
+      .select()
+      .from(recipes)
+      .where(and(...conditions));
     
     let filteredRecipes = allRecipes;
     if (search) {
@@ -96,8 +99,8 @@ export class DatabaseStorage implements IStorage {
     }
     
     filteredRecipes.sort((a, b) => {
-      const dateA = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
-      const dateB = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+      const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+      const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
       return dateB - dateA;
     });
     
