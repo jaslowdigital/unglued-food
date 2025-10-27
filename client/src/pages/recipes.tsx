@@ -229,7 +229,7 @@ export default function RecipesPage() {
 
         {/* Loading State */}
         {isLoading && (
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[...Array(48)].map((_, i) => (
               <div key={i} className="bg-dark-accent rounded-xl h-96 animate-pulse" />
             ))}
@@ -239,7 +239,7 @@ export default function RecipesPage() {
         {/* Recipe Grid */}
         {!isLoading && filteredRecipes.length > 0 && (
           <>
-            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6" id="recipes-grid">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6" id="recipes-grid">
               {filteredRecipes.map((recipe) => (
                 <RecipeCard key={recipe.id} recipe={recipe} />
               ))}
