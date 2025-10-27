@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 171 gluten-free recipes -->
+  <!-- Recipe Pages - 181 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -173,6 +173,18 @@
   </url>
 
   <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-artisan-sourdough-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Sourdough_Bread_5f37f511.png</image:loc>
+      <image:title>Gluten-Free Artisan Sourdough Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Artisan Sourdough Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://ungluedfood.com/recipe/gluten-free-banana-bread</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -181,6 +193,18 @@
       <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Banana_Bread_6dbf1feb.png</image:loc>
       <image:title>Gluten-Free Banana Bread</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Banana Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-banana-bread-walnuts</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Banana_Bread_1d7fbea3.png</image:loc>
+      <image:title>Gluten-Free Banana Bread with Walnuts</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Banana Bread with Walnuts</image:caption>
     </image:image>
   </url>
 
@@ -197,6 +221,66 @@
   </url>
 
   <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cinnamon-swirl-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Cinnamon_Bread_25554e15.png</image:loc>
+      <image:title>Gluten-Free Cinnamon Swirl Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cinnamon Swirl Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cornbread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Cornbread_b353cb60.png</image:loc>
+      <image:title>Gluten-Free Cornbread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cornbread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-dinner-rolls</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Dinner_Rolls_5de9f233.png</image:loc>
+      <image:title>Gluten-Free Dinner Rolls</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Dinner Rolls</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-flatbread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Flatbread_d75ab1bb.png</image:loc>
+      <image:title>Gluten-Free Flatbread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Flatbread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-garlic-herb-pull-apart-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Garlic_Bread_b8921783.png</image:loc>
+      <image:title>Gluten-Free Garlic Herb Pull-Apart Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Garlic Herb Pull-Apart Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
     <loc>https://ungluedfood.com/recipe/gluten-free-rosemary-focaccia</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
@@ -205,6 +289,42 @@
       <image:loc>https://ungluedfood.com/recipe-images/Gluten-Free_Rosemary_Focaccia_511b6625.png</image:loc>
       <image:title>Gluten-Free Rosemary Focaccia</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Rosemary Focaccia</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-sandwich-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Sandwich_Bread_8c31afb2.png</image:loc>
+      <image:title>Gluten-Free Sandwich Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Sandwich Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-seeded-multigrain-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Multigrain_Bread_160efa78.png</image:loc>
+      <image:title>Gluten-Free Seeded Multigrain Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Seeded Multigrain Bread</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zucchini-bread</loc>
+    <lastmod>2025-10-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/GF_Zucchini_Bread_f89fb6ce.png</image:loc>
+      <image:title>Gluten-Free Zucchini Bread</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zucchini Bread</image:caption>
     </image:image>
   </url>
 
