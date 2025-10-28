@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 281 gluten-free recipes -->
+  <!-- Recipe Pages - 291 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -3409,6 +3409,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Pesto_Chicken_Veggie_Skillet_d57105de.png</image:loc>
       <image:title>Gluten-Free Pesto Chicken &amp; Veggie Skillet</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Pesto Chicken &amp; Veggie Skillet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-chicken-schnitzel</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Chicken_Schnitzel_4a0c3be4.png</image:loc>
+      <image:title>Gluten-Free Kosher Chicken Schnitzel</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Chicken Schnitzel</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-matzo-ball-soup</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Matzo_Ball_Soup_2e0f472e.png</image:loc>
+      <image:title>Gluten-Free Kosher Matzo Ball Soup</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Matzo Ball Soup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-brisket-caramelized-onions</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Brisket_Caramelized_Onions_6c753ad4.png</image:loc>
+      <image:title>Gluten-Free Kosher Brisket with Caramelized Onions</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Brisket with Caramelized Onions</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-latkes-applesauce</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Potato_Latkes_6c36c951.png</image:loc>
+      <image:title>Gluten-Free Kosher Latkes with Applesauce</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Latkes with Applesauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-stuffed-peppers</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Stuffed_Peppers_755f6cbd.png</image:loc>
+      <image:title>Gluten-Free Kosher Stuffed Peppers</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Stuffed Peppers</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-salmon-dill-lemon</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Salmon_Dill_Lemon_8f0f2b38.png</image:loc>
+      <image:title>Gluten-Free Kosher Salmon with Dill &amp; Lemon Sauce</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Salmon with Dill &amp; Lemon Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-mediterranean-chicken-bake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Mediterranean_Chicken_Bake_efc0f673.png</image:loc>
+      <image:title>Gluten-Free Kosher Mediterranean Chicken Bake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Mediterranean Chicken Bake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-sweet-noodle-kugel</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Sweet_Noodle_Kugel_1425bff2.png</image:loc>
+      <image:title>Gluten-Free Kosher Sweet Noodle Kugel</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Sweet Noodle Kugel</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-moroccan-chickpea-stew</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Moroccan_Chickpea_Stew_aa9ff30a.png</image:loc>
+      <image:title>Gluten-Free Kosher Moroccan Chickpea Stew</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Moroccan Chickpea Stew</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-kosher-honey-cake-almond-flour</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Kosher_Honey_Cake_Almond_Flour_7bb3d740.png</image:loc>
+      <image:title>Gluten-Free Kosher Honey Cake with Almond Flour</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Kosher Honey Cake with Almond Flour</image:caption>
     </image:image>
   </url>
 
