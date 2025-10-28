@@ -246,10 +246,14 @@ export class DatabaseStorage implements IStorage {
     const existingRating = await this.getUserRatingForRecipe(insertRating.recipeId, insertRating.userEmail);
     
     if (existingRating) {
-      // Update existing rating
+      // Update existing rating and review text
       const [rating] = await db
         .update(recipeRatings)
-        .set({ rating: insertRating.rating })
+        .set({ 
+          rating: insertRating.rating,
+          reviewText: insertRating.reviewText,
+          userName: insertRating.userName
+        })
         .where(eq(recipeRatings.id, existingRating.id))
         .returning();
       return rating;
