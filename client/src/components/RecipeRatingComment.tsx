@@ -47,8 +47,10 @@ export default function RecipeRatingComment({ recipeId }: RecipeRatingCommentPro
 
   // Create rating/review mutation
   const ratingMutation = useMutation({
-    mutationFn: (data: { rating: number; userName: string; userEmail: string; reviewText?: string }) =>
-      apiRequest(`/api/recipes/${recipeId}/ratings`, 'POST', data),
+    mutationFn: async (data: { rating: number; userName: string; userEmail: string; reviewText?: string }) => {
+      const res = await apiRequest('POST', `/api/recipes/${recipeId}/ratings`, data);
+      return res.json();
+    },
     onSuccess: () => {
       toast({
         title: "Review submitted",
