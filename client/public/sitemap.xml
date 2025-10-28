@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 271 gluten-free recipes -->
+  <!-- Recipe Pages - 281 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -3289,6 +3289,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/White_Chocolate_Cranberry_Cookies_d4e15524.png</image:loc>
       <image:title>Gluten-Free White Chocolate Cranberry Cookies</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free White Chocolate Cranberry Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-tuscan-turkey-white-bean-skillet</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Tuscan_Turkey_White_Bean_Skillet_2eb6494a.png</image:loc>
+      <image:title>Gluten-Free Tuscan Turkey &amp; White Bean Skillet</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Tuscan Turkey &amp; White Bean Skillet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-sheet-pan-chicken-vegetables</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Sheet_Pan_Chicken_Vegetables_02c1196e.png</image:loc>
+      <image:title>Gluten-Free Sheet-Pan Chicken &amp; Vegetables</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Sheet-Pan Chicken &amp; Vegetables</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cajun-shrimp-rice-skillet</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cajun_Shrimp_Rice_Skillet_e07914cf.png</image:loc>
+      <image:title>Gluten-Free Cajun Shrimp &amp; Rice Skillet</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cajun Shrimp &amp; Rice Skillet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-lemon-garlic-salmon-sheet-pan</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Lemon_Garlic_Salmon_Sheet_Pan_39940b67.png</image:loc>
+      <image:title>Gluten-Free Lemon Garlic Salmon Sheet Pan</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Lemon Garlic Salmon Sheet Pan</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-creamy-mushroom-spinach-orzo-skillet</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Creamy_Mushroom_Spinach_Orzo_Skillet_9689a02b.png</image:loc>
+      <image:title>Gluten-Free Creamy Mushroom &amp; Spinach Orzo Skillet</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Creamy Mushroom &amp; Spinach Orzo Skillet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-mexican-chicken-quinoa-skillet</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Mexican_Chicken_Quinoa_Skillet_65aaadb3.png</image:loc>
+      <image:title>Gluten-Free Mexican Chicken &amp; Quinoa Skillet</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Mexican Chicken &amp; Quinoa Skillet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-sausage-kale-sweet-potato-hash</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Sausage_Kale_Sweet_Potato_Hash_c2ea2ba3.png</image:loc>
+      <image:title>Gluten-Free Sausage, Kale &amp; Sweet Potato Hash</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Sausage, Kale &amp; Sweet Potato Hash</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-greek-chicken-rice-skillet</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Greek_Chicken_Rice_Skillet_ad07c524.png</image:loc>
+      <image:title>Gluten-Free Greek Chicken &amp; Rice Skillet</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Greek Chicken &amp; Rice Skillet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-bbq-pork-chop-sheet-pan-dinner</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/BBQ_Pork_Chop_Sheet_Pan_624fe96f.png</image:loc>
+      <image:title>Gluten-Free BBQ Pork Chop Sheet Pan Dinner</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free BBQ Pork Chop Sheet Pan Dinner</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-pesto-chicken-veggie-skillet</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Pesto_Chicken_Veggie_Skillet_d57105de.png</image:loc>
+      <image:title>Gluten-Free Pesto Chicken &amp; Veggie Skillet</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Pesto Chicken &amp; Veggie Skillet</image:caption>
     </image:image>
   </url>
 
