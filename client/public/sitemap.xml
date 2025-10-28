@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 331 gluten-free recipes -->
+  <!-- Recipe Pages - 341 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -4009,6 +4009,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Crab_spinach_lasagna_roll-ups_elegant_9d8fec4f.png</image:loc>
       <image:title>Gluten-Free White Crab & Spinach Lasagna Roll-Ups</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free White Crab & Spinach Lasagna Roll-Ups</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-almond-flour-waffles-vanilla-bean-syrup</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Almond_flour_waffles_vanilla_syrup_eb0a6669.png</image:loc>
+      <image:title>Gluten-Free Almond Flour Waffles with Vanilla Bean Syrup</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Almond Flour Waffles with Vanilla Bean Syrup</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-buckwheat-waffles-blueberries-maple-butter</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Buckwheat_waffles_with_blueberries_22e3ae6f.png</image:loc>
+      <image:title>Gluten-Free Buckwheat Waffles with Blueberries & Maple Butter</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Buckwheat Waffles with Blueberries & Maple Butter</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-coconut-flour-waffles-chocolate-chips</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Coconut_flour_chocolate_chip_waffles_def4b167.png</image:loc>
+      <image:title>Gluten-Free Coconut Flour Waffles with Chocolate Chips</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Coconut Flour Waffles with Chocolate Chips</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-oat-flour-waffles-banana-cinnamon</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Oat_flour_waffles_banana_cinnamon_b385fa50.png</image:loc>
+      <image:title>Gluten-Free Oat Flour Waffles with Banana & Cinnamon</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Oat Flour Waffles with Banana & Cinnamon</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-rice-flour-waffles-strawberry-ice-cream</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Rice_flour_waffles_strawberry_ice_cream_76d37f0a.png</image:loc>
+      <image:title>Gluten-Free Rice Flour Waffles with Strawberry Ice Cream</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Rice Flour Waffles with Strawberry Ice Cream</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-tapioca-flour-waffles-caramel-drizzle</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Tapioca_waffles_with_caramel_drizzle_58549541.png</image:loc>
+      <image:title>Gluten-Free Tapioca Flour Waffles with Caramel Drizzle</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Tapioca Flour Waffles with Caramel Drizzle</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-quinoa-flour-waffles-berry-compote</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Quinoa_waffles_berry_compote_015240d3.png</image:loc>
+      <image:title>Gluten-Free Quinoa Flour Waffles with Mixed Berry Compote</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Quinoa Flour Waffles with Mixed Berry Compote</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-chickpea-flour-waffles-maple-butter-pecans</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chickpea_waffles_maple_pecans_452a7606.png</image:loc>
+      <image:title>Gluten-Free Chickpea Flour Waffles with Maple Butter & Pecans</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Chickpea Flour Waffles with Maple Butter & Pecans</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-triple-chocolate-waffles-ice-cream-sundae</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Triple_chocolate_waffle_ice_cream_sundae_fde90318.png</image:loc>
+      <image:title>Gluten-Free Triple Chocolate Waffles & Ice Cream Sundae</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Triple Chocolate Waffles & Ice Cream Sundae</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-sorghum-flour-waffles-lemon-curd-blueberries</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Sorghum_waffles_lemon_curd_blueberries_c892b119.png</image:loc>
+      <image:title>Gluten-Free Sorghum Flour Waffles with Lemon Curd & Blueberries</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Sorghum Flour Waffles with Lemon Curd & Blueberries</image:caption>
     </image:image>
   </url>
 
