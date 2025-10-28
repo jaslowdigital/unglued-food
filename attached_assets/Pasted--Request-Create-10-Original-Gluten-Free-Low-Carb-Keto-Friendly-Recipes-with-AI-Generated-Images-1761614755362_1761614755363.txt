@@ -1,0 +1,112 @@
+🥑 Request: Create 10 Original Gluten-Free Low-Carb (Keto-Friendly) Recipes with AI-Generated Images
+Content Requirements:
+
+Please develop 10 unique gluten-free, low-carb, and keto-friendly recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free” and “Low-Carb” or “Keto-Friendly” (examples:
+
+Gluten-Free Low-Carb Chicken Alfredo Bake
+
+Gluten-Free Keto-Friendly Zucchini Noodle Carbonara
+
+Gluten-Free Low-Carb Cauliflower Crust Pizza
+
+Gluten-Free Keto-Friendly Cheesecake Bites
+
+Gluten-Free Low-Carb Garlic Butter Shrimp Skillet)
+
+Each recipe should include:
+
+Complete ingredients list (with macronutrient balance — high fat, moderate protein, low carb)
+
+Step-by-step cooking instructions
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Detailed nutritional breakdown per serving (calories, carbs, net carbs, fats, protein, fiber)
+
+All ingredients must be certified gluten-free and suitable for keto or low-carb diets.
+
+Focus on wholesome, whole-food ingredients — no refined carbs or added sugars.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Each image should emphasize fresh, vibrant, and appetizing plating — crisp vegetables, creamy sauces, or seared proteins.
+
+Use natural lighting with clean, minimalist presentation — marble or wood surfaces, cast iron pans, or bowls.
+
+Highlight texture and color contrast (melting cheese, sizzling butter, or fresh herbs).
+
+Maintain consistent tone and high resolution across all 10 recipes — suitable for web, print, and social platforms.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Low-Carb / Keto-Friendly Recipes
+
+Additional Subcategories:
+
+Keto Dinners
+
+Protein & Fat-Based Meals
+
+Keto Snacks & Sides
+
+Keto Desserts
+
+One-Pan Keto Meals
+
+Recipe Variety & Focus:
+
+Gluten-Free Low-Carb Chicken Alfredo Bake
+Juicy chicken, roasted broccoli, and creamy Alfredo sauce baked with mozzarella and Parmesan — rich, comforting, and carb-free.
+
+Gluten-Free Keto-Friendly Zucchini Noodle Carbonara
+Spiralized zucchini tossed in creamy eggs, Parmesan, and crispy turkey bacon — classic Italian flavor, no pasta required.
+
+Gluten-Free Low-Carb Cauliflower Crust Pizza
+Golden cauliflower crust topped with tomato sauce, cheese, and your choice of keto-friendly toppings.
+
+Gluten-Free Keto-Friendly Cheeseburger Skillet
+All the flavors of a cheeseburger — ground beef, onions, pickles, and cheddar — cooked in one skillet and topped with a special sauce.
+
+Gluten-Free Low-Carb Garlic Butter Shrimp Skillet
+Succulent shrimp sautéed in garlic butter with lemon, zucchini ribbons, and parsley.
+
+Gluten-Free Keto-Friendly Buffalo Chicken Lettuce Wraps
+Spicy shredded chicken wrapped in crisp romaine leaves with a cooling ranch drizzle.
+
+Gluten-Free Low-Carb Eggplant Lasagna
+Layered roasted eggplant, marinara, and cheese for a hearty, pasta-free alternative to lasagna.
+
+Gluten-Free Keto-Friendly Taco Casserole
+Layers of spiced ground beef, cauliflower rice, cheese, and avocado baked together for a Tex-Mex comfort dish.
+
+Gluten-Free Low-Carb Cheddar Chive Biscuits
+Savory almond flour biscuits flavored with cheese and herbs — fluffy, buttery, and perfect as a keto bread replacement.
+
+Gluten-Free Keto-Friendly Mini Cheesecake Bites
+Creamy cheesecake made with almond flour crust and sugar-free sweetener — portioned for easy, guilt-free indulgence.
+
+Additional Notes:
+
+Include carb count (total and net) for each recipe.
+
+Offer ingredient substitutions (almond vs coconut flour, erythritol vs stevia, etc.).
+
+Provide dairy-free and vegetarian variations where applicable.
+
+Add meal-prep and storage instructions (freezer-friendly, reheat guidelines).
+
+Highlight balance of macros (e.g., 70% fat, 25% protein, 5% carbs).
+
+Suggest pairings (keto salads, low-carb sides, or beverages).
+
+Include at least one breakfast, lunch, dinner, and dessert recipe.
