@@ -1,0 +1,118 @@
+🍪 Request: Create 10 Original Gluten-Free Cookie Recipes with AI-Generated Images
+Content Requirements:
+
+Please develop 10 unique gluten-free cookie recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Cookies” (examples:
+
+Gluten-Free Chocolate Chip Cookies
+
+Gluten-Free Lemon Sugar Cookies
+
+Gluten-Free Peanut Butter Cookies
+
+Gluten-Free Oatmeal Raisin Cookies
+
+Gluten-Free Almond Butter Chocolate Cookies)
+
+Each recipe should include:
+
+Full ingredients list (flour blend, fats, leaveners, mix-ins, etc.)
+
+Step-by-step baking instructions (mixing, chilling, baking, and cooling)
+
+Prep time, bake time, and total time
+
+Yield / serving size
+
+Nutritional information (calories, carbs, fats, protein, sugar)
+
+All recipes must use certified gluten-free ingredients, including flours and oats.
+
+Recipes should highlight texture perfection — chewy, crispy, soft, or crumbly varieties.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should emphasize texture and detail — melty chocolate chips, sugar sparkle, or cracked tops.
+
+Use natural lighting, clean backgrounds, and props like cooling racks, parchment paper, or glass milk bottles.
+
+Maintain a consistent aesthetic — warm, bright tones suitable for modern food photography.
+
+Ensure high-resolution quality optimized for web, print, and social sharing.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Cookies
+
+Additional Subcategories:
+
+Classic Cookies
+
+Chocolate Lovers
+
+Nut Butter Cookies
+
+Holiday & Seasonal Cookies
+
+No-Bake & Specialty Cookies
+
+Recipe Variety & Focus:
+
+Gluten-Free Chocolate Chip Cookies
+The ultimate chewy-crisp balance — made with a custom gluten-free flour blend, brown butter, and dark chocolate chunks.
+
+Gluten-Free Peanut Butter Cookies
+Classic cross-hatched cookies made with creamy peanut butter, sea salt, and a soft, chewy center.
+
+Gluten-Free Lemon Sugar Cookies
+Light, buttery cookies infused with lemon zest and rolled in sparkling sugar — bright and refreshing.
+
+Gluten-Free Oatmeal Raisin Cookies
+Made with certified gluten-free oats, brown sugar, cinnamon, and plump raisins — a soft, nostalgic treat.
+
+Gluten-Free Double Chocolate Cookies
+Fudgy and rich — cocoa-based dough with dark and white chocolate chips for the ultimate chocolate fix.
+
+Gluten-Free Almond Butter Chocolate Cookies
+Naturally flourless cookie made with almond butter, cocoa powder, and melted chocolate chips.
+
+Gluten-Free Snickerdoodle Cookies
+Soft and pillowy cookies rolled in cinnamon-sugar with the classic tang from cream of tartar.
+
+Gluten-Free Coconut Macaroon Cookies
+Chewy, golden coconut cookies dipped in dark chocolate — simple, elegant, and naturally gluten-free.
+
+Gluten-Free Pumpkin Spice Cookies
+Soft, cake-like cookies made with pumpkin purée, warm spices, and a maple glaze — perfect for fall.
+
+Gluten-Free White Chocolate Cranberry Cookies
+Buttery cookies with white chocolate chunks and tart dried cranberries — festive and balanced in sweetness.
+
+Additional Notes:
+
+Include baking success tips:
+
+Proper chilling for chewy texture
+
+Adjusting sugar ratios for crisp vs soft
+
+Testing doneness (edges vs center set)
+
+Provide flour blend guidance (almond, oat, tapioca, or rice flour combinations).
+
+Offer dairy-free and egg-free variations using coconut oil or flax eggs.
+
+Include no-bake options for variety.
+
+Suggest decorating or add-in ideas (nuts, spices, drizzles, or frostings).
+
+Include at least one holiday or giftable cookie.
+
+Add storage instructions (airtight container vs refrigeration/freezing).
