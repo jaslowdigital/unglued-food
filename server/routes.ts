@@ -9,6 +9,7 @@ import {
   insertRecipeFlagSchema,
 } from "@shared/schema";
 import { ObjectStorageService, ObjectNotFoundError } from "./objectStorage";
+import { containsLinksOrCode } from "./utils/reviewValidation";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Recipe routes
@@ -143,10 +144,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
   app.post("/api/recipes/:id/ratings", async (req, res) => {
     try {
-      const validatedData = insertRecipeRatingSchema.parse({
+      const data = {
         ...req.body,
         recipeId: req.params.id,
-      });
+      };
+      
+      // Validate review text for links and code
+      if (data.reviewText && containsLinksOrCode(data.reviewText)) {
+        // If review contains links or code, remove the review text but keep the rating
+        data.reviewText = null;
+      }
+      
+      const validatedData = insertRecipeRatingSchema.parse(data);
       const rating = await storage.createRating(validatedData);
       res.status(201).json(rating);
     } catch (error) {
