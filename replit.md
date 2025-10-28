@@ -1,6 +1,6 @@
 # Overview
 
-This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 291 AI-generated recipes across various categories (desserts, breads, entrees, one-pan meals, kosher meals, grain alternatives, burrito bowls, soups & stews, sides), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
+This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 301 AI-generated recipes across various categories (desserts, breads, entrees, one-pan meals, kosher meals, low-carb/keto, grain alternatives, burrito bowls, soups & stews, sides), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
 
 # User Preferences
 
@@ -38,10 +38,10 @@ Preferred communication style: Simple, everyday language.
 - **Accessibility**: Built-in features from Radix UI
 
 ## Content Management
-- **Recipe System**: 291 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
-  - Desserts (60): Halloween Desserts (10) + Cranberry Tarts (10) + Brownies & Cheesecake Bars (10) + Fruit Crisps & Crumbles (10) + Gluten-Free Cookies (10) + Kosher Honey Cake (1) + Others (9)
-  - Breads (15): Artisan Loaves (5) + Muffins (10)
-  - Entrees: Oven-Roasted Chicken, Lasagna variations, Pizza, Burrito Bowls, Halloumi dishes, Miso-Butter Chicken variants, One-Pan Meals (10), Kosher Meals (7 entrees: Chicken Schnitzel, Brisket, Stuffed Peppers, Salmon with Dill & Lemon, Mediterranean Chicken Bake)
+- **Recipe System**: 301 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
+  - Desserts (61): Halloween Desserts (10) + Cranberry Tarts (10) + Brownies & Cheesecake Bars (10) + Fruit Crisps & Crumbles (10) + Gluten-Free Cookies (10) + Kosher Honey Cake (1) + Keto Mini Cheesecake Bites (1) + Others (9)
+  - Breads (16): Artisan Loaves (5) + Muffins (10) + Low-Carb Cheddar Chive Biscuits (1)
+  - Entrees: Oven-Roasted Chicken, Lasagna variations, Pizza, Burrito Bowls, Halloumi dishes, Miso-Butter Chicken variants, One-Pan Meals (10), Kosher Meals (7), Low-Carb/Keto (8: Chicken Alfredo Bake, Zucchini Noodle Carbonara, Cauliflower Crust Pizza, Cheeseburger Skillet, Garlic Butter Shrimp, Buffalo Chicken Wraps, Eggplant Lasagna, Taco Casserole)
   - Grain & Flour Alternatives (10): Cauliflower rice, zucchini noodles, quinoa, etc.
   - Soups & Stews (12): Creamy Soups (10) + Kosher Meals (2: Matzo Ball Soup, Moroccan Chickpea Stew)
   - Sides (2): Kosher Meals (Latkes, Sweet Noodle Kugel)
