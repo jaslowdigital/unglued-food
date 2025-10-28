@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 291 gluten-free recipes -->
+  <!-- Recipe Pages - 301 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -3529,6 +3529,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Kosher_Honey_Cake_Almond_Flour_7bb3d740.png</image:loc>
       <image:title>Gluten-Free Kosher Honey Cake with Almond Flour</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Kosher Honey Cake with Almond Flour</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-low-carb-chicken-alfredo-bake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Low-Carb_Chicken_Alfredo_Bake_4df8a2f6.png</image:loc>
+      <image:title>Gluten-Free Low-Carb Chicken Alfredo Bake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Low-Carb Chicken Alfredo Bake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-keto-zucchini-noodle-carbonara</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Keto_Zucchini_Noodle_Carbonara_b3d6f8e6.png</image:loc>
+      <image:title>Gluten-Free Keto-Friendly Zucchini Noodle Carbonara</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Keto-Friendly Zucchini Noodle Carbonara</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-low-carb-cauliflower-crust-pizza</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Low-Carb_Cauliflower_Crust_Pizza_c514ded7.png</image:loc>
+      <image:title>Gluten-Free Low-Carb Cauliflower Crust Pizza</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Low-Carb Cauliflower Crust Pizza</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-keto-cheeseburger-skillet</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Keto_Cheeseburger_Skillet_40225335.png</image:loc>
+      <image:title>Gluten-Free Keto-Friendly Cheeseburger Skillet</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Keto-Friendly Cheeseburger Skillet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-low-carb-garlic-butter-shrimp</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Low-Carb_Garlic_Butter_Shrimp_4de4513e.png</image:loc>
+      <image:title>Gluten-Free Low-Carb Garlic Butter Shrimp Skillet</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Low-Carb Garlic Butter Shrimp Skillet</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-keto-buffalo-chicken-wraps</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Keto_Buffalo_Chicken_Wraps_a858c2d6.png</image:loc>
+      <image:title>Gluten-Free Keto-Friendly Buffalo Chicken Lettuce Wraps</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Keto-Friendly Buffalo Chicken Lettuce Wraps</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-low-carb-eggplant-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Low-Carb_Eggplant_Lasagna_27bc0eeb.png</image:loc>
+      <image:title>Gluten-Free Low-Carb Eggplant Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Low-Carb Eggplant Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-keto-taco-casserole</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Keto_Taco_Casserole_f3d52ffb.png</image:loc>
+      <image:title>Gluten-Free Keto-Friendly Taco Casserole</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Keto-Friendly Taco Casserole</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-low-carb-cheddar-chive-biscuits</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Low-Carb_Cheddar_Chive_Biscuits_089e5a99.png</image:loc>
+      <image:title>Gluten-Free Low-Carb Cheddar Chive Biscuits</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Low-Carb Cheddar Chive Biscuits</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-keto-mini-cheesecake-bites</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Keto_Mini_Cheesecake_Bites_b35e75ec.png</image:loc>
+      <image:title>Gluten-Free Keto-Friendly Mini Cheesecake Bites</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Keto-Friendly Mini Cheesecake Bites</image:caption>
     </image:image>
   </url>
 
