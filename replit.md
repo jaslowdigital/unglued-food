@@ -1,6 +1,6 @@
 # Overview
 
-This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 281 AI-generated recipes across various categories (desserts, breads, entrees, one-pan meals, grain alternatives, burrito bowls, soups & stews, brownies & cheesecake bars, fruit crisps & crumbles, cookies), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
+This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 291 AI-generated recipes across various categories (desserts, breads, entrees, one-pan meals, kosher meals, grain alternatives, burrito bowls, soups & stews, sides), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
 
 # User Preferences
 
@@ -38,13 +38,14 @@ Preferred communication style: Simple, everyday language.
 - **Accessibility**: Built-in features from Radix UI
 
 ## Content Management
-- **Recipe System**: 281 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
-  - Desserts (59): Halloween Desserts (10) + Cranberry Tarts (10) + Brownies & Cheesecake Bars (10) + Fruit Crisps & Crumbles (10) + Gluten-Free Cookies (10) + Others (9)
+- **Recipe System**: 291 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
+  - Desserts (60): Halloween Desserts (10) + Cranberry Tarts (10) + Brownies & Cheesecake Bars (10) + Fruit Crisps & Crumbles (10) + Gluten-Free Cookies (10) + Kosher Honey Cake (1) + Others (9)
   - Breads (15): Artisan Loaves (5) + Muffins (10)
-  - Entrees: Oven-Roasted Chicken, Lasagna variations, Pizza, Burrito Bowls, Halloumi dishes, Miso-Butter Chicken variants, One-Pan Meals (10)
+  - Entrees: Oven-Roasted Chicken, Lasagna variations, Pizza, Burrito Bowls, Halloumi dishes, Miso-Butter Chicken variants, One-Pan Meals (10), Kosher Meals (7 entrees: Chicken Schnitzel, Brisket, Stuffed Peppers, Salmon with Dill & Lemon, Mediterranean Chicken Bake)
   - Grain & Flour Alternatives (10): Cauliflower rice, zucchini noodles, quinoa, etc.
-  - Soups & Stews (10): Creamy Soups
-  - Additional categories: Thanksgiving, Venison, Side Dishes
+  - Soups & Stews (12): Creamy Soups (10) + Kosher Meals (2: Matzo Ball Soup, Moroccan Chickpea Stew)
+  - Sides (2): Kosher Meals (Latkes, Sweet Noodle Kugel)
+  - Additional categories: Thanksgiving, Venison
 - **Product Recommendations**: Affiliate product listings with category filtering
 - **Educational Content**: Static sections on gluten-free living
 - **Newsletter**: Email subscription system
