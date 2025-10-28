@@ -1,0 +1,112 @@
+✡️ Request: Create 10 Original Gluten-Free Kosher Recipes with AI-Generated Images
+Content Requirements:
+
+Please develop 10 unique gluten-free kosher recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free” and the dish type or cuisine (examples:
+
+Gluten-Free Kosher Chicken Schnitzel
+
+Gluten-Free Kosher Matzo Ball Soup
+
+Gluten-Free Kosher Brisket with Caramelized Onions
+
+Gluten-Free Kosher Latkes with Applesauce
+
+Gluten-Free Kosher Stuffed Peppers)
+
+Each recipe should include:
+
+Full ingredients list (specify kosher-certified ingredients and gluten-free substitutions)
+
+Step-by-step cooking instructions
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information per serving (calories, protein, carbs, fats, sodium)
+
+All recipes must use certified gluten-free and kosher ingredients.
+
+Recipes should include a mix of traditional Jewish classics and modern kosher-inspired meals, highlighting variety in protein, seasonality, and regional style (Ashkenazi, Sephardic, Mediterranean, etc.).
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Showcase beautiful plating with kosher-friendly styling (e.g., clean white dishes, rustic table settings, or traditional holiday spreads).
+
+Use natural lighting and vibrant presentation — fresh herbs, bright colors, and culturally relevant garnishes.
+
+Maintain consistent visual tone across all 10 recipes — warm, inviting, and respectful of kosher traditions.
+
+Images must be high-resolution and suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Kosher Meals
+
+Additional Subcategories:
+
+Traditional Jewish Dishes
+
+Holiday Recipes (Passover, Hanukkah, Rosh Hashanah)
+
+Modern Kosher Cuisine
+
+Family Dinners
+
+Mediterranean & Middle Eastern Inspired
+
+Recipe Variety & Focus:
+
+Gluten-Free Kosher Chicken Schnitzel
+Crispy, pan-fried chicken cutlets coated in gluten-free breadcrumbs — golden, juicy, and family-approved.
+
+Gluten-Free Kosher Matzo Ball Soup
+Light, fluffy gluten-free matzo balls floating in a clear, herb-infused chicken broth — perfect for Passover or anytime comfort.
+
+Gluten-Free Kosher Brisket with Caramelized Onions
+Slow-cooked beef brisket with onions, garlic, and a sweet-savory glaze — classic Shabbat centerpiece.
+
+Gluten-Free Kosher Latkes with Applesauce & Sour Cream
+Crispy potato pancakes fried in oil — traditional Hanukkah dish with gluten-free flour binder for perfect texture.
+
+Gluten-Free Kosher Stuffed Peppers
+Bell peppers filled with quinoa, ground turkey, and herbs, simmered in a rich tomato sauce — healthy and filling.
+
+Gluten-Free Kosher Salmon with Dill & Lemon Sauce
+Baked salmon fillets with fresh dill, lemon, and olive oil — simple, elegant, and dairy-free.
+
+Gluten-Free Kosher Mediterranean Chicken Bake
+Chicken thighs roasted with olives, artichokes, tomatoes, and herbs — one-pan Mediterranean Shabbat dish.
+
+Gluten-Free Kosher Sweet Noodle Kugel (Dairy or Pareve)
+A creamy, baked noodle pudding made with gluten-free egg noodles, cinnamon, and raisins — sweet and nostalgic.
+
+Gluten-Free Kosher Moroccan Chickpea Stew
+A plant-based Sephardic stew with chickpeas, tomatoes, spices, and vegetables — naturally gluten-free and pareve.
+
+Gluten-Free Kosher Honey Cake with Almond Flour
+Moist, spiced honey cake made with almond flour, cinnamon, and orange zest — perfect for Rosh Hashanah.
+
+Additional Notes:
+
+Ensure all recipes clearly identify whether they are meat, dairy, or pareve.
+
+Include kosher preparation guidelines (no mixing of meat and dairy, proper substitutions).
+
+Provide holiday designations (Passover-safe, Hanukkah-friendly, etc.).
+
+Offer dairy-free and vegetarian variations where applicable.
+
+Suggest pairing ideas (wine, side dishes, salads).
+
+Add cultural context or serving notes — e.g., Shabbat table, Passover seder, or holiday brunch.
+
+Highlight fresh, wholesome ingredients and modern interpretations of traditional flavors.
