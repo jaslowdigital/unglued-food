@@ -2,17 +2,40 @@ import { useState } from "react";
 import { Search, ShoppingCart, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
 
 export default function Header() {
   const [cartCount] = useState(3);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [location] = useLocation();
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [location, navigate] = useLocation();
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+    setIsMenuOpen(false);
+  };
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate(`/recipes?search=${encodeURIComponent(searchQuery.trim())}`);
+      setIsSearchOpen(false);
+      setSearchQuery("");
+    }
+  };
+
+  const openSearch = () => {
+    setIsSearchOpen(true);
     setIsMenuOpen(false);
   };
 
@@ -89,6 +112,7 @@ export default function Header() {
               variant="ghost" 
               size="icon"
               className="hover:text-warm-amber transition-colors"
+              onClick={openSearch}
               data-testid="button-search"
             >
               <Search className="h-5 w-5" />
@@ -172,6 +196,50 @@ export default function Header() {
           </div>
         )}
       </div>
+
+      {/* Search Dialog */}
+      <Dialog open={isSearchOpen} onOpenChange={setIsSearchOpen}>
+        <DialogContent className="sm:max-w-[500px] bg-dark-secondary border-dark-accent">
+          <DialogHeader>
+            <DialogTitle className="text-warm-amber font-playfair text-2xl">
+              Search Recipes
+            </DialogTitle>
+          </DialogHeader>
+          <form onSubmit={handleSearch} className="space-y-4">
+            <div className="relative">
+              <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+              <Input
+                type="text"
+                placeholder="Search for recipes, ingredients, categories..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="pl-10 bg-dark-primary border-dark-accent focus:border-warm-amber text-light-primary placeholder:text-muted-foreground"
+                autoFocus
+                data-testid="input-search-query"
+              />
+            </div>
+            <div className="flex justify-end space-x-2">
+              <Button
+                type="button"
+                variant="outline"
+                onClick={() => setIsSearchOpen(false)}
+                className="border-dark-accent hover:bg-dark-accent"
+                data-testid="button-cancel-search"
+              >
+                Cancel
+              </Button>
+              <Button
+                type="submit"
+                className="bg-warm-amber hover:bg-warm-orange text-dark-primary font-semibold"
+                disabled={!searchQuery.trim()}
+                data-testid="button-submit-search"
+              >
+                Search
+              </Button>
+            </div>
+          </form>
+        </DialogContent>
+      </Dialog>
     </header>
   );
 }

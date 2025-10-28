@@ -32,10 +32,11 @@ export default function RecipesPage() {
   const [location] = useLocation();
   const searchParams = new URLSearchParams(window.location.search);
   const pageParam = searchParams.get('page');
+  const searchParam = searchParams.get('search');
   const initialPage = pageParam ? parseInt(pageParam, 10) : 1;
   
   const [currentPage, setCurrentPage] = useState(initialPage);
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState(searchParam || "");
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [selectedDifficulty, setSelectedDifficulty] = useState("all");
   const [selectedCookTime, setSelectedCookTime] = useState("all");
@@ -43,10 +44,16 @@ export default function RecipesPage() {
   useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
     const pageParam = searchParams.get('page');
+    const searchParam = searchParams.get('search');
+    
     if (pageParam) {
       setCurrentPage(parseInt(pageParam, 10));
     } else {
       setCurrentPage(1);
+    }
+    
+    if (searchParam) {
+      setSearchTerm(searchParam);
     }
   }, [location]);
 
