@@ -10,7 +10,7 @@ import RecipeRatingComment from "@/components/RecipeRatingComment";
 import RecipeFlag from "@/components/RecipeFlag";
 import SocialShare from "@/components/SocialShare";
 import MetaTags from "@/components/MetaTags";
-import type { Recipe } from "@shared/schema";
+import type { Recipe, RecipeRating } from "@shared/schema";
 
 export default function RecipePage() {
   const params = useParams() as { slug?: string };
@@ -42,6 +42,18 @@ export default function RecipePage() {
     },
     enabled: !!slug,
   });
+
+  // Fetch ratings/reviews for Schema.org markup
+  const { data: ratings = [] } = useQuery<RecipeRating[]>({
+    queryKey: ['/api/recipes', recipe?.id, 'ratings'],
+    enabled: !!recipe?.id,
+  });
+
+  // Calculate aggregate rating
+  const averageRating = ratings.length > 0
+    ? (ratings.reduce((sum, r) => sum + r.rating, 0) / ratings.length).toFixed(1)
+    : recipe?.rating || "0";
+  const reviewCount = ratings.length;
 
   if (isLoading) {
     return (
@@ -324,12 +336,28 @@ export default function RecipePage() {
             "name": `Step ${index + 1}`,
             "text": instruction
           })),
-          "aggregateRating": {
+          "aggregateRating": reviewCount > 0 ? {
             "@type": "AggregateRating",
-            "ratingValue": recipe.rating,
+            "ratingValue": averageRating,
+            "reviewCount": reviewCount,
             "bestRating": "5",
             "worstRating": "1"
-          }
+          } : undefined,
+          "review": ratings.filter(r => r.reviewText).map(rating => ({
+            "@type": "Review",
+            "author": {
+              "@type": "Person",
+              "name": rating.userName
+            },
+            "datePublished": rating.createdAt ? new Date(rating.createdAt).toISOString().split('T')[0] : undefined,
+            "reviewRating": {
+              "@type": "Rating",
+              "ratingValue": rating.rating,
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "reviewBody": rating.reviewText
+          }))
         })
       }} />
       </div>
