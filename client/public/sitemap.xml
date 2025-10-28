@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 241 gluten-free recipes -->
+  <!-- Recipe Pages - 251 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -2929,6 +2929,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Maple_Roasted_Vegetables_Fresh_4f596e36.png</image:loc>
       <image:title>Maple Roasted Root Vegetables</image:title>
       <image:caption>Gluten-free recipe: Maple Roasted Root Vegetables</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-brownie-cheesecake-swirl-bars</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Brownie_Cheesecake_Swirl_Bars_854a5818.png</image:loc>
+      <image:title>Gluten-Free Brownie Cheesecake Swirl Bars</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Brownie Cheesecake Swirl Bars</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-peanut-butter-cheesecake-brownies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Peanut_Butter_Cheesecake_Brownies_fac4640f.png</image:loc>
+      <image:title>Gluten-Free Peanut Butter Cheesecake Brownies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Peanut Butter Cheesecake Brownies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-salted-caramel-cheesecake-bars</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Salted_Caramel_Cheesecake_Bars_da2e3f39.png</image:loc>
+      <image:title>Gluten-Free Salted Caramel Cheesecake Bars</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Salted Caramel Cheesecake Bars</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-raspberry-fudge-brownies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Raspberry_Fudge_Brownies_4250f1ea.png</image:loc>
+      <image:title>Gluten-Free Raspberry Fudge Brownies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Raspberry Fudge Brownies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cookies-cream-cheesecake-bars</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cookies_Cream_Cheesecake_Bars_d63b7840.png</image:loc>
+      <image:title>Gluten-Free Cookies &amp; Cream Cheesecake Bars</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cookies &amp; Cream Cheesecake Bars</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-espresso-mocha-cheesecake-brownies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Espresso_Mocha_Cheesecake_Brownies_fc41dbd1.png</image:loc>
+      <image:title>Gluten-Free Espresso Mocha Cheesecake Brownies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Espresso Mocha Cheesecake Brownies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-lemon-blueberry-cheesecake-bars</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Lemon_Blueberry_Cheesecake_Bars_df2540d4.png</image:loc>
+      <image:title>Gluten-Free Lemon Blueberry Cheesecake Bars</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Lemon Blueberry Cheesecake Bars</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-smores-cheesecake-brownies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/S'mores_Cheesecake_Brownies_9074a6c8.png</image:loc>
+      <image:title>Gluten-Free S'mores Cheesecake Brownies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free S'mores Cheesecake Brownies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-pumpkin-cheesecake-bars</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Pumpkin_Cheesecake_Bars_ba74cbfe.png</image:loc>
+      <image:title>Gluten-Free Pumpkin Cheesecake Bars</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Pumpkin Cheesecake Bars</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-triple-chocolate-cheesecake-bars</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Triple_Chocolate_Cheesecake_Bars_01f51023.png</image:loc>
+      <image:title>Gluten-Free Triple Chocolate Cheesecake Bars</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Triple Chocolate Cheesecake Bars</image:caption>
     </image:image>
   </url>
 
