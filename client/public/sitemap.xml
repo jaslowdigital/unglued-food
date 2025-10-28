@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 251 gluten-free recipes -->
+  <!-- Recipe Pages - 261 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -3049,6 +3049,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Triple_Chocolate_Cheesecake_Bars_01f51023.png</image:loc>
       <image:title>Gluten-Free Triple Chocolate Cheesecake Bars</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Triple Chocolate Cheesecake Bars</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-apple-cinnamon-crisp</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Apple_Cinnamon_Crisp_a9612be1.png</image:loc>
+      <image:title>Gluten-Free Apple Cinnamon Crisp</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Apple Cinnamon Crisp</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-mixed-berry-crumble</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Mixed_Berry_Crumble_a0a2841b.png</image:loc>
+      <image:title>Gluten-Free Mixed Berry Crumble</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Mixed Berry Crumble</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-peach-almond-crisp</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Peach_Almond_Crisp_14aecc4f.png</image:loc>
+      <image:title>Gluten-Free Peach Almond Crisp</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Peach Almond Crisp</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-strawberry-rhubarb-crumble</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Strawberry_Rhubarb_Crumble_09ef4cb1.png</image:loc>
+      <image:title>Gluten-Free Strawberry Rhubarb Crumble</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Strawberry Rhubarb Crumble</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-pear-ginger-crisp</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Pear_Ginger_Crisp_f0726ab9.png</image:loc>
+      <image:title>Gluten-Free Pear &amp; Ginger Crisp</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Pear &amp; Ginger Crisp</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cherry-vanilla-crumble</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cherry_Vanilla_Crumble_5c7464c8.png</image:loc>
+      <image:title>Gluten-Free Cherry Vanilla Crumble</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cherry Vanilla Crumble</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-blueberry-lemon-crisp</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Lemon_Crisp_81e3e4de.png</image:loc>
+      <image:title>Gluten-Free Blueberry Lemon Crisp</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Blueberry Lemon Crisp</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-plum-cardamom-crumble</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Plum_Cardamom_Crumble_30e9a1ff.png</image:loc>
+      <image:title>Gluten-Free Plum Cardamom Crumble</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Plum Cardamom Crumble</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-mango-coconut-crisp</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Mango_Coconut_Crisp_fc026fa4.png</image:loc>
+      <image:title>Gluten-Free Mango Coconut Crisp</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Mango Coconut Crisp</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-cranberry-apple-crumble</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Apple_Crumble_3d281f48.png</image:loc>
+      <image:title>Gluten-Free Cranberry Apple Crumble</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Cranberry Apple Crumble</image:caption>
     </image:image>
   </url>
 
