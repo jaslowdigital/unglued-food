@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 321 gluten-free recipes -->
+  <!-- Recipe Pages - 331 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -3889,6 +3889,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Cardamom_Scones_09c92cd7.png</image:loc>
       <image:title>Gluten-Free Zesty Blueberry Cardamom Scones</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Cardamom Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-lasagna-spinach-ricotta</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Spinach_ricotta_white_lasagna_slice_a55865f2.png</image:loc>
+      <image:title>Gluten-Free White Lasagna with Spinach & Ricotta</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Lasagna with Spinach & Ricotta</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-chicken-alfredo-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chicken_Alfredo_white_lasagna_slice_4c810cdb.png</image:loc>
+      <image:title>Gluten-Free White Chicken Alfredo Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Chicken Alfredo Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-pesto-zucchini-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Pesto_zucchini_white_lasagna_slice_0f3411b1.png</image:loc>
+      <image:title>Gluten-Free White Pesto & Zucchini Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Pesto & Zucchini Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-seafood-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Seafood_white_lasagna_elegant_slice_2ea1c70e.png</image:loc>
+      <image:title>Gluten-Free White Seafood Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Seafood Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-mushroom-leek-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Mushroom_leek_white_lasagna_slice_4b70ec9c.png</image:loc>
+      <image:title>Gluten-Free White Mushroom & Leek Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Mushroom & Leek Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-sausage-kale-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Sausage_kale_white_lasagna_slice_11aaab48.png</image:loc>
+      <image:title>Gluten-Free White Sausage & Kale Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Sausage & Kale Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-four-cheese-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Four_cheese_white_lasagna_slice_50b30b61.png</image:loc>
+      <image:title>Gluten-Free White Four-Cheese Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Four-Cheese Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-roasted-vegetable-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Roasted_vegetable_white_lasagna_slice_d51ba687.png</image:loc>
+      <image:title>Gluten-Free White Roasted Vegetable Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Roasted Vegetable Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-butternut-squash-lasagna</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Butternut_squash_white_lasagna_slice_0297fb04.png</image:loc>
+      <image:title>Gluten-Free White Butternut Squash Lasagna</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Butternut Squash Lasagna</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-crab-spinach-lasagna-rollups</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Crab_spinach_lasagna_roll-ups_elegant_9d8fec4f.png</image:loc>
+      <image:title>Gluten-Free White Crab & Spinach Lasagna Roll-Ups</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Crab & Spinach Lasagna Roll-Ups</image:caption>
     </image:image>
   </url>
 
