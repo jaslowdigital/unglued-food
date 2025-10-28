@@ -11,7 +11,7 @@ import {
 import { Input } from "@/components/ui/input";
 
 export default function Header() {
-  const [cartCount] = useState(3);
+  const [cartCount] = useState(0);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
