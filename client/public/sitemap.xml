@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 311 gluten-free recipes -->
+  <!-- Recipe Pages - 321 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -3769,6 +3769,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Strawberry_Cream_Custard_Cake_49e86312.png</image:loc>
       <image:title>Gluten-Free Strawberry Cream Custard Cake</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Strawberry Cream Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-lemon-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Lemon_Scones_430cae04.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Lemon Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Lemon Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-orange-cream-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Orange_Cream_Scones_0086c302.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Orange Cream Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Orange Cream Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-lime-poppyseed-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Lime_Poppyseed_Scones_34c9cb30.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Lime Poppyseed Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Lime Poppyseed Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-buttermilk-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Buttermilk_Scones_c9423a77.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Buttermilk Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Buttermilk Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-vanilla-bean-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Vanilla_Bean_Scones_2d3a093b.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Vanilla Bean Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Vanilla Bean Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-almond-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Almond_Scones_beef7715.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Almond Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Almond Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-lavender-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Lavender_Scones_869e6cc3.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Lavender Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Lavender Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-coconut-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Coconut_Scones_5d17a837.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Coconut Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Coconut Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-honey-yogurt-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Honey_Yogurt_Scones_4de1d7f8.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Honey Yogurt Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Honey Yogurt Scones</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-zesty-blueberry-cardamom-scones</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Blueberry_Cardamom_Scones_09c92cd7.png</image:loc>
+      <image:title>Gluten-Free Zesty Blueberry Cardamom Scones</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Zesty Blueberry Cardamom Scones</image:caption>
     </image:image>
   </url>
 

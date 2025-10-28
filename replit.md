@@ -1,6 +1,6 @@
 # Overview
 
-This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 311 AI-generated recipes across various categories (desserts, breads, entrees, one-pan meals, kosher meals, low-carb/keto, custard cakes, grain alternatives, burrito bowls, soups & stews, sides), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
+This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 321 AI-generated recipes across various categories (desserts, breads, scones, entrees, one-pan meals, kosher meals, low-carb/keto, custard cakes, grain alternatives, burrito bowls, soups & stews, sides), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
 
 # User Preferences
 
@@ -38,9 +38,10 @@ Preferred communication style: Simple, everyday language.
 - **Accessibility**: Built-in features from Radix UI
 
 ## Content Management
-- **Recipe System**: 311 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
+- **Recipe System**: 321 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
   - Desserts (71): Halloween Desserts (10) + Cranberry Tarts (10) + Brownies & Cheesecake Bars (10) + Fruit Crisps & Crumbles (10) + Gluten-Free Cookies (10) + Custard Cakes (10: Vanilla Bean, Chocolate, Lemon Blueberry, Coconut, Matcha, Salted Caramel, Pumpkin Spice, Almond Honey, Espresso, Strawberry Cream) + Kosher Honey Cake (1) + Keto Mini Cheesecake Bites (1) + Others (9)
   - Breads (16): Artisan Loaves (5) + Muffins (10) + Low-Carb Cheddar Chive Biscuits (1)
+  - Scones (10): Zesty Blueberry varieties (Lemon, Orange Cream, Lime Poppyseed, Buttermilk, Vanilla Bean, Almond, Lavender, Coconut, Honey Yogurt, Cardamom)
   - Entrees: Oven-Roasted Chicken, Lasagna variations, Pizza, Burrito Bowls, Halloumi dishes, Miso-Butter Chicken variants, One-Pan Meals (10), Kosher Meals (7), Low-Carb/Keto (8: Chicken Alfredo Bake, Zucchini Noodle Carbonara, Cauliflower Crust Pizza, Cheeseburger Skillet, Garlic Butter Shrimp, Buffalo Chicken Wraps, Eggplant Lasagna, Taco Casserole)
   - Grain & Flour Alternatives (10): Cauliflower rice, zucchini noodles, quinoa, etc.
   - Soups & Stews (12): Creamy Soups (10) + Kosher Meals (2: Matzo Ball Soup, Moroccan Chickpea Stew)
