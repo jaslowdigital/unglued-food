@@ -108,13 +108,14 @@ export type AdminUser = typeof adminUsers.$inferSelect;
 export type InsertSession = z.infer<typeof insertSessionSchema>;
 export type Session = typeof sessions.$inferSelect;
 
-// Recipe Ratings table
+// Recipe Ratings table (includes reviews)
 export const recipeRatings = pgTable("recipe_ratings", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
   recipeId: varchar("recipe_id").notNull().references(() => recipes.id, { onDelete: "cascade" }),
   userEmail: varchar("user_email").notNull(),
   userName: varchar("user_name").notNull(),
   rating: integer("rating").notNull(), // 1-5 stars
+  reviewText: text("review_text"), // Optional review text
   createdAt: timestamp("created_at").defaultNow(),
 });
 

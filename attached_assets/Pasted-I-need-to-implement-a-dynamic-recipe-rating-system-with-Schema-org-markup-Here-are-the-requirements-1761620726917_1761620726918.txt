@@ -1,0 +1,107 @@
+I need to implement a dynamic recipe rating system with Schema.org markup. Here are the requirements:
+Core Functionality:
+
+Each recipe page should have its own individual rating system
+When a user submits a rating/review for a recipe, it should:
+
+Save the rating to the database (linked to that specific recipe)
+Automatically update the recipe's Schema.org JSON-LD markup on that page
+Recalculate the aggregate rating (average rating and total review count)
+
+
+
+Initial Seed Reviews:
+
+Every recipe should start with 5 random unique 5-star reviews
+Generate unique review text for each review - make them all different from each other
+Use varied reviewer names (e.g., Sarah M., John D., Emily R., Mike T., Lisa K.)
+Use different dates spread over the past few months
+Make the review text sound natural and varied (e.g., "Absolutely delicious!", "My family loved this recipe!", "Easy to follow and tasty!", "Will definitely make again!", "Perfect recipe!")
+These should be added to the database when a recipe is first created or as a one-time seed operation
+
+Remove Comment Functionality:
+
+Remove the "Add Comment" button/form from all recipe pages
+Remove the comments section display from all recipe pages
+Remove comments from the recipe template
+Keep only the rating/review system (no separate comments feature)
+
+Schema Markup Requirements:
+
+Add Recipe schema (https://schema.org/Recipe) to every recipe page
+Include the following in the Recipe schema:
+
+Basic recipe info (name, description, image, ingredients, instructions, etc.)
+aggregateRating object with:
+
+@type: "AggregateRating"
+ratingValue: average of all ratings for this recipe
+reviewCount: total number of ratings/reviews
+bestRating: 5
+worstRating: 1
+
+
+Individual review objects array containing each review with:
+
+@type: "Review"
+author: reviewer name
+datePublished: review date
+reviewRating: the rating value
+reviewBody: review text (if applicable)
+
+
+
+
+
+Technical Implementation:
+
+Store ratings in the database with fields: recipe_id, user_id, rating_value, review_text, created_at
+When rendering a recipe page, query all ratings for that recipe (including the initial 5-star seed reviews)
+Calculate aggregate rating dynamically
+Generate the JSON-LD schema markup server-side with current data
+Insert the schema in the <head> or at the top of <body> in a <script type="application/ld+json"> tag
+
+Example Schema Structure:
+json{
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": "Recipe Name",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "5",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": "Sarah M.",
+      "datePublished": "2025-01-15",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Absolutely delicious! My whole family loved it!"
+    },
+    {
+      "@type": "Review",
+      "author": "John D.",
+      "datePublished": "2025-01-10",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5"
+      },
+      "reviewBody": "Easy to follow and the results were amazing!"
+    }
+  ]
+}
+Important:
+
+The schema markup must update automatically whenever a new rating is submitted
+Each recipe page should only show ratings/reviews for that specific recipe
+Ensure the markup is valid according to Google's Rich Results Test
+Remove all comment-related functionality - we only want ratings/reviews
+All existing recipes should receive 5 unique 5-star reviews if they don't already have them
+
+Please implement this system ensuring the schema markup stays synchronized with the database ratings in real-time.
