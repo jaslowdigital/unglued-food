@@ -1,6 +1,6 @@
 # Overview
 
-This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 271 AI-generated recipes across various categories (desserts, breads, entrees, grain alternatives, burrito bowls, soups & stews, brownies & cheesecake bars, fruit crisps & crumbles, cookies), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
+This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 281 AI-generated recipes across various categories (desserts, breads, entrees, one-pan meals, grain alternatives, burrito bowls, soups & stews, brownies & cheesecake bars, fruit crisps & crumbles, cookies), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
 
 # User Preferences
 
@@ -38,10 +38,10 @@ Preferred communication style: Simple, everyday language.
 - **Accessibility**: Built-in features from Radix UI
 
 ## Content Management
-- **Recipe System**: 271 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
+- **Recipe System**: 281 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
   - Desserts (59): Halloween Desserts (10) + Cranberry Tarts (10) + Brownies & Cheesecake Bars (10) + Fruit Crisps & Crumbles (10) + Gluten-Free Cookies (10) + Others (9)
   - Breads (15): Artisan Loaves (5) + Muffins (10)
-  - Entrees: Oven-Roasted Chicken, Lasagna variations, Pizza, Burrito Bowls, Halloumi dishes, Miso-Butter Chicken variants
+  - Entrees: Oven-Roasted Chicken, Lasagna variations, Pizza, Burrito Bowls, Halloumi dishes, Miso-Butter Chicken variants, One-Pan Meals (10)
   - Grain & Flour Alternatives (10): Cauliflower rice, zucchini noodles, quinoa, etc.
   - Soups & Stews (10): Creamy Soups
   - Additional categories: Thanksgiving, Venison, Side Dishes
