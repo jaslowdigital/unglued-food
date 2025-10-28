@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 261 gluten-free recipes -->
+  <!-- Recipe Pages - 271 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -3169,6 +3169,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Cranberry_Apple_Crumble_3d281f48.png</image:loc>
       <image:title>Gluten-Free Cranberry Apple Crumble</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Cranberry Apple Crumble</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-chocolate-chip-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chocolate_Chip_Cookies_df69e10f.png</image:loc>
+      <image:title>Gluten-Free Chocolate Chip Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Chocolate Chip Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-peanut-butter-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Peanut_Butter_Cookies_918ccb8b.png</image:loc>
+      <image:title>Gluten-Free Peanut Butter Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Peanut Butter Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-lemon-sugar-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Lemon_Sugar_Cookies_bd4d46cc.png</image:loc>
+      <image:title>Gluten-Free Lemon Sugar Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Lemon Sugar Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-oatmeal-raisin-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Oatmeal_Raisin_Cookies_6623c5e7.png</image:loc>
+      <image:title>Gluten-Free Oatmeal Raisin Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Oatmeal Raisin Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-double-chocolate-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Double_Chocolate_Cookies_9a55f801.png</image:loc>
+      <image:title>Gluten-Free Double Chocolate Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Double Chocolate Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-almond-butter-chocolate-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Almond_Butter_Chocolate_Cookies_d7d1d8b7.png</image:loc>
+      <image:title>Gluten-Free Almond Butter Chocolate Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Almond Butter Chocolate Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-snickerdoodle-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Snickerdoodle_Cookies_e847c24d.png</image:loc>
+      <image:title>Gluten-Free Snickerdoodle Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Snickerdoodle Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-coconut-macaroon-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Coconut_Macaroon_Cookies_2bcf7587.png</image:loc>
+      <image:title>Gluten-Free Coconut Macaroon Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Coconut Macaroon Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-pumpkin-spice-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Pumpkin_Spice_Cookies_8d201cc4.png</image:loc>
+      <image:title>Gluten-Free Pumpkin Spice Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Pumpkin Spice Cookies</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-white-chocolate-cranberry-cookies</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/White_Chocolate_Cranberry_Cookies_d4e15524.png</image:loc>
+      <image:title>Gluten-Free White Chocolate Cranberry Cookies</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free White Chocolate Cranberry Cookies</image:caption>
     </image:image>
   </url>
 
