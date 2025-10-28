@@ -39,7 +39,7 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- Recipe Pages - 301 gluten-free recipes -->
+  <!-- Recipe Pages - 311 gluten-free recipes -->
   <url>
     <loc>https://ungluedfood.com/recipe/cranberry-pecan-cheese-ball</loc>
     <lastmod>2025-10-27</lastmod>
@@ -3649,6 +3649,126 @@
       <image:loc>https://ungluedfood.com/recipe-images/Keto_Mini_Cheesecake_Bites_b35e75ec.png</image:loc>
       <image:title>Gluten-Free Keto-Friendly Mini Cheesecake Bites</image:title>
       <image:caption>Gluten-free recipe: Gluten-Free Keto-Friendly Mini Cheesecake Bites</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-vanilla-bean-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Vanilla_Bean_Custard_Cake_ab0ab8b9.png</image:loc>
+      <image:title>Gluten-Free Vanilla Bean Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Vanilla Bean Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-chocolate-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Chocolate_Custard_Cake_bef6bedd.png</image:loc>
+      <image:title>Gluten-Free Chocolate Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Chocolate Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-lemon-custard-cake-blueberry-sauce</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Lemon_Blueberry_Custard_Cake_53ec5de4.png</image:loc>
+      <image:title>Gluten-Free Lemon Custard Cake with Blueberry Sauce</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Lemon Custard Cake with Blueberry Sauce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-coconut-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Coconut_Custard_Cake_e50e1a16.png</image:loc>
+      <image:title>Gluten-Free Coconut Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Coconut Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-matcha-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Matcha_Custard_Cake_11c29c87.png</image:loc>
+      <image:title>Gluten-Free Matcha Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Matcha Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-salted-caramel-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Salted_Caramel_Custard_Cake_14e2d242.png</image:loc>
+      <image:title>Gluten-Free Salted Caramel Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Salted Caramel Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-pumpkin-spice-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Pumpkin_Spice_Custard_Cake_ee5d2387.png</image:loc>
+      <image:title>Gluten-Free Pumpkin Spice Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Pumpkin Spice Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-almond-honey-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Almond_Honey_Custard_Cake_4208d9d9.png</image:loc>
+      <image:title>Gluten-Free Almond & Honey Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Almond & Honey Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-espresso-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Espresso_Custard_Cake_7e263d27.png</image:loc>
+      <image:title>Gluten-Free Espresso Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Espresso Custard Cake</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ungluedfood.com/recipe/gluten-free-strawberry-cream-custard-cake</loc>
+    <lastmod>2025-10-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ungluedfood.com/recipe-images/Strawberry_Cream_Custard_Cake_49e86312.png</image:loc>
+      <image:title>Gluten-Free Strawberry Cream Custard Cake</image:title>
+      <image:caption>Gluten-free recipe: Gluten-Free Strawberry Cream Custard Cake</image:caption>
     </image:image>
   </url>
 
