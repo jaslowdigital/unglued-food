@@ -1,9 +1,11 @@
 import { useParams } from "wouter";
 import { useQuery } from "@tanstack/react-query";
+import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { Clock, Users, ChefHat, Flame } from "lucide-react";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Clock, Users, ChefHat, Flame, X } from "lucide-react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import RecipeRatingComment from "@/components/RecipeRatingComment";
@@ -15,6 +17,7 @@ import type { Recipe, RecipeRating } from "@shared/schema";
 export default function RecipePage() {
   const params = useParams() as { slug?: string };
   const slug = params.slug;
+  const [imageModalOpen, setImageModalOpen] = useState(false);
 
   // Use category-appropriate fallback images when AI images fail to load
   const getFallbackImage = (category: string) => {
@@ -210,9 +213,10 @@ export default function RecipePage() {
             <img
               src={recipe.image || getFallbackImage(recipe.category)}
               alt={recipe.title}
-              className="w-full h-full object-cover max-w-full"
+              className="w-full h-full object-cover max-w-full cursor-pointer hover:opacity-90 transition-opacity"
               style={{ maxWidth: '100%', height: 'auto', minHeight: '16rem' }}
               data-testid="recipe-image"
+              onClick={() => setImageModalOpen(true)}
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 target.src = getFallbackImage(recipe.category);
@@ -224,6 +228,29 @@ export default function RecipePage() {
               </Badge>
             </div>
           </div>
+
+          {/* Image Expand Modal */}
+          <Dialog open={imageModalOpen} onOpenChange={setImageModalOpen}>
+            <DialogContent className="max-w-[95vw] max-h-[95vh] w-auto h-auto p-0 bg-black border-0">
+              <button
+                onClick={() => setImageModalOpen(false)}
+                className="absolute top-4 right-4 z-50 rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition-colors"
+                data-testid="close-image-modal"
+              >
+                <X className="w-6 h-6" />
+              </button>
+              <img
+                src={recipe.image || getFallbackImage(recipe.category)}
+                alt={recipe.title}
+                className="w-full h-full object-contain max-h-[95vh]"
+                data-testid="expanded-recipe-image"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = getFallbackImage(recipe.category);
+                }}
+              />
+            </DialogContent>
+          </Dialog>
         </div>
       </div>
 
