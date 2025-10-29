@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search, ShoppingCart, Menu, X } from "lucide-react";
+import { Search, ShoppingCart, Menu, X, ChevronDown, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "wouter";
 import {
@@ -9,6 +9,14 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+  DropdownMenuSeparator,
+  DropdownMenuLabel,
+} from "@/components/ui/dropdown-menu";
 
 export default function Header() {
   const [cartCount] = useState(0);
@@ -75,6 +83,79 @@ export default function Header() {
               >
                 All Recipes
               </Link>
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <button className="hover:text-warm-amber transition-colors duration-200 flex items-center gap-1" data-testid="nav-categories">
+                    Categories <ChevronDown className="h-4 w-4" />
+                  </button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="bg-dark-secondary border-dark-accent w-64">
+                  <DropdownMenuLabel className="text-warm-amber">Recipe Categories</DropdownMenuLabel>
+                  <DropdownMenuSeparator className="bg-dark-accent" />
+                  <DropdownMenuItem asChild>
+                    <Link href="/recipes?category=Desserts" className="flex justify-between items-center cursor-pointer">
+                      <span>Desserts</span>
+                      <span className="text-xs text-muted-gray flex items-center gap-1">
+                        <Clock className="h-3 w-3" /> 30-45 min
+                      </span>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/recipes?category=Breads" className="flex justify-between items-center cursor-pointer">
+                      <span>Breads</span>
+                      <span className="text-xs text-muted-gray flex items-center gap-1">
+                        <Clock className="h-3 w-3" /> 60-90 min
+                      </span>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/recipes?category=Pizza" className="flex justify-between items-center cursor-pointer">
+                      <span>Pizza & Focaccia</span>
+                      <span className="text-xs text-muted-gray flex items-center gap-1">
+                        <Clock className="h-3 w-3" /> 120-150 min
+                      </span>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/recipes?category=Entrees" className="flex justify-between items-center cursor-pointer">
+                      <span>Entrees</span>
+                      <span className="text-xs text-muted-gray flex items-center gap-1">
+                        <Clock className="h-3 w-3" /> 45-60 min
+                      </span>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/recipes?category=Scones" className="flex justify-between items-center cursor-pointer">
+                      <span>Scones</span>
+                      <span className="text-xs text-muted-gray flex items-center gap-1">
+                        <Clock className="h-3 w-3" /> 25-30 min
+                      </span>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/recipes?category=Soups" className="flex justify-between items-center cursor-pointer">
+                      <span>Soups & Stews</span>
+                      <span className="text-xs text-muted-gray flex items-center gap-1">
+                        <Clock className="h-3 w-3" /> 30-60 min
+                      </span>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuItem asChild>
+                    <Link href="/recipes?category=Sides" className="flex justify-between items-center cursor-pointer">
+                      <span>Sides</span>
+                      <span className="text-xs text-muted-gray flex items-center gap-1">
+                        <Clock className="h-3 w-3" /> 20-30 min
+                      </span>
+                    </Link>
+                  </DropdownMenuItem>
+                  <DropdownMenuSeparator className="bg-dark-accent" />
+                  <DropdownMenuItem asChild>
+                    <Link href="/recipes" className="cursor-pointer text-warm-amber">
+                      View All Categories →
+                    </Link>
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
               <Link 
                 href="/add-recipe"
                 className="hover:text-warm-amber transition-colors duration-200"
@@ -164,6 +245,65 @@ export default function Header() {
               >
                 All Recipes
               </Link>
+              <div className="pl-4 space-y-2 border-l-2 border-dark-accent">
+                <p className="text-xs text-warm-amber font-semibold mb-2">Categories</p>
+                <Link href="/recipes?category=Desserts" className="block text-sm hover:text-warm-amber transition-colors" onClick={() => setIsMenuOpen(false)}>
+                  <div className="flex justify-between items-center">
+                    <span>Desserts</span>
+                    <span className="text-xs text-muted-gray flex items-center gap-1">
+                      <Clock className="h-3 w-3" /> 30-45 min
+                    </span>
+                  </div>
+                </Link>
+                <Link href="/recipes?category=Breads" className="block text-sm hover:text-warm-amber transition-colors" onClick={() => setIsMenuOpen(false)}>
+                  <div className="flex justify-between items-center">
+                    <span>Breads</span>
+                    <span className="text-xs text-muted-gray flex items-center gap-1">
+                      <Clock className="h-3 w-3" /> 60-90 min
+                    </span>
+                  </div>
+                </Link>
+                <Link href="/recipes?category=Pizza" className="block text-sm hover:text-warm-amber transition-colors" onClick={() => setIsMenuOpen(false)}>
+                  <div className="flex justify-between items-center">
+                    <span>Pizza & Focaccia</span>
+                    <span className="text-xs text-muted-gray flex items-center gap-1">
+                      <Clock className="h-3 w-3" /> 120-150 min
+                    </span>
+                  </div>
+                </Link>
+                <Link href="/recipes?category=Entrees" className="block text-sm hover:text-warm-amber transition-colors" onClick={() => setIsMenuOpen(false)}>
+                  <div className="flex justify-between items-center">
+                    <span>Entrees</span>
+                    <span className="text-xs text-muted-gray flex items-center gap-1">
+                      <Clock className="h-3 w-3" /> 45-60 min
+                    </span>
+                  </div>
+                </Link>
+                <Link href="/recipes?category=Scones" className="block text-sm hover:text-warm-amber transition-colors" onClick={() => setIsMenuOpen(false)}>
+                  <div className="flex justify-between items-center">
+                    <span>Scones</span>
+                    <span className="text-xs text-muted-gray flex items-center gap-1">
+                      <Clock className="h-3 w-3" /> 25-30 min
+                    </span>
+                  </div>
+                </Link>
+                <Link href="/recipes?category=Soups" className="block text-sm hover:text-warm-amber transition-colors" onClick={() => setIsMenuOpen(false)}>
+                  <div className="flex justify-between items-center">
+                    <span>Soups & Stews</span>
+                    <span className="text-xs text-muted-gray flex items-center gap-1">
+                      <Clock className="h-3 w-3" /> 30-60 min
+                    </span>
+                  </div>
+                </Link>
+                <Link href="/recipes?category=Sides" className="block text-sm hover:text-warm-amber transition-colors" onClick={() => setIsMenuOpen(false)}>
+                  <div className="flex justify-between items-center">
+                    <span>Sides</span>
+                    <span className="text-xs text-muted-gray flex items-center gap-1">
+                      <Clock className="h-3 w-3" /> 20-30 min
+                    </span>
+                  </div>
+                </Link>
+              </div>
               <Link 
                 href="/add-recipe"
                 className="text-left hover:text-warm-amber transition-colors"
