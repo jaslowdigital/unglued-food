@@ -1,0 +1,114 @@
+🍨 Request: Create 10 Original Gluten-Free Dessert Recipes with AI-Generated Images
+Content Requirements:
+
+Please develop 10 unique gluten-free dessert recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free” and the dessert type or key flavor (examples:
+
+Gluten-Free Chocolate Lava Cake
+
+Gluten-Free Lemon Pudding Cups
+
+Gluten-Free Strawberry Shortcake Bars
+
+Gluten-Free Tiramisu Cups
+
+Gluten-Free Almond Butter Brownies)
+
+Each recipe should include:
+
+Full ingredients list (base, filling, flavorings, toppings)
+
+Step-by-step instructions (mixing, baking/chilling, finishing, plating)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, protein, fats, sugar, fiber per serving)
+
+All ingredients must be certified gluten-free (flours, chocolate, thickeners, etc.).
+
+Recipes should balance visual appeal, texture, and flavor diversity — creamy, crunchy, fruity, and chocolatey variations.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Each image should capture the dessert’s texture and presentation — clean, inviting, and styled for modern audiences.
+
+Use natural lighting and minimalist food styling — marble backdrops, gold cutlery, or white ceramic dishes.
+
+Include close-up shots to highlight toppings, fillings, and cross-sections.
+
+Maintain consistent tone and color balance across all 10 desserts.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Desserts
+
+Additional Subcategories:
+
+Cakes & Cupcakes
+
+Pies & Tarts
+
+Custards & Puddings
+
+Bars & Brownies
+
+Frozen & No-Bake Desserts
+
+Recipe Variety & Focus:
+
+Gluten-Free Chocolate Lava Cake
+Rich molten chocolate center with almond flour base — indulgent, decadent, and perfect for special occasions.
+
+Gluten-Free Lemon Pudding Cups
+Light, tangy lemon custard layered with whipped cream and zest — simple, elegant, and refreshing.
+
+Gluten-Free Strawberry Shortcake Bars
+Almond flour shortbread base topped with whipped cream and macerated strawberries — classic flavor, handheld form.
+
+Gluten-Free Tiramisu Cups
+Espresso-soaked gluten-free sponge layers with mascarpone cream and cocoa dusting — Italian-inspired individual treats.
+
+Gluten-Free Almond Butter Brownies
+Fudgy, rich brownies swirled with creamy almond butter — no refined sugar, perfectly chewy.
+
+Gluten-Free Coconut Cream Pie Bars
+Toasted coconut crust with coconut pudding and whipped topping — tropical and creamy.
+
+Gluten-Free Salted Caramel Cheesecake Cups
+Mini cheesecakes layered with almond crust, caramel sauce, and flaky sea salt — sweet, salty, and smooth.
+
+Gluten-Free Blueberry Crumble Bars
+Buttery oat-almond crust with blueberry filling and golden crumb topping — perfect for breakfast or dessert.
+
+Gluten-Free Peanut Butter Chocolate Mousse
+Silky, dairy-free mousse made with cocoa, peanut butter, and coconut cream — rich yet light.
+
+Gluten-Free Apple Cinnamon Galette
+Rustic tart with spiced apples, honey, and a flaky almond flour crust — comforting and naturally sweet.
+
+Additional Notes:
+
+Include flour substitution options (almond, coconut, oat, cassava, or tapioca flour).
+
+Offer dairy-free and vegan alternatives (coconut cream, flax egg, plant-based butter).
+
+Suggest seasonal flavor variations (e.g., berry, pumpkin, or citrus swaps).
+
+Provide storage instructions (room temperature, refrigerated, or freezer-safe).
+
+Highlight texture and flavor balance — crisp crusts, creamy layers, moist centers.
+
+Include garnish ideas — fruit, nuts, chocolate curls, powdered sugar, edible flowers.
+
+Add pairing suggestions (coffee, wine, or tea).
