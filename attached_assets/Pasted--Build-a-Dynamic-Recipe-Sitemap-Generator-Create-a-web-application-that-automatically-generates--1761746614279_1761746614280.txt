@@ -1,0 +1,135 @@
+# Build a Dynamic Recipe Sitemap Generator
+
+Create a web application that automatically generates and serves a `gluten-free-recipes.xml` sitemap file for Google Search Console. This sitemap should contain ONLY recipe pages, not other site pages.
+
+## Core Requirements
+
+### 1. Technology Stack
+- Use Node.js with Express (or Python with Flask - your choice)
+- Serve the sitemap at the route `/gluten-free-recipes.xml`
+- Set proper XML content-type headers: `Content-Type: application/xml`
+- Include CORS headers if needed
+
+### 2. Recipe Data Storage
+Create a simple way to manage recipes. Choose ONE approach:
+- **Option A**: JSON file (`recipes.json`) that stores recipe data
+- **Option B**: Simple in-memory array that can be updated via API
+- **Option C**: SQLite database for persistence
+
+Each recipe should have:
+```json
+{
+  "id": "chocolate-chip-cookies",
+  "title": "Gluten-Free Chocolate Chip Cookies",
+  "url": "https://yoursite.com/recipes/gluten-free-chocolate-chip-cookies",
+  "imageUrl": "https://yoursite.com/images/gf-chocolate-chip-cookies.jpg",
+  "imageCaption": "Soft and chewy gluten-free chocolate chip cookies",
+  "lastModified": "2025-10-28",
+  "published": true
+}
+```
+
+### 3. Sitemap XML Generation
+Generate XML that follows this exact structure:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>[RECIPE_URL]</loc>
+    <lastmod>[YYYY-MM-DD]</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>[IMAGE_URL]</image:loc>
+      <image:title>[RECIPE_TITLE]</image:title>
+      <image:caption>[IMAGE_CAPTION]</image:caption>
+    </image:image>
+  </url>
+</urlset>
+```
+
+### 4. Features to Include
+
+**Required:**
+- GET `/gluten-free-recipes.xml` - Serves the sitemap
+- Only include recipes where `published: true`
+- Sort recipes by `lastModified` date (newest first)
+- Properly escape XML special characters in titles/captions
+
+**Nice to Have:**
+- POST `/api/recipes` - Add a new recipe (returns success/error)
+- PUT `/api/recipes/:id` - Update existing recipe
+- DELETE `/api/recipes/:id` - Remove a recipe
+- GET `/api/recipes` - List all recipes (JSON format for testing)
+- Simple HTML admin page to manage recipes
+
+### 5. Validation Rules
+- Maximum 50,000 URLs per sitemap (add check/warning)
+- Dates must be in YYYY-MM-DD format
+- All URLs must be absolute (start with https://)
+- Recipe IDs should be URL-safe (lowercase, hyphens, no spaces)
+
+### 6. Sample Data
+Include 10-15 sample gluten-free recipes to start with, such as:
+- Gluten-Free Chocolate Chip Cookies
+- Gluten-Free Banana Bread
+- Gluten-Free Pizza Crust
+- Gluten-Free Pasta Primavera
+- Gluten-Free Blueberry Muffins
+- Gluten-Free Pancakes
+- Gluten-Free Brownies
+- Gluten-Free Bread
+- etc.
+
+### 7. Testing & Documentation
+- Include a README.md with:
+  - How to run the app
+  - How to add/update/delete recipes
+  - How to test the sitemap XML output
+  - Example API calls (if you add API endpoints)
+- Add a simple `/` homepage that explains the app and links to the sitemap
+
+### 8. Optional Enhancements
+If you have time, add these features:
+- Automatic lastModified date update when recipes are edited
+- Sitemap caching (regenerate only when data changes)
+- Input validation for recipe data
+- Ping Google when sitemap updates: `http://www.google.com/ping?sitemap=[URL]`
+- Support for multiple images per recipe
+
+## Expected Output
+
+When I visit `/gluten-free-recipes.xml`, I should see a properly formatted XML sitemap that:
+- ✅ Contains ONLY recipe URLs (no homepage, about, contact, etc.)
+- ✅ Includes image information for each recipe
+- ✅ Has proper XML namespaces and structure
+- ✅ Is ready to submit to Google Search Console
+- ✅ Updates dynamically when recipes are added/modified
+
+## Example API Usage (if implemented)
+
+```bash
+# Add a new recipe
+curl -X POST http://localhost:3000/api/recipes \
+  -H "Content-Type: application/json" \
+  -d '{
+    "id": "gf-carrot-cake",
+    "title": "Gluten-Free Carrot Cake",
+    "url": "https://yoursite.com/recipes/gluten-free-carrot-cake",
+    "imageUrl": "https://yoursite.com/images/gf-carrot-cake.jpg",
+    "imageCaption": "Moist gluten-free carrot cake with cream cheese frosting"
+  }'
+
+# View the updated sitemap
+curl http://localhost:3000/gluten-free-recipes.xml
+```
+
+## Success Criteria
+- Sitemap validates at https://www.xml-sitemaps.com/validate-xml-sitemap.html
+- XML is properly formatted and includes all required namespaces
+- Easy to add/update recipes without manually editing XML
+- Code is clean, commented, and easy to understand
+
+**Start with the basics (serving the XML) and then add features incrementally. Focus on getting a working sitemap first!**

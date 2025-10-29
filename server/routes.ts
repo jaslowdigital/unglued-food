@@ -313,6 +313,72 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Dynamic XML Sitemap for Recipes
+  app.get("/gluten-free-recipes.xml", async (req, res) => {
+    try {
+      const SITE_DOMAIN = "https://ungluedfood.com";
+      
+      // Get all published recipes ordered by most recently updated first
+      const recipes = await storage.getRecipes();
+      const publishedRecipes = recipes
+        .filter(r => r.status === 'published')
+        .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+      
+      // Helper function to escape XML special characters
+      const escapeXml = (str: string) => {
+        return str
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&apos;');
+      };
+      
+      // Helper function to format date as YYYY-MM-DD
+      const formatDate = (date: Date) => {
+        const d = new Date(date);
+        const year = d.getFullYear();
+        const month = String(d.getMonth() + 1).padStart(2, '0');
+        const day = String(d.getDate()).padStart(2, '0');
+        return `${year}-${month}-${day}`;
+      };
+      
+      // Generate XML sitemap
+      let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+      xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n';
+      xml += '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n';
+      
+      for (const recipe of publishedRecipes) {
+        const recipeUrl = `${SITE_DOMAIN}/recipe/${recipe.slug}`;
+        const imageUrl = recipe.image.startsWith('http') 
+          ? recipe.image 
+          : `${SITE_DOMAIN}${recipe.image}`;
+        const lastModified = formatDate(recipe.createdAt);
+        
+        xml += '  <url>\n';
+        xml += `    <loc>${escapeXml(recipeUrl)}</loc>\n`;
+        xml += `    <lastmod>${lastModified}</lastmod>\n`;
+        xml += '    <changefreq>monthly</changefreq>\n';
+        xml += '    <priority>0.8</priority>\n';
+        xml += '    <image:image>\n';
+        xml += `      <image:loc>${escapeXml(imageUrl)}</image:loc>\n`;
+        xml += `      <image:title>${escapeXml(recipe.title)}</image:title>\n`;
+        xml += `      <image:caption>${escapeXml(recipe.description)}</image:caption>\n`;
+        xml += '    </image:image>\n';
+        xml += '  </url>\n';
+      }
+      
+      xml += '</urlset>';
+      
+      // Set proper XML content-type header
+      res.setHeader('Content-Type', 'application/xml; charset=UTF-8');
+      res.send(xml);
+    } catch (error) {
+      console.error("Error generating sitemap:", error);
+      res.status(500).send('Error generating sitemap');
+    }
+  });
+
   const httpServer = createServer(app);
   return httpServer;
 }

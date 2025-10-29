@@ -1,0 +1,68 @@
+"Create a dynamically updating XML sitemap for my recipe website that:
+
+Automatically generates a sitemap.xml file whenever new recipes are added to the database/CMS
+Includes these elements for each recipe URL:
+
+Full canonical URL (<loc>)
+Last modification date (<lastmod>)
+Change frequency set to "monthly" (<changefreq>)
+Priority of 0.8 for recipe pages (<priority>)
+Image information using the image sitemap extension
+
+
+Technical requirements:
+
+Use proper XML namespaces for sitemaps and image extensions
+Limit to 50,000 URLs per sitemap (create index if needed)
+Format dates as YYYY-MM-DD or W3C Datetime format
+Include image:image tags with image:loc and image:title for each recipe
+Automatically update lastmod when recipe content changes
+Generate file at /gluten-free-recipes.xml
+
+
+Recipe-specific features:
+
+Pull recipe title, primary image URL, and publication/modification dates from database
+Only include published recipes (exclude drafts)
+Sort by most recently updated first
+Include image captions or alt text in image:caption tags
+
+
+Automation:
+
+Regenerate sitemap on recipe publish/update/delete events
+Cache the sitemap and regenerate only when needed
+Set proper Content-Type: application/xml header
+Ping Google Search Console when sitemap updates (optional)
+
+
+
+Platform/Framework: [Specify: WordPress, Next.js, Django, custom PHP, etc.]**"
+
+Now let me create a sample gluten-free-recipes.xml sitemap for you:gluten-free-recipes.xmlCode <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Gluten-Free Chocolate Chip Cookies -->
+  <url>
+    <loc>https://yoursiI've created both:
+
+A detailed prompt you can use with a developer to build an automated, dynamically updating sitemap system
+A sample gluten-free-recipes.xml file with the proper structure
+
+Key Features of the Sample Sitemap:
+✅ Proper XML namespaces - Standard sitemap + image extension
+✅ All required elements - loc, lastmod, changefreq, priority
+✅ Image information - Image URLs, titles, and captions for each recipe
+✅ SEO-optimized - Proper priority and change frequency settings
+✅ Google-ready - Follows all Google sitemap guidelines
+Next Steps:
+
+Replace URLs with your actual recipe page URLs
+Update image URLs to point to your actual images
+Adjust lastmod dates to reflect actual publication/update dates
+Upload to your website root or /sitemaps/ directory
+Submit to Google Search Console at search.google.com/search-console
+Update robots.txt to reference your sitemap:
+
+   Sitemap: https://yoursite.com/gluten-free-recipes.xml
