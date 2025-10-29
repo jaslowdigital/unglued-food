@@ -314,23 +314,42 @@ export default function RecipePage() {
         <RecipeRatingComment recipeId={recipe.id} />
       </div>
 
-      {/* Schema Markup for SEO */}
+      {/* Enhanced Schema.org JSON-LD Markup for Google Rich Results */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Recipe",
           "name": recipe.title,
-          "description": recipe.description,
-          "image": recipe.image,
+          "description": recipe.longDescription || recipe.description,
+          "image": {
+            "@type": "ImageObject",
+            "url": recipe.image,
+            "width": 1200,
+            "height": 800
+          },
+          "author": {
+            "@type": "Organization",
+            "name": "Unglued Food",
+            "url": "https://ungluedfood.com"
+          },
+          "datePublished": recipe.createdAt ? new Date(recipe.createdAt).toISOString().split('T')[0] : new Date().toISOString().split('T')[0],
           "prepTime": recipe.prepTime ? `PT${recipe.prepTime}M` : undefined,
           "cookTime": `PT${recipe.cookTime}M`,
           "totalTime": recipe.totalTime ? `PT${recipe.totalTime}M` : `PT${recipe.cookTime}M`,
           "recipeYield": `${recipe.servings} servings`,
           "recipeCategory": recipe.category,
-          "recipeCuisine": recipe.tags[0],
+          "recipeCuisine": recipe.tags[0] || "Gluten-Free",
+          "keywords": recipe.tags.join(", "),
+          "suitableForDiet": [
+            "https://schema.org/GlutenFreeDiet",
+            ...(recipe.tags.includes("keto") || recipe.tags.includes("low-carb") ? ["https://schema.org/LowCalorieDiet"] : []),
+            ...(recipe.tags.includes("kosher") ? ["https://schema.org/KosherDiet"] : []),
+            ...(recipe.tags.includes("vegan") ? ["https://schema.org/VeganDiet"] : [])
+          ],
           "nutrition": recipe.calories ? {
             "@type": "NutritionInformation",
             "calories": `${recipe.calories} calories`,
+            "servingSize": "1 serving",
             "proteinContent": recipe.protein ? `${recipe.protein}g` : undefined,
             "carbohydrateContent": recipe.carbs ? `${recipe.carbs}g` : undefined,
             "sugarContent": recipe.sugar ? `${recipe.sugar}g` : undefined,
@@ -341,7 +360,8 @@ export default function RecipePage() {
           "recipeInstructions": recipe.instructions.map((instruction, index) => ({
             "@type": "HowToStep",
             "name": `Step ${index + 1}`,
-            "text": instruction
+            "text": instruction,
+            "position": index + 1
           })),
           "aggregateRating": reviewCount > 0 ? {
             "@type": "AggregateRating",
@@ -349,7 +369,13 @@ export default function RecipePage() {
             "reviewCount": reviewCount,
             "bestRating": "5",
             "worstRating": "1"
-          } : undefined,
+          } : (recipe.rating ? {
+            "@type": "AggregateRating",
+            "ratingValue": recipe.rating,
+            "reviewCount": 1,
+            "bestRating": "5",
+            "worstRating": "1"
+          } : undefined),
           "review": ratings.filter(r => r.reviewText).map(rating => ({
             "@type": "Review",
             "author": {
@@ -364,7 +390,9 @@ export default function RecipePage() {
               "worstRating": "1"
             },
             "reviewBody": rating.reviewText
-          }))
+          })),
+          "isAccessibleForFree": true,
+          "url": `https://ungluedfood.com/recipe/${slug}`
         })
       }} />
       </div>
