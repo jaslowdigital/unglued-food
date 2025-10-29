@@ -164,11 +164,11 @@ export default function RecipePage() {
             </div>
 
             {/* Nutrition Info */}
-            {(recipe.protein || recipe.carbs || recipe.fat || recipe.fiber) && (
+            {(recipe.protein || recipe.carbs || recipe.fat || recipe.fiber || recipe.sugar) && (
               <Card className="mb-6">
                 <CardContent className="p-4">
                   <h3 className="font-semibold mb-3">Nutrition Per Serving</h3>
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
                     {recipe.protein && (
                       <div>
                         <p className="text-sm text-gray-600 dark:text-gray-400">Protein</p>
@@ -179,6 +179,12 @@ export default function RecipePage() {
                       <div>
                         <p className="text-sm text-gray-600 dark:text-gray-400">Carbs</p>
                         <p className="font-semibold" data-testid="nutrition-carbs">{recipe.carbs}g</p>
+                      </div>
+                    )}
+                    {recipe.sugar && (
+                      <div>
+                        <p className="text-sm text-gray-600 dark:text-gray-400">Sugar</p>
+                        <p className="font-semibold" data-testid="nutrition-sugar">{recipe.sugar}g</p>
                       </div>
                     )}
                     {recipe.fat && (
@@ -327,6 +333,7 @@ export default function RecipePage() {
             "calories": `${recipe.calories} calories`,
             "proteinContent": recipe.protein ? `${recipe.protein}g` : undefined,
             "carbohydrateContent": recipe.carbs ? `${recipe.carbs}g` : undefined,
+            "sugarContent": recipe.sugar ? `${recipe.sugar}g` : undefined,
             "fatContent": recipe.fat ? `${recipe.fat}g` : undefined,
             "fiberContent": recipe.fiber ? `${recipe.fiber}g` : undefined,
           } : undefined,
