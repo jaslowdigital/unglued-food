@@ -22,6 +22,7 @@ export const recipes = pgTable("recipes", {
   carbs: decimal("carbs", { precision: 5, scale: 1 }),
   fat: decimal("fat", { precision: 5, scale: 1 }),
   fiber: decimal("fiber", { precision: 5, scale: 1 }),
+  sugar: decimal("sugar", { precision: 5, scale: 1 }),
   image: text("image").notNull(),
   ingredients: json("ingredients").$type<string[]>().notNull(),
   instructions: json("instructions").$type<string[]>().notNull(),
