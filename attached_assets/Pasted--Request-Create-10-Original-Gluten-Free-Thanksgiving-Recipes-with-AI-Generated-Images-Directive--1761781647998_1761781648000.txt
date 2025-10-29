@@ -1,0 +1,132 @@
+🦃 Request: Create 10 Original Gluten-Free Thanksgiving Recipes with AI-Generated Images
+
+Directive:
+Do not change, delete, or modify any other settings, design elements, categories, posts, or recipes on the site.
+Only add these 10 new gluten-free Thanksgiving recipes under the existing “Gluten-Free Recipes” → “Thanksgiving Dishes” category.
+Preserve all current formatting, layout, SEO settings, tags, and design structure exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free Thanksgiving recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free” and the dish name (examples:
+
+Gluten-Free Herb-Roasted Turkey with Garlic Butter
+
+Gluten-Free Sweet Potato Casserole with Pecan Streusel
+
+Gluten-Free Green Bean Almondine
+
+Gluten-Free Cranberry Orange Relish
+
+Gluten-Free Pumpkin Pie with Almond Crust)
+
+Each recipe should include:
+
+Full ingredients list (base, seasoning, toppings, sauce components)
+
+Step-by-step instructions (prep, cooking, assembly, and finishing)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, fats, carbs, protein, sugar, sodium)
+
+All ingredients must be certified gluten-free, including broths, sauces, and thickeners.
+
+Recipes should represent a balanced holiday menu — including mains, sides, breads, and desserts.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight holiday presentation — golden tones, festive garnishes, and family-style plating.
+
+Use natural or soft lighting with seasonal styling (roasted vegetables, herbs, cranberries, rustic tableware).
+
+Include close-up shots showing textures — crisp crusts, creamy casseroles, tender roasts.
+
+Maintain consistent cozy, autumn aesthetic across all 10 recipes.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Thanksgiving Dishes
+
+Additional Subcategories:
+
+Holiday Recipes
+
+Comfort Food Classics
+
+Family-Style Sides
+
+Seasonal Vegetables
+
+Gluten-Free Pies & Desserts
+
+Recipe Variety & Focus:
+
+Gluten-Free Herb-Roasted Turkey with Garlic Butter
+Juicy, tender turkey infused with fresh herbs, garlic, and butter — crisp skin and flavorful drippings for gravy.
+
+Gluten-Free Sweet Potato Casserole with Pecan Streusel
+Whipped sweet potatoes topped with crunchy pecan-oat crumble — naturally sweetened and dairy-optional.
+
+Gluten-Free Classic Stuffing with Sausage & Apples
+Homemade gluten-free bread cubes, sautéed onion, celery, herbs, and crumbled sausage — savory and satisfying.
+
+Gluten-Free Green Bean Almondine
+Crisp-tender green beans tossed with toasted almonds, lemon zest, and garlic butter — simple and elegant.
+
+Gluten-Free Cranberry Orange Relish
+Fresh cranberries simmered with orange juice, zest, and maple syrup — tart, sweet, and bright in flavor.
+
+Gluten-Free Gravy with Roasted Turkey Drippings
+Rich, velvety gravy thickened with rice flour or cornstarch — seasoned with herbs and black pepper.
+
+Gluten-Free Mashed Cauliflower & Potatoes
+Creamy mash combining cauliflower and Yukon Golds for a lighter, silky side — finished with olive oil or butter.
+
+Gluten-Free Pumpkin Pie with Almond Crust
+Classic spiced pumpkin custard baked in a nutty almond flour crust — smooth, creamy, and perfectly spiced.
+
+Gluten-Free Rosemary Focaccia Rolls
+Airy rolls brushed with olive oil and sea salt — crisp outside, soft inside, ideal for sopping up gravy.
+
+Gluten-Free Apple Crisp with Cinnamon Oat Topping
+Warm spiced apples baked with a buttery oat-almond crumble — a rustic dessert to end the feast.
+
+Additional Notes:
+
+Include prep-ahead options (make-ahead casseroles, chilled desserts, and reheatable sides).
+
+Offer dairy-free and vegan modifications (olive oil or coconut alternatives, flax eggs, vegan butter).
+
+Suggest pairings (wine, mocktails, or side combinations).
+
+Provide presentation tips — family-style serving, garnish ideas (rosemary, cranberries, orange peel curls).
+
+Include storage instructions — refrigeration, reheating, and freezing guidelines.
+
+Highlight cross-contamination safety for gluten-sensitive guests.
+
+Balance the menu with flavor, texture, and color variety — roasted, creamy, crunchy, and fresh.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free Thanksgiving recipes following the site’s existing recipe layout, image ratios, and formatting standards.
+Do not:
+
+Alter or delete any existing pages, recipes, or categories.
+
+Modify global styling, menu items, or schema.
+
+Change SEO metadata, permalinks, or internal linking structure.
+
+Adjust global recipe index or pagination.
