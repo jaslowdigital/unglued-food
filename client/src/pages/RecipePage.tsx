@@ -108,10 +108,135 @@ export default function RecipePage() {
       
       {/* Hero Section */}
       <div className="mb-8 max-w-full overflow-hidden">
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* Mobile Layout: Title, Image, Share, Description */}
+        <div className="md:hidden max-w-full">
+          {/* 1. Title */}
+          <h1 className="text-2xl sm:text-3xl font-bold break-words max-w-full mb-4" data-testid="recipe-title" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
+            {recipe.title}
+          </h1>
+
+          {/* 2. Recipe Image */}
+          <div className="relative h-64 sm:h-80 rounded-lg overflow-hidden max-w-full mb-4">
+            <img
+              src={recipe.image || getFallbackImage(recipe.category)}
+              alt={recipe.title}
+              className="w-full h-full object-cover max-w-full cursor-pointer hover:opacity-90 transition-opacity"
+              style={{ maxWidth: '100%', height: 'auto', minHeight: '16rem' }}
+              data-testid="recipe-image"
+              onClick={() => setImageModalOpen(true)}
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = getFallbackImage(recipe.category);
+              }}
+            />
+            <div className="absolute top-4 right-4">
+              <Badge className="bg-amber-600 text-white text-sm">
+                ⭐ {recipe.rating}
+              </Badge>
+            </div>
+          </div>
+
+          {/* 3. Share Button */}
+          <div className="flex items-center gap-2 mb-4">
+            <SocialShare 
+              title={recipe.title}
+              description={recipe.description}
+              url={`/recipe/${slug}`}
+              image={recipe.image}
+            />
+            <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
+          </div>
+
+          {/* 4. Description */}
+          <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 break-words" data-testid="recipe-description" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
+            {recipe.longDescription || recipe.description}
+          </p>
+          
+          {/* Recipe Meta */}
+          <div className="flex flex-wrap gap-4 mb-6">
+            <div className="flex items-center gap-2">
+              <Clock className="w-5 h-5 text-amber-600" />
+              <span data-testid="recipe-total-time">
+                {recipe.totalTime || recipe.cookTime} mins
+              </span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Users className="w-5 h-5 text-amber-600" />
+              <span data-testid="recipe-servings">{recipe.servings} servings</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <ChefHat className="w-5 h-5 text-amber-600" />
+              <span data-testid="recipe-difficulty">{recipe.difficulty}</span>
+            </div>
+            {recipe.calories && (
+              <div className="flex items-center gap-2">
+                <Flame className="w-5 h-5 text-amber-600" />
+                <span data-testid="recipe-calories">{recipe.calories} cal</span>
+              </div>
+            )}
+          </div>
+
+          {/* Tags */}
+          <div className="flex flex-wrap gap-2 mb-6">
+            {recipe.tags.map((tag) => (
+              <Badge key={tag} variant="secondary" data-testid={`tag-${tag}`}>
+                {tag}
+              </Badge>
+            ))}
+            {recipe.isNaturallyGlutenFree && (
+              <Badge className="bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200">
+                Naturally Gluten-Free
+              </Badge>
+            )}
+          </div>
+
+          {/* Nutrition Info */}
+          {(recipe.protein || recipe.carbs || recipe.fat || recipe.fiber || recipe.sugar) && (
+            <Card className="mb-6 max-w-full">
+              <CardContent className="p-4 overflow-x-auto">
+                <h3 className="font-semibold mb-3">Nutrition Per Serving</h3>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 min-w-0">
+                  {recipe.protein && (
+                    <div className="min-w-0">
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Protein</p>
+                      <p className="font-semibold break-words" data-testid="nutrition-protein">{recipe.protein}g</p>
+                    </div>
+                  )}
+                  {recipe.carbs && (
+                    <div className="min-w-0">
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Carbs</p>
+                      <p className="font-semibold break-words" data-testid="nutrition-carbs">{recipe.carbs}g</p>
+                    </div>
+                  )}
+                  {recipe.sugar && (
+                    <div className="min-w-0">
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Sugar</p>
+                      <p className="font-semibold break-words" data-testid="nutrition-sugar">{recipe.sugar}g</p>
+                    </div>
+                  )}
+                  {recipe.fat && (
+                    <div className="min-w-0">
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Fat</p>
+                      <p className="font-semibold break-words" data-testid="nutrition-fat">{recipe.fat}g</p>
+                    </div>
+                  )}
+                  {recipe.fiber && (
+                    <div className="min-w-0">
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Fiber</p>
+                      <p className="font-semibold break-words" data-testid="nutrition-fiber">{recipe.fiber}g</p>
+                    </div>
+                  )}
+                </div>
+              </CardContent>
+            </Card>
+          )}
+        </div>
+
+        {/* Desktop Layout: Original 2-column grid */}
+        <div className="hidden md:grid md:grid-cols-2 gap-8">
           <div className="max-w-full">
-            <div className="flex flex-col sm:flex-row items-start justify-between mb-4 gap-3">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold break-words max-w-full" data-testid="recipe-title" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
+            <div className="flex items-start justify-between mb-4 gap-3">
+              <h1 className="text-4xl font-bold break-words max-w-full" data-testid="recipe-title" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
                 {recipe.title}
               </h1>
               <div className="flex items-center gap-2 flex-shrink-0">
@@ -124,7 +249,7 @@ export default function RecipePage() {
                 <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
               </div>
             </div>
-            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 break-words" data-testid="recipe-description" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
+            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 break-words" data-testid="recipe-description" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
               {recipe.longDescription || recipe.description}
             </p>
             
@@ -171,7 +296,7 @@ export default function RecipePage() {
               <Card className="mb-6 max-w-full">
                 <CardContent className="p-4 overflow-x-auto">
                   <h3 className="font-semibold mb-3">Nutrition Per Serving</h3>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 min-w-0">
+                  <div className="grid grid-cols-5 gap-4 min-w-0">
                     {recipe.protein && (
                       <div className="min-w-0">
                         <p className="text-sm text-gray-600 dark:text-gray-400">Protein</p>
@@ -209,7 +334,7 @@ export default function RecipePage() {
           </div>
 
           {/* Recipe Image */}
-          <div className="relative h-64 sm:h-80 md:h-full rounded-lg overflow-hidden max-w-full">
+          <div className="relative h-full rounded-lg overflow-hidden max-w-full">
             <img
               src={recipe.image || getFallbackImage(recipe.category)}
               alt={recipe.title}
@@ -228,30 +353,30 @@ export default function RecipePage() {
               </Badge>
             </div>
           </div>
-
-          {/* Image Expand Modal */}
-          <Dialog open={imageModalOpen} onOpenChange={setImageModalOpen}>
-            <DialogContent className="max-w-[95vw] max-h-[95vh] w-auto h-auto p-0 bg-black border-0">
-              <button
-                onClick={() => setImageModalOpen(false)}
-                className="absolute top-4 right-4 z-50 rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition-colors"
-                data-testid="close-image-modal"
-              >
-                <X className="w-6 h-6" />
-              </button>
-              <img
-                src={recipe.image || getFallbackImage(recipe.category)}
-                alt={recipe.title}
-                className="w-full h-full object-contain max-h-[95vh]"
-                data-testid="expanded-recipe-image"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = getFallbackImage(recipe.category);
-                }}
-              />
-            </DialogContent>
-          </Dialog>
         </div>
+
+        {/* Image Expand Modal */}
+        <Dialog open={imageModalOpen} onOpenChange={setImageModalOpen}>
+          <DialogContent className="max-w-[95vw] max-h-[95vh] w-auto h-auto p-0 bg-black border-0">
+            <button
+              onClick={() => setImageModalOpen(false)}
+              className="absolute top-4 right-4 z-50 rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition-colors"
+              data-testid="close-image-modal"
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <img
+              src={recipe.image || getFallbackImage(recipe.category)}
+              alt={recipe.title}
+              className="w-full h-full object-contain max-h-[95vh]"
+              data-testid="expanded-recipe-image"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.src = getFallbackImage(recipe.category);
+              }}
+            />
+          </DialogContent>
+        </Dialog>
       </div>
 
       <Separator className="my-8" />
