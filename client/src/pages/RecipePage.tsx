@@ -92,7 +92,7 @@ export default function RecipePage() {
   }
 
   return (
-    <div className="min-h-screen bg-dark-primary text-light-text">
+    <div className="min-h-screen bg-dark-primary text-light-text overflow-x-hidden">
       <MetaTags 
         title={`${recipe.title} - Unglued Food`}
         description={recipe.longDescription || recipe.description}
@@ -101,17 +101,17 @@ export default function RecipePage() {
         type="article"
       />
       <Header />
-      <div className="container mx-auto px-4 py-8 pt-24" data-testid={`recipe-page-${slug}`}>
+      <div className="container mx-auto px-4 py-8 pt-24 max-w-full" data-testid={`recipe-page-${slug}`}>
       
       {/* Hero Section */}
-      <div className="mb-8">
+      <div className="mb-8 max-w-full overflow-hidden">
         <div className="grid md:grid-cols-2 gap-8">
-          <div>
-            <div className="flex items-start justify-between mb-4">
-              <h1 className="text-4xl font-bold" data-testid="recipe-title">
+          <div className="max-w-full">
+            <div className="flex flex-col sm:flex-row items-start justify-between mb-4 gap-3">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold break-words max-w-full" data-testid="recipe-title" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
                 {recipe.title}
               </h1>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 flex-shrink-0">
                 <SocialShare 
                   title={recipe.title}
                   description={recipe.description}
@@ -121,7 +121,7 @@ export default function RecipePage() {
                 <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
               </div>
             </div>
-            <p className="text-lg text-gray-600 dark:text-gray-300 mb-6" data-testid="recipe-description">
+            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 break-words" data-testid="recipe-description" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
               {recipe.longDescription || recipe.description}
             </p>
             
@@ -165,38 +165,38 @@ export default function RecipePage() {
 
             {/* Nutrition Info */}
             {(recipe.protein || recipe.carbs || recipe.fat || recipe.fiber || recipe.sugar) && (
-              <Card className="mb-6">
-                <CardContent className="p-4">
+              <Card className="mb-6 max-w-full">
+                <CardContent className="p-4 overflow-x-auto">
                   <h3 className="font-semibold mb-3">Nutrition Per Serving</h3>
-                  <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 min-w-0">
                     {recipe.protein && (
-                      <div>
+                      <div className="min-w-0">
                         <p className="text-sm text-gray-600 dark:text-gray-400">Protein</p>
-                        <p className="font-semibold" data-testid="nutrition-protein">{recipe.protein}g</p>
+                        <p className="font-semibold break-words" data-testid="nutrition-protein">{recipe.protein}g</p>
                       </div>
                     )}
                     {recipe.carbs && (
-                      <div>
+                      <div className="min-w-0">
                         <p className="text-sm text-gray-600 dark:text-gray-400">Carbs</p>
-                        <p className="font-semibold" data-testid="nutrition-carbs">{recipe.carbs}g</p>
+                        <p className="font-semibold break-words" data-testid="nutrition-carbs">{recipe.carbs}g</p>
                       </div>
                     )}
                     {recipe.sugar && (
-                      <div>
+                      <div className="min-w-0">
                         <p className="text-sm text-gray-600 dark:text-gray-400">Sugar</p>
-                        <p className="font-semibold" data-testid="nutrition-sugar">{recipe.sugar}g</p>
+                        <p className="font-semibold break-words" data-testid="nutrition-sugar">{recipe.sugar}g</p>
                       </div>
                     )}
                     {recipe.fat && (
-                      <div>
+                      <div className="min-w-0">
                         <p className="text-sm text-gray-600 dark:text-gray-400">Fat</p>
-                        <p className="font-semibold" data-testid="nutrition-fat">{recipe.fat}g</p>
+                        <p className="font-semibold break-words" data-testid="nutrition-fat">{recipe.fat}g</p>
                       </div>
                     )}
                     {recipe.fiber && (
-                      <div>
+                      <div className="min-w-0">
                         <p className="text-sm text-gray-600 dark:text-gray-400">Fiber</p>
-                        <p className="font-semibold" data-testid="nutrition-fiber">{recipe.fiber}g</p>
+                        <p className="font-semibold break-words" data-testid="nutrition-fiber">{recipe.fiber}g</p>
                       </div>
                     )}
                   </div>
@@ -206,11 +206,12 @@ export default function RecipePage() {
           </div>
 
           {/* Recipe Image */}
-          <div className="relative h-96 md:h-full rounded-lg overflow-hidden">
+          <div className="relative h-64 sm:h-80 md:h-full rounded-lg overflow-hidden max-w-full">
             <img
               src={recipe.image || getFallbackImage(recipe.category)}
               alt={recipe.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover max-w-full"
+              style={{ maxWidth: '100%', height: 'auto', minHeight: '16rem' }}
               data-testid="recipe-image"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
@@ -218,7 +219,7 @@ export default function RecipePage() {
               }}
             />
             <div className="absolute top-4 right-4">
-              <Badge className="bg-amber-600 text-white">
+              <Badge className="bg-amber-600 text-white text-sm">
                 ⭐ {recipe.rating}
               </Badge>
             </div>
@@ -229,21 +230,22 @@ export default function RecipePage() {
       <Separator className="my-8" />
 
       {/* Ingredients & Instructions */}
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-3 gap-8 max-w-full">
         {/* Ingredients */}
-        <div className="md:col-span-1">
-          <Card>
-            <CardContent className="p-6">
-              <h2 className="text-2xl font-bold mb-4">Ingredients</h2>
-              <ul className="space-y-2">
+        <div className="md:col-span-1 max-w-full">
+          <Card className="max-w-full">
+            <CardContent className="p-4 sm:p-6 overflow-hidden">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">Ingredients</h2>
+              <ul className="space-y-2 max-w-full">
                 {recipe.ingredients.map((ingredient, index) => (
                   <li 
                     key={index} 
-                    className="flex items-start"
+                    className="flex items-start break-words max-w-full"
                     data-testid={`ingredient-${index}`}
+                    style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}
                   >
-                    <span className="text-amber-600 mr-2">•</span>
-                    <span>{ingredient}</span>
+                    <span className="text-amber-600 mr-2 flex-shrink-0">•</span>
+                    <span className="break-words min-w-0">{ingredient}</span>
                   </li>
                 ))}
               </ul>
@@ -252,21 +254,22 @@ export default function RecipePage() {
         </div>
 
         {/* Instructions */}
-        <div className="md:col-span-2">
-          <Card>
-            <CardContent className="p-6">
-              <h2 className="text-2xl font-bold mb-4">Instructions</h2>
-              <ol className="space-y-4">
+        <div className="md:col-span-2 max-w-full">
+          <Card className="max-w-full">
+            <CardContent className="p-4 sm:p-6 overflow-hidden">
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">Instructions</h2>
+              <ol className="space-y-4 max-w-full">
                 {recipe.instructions.map((instruction, index) => (
                   <li 
                     key={index} 
-                    className="flex"
+                    className="flex break-words max-w-full"
                     data-testid={`instruction-${index}`}
+                    style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}
                   >
-                    <span className="flex-shrink-0 w-8 h-8 bg-amber-100 dark:bg-amber-900 text-amber-800 dark:text-amber-200 rounded-full flex items-center justify-center font-semibold mr-3">
+                    <span className="flex-shrink-0 w-8 h-8 bg-amber-100 dark:bg-amber-900 text-amber-800 dark:text-amber-200 rounded-full flex items-center justify-center font-semibold mr-3 min-w-[2rem]">
                       {index + 1}
                     </span>
-                    <span className="pt-1">{instruction}</span>
+                    <span className="pt-1 break-words min-w-0">{instruction}</span>
                   </li>
                 ))}
               </ol>
@@ -275,29 +278,30 @@ export default function RecipePage() {
 
           {/* Tips & Variations */}
           {(recipe.tips || recipe.variations) && (
-            <Card className="mt-6">
-              <CardContent className="p-6">
+            <Card className="mt-6 max-w-full">
+              <CardContent className="p-4 sm:p-6 overflow-hidden">
                 {recipe.tips && (
-                  <div className="mb-4">
-                    <h3 className="text-xl font-semibold mb-2">Chef's Tips</h3>
-                    <p className="text-gray-600 dark:text-gray-300" data-testid="recipe-tips">
+                  <div className="mb-4 max-w-full">
+                    <h3 className="text-lg sm:text-xl font-semibold mb-2">Chef's Tips</h3>
+                    <p className="text-gray-600 dark:text-gray-300 break-words" data-testid="recipe-tips" style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}>
                       {recipe.tips}
                     </p>
                   </div>
                 )}
                 
                 {recipe.variations && recipe.variations.length > 0 && (
-                  <div>
-                    <h3 className="text-xl font-semibold mb-2">Variations</h3>
-                    <ul className="space-y-1">
+                  <div className="max-w-full">
+                    <h3 className="text-lg sm:text-xl font-semibold mb-2">Variations</h3>
+                    <ul className="space-y-1 max-w-full">
                       {recipe.variations.map((variation, index) => (
                         <li 
                           key={index}
-                          className="flex items-start text-gray-600 dark:text-gray-300"
+                          className="flex items-start text-gray-600 dark:text-gray-300 break-words max-w-full"
                           data-testid={`variation-${index}`}
+                          style={{ wordWrap: 'break-word', overflowWrap: 'break-word' }}
                         >
-                          <span className="text-amber-600 mr-2">•</span>
-                          <span>{variation}</span>
+                          <span className="text-amber-600 mr-2 flex-shrink-0">•</span>
+                          <span className="break-words min-w-0">{variation}</span>
                         </li>
                       ))}
                     </ul>
@@ -310,7 +314,7 @@ export default function RecipePage() {
       </div>
 
       {/* Recipe Rating and Comments Section */}
-      <div className="mt-8">
+      <div className="mt-8 max-w-full overflow-hidden">
         <RecipeRatingComment recipeId={recipe.id} />
       </div>
 
