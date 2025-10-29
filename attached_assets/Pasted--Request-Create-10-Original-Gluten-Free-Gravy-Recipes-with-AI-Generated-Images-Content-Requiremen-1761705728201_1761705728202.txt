@@ -1,0 +1,122 @@
+🍲 Request: Create 10 Original Gluten-Free Gravy Recipes with AI-Generated Images
+Content Requirements:
+
+Please develop 10 unique gluten-free gravy recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Gravy” and the featured base or flavor (examples:
+
+Gluten-Free Beef Gravy with Red Wine Reduction
+
+Gluten-Free Chicken Pan Gravy with Herbs
+
+Gluten-Free Pork Sausage Gravy
+
+Gluten-Free Turkey Giblet Gravy
+
+Gluten-Free Fish & Lemon Butter Gravy)
+
+Each recipe should include:
+
+Ingredients list (stock, fat source, gluten-free thickener, seasonings, optional aromatics)
+
+Step-by-step instructions (pan drippings, roux or slurry, simmering, straining, seasoning)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, fats, protein, carbs, sodium per serving)
+
+All ingredients must be certified gluten-free, including flour substitutes (rice flour, arrowroot, tapioca starch, cornstarch, or potato starch).
+
+Recipes should vary by protein base and regional inspiration, with both classic and creative gravies represented.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight gravy texture and sheen — glossy, rich, and pourable.
+
+Use natural lighting with culinary presentation (ceramic gravy boats, cast iron pans, roasted meats, or mashed potatoes).
+
+Include close-up shots to show texture thickness and smoothness.
+
+Maintain consistent warm tone and depth across all 10 recipes.
+
+Images must be high-resolution and optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Gravies
+
+Additional Subcategories:
+
+Holiday & Roast Dinners
+
+Classic Sauces & Reductions
+
+Poultry & Meat Gravies
+
+Seafood Sauces
+
+Vegetarian & Vegan Gravies
+
+Recipe Variety & Focus:
+
+Gluten-Free Beef Gravy with Red Wine Reduction
+Deep, rich gravy made from pan drippings, beef stock, and red wine — thickened with rice flour and infused with rosemary.
+
+Gluten-Free Chicken Pan Gravy with Fresh Herbs
+Light and savory chicken gravy using roasted drippings, garlic, thyme, and a smooth arrowroot-thickened base.
+
+Gluten-Free Pork Sausage Gravy
+Southern-style breakfast gravy with browned pork sausage, milk, and gluten-free flour for a creamy, peppery sauce.
+
+Gluten-Free Turkey Giblet Gravy
+Holiday classic — simmered turkey giblets, onions, and herbs blended into a silky, golden-brown gravy.
+
+Gluten-Free Fish & Lemon Butter Gravy
+Delicate seafood-style sauce made with fish stock, lemon juice, butter, and parsley — perfect for white fish or salmon.
+
+Gluten-Free Mushroom & Shallot Gravy
+Vegetarian-friendly option with sautéed mushrooms, shallots, and tamari for umami depth — smooth and earthy.
+
+Gluten-Free Onion & Garlic Brown Gravy
+Slow-cooked onions caramelized into a savory, rich gravy using vegetable stock — perfect over mashed potatoes.
+
+Gluten-Free Bacon & Bourbon Gravy
+Smoky and indulgent — made with bacon drippings, bourbon, and cream for a bold, Southern-inspired flavor.
+
+Gluten-Free Lamb Gravy with Mint & Rosemary
+Robust lamb gravy with drippings, fresh herbs, and a hint of balsamic vinegar — aromatic and hearty.
+
+Gluten-Free Vegetable Gravy with Tamari & Thyme
+Plant-based gravy made with roasted vegetables, tamari, and tapioca starch for a silky texture — ideal for vegan dishes.
+
+Additional Notes:
+
+Include technique tips:
+
+Achieving smooth consistency (straining, whisking, temperature control).
+
+How to deglaze pans properly without gluten (use wine, vinegar, or stock).
+
+Adjusting thickness using gluten-free roux or slurry.
+
+Provide pairing ideas — which dishes match best (roasts, mashed potatoes, biscuits, poultry, seafood).
+
+Offer storage and reheating instructions — prevent separation or graininess.
+
+Include variations:
+
+Dairy-free options using coconut milk or olive oil.
+
+Low-sodium or low-fat versions.
+
+Flavor infusions (miso, roasted garlic, wine, herbs).
+
+Add holiday and regional inspiration (Southern breakfast gravy, British roast, French pan jus, etc.).
