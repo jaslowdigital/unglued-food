@@ -1,0 +1,71 @@
+Create an Image Sitemap Generator for Recipe Website
+Build a Node.js application that crawls my website and generates a Google Image Sitemap in XML format following the official schema at https://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd.
+Requirements:
+
+Crawling:
+
+Start from the homepage and recursively crawl all pages on the site
+Extract all image URLs from each page
+Filter for supported image formats: BMP, GIF, JPEG, PNG, WebP, SVG, AVIF
+Pay special attention to recipe pages and ensure all recipe images are captured
+Handle both relative and absolute image URLs
+
+
+XML Sitemap Structure:
+
+Follow Google's image sitemap schema
+Each page should be a <url> entry containing:
+
+<loc> tag with the page URL
+Multiple <image:image> tags (up to 1000 per page)
+
+
+Each <image:image> should contain:
+
+<image:loc> with the full image URL
+
+
+Include proper XML namespaces for image sitemap
+
+
+Output:
+
+Generate image-sitemap.xml file
+Format the XML with proper indentation
+Include XML declaration and proper encoding (UTF-8)
+Add sitemap namespace: xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+
+
+Technical Details:
+
+Use packages like axios or node-fetch for HTTP requests
+Use cheerio for HTML parsing
+Use xml-builder or similar for XML generation
+Implement error handling for failed requests
+Add a delay between requests to avoid overwhelming the server
+Create a progress indicator showing crawling status
+
+
+Configuration:
+
+Allow setting the base URL as an environment variable or command-line argument
+Option to set maximum pages to crawl
+Option to exclude certain paths or image patterns
+
+
+
+Example XML output structure:
+xml<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://example.com/recipe-page</loc>
+    <image:image>
+      <image:loc>https://example.com/images/recipe1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://example.com/images/recipe2.png</image:loc>
+    </image:image>
+  </url>
+</urlset>
+Include instructions in a README.md on how to run the script and where to find the generated sitemap file.

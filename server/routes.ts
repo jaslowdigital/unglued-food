@@ -379,6 +379,73 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Dynamic Image Sitemap Generator - Google Image Sitemap Format
+  app.get("/recipe-images.xml", async (req, res) => {
+    try {
+      const SITE_DOMAIN = "https://ungluedfood.com";
+      
+      // Get all published recipes
+      const recipes = await storage.getRecipes();
+      const publishedRecipes = recipes
+        .filter(r => r.status === 'published')
+        .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+      
+      // Helper function to escape XML special characters
+      const escapeXml = (str: string) => {
+        return str
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&apos;');
+      };
+      
+      // Helper to validate and filter supported image formats
+      const isSupportedImageFormat = (url: string): boolean => {
+        const supportedFormats = ['.bmp', '.gif', '.jpg', '.jpeg', '.png', '.webp', '.svg', '.avif'];
+        const urlLower = url.toLowerCase();
+        return supportedFormats.some(format => urlLower.includes(format));
+      };
+      
+      // Generate Google Image Sitemap XML
+      let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+      xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n';
+      xml += '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n';
+      
+      for (const recipe of publishedRecipes) {
+        const recipeUrl = `${SITE_DOMAIN}/recipe/${recipe.slug}`;
+        
+        // Normalize image URL
+        const imageUrl = recipe.image.startsWith('http') 
+          ? recipe.image 
+          : `${SITE_DOMAIN}${recipe.image}`;
+        
+        // Validate image format
+        if (!isSupportedImageFormat(imageUrl)) {
+          continue;
+        }
+        
+        xml += '  <url>\n';
+        xml += `    <loc>${escapeXml(recipeUrl)}</loc>\n`;
+        xml += '    <image:image>\n';
+        xml += `      <image:loc>${escapeXml(imageUrl)}</image:loc>\n`;
+        xml += `      <image:title>${escapeXml(recipe.title)}</image:title>\n`;
+        xml += `      <image:caption>${escapeXml(recipe.description)}</image:caption>\n`;
+        xml += '    </image:image>\n';
+        xml += '  </url>\n';
+      }
+      
+      xml += '</urlset>';
+      
+      // Set proper XML content-type header
+      res.setHeader('Content-Type', 'application/xml; charset=UTF-8');
+      res.send(xml);
+    } catch (error) {
+      console.error("Error generating image sitemap:", error);
+      res.status(500).send('Error generating image sitemap');
+    }
+  });
+
   const httpServer = createServer(app);
   return httpServer;
 }
