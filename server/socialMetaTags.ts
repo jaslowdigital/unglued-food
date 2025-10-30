@@ -1,5 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import { type IStorage } from "./storage";
+import fs from "fs";
+import path from "path";
 
 /**
  * Escapes HTML special characters to prevent XSS attacks
@@ -81,9 +83,9 @@ function isCrawler(userAgent: string): boolean {
 }
 
 /**
- * Generates HTML with Open Graph and Twitter Card meta tags for a recipe
+ * Generates meta tags for a recipe to inject into the index.html template
  */
-function generateRecipeMetaHTML(recipe: any, baseUrl: string): string {
+function generateRecipeMetaTags(recipe: any, baseUrl: string): string {
   // Escape all user-generated content to prevent XSS
   const safeTitle = escapeHtml(recipe.title || '');
   const safeSeoTitle = escapeHtml(recipe.seoTitle || recipe.title || '');
@@ -102,12 +104,7 @@ function generateRecipeMetaHTML(recipe: any, baseUrl: string): string {
     `<meta property="article:tag" content="${escapeHtml(tag)}">`
   ).join('\n    ') || '';
   
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${safeSeoTitle}</title>
+  return `<title>${safeSeoTitle}</title>
     <meta name="description" content="${safeSeoDescription}">
     
     <!-- Open Graph Meta Tags -->
@@ -130,6 +127,10 @@ function generateRecipeMetaHTML(recipe: any, baseUrl: string): string {
     <meta name="twitter:image" content="${imageUrl}">
     <meta name="twitter:image:alt" content="${safeTitle}">
     
+    <!-- Pinterest Meta Tags -->
+    <meta name="pinterest:description" content="${safeSeoDescription}">
+    <meta name="pinterest-rich-pin" content="true">
+    
     <!-- Additional Meta Tags -->
     <meta property="article:published_time" content="${safeCreatedAt}">
     <meta property="article:author" content="Unglued Food">
@@ -137,22 +138,12 @@ function generateRecipeMetaHTML(recipe: any, baseUrl: string): string {
     ${safeTags}
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="${recipeUrl}">
-    
-    <!-- Redirect to the actual React app after meta tags are read -->
-    <meta http-equiv="refresh" content="0;url=${recipeUrl}">
-    <script>window.location.href = '${recipeUrl}';</script>
-</head>
-<body>
-    <h1>${safeTitle}</h1>
-    <p>${safeDescription}</p>
-    <p>Redirecting to recipe...</p>
-</body>
-</html>`;
+    <link rel="canonical" href="${recipeUrl}">`
+;
 }
 
 /**
- * Middleware to serve pre-rendered HTML with meta tags to social media crawlers
+ * Middleware to inject recipe meta tags into HTML for social media crawlers
  */
 export function socialMetaTagsMiddleware(storage: IStorage) {
   return async (req: Request, res: Response, next: NextFunction) => {
@@ -189,10 +180,34 @@ export function socialMetaTagsMiddleware(storage: IStorage) {
       
       const baseUrl = `${protocol}://${safeHost}`;
       
-      // Generate and serve HTML with meta tags
-      const html = generateRecipeMetaHTML(recipe, baseUrl);
-      res.setHeader('Content-Type', 'text/html');
-      res.send(html);
+      // Read the index.html template
+      const templatePath = path.resolve(import.meta.dirname, "..", "client", "index.html");
+      let template = await fs.promises.readFile(templatePath, "utf-8");
+      
+      // Generate recipe-specific meta tags
+      const metaTags = generateRecipeMetaTags(recipe, baseUrl);
+      
+      // Replace the default OG meta tags with recipe-specific ones
+      // Find and replace the section between Pinterest verification and font links
+      const pinterestVerifyTag = '<meta name="p:domain_verify" content="c13a43a44ee84b52fac02ba147d69d5f"/>';
+      const ogStartComment = '<!-- Default Open Graph Meta Tags for Social Sharing -->';
+      const twitterEndTag = '<meta name="twitter:image:alt" content="Gluten-Free Halloween Desserts" />';
+      
+      const pinterestIndex = template.indexOf(pinterestVerifyTag);
+      const ogStartIndex = template.indexOf(ogStartComment);
+      const twitterEndIndex = template.indexOf(twitterEndTag);
+      
+      if (pinterestIndex !== -1 && ogStartIndex !== -1 && twitterEndIndex !== -1) {
+        const beforeMeta = template.substring(0, pinterestIndex + pinterestVerifyTag.length);
+        const afterTwitterEnd = template.substring(template.indexOf('>', twitterEndIndex) + 1);
+        
+        // Inject the new meta tags
+        template = beforeMeta + '\n    \n    ' + metaTags + '\n    ' + afterTwitterEnd;
+      }
+      
+      // Serve the HTML directly to the crawler
+      res.setHeader('Content-Type', 'text/html; charset=UTF-8');
+      res.send(template);
       
     } catch (error) {
       console.error('Error generating social meta tags:', error);
