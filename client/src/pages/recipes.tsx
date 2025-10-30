@@ -42,6 +42,39 @@ export default function RecipesPage() {
   const [selectedCookTime, setSelectedCookTime] = useState("all");
 
   useEffect(() => {
+    const siteUrl = window.location.origin;
+    const ogImageUrl = `${siteUrl}/unglued-food-og.jpg`;
+
+    document.title = "All Gluten-Free Recipes | Unglued Food";
+    
+    const setMetaTag = (property: string, content: string, isProperty = true) => {
+      const attr = isProperty ? 'property' : 'name';
+      let meta = document.querySelector(`meta[${attr}="${property}"]`);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute(attr, property);
+        document.head.appendChild(meta);
+      }
+      meta.setAttribute('content', content);
+    };
+
+    setMetaTag('description', 'Browse our complete collection of 500+ gluten-free recipes. Filter by category, difficulty, and cooking time. Perfect for celiac disease and gluten-free living.', false);
+    setMetaTag('og:title', 'All Gluten-Free Recipes | Unglued Food');
+    setMetaTag('og:description', 'Browse our complete collection of 500+ gluten-free recipes. Filter by category, difficulty, and cooking time. Perfect for celiac disease and gluten-free living.');
+    setMetaTag('og:url', `${siteUrl}/recipes`);
+    setMetaTag('og:image', ogImageUrl);
+    setMetaTag('og:image:secure_url', ogImageUrl);
+    setMetaTag('og:image:width', '1200');
+    setMetaTag('og:image:height', '630');
+    setMetaTag('og:image:type', 'image/jpeg');
+    setMetaTag('og:image:alt', 'Unglued Food - All Gluten-Free Recipes');
+    setMetaTag('twitter:title', 'All Gluten-Free Recipes | Unglued Food', false);
+    setMetaTag('twitter:description', 'Browse our complete collection of 500+ gluten-free recipes. Filter by category, difficulty, and cooking time. Perfect for celiac disease and gluten-free living.', false);
+    setMetaTag('twitter:image', ogImageUrl, false);
+    setMetaTag('twitter:image:alt', 'Unglued Food - All Gluten-Free Recipes', false);
+  }, []);
+
+  useEffect(() => {
     const searchParams = new URLSearchParams(window.location.search);
     const pageParam = searchParams.get('page');
     const searchParam = searchParams.get('search');
