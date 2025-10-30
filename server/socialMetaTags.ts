@@ -104,10 +104,13 @@ function generateRecipeMetaTags(recipe: any, baseUrl: string): string {
     `<meta property="article:tag" content="${escapeHtml(tag)}">`
   ).join('\n    ') || '';
   
+  const modifiedTime = recipe.updatedAt || recipe.createdAt || new Date().toISOString();
+  
   return `<title>${safeSeoTitle}</title>
     <meta name="description" content="${safeSeoDescription}">
     
     <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="${safeSeoTitle}">
     <meta property="og:description" content="${safeSeoDescription}">
@@ -126,6 +129,7 @@ function generateRecipeMetaTags(recipe: any, baseUrl: string): string {
     <meta name="twitter:description" content="${safeSeoDescription}">
     <meta name="twitter:image" content="${imageUrl}">
     <meta name="twitter:image:alt" content="${safeTitle}">
+    <meta name="twitter:site" content="@ungluedfood">
     
     <!-- Pinterest Meta Tags -->
     <meta name="pinterest:description" content="${safeSeoDescription}">
@@ -133,9 +137,15 @@ function generateRecipeMetaTags(recipe: any, baseUrl: string): string {
     
     <!-- Additional Meta Tags -->
     <meta property="article:published_time" content="${safeCreatedAt}">
+    <meta property="article:modified_time" content="${modifiedTime}">
     <meta property="article:author" content="Unglued Food">
+    <meta property="article:publisher" content="https://www.facebook.com/ungluedfood">
     <meta property="article:section" content="${safeCategory}">
     ${safeTags}
+    
+    <!-- Social Profile Links -->
+    <link rel="me" href="https://twitter.com/ungluedfood">
+    <link rel="me" href="https://www.facebook.com/ungluedfood">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="${recipeUrl}">`
