@@ -1,0 +1,130 @@
+Request: Create 10 Original Gluten-Free Saag Paneer Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or alter any existing site content, formatting, or structure.
+Only add these 10 new gluten-free saag paneer recipes under “Gluten-Free Recipes → International → Indian Cuisine.”
+Preserve all existing SEO schema, category structure, and visual formatting exactly as it currently appears.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free saag paneer recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Saag Paneer” and specify a defining flavor twist, ingredient, or style (examples:
+
+Gluten-Free Saag Paneer with Garlic & Ginger
+
+Gluten-Free Coconut Saag Paneer
+
+Gluten-Free Saag Paneer with Kale & Mustard Greens
+
+Gluten-Free Saag Paneer with Spiced Cashew Cream
+
+Gluten-Free Saag Paneer with Tomatoes & Cumin)
+
+Each recipe should include:
+
+Ingredients list (paneer, spinach or greens, spices, aromatics, cream or yogurt, oil, garnish)
+
+Step-by-step instructions (blanching or microwaving spinach, blending, sautéing spices, simmering, and finishing)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, carbs, fats, fiber, sodium per serving)
+
+All ingredients must be certified gluten-free, including spices, dairy, and flavoring agents.
+
+Recipes should preserve the rich, creamy texture and spiced flavor balance of traditional saag paneer while offering modern shortcuts (e.g., microwaving spinach).
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should feature vibrant green saag with golden-browned paneer cubes and visible spice garnish.
+
+Use natural lighting with warm, rich styling — copper bowls, naan bread, or rice sides.
+
+Include close-up detail shots highlighting the creamy texture and toasted paneer.
+
+Maintain consistent warm, golden-green color tones across all 10 recipes.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Saag Paneer
+
+Additional Subcategories:
+
+Indian & South Asian Dishes
+
+Vegetarian Mains
+
+High-Protein Vegetarian Recipes
+
+Gluten-Free Curry & Stew Dishes
+
+Comfort Food
+
+Recipe Variety & Focus:
+
+Gluten-Free Saag Paneer with Garlic & Ginger
+Classic version with aromatic garlic, fresh ginger, and cream — smooth, rich, and comforting.
+
+Gluten-Free Coconut Saag Paneer
+South Indian–inspired variation made with coconut milk for a subtle sweetness and silky texture.
+
+Gluten-Free Saag Paneer with Kale & Mustard Greens
+Mix of spinach, kale, and mustard greens for earthy, robust flavor — nutrient-rich and vibrant.
+
+Gluten-Free Saag Paneer with Spiced Cashew Cream
+Dairy-light version with creamy cashew base — vegan-friendly option if made with tofu instead of paneer.
+
+Gluten-Free Saag Paneer with Tomatoes & Cumin
+Bright and tangy — fresh tomatoes and toasted cumin bring a lighter, more acidic balance.
+
+Gluten-Free Saag Paneer with Fenugreek Leaves (Methi Saag)
+Traditional Punjabi-style with fenugreek for a distinct, aromatic depth of flavor.
+
+Gluten-Free Saag Paneer with Yogurt & Lemon
+Lightened up with tangy yogurt and a squeeze of lemon — refreshing and bright.
+
+Gluten-Free Saag Paneer with Roasted Garlic & Onions
+Smoky roasted garlic and caramelized onions add sweetness and complexity to the creamy spinach base.
+
+Gluten-Free Spicy Saag Paneer with Green Chilies
+A fiery variation with green chilies, coriander, and garam masala — for spice lovers.
+
+Gluten-Free Vegan “Saag Tofu” with Coconut & Spinach
+A dairy-free twist — tofu instead of paneer, coconut cream instead of butter or yogurt, and mild spices for balance.
+
+Additional Notes:
+
+Include time-saving tip: Microwave spinach for 2–3 minutes before chopping to soften and release water (reduces prep time).
+
+Offer substitution options: Tofu, halloumi, or tempeh for paneer; coconut cream for dairy-free versions.
+
+Provide pairing suggestions: Basmati rice, gluten-free naan, cucumber raita, or mango chutney.
+
+Add spice variation tips — mild (less chili, more cream) or bold (extra garam masala, cumin, chili flakes).
+
+Highlight cultural authenticity — roots in Punjabi and North Indian cuisine.
+
+Include make-ahead and storage tips — refrigerate 3 days, reheat gently to preserve texture.
+
+Recommend presentation ideas — drizzle cream or ghee on top, sprinkle with chili flakes or fresh coriander.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free saag paneer recipes under the designated category.
+Do not:
+
+Edit or delete existing posts, schema, or content.
+
+Adjust SEO metadata, pagination, or layout.
+
+Change category structure, menus, or links.
