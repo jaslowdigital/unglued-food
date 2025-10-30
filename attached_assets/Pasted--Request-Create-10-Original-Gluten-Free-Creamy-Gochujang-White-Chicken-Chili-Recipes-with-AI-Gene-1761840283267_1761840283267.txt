@@ -1,0 +1,134 @@
+🍲 Request: Create 10 Original Gluten-Free Creamy Gochujang White Chicken Chili Recipes with AI-Generated Images
+
+Directive:
+Do not modify, edit, or remove any other content, design, or structure on the website.
+Only add these 10 new gluten-free creamy gochujang white chicken chili recipes under “Gluten-Free Recipes → Soups & Stews → Chicken.”
+Keep all existing formatting, SEO schema, tags, and styling exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free creamy gochujang white chicken chili recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Creamy Gochujang White Chicken Chili” and specify a key variation or highlight ingredient (examples:
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Coconut Milk
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Sweet Corn
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Lime & Cilantro
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Kimchi Garnish
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Roasted Peppers)
+
+Each recipe should include:
+
+Ingredients list (chicken, beans, broth, cream base, gochujang, vegetables, toppings)
+
+Step-by-step instructions (sautéing, simmering, blending, thickening, and serving)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, carbs, fat, sodium, fiber per serving)
+
+All ingredients must be certified gluten-free, including gochujang paste (use gluten-free verified brands).
+
+Recipes should balance spicy, creamy, tangy, and savory flavors with vibrant toppings for visual appeal.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase thick, creamy chili with visible ingredients — tender chicken, beans, corn, herbs, and drizzle of gochujang or cream.
+
+Use natural light with modern, rustic styling (ceramic bowls, spoons, fresh garnishes).
+
+Include close-up shots capturing creamy texture and vibrant toppings.
+
+Maintain consistent warm, cozy color tones across all 10 recipes.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Creamy Gochujang White Chicken Chili
+
+Additional Subcategories:
+
+Soups & Stews
+
+Spicy Comfort Food
+
+Asian Fusion
+
+One-Pot Meals
+
+High-Protein Dinners
+
+Recipe Variety & Focus:
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Coconut Milk
+A rich, dairy-free version using coconut milk and gluten-free gochujang for velvety texture and bold flavor.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Sweet Corn & Lime
+Sweet corn and tangy lime balance the spicy gochujang heat — bright, flavorful, and comforting.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Kimchi Garnish
+A fusion twist — creamy base with spicy-tangy kimchi on top for crunch and contrast.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Roasted Peppers
+Roasted poblano and red peppers add smoky depth to the creamy gochujang broth.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Cilantro & Greek Yogurt
+Cool, tangy yogurt and cilantro create balance against the chili’s rich heat.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Bacon & Scallions
+Crispy bacon adds smoky saltiness — topped with scallions for crunch and color.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Sweet Potatoes
+Cubed sweet potatoes add sweetness and heartiness — a perfect cold-weather bowl.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Lemongrass & Ginger
+Bright, aromatic twist with Southeast Asian flavors blended into the creamy chili base.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Avocado & Lime Crema
+Smooth avocado crema topping cools and complements the spicy richness of the chili.
+
+Gluten-Free Creamy Gochujang White Chicken Chili with Brown Rice & Bean Blend
+A heartier, meal-style chili combining tender chicken, beans, and brown rice simmered in a creamy gochujang sauce.
+
+Additional Notes:
+
+Include ingredient substitution tips:
+
+Gluten-free gochujang brands (Chung Jung One, Wholly Gochujang).
+
+Dairy-free swaps (coconut cream, cashew cream).
+
+Offer heat level control — mild to spicy adjustments.
+
+Suggest topping ideas — sliced jalapeños, cilantro, scallions, avocado, tortilla strips.
+
+Provide meal prep and storage tips (keeps up to 4 days refrigerated, 2 months frozen).
+
+Include pairing suggestions — gluten-free cornbread, rice, or roasted vegetables.
+
+Add nutrition spotlight — high protein, low gluten, anti-inflammatory ingredients (garlic, ginger).
+
+Highlight fusion appeal — blending Korean heat with Southwestern comfort.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free creamy gochujang white chicken chili recipes using the existing recipe layout.
+Do not:
+
+Edit or remove current recipes or categories.
+
+Modify SEO tags, image ratios, or code.
+
+Change site structure, pagination, or styling globally.
