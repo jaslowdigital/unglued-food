@@ -43,9 +43,9 @@ export default function RecipesPage() {
 
   useEffect(() => {
     const siteUrl = window.location.origin;
-    const ogImageUrl = `${siteUrl}/unglued-food-og.jpg`;
+    const ogImageUrl = `${siteUrl}/unglued-food-og-main.png`;
 
-    document.title = "All Gluten-Free Recipes | Unglued Food";
+    document.title = "Free Gluten Free Recipes For Every Meal - UNGLUED FOOD";
     
     const setMetaTag = (property: string, content: string, isProperty = true) => {
       const attr = isProperty ? 'property' : 'name';
@@ -58,20 +58,23 @@ export default function RecipesPage() {
       meta.setAttribute('content', content);
     };
 
-    setMetaTag('description', 'Browse our complete collection of 500+ gluten-free recipes. Filter by category, difficulty, and cooking time. Perfect for celiac disease and gluten-free living.', false);
-    setMetaTag('og:title', 'All Gluten-Free Recipes | Unglued Food');
-    setMetaTag('og:description', 'Browse our complete collection of 500+ gluten-free recipes. Filter by category, difficulty, and cooking time. Perfect for celiac disease and gluten-free living.');
+    setMetaTag('description', 'FREE Gluten-Free Recipes For Every Meal From UNGLUED FOOD — Easy, Healthy, & Deliciously Flavorful Dishes Made For Every Meal. Cook Confidently With Best-Rated Gluten-Free Recipes.', false);
+    setMetaTag('og:site_name', 'Unglued Food - Gluten-Free Recipes');
+    setMetaTag('og:type', 'website');
+    setMetaTag('og:title', 'Free Gluten Free Recipes For Every Meal - UNGLUED FOOD');
+    setMetaTag('og:description', 'FREE Gluten-Free Recipes For Every Meal From UNGLUED FOOD — Easy, Healthy, & Deliciously Flavorful Dishes Made For Every Meal. Cook Confidently With Best-Rated Gluten-Free Recipes.');
     setMetaTag('og:url', `${siteUrl}/recipes`);
     setMetaTag('og:image', ogImageUrl);
     setMetaTag('og:image:secure_url', ogImageUrl);
-    setMetaTag('og:image:width', '1200');
-    setMetaTag('og:image:height', '630');
-    setMetaTag('og:image:type', 'image/jpeg');
-    setMetaTag('og:image:alt', 'Unglued Food - All Gluten-Free Recipes');
-    setMetaTag('twitter:title', 'All Gluten-Free Recipes | Unglued Food', false);
-    setMetaTag('twitter:description', 'Browse our complete collection of 500+ gluten-free recipes. Filter by category, difficulty, and cooking time. Perfect for celiac disease and gluten-free living.', false);
+    setMetaTag('og:image:width', '1024');
+    setMetaTag('og:image:height', '1024');
+    setMetaTag('og:image:type', 'image/png');
+    setMetaTag('og:image:alt', 'Free Gluten-Free Recipes For Every Meal - UNGLUED FOOD');
+    setMetaTag('twitter:card', 'summary_large_image', false);
+    setMetaTag('twitter:title', 'Free Gluten Free Recipes For Every Meal - UNGLUED FOOD', false);
+    setMetaTag('twitter:description', 'FREE Gluten-Free Recipes For Every Meal From UNGLUED FOOD — Easy, Healthy, & Deliciously Flavorful Dishes Made For Every Meal. Cook Confidently With Best-Rated Gluten-Free Recipes.', false);
     setMetaTag('twitter:image', ogImageUrl, false);
-    setMetaTag('twitter:image:alt', 'Unglued Food - All Gluten-Free Recipes', false);
+    setMetaTag('twitter:image:alt', 'Free Gluten-Free Recipes For Every Meal - UNGLUED FOOD', false);
   }, []);
 
   useEffect(() => {
