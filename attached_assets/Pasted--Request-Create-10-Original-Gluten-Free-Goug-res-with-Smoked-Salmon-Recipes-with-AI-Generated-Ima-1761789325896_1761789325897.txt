@@ -1,0 +1,130 @@
+🧀 Request: Create 10 Original Gluten-Free Gougères with Smoked Salmon Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or alter any existing site content, categories, or layout.
+Only add these 10 new gluten-free gougère recipes under “Gluten-Free Recipes → Appetizers → Savory Pastries.”
+Maintain all current formatting, SEO schema, tags, and styling exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free gougère (cheese puff) recipes featuring smoked salmon and complementary flavor variations, with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Gougères with Smoked Salmon” or a distinct flavor variation (examples:
+
+Gluten-Free Gougères with Smoked Salmon & Chive Cream
+
+Gluten-Free Gougères with Smoked Salmon & Lemon Dill Mousse
+
+Gluten-Free Everything-Seasoned Gougères with Smoked Salmon
+
+Gluten-Free Mini Gougères with Smoked Salmon & Capers
+
+Gluten-Free Gougères with Smoked Salmon & Cream Cheese Filling)
+
+Each recipe should include:
+
+Full ingredients list (gluten-free flour, eggs, butter, cheese, salmon, herbs, fillings)
+
+Step-by-step instructions (choux pastry preparation, baking, filling, serving)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, fats, carbs, sodium per serving)
+
+All ingredients must be certified gluten-free, including flour blends and seasonings.
+
+Recipes should reflect French-inspired flavor profiles — elegant, airy, and savory.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should feature light, airy cheese puffs filled or topped with smoked salmon, herbs, or mousse.
+
+Use natural lighting and elegant, minimalist styling (white plates, linen napkins, small serving boards).
+
+Include close-up shots highlighting texture — crisp exterior, hollow interior, creamy filling.
+
+Maintain consistent warm and sophisticated tones across all 10 images.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Gougères with Smoked Salmon
+
+Additional Subcategories:
+
+Appetizers & Hors d’Oeuvres
+
+French-Inspired Dishes
+
+Party & Holiday Recipes
+
+Savory Baking
+
+Brunch & Entertaining
+
+Recipe Variety & Focus:
+
+Gluten-Free Gougères with Smoked Salmon & Chive Cream
+Delicate cheese puffs filled with whipped cream cheese, lemon zest, and chives — topped with ribbons of smoked salmon.
+
+Gluten-Free Gougères with Smoked Salmon & Lemon Dill Mousse
+A light mousse made with cream cheese, dill, and lemon folded into airy gougères — elegant and refreshing.
+
+Gluten-Free Everything-Seasoned Gougères with Smoked Salmon
+Topped with everything bagel seasoning and filled with crème fraîche, red onion, and salmon — brunch perfection.
+
+Gluten-Free Mini Gougères with Smoked Salmon & Capers
+Bite-sized puffs piped with caper cream and smoked salmon — cocktail-ready.
+
+Gluten-Free Gougères with Smoked Salmon & Horseradish Cream
+Bold and tangy — crème fraîche and horseradish filling with smoked salmon curls.
+
+Gluten-Free Gougères with Smoked Salmon & Goat Cheese Mousse
+Whipped goat cheese and lemon filling — savory and tangy, paired with delicate salmon.
+
+Gluten-Free Parmesan Gougères with Smoked Salmon & Dill Butter
+Parmesan choux pastry brushed with dill butter and topped with salmon for extra richness.
+
+Gluten-Free Cheddar Gougères with Smoked Salmon & Pickled Shallots
+A sharper cheese variation topped with thinly sliced salmon and tangy pickled shallots.
+
+Gluten-Free Gruyère Gougères with Smoked Salmon & Caviar Cream
+Luxurious version featuring crème fraîche, chives, and salmon, finished with a touch of caviar.
+
+Gluten-Free Blini-Style Gougères with Smoked Salmon & Crème Fraîche
+Inspired by classic blinis — airy gougères topped with crème fraîche, dill, and salmon rosettes.
+
+Additional Notes:
+
+Include baking tips for perfect puffing (steam, temperature control, gluten-free flour ratio).
+
+Offer make-ahead guidance — bake and store gougères, fill before serving.
+
+Suggest filling variations — crème fraîche, goat cheese, mascarpone, or Greek yogurt.
+
+Add pairing ideas — Champagne, dry white wine, or sparkling cider.
+
+Provide garnish suggestions — dill sprigs, chive blossoms, lemon zest, or edible flowers.
+
+Include storage and reheating tips — crisp in oven before serving.
+
+Emphasize texture and presentation — golden exterior, soft interior, fresh smoked salmon contrast.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free gougère recipes to the designated category.
+Do not:
+
+Modify existing recipes, pages, or layout.
+
+Change SEO metadata or links.
+
+Adjust schema, pagination, or styling globally.
