@@ -170,15 +170,9 @@ export function socialMetaTagsMiddleware(storage: IStorage) {
         return next(); // Recipe not found, continue to 404
       }
       
-      // Determine base URL with safe, validated host
-      const requestHost = (req.headers['x-forwarded-host'] || req.headers.host) as string | undefined;
-      const safeHost = getSafeHost(requestHost);
-      
-      // Always use HTTPS for social sharing (validate protocol too)
-      const requestProto = req.headers['x-forwarded-proto'] as string | undefined;
-      const protocol = (requestProto === 'http' || requestProto === 'https') ? requestProto : 'https';
-      
-      const baseUrl = `${protocol}://${safeHost}`;
+      // For social media crawlers, always use the production domain
+      // This ensures Pinterest and other platforms get valid, publicly accessible URLs
+      const baseUrl = 'https://ungluedfood.com';
       
       // Read the index.html template
       const templatePath = path.resolve(import.meta.dirname, "..", "client", "index.html");
