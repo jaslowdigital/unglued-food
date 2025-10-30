@@ -1,0 +1,134 @@
+🍂 Request: Create 10 Original Gluten-Free Roasted Delicata Squash with Apples & Sage Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or alter any other content, code, or design on the website.
+Only add these 10 new gluten-free roasted delicata squash recipes under “Gluten-Free Recipes → Sides → Vegetables.”
+Maintain existing recipe formatting, SEO schema, image settings, and layout exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free roasted delicata squash recipes highlighting apples, sage, and fall-inspired pairings with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Roasted Delicata Squash” and its unique variation (examples:
+
+Gluten-Free Roasted Delicata Squash with Apples & Sage
+
+Gluten-Free Roasted Delicata Squash with Maple Glaze
+
+Gluten-Free Roasted Delicata Squash with Cranberries & Pecans
+
+Gluten-Free Roasted Delicata Squash with Brown Butter & Sage
+
+Gluten-Free Roasted Delicata Squash with Honey Apple Cider Drizzle)
+
+Each recipe should include:
+
+Ingredients list (squash, apples, herbs, oil, sweeteners, optional toppings)
+
+Step-by-step instructions (prepping, seasoning, roasting, garnishing)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information per serving (calories, fat, carbs, fiber, sugar, protein)
+
+All ingredients must be certified gluten-free, including oils, vinegars, and seasonings.
+
+Recipes should celebrate sweet, savory, and aromatic fall flavors that pair well with Thanksgiving, holiday meals, or weeknight dinners.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight golden roasted squash rings or crescents, garnished with fresh sage, apple slices, and caramelized edges.
+
+Use natural daylight and rustic autumn styling (wood boards, linens, cast-iron pans, whole apples, and herbs).
+
+Include close-up shots to capture roasted textures, glazes, and color contrast.
+
+Maintain consistent warm, golden tones across all 10 images.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Roasted Delicata Squash
+
+Additional Subcategories:
+
+Side Dishes
+
+Fall & Winter Recipes
+
+Holiday & Thanksgiving Sides
+
+Roasted Vegetables
+
+Plant-Based Dishes
+
+Recipe Variety & Focus:
+
+Gluten-Free Roasted Delicata Squash with Apples & Sage
+Caramelized delicata squash and apples roasted with olive oil, maple syrup, and fresh sage — a perfect fall side.
+
+Gluten-Free Roasted Delicata Squash with Maple Glaze & Pecans
+Sweet maple glaze with toasted pecans and a hint of cinnamon for cozy flavor and crunch.
+
+Gluten-Free Roasted Delicata Squash with Cranberries & Thyme
+Tart cranberries and thyme bring balance to the squash’s natural sweetness — colorful and festive.
+
+Gluten-Free Roasted Delicata Squash with Brown Butter & Sage
+Nutty brown butter and crisp sage leaves drizzled over golden roasted squash rings — simple and elegant.
+
+Gluten-Free Roasted Delicata Squash with Honey Apple Cider Drizzle
+A tangy-sweet glaze made with apple cider, honey, and a touch of Dijon — perfectly sticky and flavorful.
+
+Gluten-Free Roasted Delicata Squash with Caramelized Onions & Apples
+Savory-sweet layers of roasted onion, squash, and apples — aromatic and hearty.
+
+Gluten-Free Roasted Delicata Squash with Goat Cheese & Pomegranate
+Creamy goat cheese and jewel-like pomegranate seeds add richness and bright contrast.
+
+Gluten-Free Roasted Delicata Squash with Tahini Maple Sauce
+Middle Eastern-inspired — tahini and maple syrup whisked into a drizzle with lemon and sea salt.
+
+Gluten-Free Roasted Delicata Squash with Cinnamon & Toasted Almonds
+Lightly spiced with cinnamon and finished with toasted almonds for texture and warmth.
+
+Gluten-Free Roasted Delicata Squash with Balsamic Apple Glaze
+Roasted and then brushed with a balsamic-apple reduction — glossy, tangy, and rich.
+
+Additional Notes:
+
+Include preparation tips:
+
+No need to peel delicata squash — skin is tender and edible.
+
+Roast at high heat for caramelization (400°F–425°F).
+
+Toss halfway for even browning.
+
+Offer dietary variations — vegan, paleo, or dairy-free options.
+
+Suggest pairings — turkey, pork loin, grain bowls, or quinoa salads.
+
+Add make-ahead and storage tips (reheat in oven to restore crispness).
+
+Provide plating ideas — on platters with herbs, or as part of a composed salad.
+
+Highlight seasonal sourcing — best in autumn and early winter.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free roasted delicata squash recipes following the existing recipe formatting and schema.
+Do not:
+
+Edit or delete existing site content.
+
+Modify SEO, metadata, or menus.
+
+Adjust layout, pagination, or recipe settings.
