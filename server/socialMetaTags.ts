@@ -192,21 +192,19 @@ export function socialMetaTagsMiddleware(storage: IStorage) {
       const metaTags = generateRecipeMetaTags(recipe, baseUrl);
       
       // Replace the default OG meta tags with recipe-specific ones
-      // Find and replace the section between Pinterest verification and font links
+      // Find and replace the section between Pinterest verification and Social Profile Links
       const pinterestVerifyTag = '<meta name="p:domain_verify" content="c13a43a44ee84b52fac02ba147d69d5f"/>';
-      const ogStartComment = '<!-- Default Open Graph Meta Tags for Social Sharing -->';
-      const twitterEndTag = '<meta name="twitter:image:alt" content="Gluten-Free Halloween Desserts" />';
+      const socialProfileComment = '<!-- Social Profile Links -->';
       
       const pinterestIndex = template.indexOf(pinterestVerifyTag);
-      const ogStartIndex = template.indexOf(ogStartComment);
-      const twitterEndIndex = template.indexOf(twitterEndTag);
+      const socialProfileIndex = template.indexOf(socialProfileComment);
       
-      if (pinterestIndex !== -1 && ogStartIndex !== -1 && twitterEndIndex !== -1) {
+      if (pinterestIndex !== -1 && socialProfileIndex !== -1) {
         const beforeMeta = template.substring(0, pinterestIndex + pinterestVerifyTag.length);
-        const afterTwitterEnd = template.substring(template.indexOf('>', twitterEndIndex) + 1);
+        const afterMeta = template.substring(socialProfileIndex);
         
         // Inject the new meta tags
-        template = beforeMeta + '\n    \n    ' + metaTags + '\n    ' + afterTwitterEnd;
+        template = beforeMeta + '\n    \n    ' + metaTags + '\n    \n    ' + afterMeta;
       }
       
       // Serve the HTML directly to the crawler
