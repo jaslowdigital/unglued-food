@@ -350,9 +350,21 @@ export async function registerRoutes(app: Express): Promise<Server> {
       
       for (const recipe of publishedRecipes) {
         const recipeUrl = `${SITE_DOMAIN}/recipe/${recipe.slug}`;
-        const imageUrl = recipe.image.startsWith('http') 
-          ? recipe.image 
-          : `${SITE_DOMAIN}${recipe.image}`;
+        
+        // Normalize image URL - ensure it's ALWAYS a full, valid URL with https://
+        let imageUrl = '';
+        if (recipe.image) {
+          if (recipe.image.startsWith('http://') || recipe.image.startsWith('https://')) {
+            imageUrl = recipe.image;
+          } else {
+            // Ensure path starts with /
+            const imagePath = recipe.image.startsWith('/') ? recipe.image : `/${recipe.image}`;
+            imageUrl = `${SITE_DOMAIN}${imagePath}`;
+          }
+        } else {
+          imageUrl = `${SITE_DOMAIN}/unglued-food-og-main.png`;
+        }
+        
         const lastModified = formatDate(recipe.createdAt);
         
         xml += '  <url>\n';
@@ -415,10 +427,19 @@ export async function registerRoutes(app: Express): Promise<Server> {
       for (const recipe of publishedRecipes) {
         const recipeUrl = `${SITE_DOMAIN}/recipe/${recipe.slug}`;
         
-        // Normalize image URL
-        const imageUrl = recipe.image.startsWith('http') 
-          ? recipe.image 
-          : `${SITE_DOMAIN}${recipe.image}`;
+        // Normalize image URL - ensure it's ALWAYS a full, valid URL with https://
+        let imageUrl = '';
+        if (recipe.image) {
+          if (recipe.image.startsWith('http://') || recipe.image.startsWith('https://')) {
+            imageUrl = recipe.image;
+          } else {
+            // Ensure path starts with /
+            const imagePath = recipe.image.startsWith('/') ? recipe.image : `/${recipe.image}`;
+            imageUrl = `${SITE_DOMAIN}${imagePath}`;
+          }
+        } else {
+          imageUrl = `${SITE_DOMAIN}/unglued-food-og-main.png`;
+        }
         
         // Validate image format
         if (!isSupportedImageFormat(imageUrl)) {
@@ -449,9 +470,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Pinterest Product Feed
   app.get("/pinterest-feed.xml", async (req, res) => {
     try {
-      const SITE_DOMAIN = process.env.REPLIT_DEV_DOMAIN 
-        ? `https://${process.env.REPLIT_DEV_DOMAIN}`
-        : "https://ungluedfood.com";
+      // Always use production domain for Pinterest feed (external validators need public URLs)
+      const SITE_DOMAIN = "https://ungluedfood.com";
 
       const recipes = await storage.getRecipes();
       const publishedRecipes = recipes.filter(r => r.status === 'published');
@@ -476,10 +496,20 @@ export async function registerRoutes(app: Express): Promise<Server> {
       for (const recipe of publishedRecipes) {
         const recipeUrl = `${SITE_DOMAIN}/recipe/${recipe.slug}`;
         
-        // Normalize image URL - ensure it's a full URL
-        const imageUrl = recipe.image.startsWith('http') 
-          ? recipe.image 
-          : `${SITE_DOMAIN}${recipe.image}`;
+        // Normalize image URL - ensure it's ALWAYS a full, valid URL with https://
+        let imageUrl = '';
+        if (recipe.image) {
+          if (recipe.image.startsWith('http://') || recipe.image.startsWith('https://')) {
+            imageUrl = recipe.image;
+          } else {
+            // Ensure path starts with /
+            const imagePath = recipe.image.startsWith('/') ? recipe.image : `/${recipe.image}`;
+            imageUrl = `${SITE_DOMAIN}${imagePath}`;
+          }
+        } else {
+          // Fallback image
+          imageUrl = `${SITE_DOMAIN}/unglued-food-og-main.png`;
+        }
 
         // Build product type from category and subcategory
         const productType = recipe.subcategory 
