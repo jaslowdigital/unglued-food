@@ -112,8 +112,8 @@ function generateRecipeMetaTags(recipe: any, baseUrl: string): string {
     <!-- Open Graph Meta Tags -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="${safeSeoTitle}">
-    <meta property="og:description" content="${safeSeoDescription}">
+    <meta property="og:title" content="${safeTitle}">
+    <meta property="og:description" content="${safeDescription}">
     <meta property="og:url" content="${recipeUrl}">
     <meta property="og:image" content="${imageUrl}">
     <meta property="og:image:secure_url" content="${imageUrl}">
@@ -125,14 +125,14 @@ function generateRecipeMetaTags(recipe: any, baseUrl: string): string {
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="${safeSeoTitle}">
-    <meta name="twitter:description" content="${safeSeoDescription}">
+    <meta name="twitter:title" content="${safeTitle}">
+    <meta name="twitter:description" content="${safeDescription}">
     <meta name="twitter:image" content="${imageUrl}">
     <meta name="twitter:image:alt" content="${safeTitle}">
     <meta name="twitter:site" content="@ungluedfood">
     
     <!-- Pinterest Meta Tags -->
-    <meta name="pinterest:description" content="${safeSeoDescription}">
+    <meta name="pinterest:description" content="${safeDescription}">
     <meta name="pinterest-rich-pin" content="true">
     
     <!-- Additional Meta Tags -->
