@@ -1,0 +1,130 @@
+🍍 Request: Create 10 Original Gluten-Free Pineapple Stuffing Recipes with AI-Generated Images
+
+Directive:
+Do not change, remove, or alter any other settings, content, or design on the site.
+Only add these 10 new gluten-free pineapple stuffing recipes under the existing “Gluten-Free Recipes” → “Holiday Recipes” category.
+Preserve all layout, SEO tags, schema, and formatting exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free pineapple stuffing recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Pineapple Stuffing” (examples:
+
+Gluten-Free Pineapple Stuffing with Brown Sugar Crust
+
+Gluten-Free Pineapple Stuffing with Ham & Sage
+
+Gluten-Free Tropical Pineapple Stuffing with Coconut
+
+Gluten-Free Pineapple Stuffing with Rum Glaze
+
+Gluten-Free Savory Pineapple & Herb Stuffing)
+
+Each recipe should include:
+
+Full ingredients list (bread base, pineapple, sweeteners, eggs, flavorings, and seasonings)
+
+Step-by-step instructions (mixing, layering, baking, resting, serving)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information per serving (calories, carbs, fats, protein, sugar, fiber)
+
+All ingredients must be certified gluten-free, including bread, baking powder, and flavor extracts.
+
+Recipes should include a mix of sweet and savory variations, suitable for holidays or brunch.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight golden-baked texture — caramelized edges, moist interior, visible pineapple pieces.
+
+Use natural lighting with holiday or brunch presentation — white dishes, linen napkins, or rustic pans.
+
+Include close-up detail shots of crumb texture and golden top crust.
+
+Maintain consistent, warm, appetizing tones across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Pineapple Stuffing
+
+Additional Subcategories:
+
+Holiday Recipes
+
+Sweet & Savory Sides
+
+Casseroles & Bakes
+
+Easter & Thanksgiving Favorites
+
+Brunch & Breakfast Dishes
+
+Recipe Variety & Focus:
+
+Gluten-Free Classic Pineapple Stuffing
+Traditional sweet stuffing made with gluten-free bread, crushed pineapple, eggs, and butter — caramelized and golden.
+
+Gluten-Free Pineapple Stuffing with Brown Sugar Crust
+Buttery baked casserole topped with brown sugar and cinnamon for a dessert-style twist.
+
+Gluten-Free Savory Pineapple & Herb Stuffing
+Combines pineapple with sage, thyme, and caramelized onions — perfect as a ham or pork side dish.
+
+Gluten-Free Pineapple Stuffing with Ham & Sage
+Sweet-salty balance featuring diced ham, herbs, and crushed pineapple — ideal for holiday brunch.
+
+Gluten-Free Tropical Pineapple Stuffing with Coconut
+Pineapple mixed with shredded coconut, almond flour, and vanilla — inspired by island flavors.
+
+Gluten-Free Pineapple Rum Glazed Stuffing
+A boozy, festive version with spiced rum glaze baked over the top — warm, aromatic, and indulgent.
+
+Gluten-Free Vegan Pineapple Stuffing
+Made with flax eggs, coconut oil, and maple syrup — soft, moist, and completely plant-based.
+
+Gluten-Free Pineapple Upside-Down Stuffing Cups
+Individual servings baked in muffin tins with caramelized pineapple rounds — perfect for parties.
+
+Gluten-Free Cinnamon-Pecan Pineapple Stuffing
+Sweet variation loaded with toasted pecans and warm cinnamon — excellent as a dessert or breakfast side.
+
+Gluten-Free Pineapple Cheese Stuffing
+Sweet and savory fusion using cream cheese and cheddar for a rich, tangy twist on the classic casserole.
+
+Additional Notes:
+
+Include texture tips for the ideal consistency — slightly crisp edges, soft center.
+
+Offer bread type suggestions (brioche, sandwich, cornbread, or challah — all gluten-free).
+
+Provide make-ahead instructions — refrigerate overnight, then bake before serving.
+
+Suggest pairings — with ham, turkey, brunch spreads, or tropical desserts.
+
+Add storage and reheating guidance (airtight container, oven reheat).
+
+Highlight seasonal adaptability — Easter, Thanksgiving, Christmas, or summer brunch.
+
+Offer dairy-free modifications (vegan butter, coconut milk).
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free pineapple stuffing recipes following the site’s current recipe layout and SEO standards.
+Do not:
+
+Modify existing recipes, posts, or categories.
+
+Alter site structure, schema, or styling.
+
+Change tags, links, or metadata globally.
