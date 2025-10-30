@@ -6,15 +6,16 @@ interface MetaTagsProps {
   image?: string;
   url?: string;
   type?: string;
+  pageTitle?: string;
 }
 
-export default function MetaTags({ title, description, image, url, type = "website" }: MetaTagsProps) {
+export default function MetaTags({ title, description, image, url, type = "website", pageTitle }: MetaTagsProps) {
   useEffect(() => {
     // Use production domain for social sharing
     const SITE_DOMAIN = "https://ungluedfood.com";
     
-    // Set document title
-    document.title = title;
+    // Set document title (use pageTitle if provided, otherwise use title with site suffix)
+    document.title = pageTitle || `${title} - Unglued Food`;
     
     // Set or update meta tags
     const setMetaTag = (name: string, content: string, property?: boolean) => {

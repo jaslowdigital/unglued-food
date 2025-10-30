@@ -97,8 +97,8 @@ export default function RecipePage() {
   return (
     <div className="min-h-screen bg-dark-primary text-light-text overflow-x-hidden">
       <MetaTags 
-        title={`${recipe.title} - Unglued Food`}
-        description={recipe.longDescription || recipe.description}
+        title={recipe.title}
+        description={recipe.description}
         image={recipe.image}
         url={`/recipe/${slug}`}
         type="article"
