@@ -1,0 +1,130 @@
+🥩 Request: Create 10 Original Gluten-Free Beef Tenderloin Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or alter any other part of the website.
+Only add these 10 new gluten-free beef tenderloin recipes under “Gluten-Free Recipes → Dinner → Beef Dishes.”
+Preserve all existing formatting, metadata, schema, and layout exactly as is.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free beef tenderloin recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Beef Tenderloin” and a key flavor or sauce descriptor (examples:
+
+Gluten-Free Beef Tenderloin with Red Wine Reduction
+
+Gluten-Free Herb-Crusted Beef Tenderloin
+
+Gluten-Free Peppercorn Beef Tenderloin
+
+Gluten-Free Garlic Butter Beef Tenderloin
+
+Gluten-Free Coffee-Rubbed Beef Tenderloin)
+
+Each recipe should include:
+
+Ingredients list (beef tenderloin, seasonings, fats, sauces, sides)
+
+Step-by-step instructions (searing, roasting, resting, slicing, saucing)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, fats, carbs, sodium per serving)
+
+All ingredients must be certified gluten-free, including sauces, thickeners, and seasonings.
+
+Recipes should showcase high-end flavor with simple preparation — perfect for holidays, dinner parties, or special occasions.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should feature medium-rare slices of tenderloin with glossy sauces, herbs, and rich color contrast.
+
+Use natural lighting and elegant plating (white plates, cutting boards, fresh herbs, wine pairings).
+
+Include close-up detail shots highlighting the sear, texture, and sauce gloss.
+
+Maintain consistent warm tones and fine-dining presentation across all 10 images.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Beef Tenderloin
+
+Additional Subcategories:
+
+Dinner & Holiday Mains
+
+Elegant Entrées
+
+High-Protein Recipes
+
+Special Occasion Meals
+
+Wine-Paired Dishes
+
+Recipe Variety & Focus:
+
+Gluten-Free Beef Tenderloin with Red Wine Reduction
+Classic French-style tenderloin with a silky red wine demi-glace, garlic, and shallots — elegant and rich.
+
+Gluten-Free Herb-Crusted Beef Tenderloin
+Rosemary, thyme, and garlic crust seared to perfection, finished with a drizzle of olive oil and sea salt.
+
+Gluten-Free Peppercorn Beef Tenderloin with Cream Sauce
+Cracked black pepper crusted tenderloin served with a creamy cognac pan sauce — bold yet refined.
+
+Gluten-Free Garlic Butter Beef Tenderloin
+Simple, timeless preparation — basted with garlic butter and herbs, finished with pan juices.
+
+Gluten-Free Coffee-Rubbed Beef Tenderloin
+Espresso and brown sugar rub with smoky paprika and cayenne — deep flavor and caramelized crust.
+
+Gluten-Free Mushroom Shallot Beef Tenderloin
+Sautéed mushrooms, shallots, and thyme in a gluten-free pan reduction — rustic and flavorful.
+
+Gluten-Free Balsamic Glazed Beef Tenderloin
+Sweet-tangy balsamic and honey glaze brushed over roasted tenderloin — glossy and aromatic.
+
+Gluten-Free Horseradish Crusted Beef Tenderloin
+Creamy horseradish and gluten-free breadcrumbs baked into a golden crust — ideal for holidays.
+
+Gluten-Free Blue Cheese & Herb Butter Beef Tenderloin
+Topped with a melted compound butter of blue cheese, chives, and garlic — rich and luxurious.
+
+Gluten-Free Cider-Braised Beef Tenderloin with Onions
+A fall twist — tenderloin roasted with apple cider, caramelized onions, and herbs for sweet depth.
+
+Additional Notes:
+
+Include cooking tips for perfect doneness (use thermometer, rest before slicing).
+
+Offer sauce variations — red wine, cognac cream, mushroom, balsamic glaze, or herb butter.
+
+Suggest side pairings — roasted potatoes, green beans almondine, mashed cauliflower, or asparagus.
+
+Add wine pairing suggestions (Cabernet Sauvignon, Pinot Noir, Merlot).
+
+Provide make-ahead and reheating instructions for dinner parties.
+
+Include garnish ideas — thyme sprigs, pink peppercorns, roasted garlic, or microgreens.
+
+Highlight holiday presentation — sliced medallions on platters with sauce drizzle.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free beef tenderloin recipes under the designated dinner section.
+Do not:
+
+Modify existing content or delete posts.
+
+Change SEO schema, design, or link structures.
+
+Adjust layout, pagination, or formatting globally.
