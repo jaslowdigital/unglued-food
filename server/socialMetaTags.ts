@@ -95,9 +95,21 @@ function generateRecipeMetaTags(recipe: any, baseUrl: string): string {
   const safeSlug = escapeHtml(recipe.slug || '');
   
   const recipeUrl = `${baseUrl}/recipe/${safeSlug}`;
-  const imageUrl = recipe.image?.startsWith('http') 
-    ? escapeHtml(recipe.image)
-    : `${baseUrl}${escapeHtml(recipe.image || '')}`;
+  
+  // Construct safe image URL - ensure it's always a full URL
+  let imageUrl = '';
+  if (recipe.image) {
+    if (recipe.image.startsWith('http')) {
+      imageUrl = escapeHtml(recipe.image);
+    } else {
+      // Ensure image path starts with /
+      const imagePath = recipe.image.startsWith('/') ? recipe.image : `/${recipe.image}`;
+      imageUrl = `${baseUrl}${escapeHtml(imagePath)}`;
+    }
+  } else {
+    // Fallback image if recipe has no image
+    imageUrl = `${baseUrl}/unglued-food-og-main.png`;
+  }
   
   const safeCreatedAt = recipe.createdAt || new Date().toISOString();
   const safeTags = recipe.tags?.map((tag: string) => 
