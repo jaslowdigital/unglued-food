@@ -1,0 +1,130 @@
+🍎 Request: Create 10 Original Gluten-Free Pork Loin with Cider Glaze Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or change any other content, design, or settings on the website.
+Only add these 10 new gluten-free pork loin recipes under “Gluten-Free Recipes → Dinner → Pork Dishes.”
+Keep all formatting, schema, and SEO metadata exactly as currently configured.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free pork loin recipes centered around apple cider glazes and variations with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Pork Loin” and a descriptive glaze variation (examples:
+
+Gluten-Free Pork Loin with Cider Glaze
+
+Gluten-Free Pork Loin with Honey Cider Glaze
+
+Gluten-Free Pork Loin with Dijon Cider Reduction
+
+Gluten-Free Pork Loin with Maple Apple Cider Sauce
+
+Gluten-Free Pork Loin with Cider & Thyme Pan Jus)
+
+Each recipe should include:
+
+Ingredients list (pork loin, cider, aromatics, sweeteners, thickeners, and herbs)
+
+Step-by-step instructions (searing, roasting, glazing, and resting)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, carbs, fats, sodium, sugar per serving)
+
+All ingredients must be certified gluten-free, including cider, broths, vinegar, and seasoning blends.
+
+Focus on balanced flavor (sweetness from cider, depth from herbs, and slight acidity).
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should emphasize the glossy, caramelized glaze coating tender, sliced pork loin.
+
+Use natural lighting and warm, rustic styling (cast iron pans, wooden boards, apple garnish, thyme sprigs).
+
+Include close-up shots highlighting the sauce texture and pork juiciness.
+
+Maintain consistent autumn-inspired tones across all 10 images.
+
+Images must be high-resolution and suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Pork Loin
+
+Additional Subcategories:
+
+Seasonal Dinners
+
+One-Pan & Roasted Meals
+
+Holiday & Family Favorites
+
+Fall & Winter Recipes
+
+Sweet & Savory Entrées
+
+Recipe Variety & Focus:
+
+Gluten-Free Pork Loin with Classic Cider Glaze
+Simple yet elegant — apple cider reduced with garlic, shallots, and butter for a sweet-savory finish.
+
+Gluten-Free Pork Loin with Honey Cider Glaze
+Apple cider simmered with honey and Dijon for a glossy, golden coating and subtle sweetness.
+
+Gluten-Free Pork Loin with Maple Apple Cider Glaze
+Deeply flavored maple-cider reduction infused with rosemary and cracked pepper — perfect for fall.
+
+Gluten-Free Pork Loin with Dijon Cider Reduction
+Tangy and rich — cider and mustard whisked into a smooth glaze for balance and acidity.
+
+Gluten-Free Pork Loin with Cider & Thyme Pan Jus
+Roasted pork finished with pan drippings, thyme, and apple cider reduction — simple and aromatic.
+
+Gluten-Free Pork Loin with Spiced Cider Glaze
+Warm spices like cinnamon, clove, and allspice add seasonal depth to the sweet cider glaze.
+
+Gluten-Free Pork Loin with Caramelized Onion Cider Sauce
+Slow-cooked onions deglazed with cider for a savory-sweet glaze that pairs beautifully with roasted pork.
+
+Gluten-Free Pork Loin with Apple Cider & Balsamic Glaze
+Sweet cider balanced by balsamic vinegar and brown sugar for a bold, tangy, caramelized sauce.
+
+Gluten-Free Pork Loin with Garlic Herb Cider Glaze
+Rustic blend of cider, garlic, parsley, and butter — classic and comforting.
+
+Gluten-Free Pork Loin with Cranberry Cider Glaze
+Apple cider blended with cranberries and rosemary for a jewel-toned, holiday-ready glaze.
+
+Additional Notes:
+
+Include technique tips for perfect texture (sear before roasting, rest before slicing).
+
+Offer cider variations — sweet apple cider, hard cider, or pear cider.
+
+Provide side pairings — roasted vegetables, mashed potatoes, or wild rice pilaf.
+
+Add make-ahead and reheating instructions (store glaze separately, warm gently before serving).
+
+Include flavor-enhancement suggestions — fresh herbs, mustard, fruit reductions.
+
+Suggest wine or beverage pairings (dry cider, Chardonnay, or spiced tea).
+
+Highlight presentation ideas — drizzle glaze over slices, garnish with apple wedges or herbs.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free pork loin with cider glaze recipes using the current recipe page layout.
+Do not:
+
+Modify existing content or recipes.
+
+Change categories, SEO schema, or site structure.
+
+Adjust menu settings, links, or pagination.
