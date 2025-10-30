@@ -1,0 +1,130 @@
+🍲 Request: Create 10 Original Gluten-Free Chicken Noodle Soup Recipes with AI-Generated Images
+
+Directive:
+Do not change, remove, or modify any other site content, settings, or categories.
+Only add these 10 new gluten-free chicken noodle soup recipes under “Gluten-Free Recipes → Soups & Stews → Chicken.”
+Preserve all current SEO schema, tags, design layout, and recipe formatting exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free chicken noodle soup recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Chicken Noodle Soup” and identify a variation or signature ingredient (examples:
+
+Gluten-Free Classic Chicken Noodle Soup
+
+Gluten-Free Creamy Chicken Noodle Soup
+
+Gluten-Free Lemon & Dill Chicken Noodle Soup
+
+Gluten-Free Thai Coconut Chicken Noodle Soup
+
+Gluten-Free Turmeric Chicken Noodle Soup)
+
+Each recipe should include:
+
+Ingredients list (chicken, noodles, broth, vegetables, herbs, and flavorings)
+
+Step-by-step instructions (sautéing, simmering, seasoning, and serving)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, carbs, fat, sodium per serving)
+
+All ingredients must be certified gluten-free, including noodles and broth.
+
+Recipes should deliver comfort, balanced flavor, and visual appeal — from homestyle to global-inspired versions.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase steaming bowls of soup with visible noodles, tender chicken, and vibrant vegetables.
+
+Use natural lighting and clean styling — white bowls, spoons, napkins, herbs, and lemon wedges.
+
+Include close-up detail shots showing texture and broth clarity or creaminess.
+
+Maintain consistent cozy, golden tones across all 10 images.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Chicken Noodle Soup
+
+Additional Subcategories:
+
+Soups & Stews
+
+Comfort Food
+
+Cold-Weather Favorites
+
+One-Pot Meals
+
+Immune-Boosting Recipes
+
+Recipe Variety & Focus:
+
+Gluten-Free Classic Chicken Noodle Soup
+Tender shredded chicken, carrots, celery, and gluten-free egg noodles simmered in rich homemade broth — timeless comfort.
+
+Gluten-Free Creamy Chicken Noodle Soup
+Velvety broth made with coconut milk or cream, gluten-free noodles, and hearty vegetables — cozy and rich.
+
+Gluten-Free Lemon & Dill Chicken Noodle Soup
+Bright, citrusy twist with fresh dill and lemon juice — light yet deeply flavorful.
+
+Gluten-Free Thai Coconut Chicken Noodle Soup
+Coconut milk base with lime, ginger, and chili for a creamy, aromatic, Southeast Asian-inspired bowl.
+
+Gluten-Free Turmeric Chicken Noodle Soup
+Immune-boosting and golden-hued — featuring turmeric, garlic, and black pepper for an anti-inflammatory boost.
+
+Gluten-Free Ginger Miso Chicken Noodle Soup
+Asian fusion with gluten-free rice noodles, white miso, ginger, and scallions for soothing umami flavor.
+
+Gluten-Free Chicken Noodle Soup with Wild Mushrooms
+Earthy mushrooms and herbs create a deep, savory variation of the classic.
+
+Gluten-Free Chicken Noodle Soup with Spinach & White Beans
+Protein-packed and nutrient-rich — hearty yet light with added greens.
+
+Gluten-Free Chicken Noodle Soup with Roasted Garlic & Thyme
+Roasted garlic and fresh herbs infuse the broth for an aromatic, elevated take.
+
+Gluten-Free Slow Cooker Chicken Noodle Soup
+Hands-off, all-day simmered version with tender chicken and perfect noodle texture — ultimate convenience.
+
+Additional Notes:
+
+Include noodle options: gluten-free egg noodles, rice noodles, chickpea pasta, or spiralized vegetables.
+
+Offer dietary modifications — dairy-free, paleo, or low-sodium options.
+
+Provide storage and freezing tips — freeze broth separately to maintain noodle texture.
+
+Suggest garnishes — parsley, chives, lemon wedges, or chili flakes.
+
+Add pairing ideas — gluten-free bread, crackers, or side salads.
+
+Highlight broth preparation options — homemade stock vs. high-quality gluten-free store-bought.
+
+Mention healing and comfort food benefits — hydrating, soothing, protein-rich.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free chicken noodle soup recipes following the site’s existing formatting and schema.
+Do not:
+
+Edit or delete existing pages or recipes.
+
+Modify SEO metadata or links.
+
+Change recipe card settings, pagination, or styling.
