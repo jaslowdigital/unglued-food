@@ -38,7 +38,7 @@ Preferred communication style: Simple, everyday language.
 - **Accessibility**: Built-in features from Radix UI
 
 ## Content Management
-- **Recipe System**: 441 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
+- **Recipe System**: 451 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
   - Gluten-Free Recipes: Gluten-Free Mochi (10: Strawberry Daifuku, Matcha Mochi Brownies, Chocolate Peanut Butter Bites, Coconut Mango Bars, Ice Cream Mochi, Black Sesame Squares, Taro Coconut, Chocolate Ganache, Brown Sugar Boba, Ube Butter Cake)
   - Desserts (81): Original Gluten-Free Desserts (10: Chocolate Lava Cake, Lemon Pudding Cups, Strawberry Shortcake Bars, Tiramisu Cups, Almond Butter Brownies, Coconut Cream Pie Bars, Salted Caramel Cheesecake Cups, Blueberry Crumble Bars, Peanut Butter Chocolate Mousse, Apple Cinnamon Galette) + Halloween Desserts (10) + Cranberry Tarts (10) + Brownies & Cheesecake Bars (10) + Fruit Crisps & Crumbles (10) + Gluten-Free Cookies (10) + Custard Cakes (10: Vanilla Bean, Chocolate, Lemon Blueberry, Coconut, Matcha, Salted Caramel, Pumpkin Spice, Almond Honey, Espresso, Strawberry Cream) + Kosher Honey Cake (1) + Keto Mini Cheesecake Bites (1) + Others (9)
   - Breads (26): Artisan Loaves (5) + Muffins (10) + Waffles (10: Almond Flour with Vanilla Bean Syrup, Buckwheat with Blueberries & Maple Butter, Coconut Flour with Chocolate Chips, Oat Flour with Banana & Cinnamon, Rice Flour with Strawberry Ice Cream, Tapioca Flour with Caramel Drizzle, Quinoa Flour with Berry Compote, Chickpea Flour with Maple Butter & Pecans, Triple Chocolate Ice Cream Sundae, Sorghum Flour with Lemon Curd & Blueberries) + Low-Carb Cheddar Chive Biscuits (1)
@@ -47,6 +47,7 @@ Preferred communication style: Simple, everyday language.
   - Entrees: Oven-Roasted Chicken, Lasagna variations, Burrito Bowls, Halloumi dishes, Miso-Butter Chicken variants, One-Pan Meals (10), Kosher Meals (7), Low-Carb/Keto (8: Chicken Alfredo Bake, Zucchini Noodle Carbonara, Cauliflower Crust Pizza, Cheeseburger Skillet, Garlic Butter Shrimp, Buffalo Chicken Wraps, Eggplant Lasagna, Taco Casserole)
   - White Lasagna (10): Spinach & Ricotta, Chicken Alfredo, Pesto & Zucchini, Seafood, Mushroom & Leek, Sausage & Kale, Four-Cheese, Roasted Vegetable, Butternut Squash, Crab & Spinach Roll-Ups
   - Grain & Flour Alternatives (10): Cauliflower rice, zucchini noodles, quinoa, etc.
+  - Cauliflower Baked Ziti (10): Ricotta & Marinara, Spinach & Mozzarella, Sausage & Peppers, Alfredo, Pesto & Chicken, Eggplant & Tomato, Meatballs & Marinara, Four Cheeses, Spicy Arrabbiata, Creamy Sun-Dried Tomato & Basil
   - Soups & Stews (12): Creamy Soups (10) + Kosher Meals (2: Matzo Ball Soup, Moroccan Chickpea Stew)
   - Sides (2): Kosher Meals (Latkes, Sweet Noodle Kugel)
   - Additional categories: Thanksgiving, Venison
@@ -58,6 +59,7 @@ Preferred communication style: Simple, everyday language.
 - Comprehensive SEO files (sitemap, robots, feed)
 - AI optimization files (llms.txt, ai.txt)
 - Google Tag Manager and Google Analytics for tracking
+- **Social Sharing Meta Tags**: Recipe pages use dynamic Open Graph tags with recipe-specific title, description, and image for optimal social media sharing (server-side rendering for crawlers via socialMetaTags.ts middleware)
 
 # External Dependencies
 
