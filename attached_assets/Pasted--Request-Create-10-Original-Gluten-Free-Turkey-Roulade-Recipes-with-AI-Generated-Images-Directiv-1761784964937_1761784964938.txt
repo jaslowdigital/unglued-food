@@ -1,0 +1,130 @@
+🦃 Request: Create 10 Original Gluten-Free Turkey Roulade Recipes with AI-Generated Images
+
+Directive:
+Do not alter or modify any other website content, formatting, or functionality.
+Only add these 10 new gluten-free turkey roulade recipes under “Gluten-Free Recipes → Holiday Recipes → Main Dishes.”
+Keep all existing layout, tags, SEO schema, and page styling exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free turkey roulade recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Turkey Roulade” and highlight its key ingredients or flavor theme (examples:
+
+Gluten-Free Turkey Roulade with Spinach & Feta
+
+Gluten-Free Cranberry Pecan Turkey Roulade
+
+Gluten-Free Mushroom & Herb Turkey Roulade
+
+Gluten-Free Apple Sage Turkey Roulade
+
+Gluten-Free Prosciutto & Ricotta Turkey Roulade)
+
+Each recipe should include:
+
+Full ingredients list (turkey breast, filling ingredients, herbs, binding agents, glaze/sauce)
+
+Step-by-step instructions (butterflying, filling, rolling, tying, searing, baking, slicing)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, fats, carbs, fiber, sodium per serving)
+
+All ingredients must be certified gluten-free, including broths, flavorings, and sauces.
+
+Focus on recipes that are impressive for holidays but also approachable for home cooks.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight the sliced roulade presentation — spiral filling visible, juicy texture, golden glaze.
+
+Use natural light and holiday or fine-dining styling — wood cutting boards, white platters, herbs, and garnishes.
+
+Include close-up shots of the filling and spiral layers.
+
+Maintain warm, inviting tones across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Turkey Roulade
+
+Additional Subcategories:
+
+Holiday Mains
+
+Thanksgiving & Christmas Recipes
+
+Elegant Dinner Entrees
+
+High-Protein & Low-Carb Dishes
+
+Family Feast Favorites
+
+Recipe Variety & Focus:
+
+Gluten-Free Turkey Roulade with Spinach & Feta
+Rolled turkey breast filled with sautéed spinach, garlic, and crumbled feta — finished with lemon herb sauce.
+
+Gluten-Free Cranberry Pecan Turkey Roulade
+Sweet-savory filling of dried cranberries, toasted pecans, and gluten-free breadcrumbs — perfect for Thanksgiving.
+
+Gluten-Free Mushroom & Herb Turkey Roulade
+Earthy mushroom duxelles rolled into tender turkey — served with white wine pan sauce.
+
+Gluten-Free Apple Sage Turkey Roulade
+Apple, celery, and sage stuffing with onion and thyme — classic autumn flavor in every bite.
+
+Gluten-Free Prosciutto & Ricotta Turkey Roulade
+Layers of prosciutto, herbed ricotta, and spinach rolled tightly and baked to golden perfection.
+
+Gluten-Free Butternut Squash & Goat Cheese Roulade
+Roasted squash and tangy goat cheese inside juicy turkey breast — creamy, colorful, and elegant.
+
+Gluten-Free Fig & Walnut Turkey Roulade
+Sweet figs, walnuts, and rosemary folded into the roulade — rich and slightly sweet, ideal for festive dinners.
+
+Gluten-Free Caramelized Onion & Gruyère Turkey Roulade
+Sweet caramelized onions and melted Gruyère cheese create a savory, French-inspired centerpiece.
+
+Gluten-Free Spinach, Artichoke & Parmesan Roulade
+Creamy spinach-artichoke filling wrapped inside tender turkey — indulgent yet wholesome.
+
+Gluten-Free Lemon Herb Turkey Roulade with Cider Glaze
+Light and refreshing, featuring a citrus-herb filling brushed with apple cider glaze for shine and flavor.
+
+Additional Notes:
+
+Include butterflying & rolling tips for even thickness and secure filling.
+
+Provide sauce or gravy pairings for each version (e.g., pan jus, white wine reduction, or cranberry glaze).
+
+Offer make-ahead and reheating guidance — roulades slice beautifully when rested overnight.
+
+Suggest serving ideas — sliced medallions over mashed potatoes, polenta, or roasted vegetables.
+
+Add dairy-free substitutions (vegan cheese, olive oil instead of butter).
+
+Recommend garnishes — herbs, citrus slices, roasted garlic, or pomegranate seeds.
+
+Emphasize texture and visual presentation — tender meat, spiral filling, glossy exterior.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free turkey roulade recipes under the designated holiday main dish section.
+Do not:
+
+Modify or delete any current recipes, categories, or structure.
+
+Change existing SEO data, layout, or design.
+
+Alter any other website functionality or media.
