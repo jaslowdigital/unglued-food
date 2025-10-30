@@ -1,0 +1,136 @@
+🍅 Request: Create 10 Original Gluten-Free Cauliflower Baked Ziti Recipes with AI-Generated Images
+
+Directive:
+Do not change, remove, or alter any existing website content, categories, or design.
+Only add these 10 new gluten-free cauliflower baked ziti recipes under “Gluten-Free Recipes → Dinner → Italian-Inspired.”
+Maintain all current SEO schema, layout, and formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the proper category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free cauliflower baked ziti recipes with creative variations that preserve the essence of classic Italian ziti — creamy, cheesy, and saucy — while replacing pasta with cauliflower.
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Cauliflower Baked Ziti” and specify its key variation or theme (examples:
+
+Gluten-Free Cauliflower Baked Ziti with Ricotta & Marinara
+
+Gluten-Free Cauliflower Baked Ziti with Spinach & Mozzarella
+
+Gluten-Free Cauliflower Baked Ziti with Sausage & Peppers
+
+Gluten-Free Cauliflower Baked Ziti Alfredo
+
+Gluten-Free Cauliflower Baked Ziti with Pesto & Chicken)
+
+Each recipe should include:
+
+Ingredients list (cauliflower, sauce, cheese blend, herbs, protein, seasoning)
+
+Step-by-step instructions (roasting cauliflower, mixing sauce, layering, baking, serving)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, carbs, fats, sodium per serving)
+
+All ingredients must be certified gluten-free, including sauces, seasonings, and cheeses.
+
+Recipes should balance cheesy comfort with light, vegetable-forward appeal, showing how cauliflower mimics baked pasta texture.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase golden, bubbling cheese, saucy layers, and roasted cauliflower florets.
+
+Use natural lighting and rustic Italian styling (cast iron skillet, baking dish, basil garnish, wood table).
+
+Include close-up shots showing creamy texture and melty cheese pull.
+
+Maintain warm, hearty, Mediterranean tones across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Cauliflower Baked Ziti
+
+Additional Subcategories:
+
+Italian-Inspired Dinners
+
+Casseroles & Bakes
+
+Low-Carb Comfort Food
+
+Vegetarian & Meat-Based Options
+
+Family Favorites
+
+Recipe Variety & Focus:
+
+Gluten-Free Cauliflower Baked Ziti with Ricotta & Marinara
+Classic version — roasted cauliflower layered with marinara, ricotta, mozzarella, and Parmesan — rich and satisfying.
+
+Gluten-Free Cauliflower Baked Ziti with Spinach & Mozzarella
+Creamy spinach folded into marinara sauce with roasted cauliflower and melty mozzarella topping.
+
+Gluten-Free Cauliflower Baked Ziti with Sausage & Peppers
+Spicy Italian sausage, sautéed bell peppers, and roasted cauliflower baked in zesty tomato sauce.
+
+Gluten-Free Cauliflower Baked Ziti Alfredo
+White sauce variation with creamy Alfredo, garlic, and a mix of cheeses — indulgent and low-carb.
+
+Gluten-Free Cauliflower Baked Ziti with Pesto & Chicken
+Fresh basil pesto with roasted chicken and mozzarella — aromatic and high-protein.
+
+Gluten-Free Cauliflower Baked Ziti with Eggplant & Tomato
+Vegetarian Mediterranean version — roasted eggplant, cherry tomatoes, and creamy ricotta blend.
+
+Gluten-Free Cauliflower Baked Ziti with Meatballs & Marinara
+Mini gluten-free meatballs baked with roasted cauliflower, mozzarella, and extra sauce for comfort-food perfection.
+
+Gluten-Free Cauliflower Baked Ziti with Four Cheeses
+A cheese lover’s dream — ricotta, mozzarella, fontina, and Parmesan with roasted garlic.
+
+Gluten-Free Cauliflower Baked Ziti with Spicy Arrabbiata Sauce
+A fiery twist — roasted cauliflower baked in spicy tomato sauce with crushed red pepper and provolone.
+
+Gluten-Free Creamy Cauliflower Baked Ziti with Sun-Dried Tomatoes & Basil
+Light, tangy, and flavorful — baked with cream sauce, sun-dried tomatoes, and fresh basil.
+
+Additional Notes:
+
+Include cauliflower prep tips — roast until lightly golden for texture (avoid steaming to prevent sogginess).
+
+Offer sauce variations — marinara, Alfredo, pesto, or cream-based.
+
+Suggest dietary modifications — vegetarian, keto, dairy-free (vegan cheese, coconut cream).
+
+Add pairings — garlic bread, green salad, or roasted vegetables.
+
+Provide make-ahead & storage instructions — assemble and refrigerate up to 24 hours before baking.
+
+Include freezing guidance — freeze baked ziti portions up to 3 months.
+
+Highlight Italian authenticity — same comfort as traditional pasta bake, without the carbs.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free cauliflower baked ziti recipes under the designated category.
+Do not:
+
+Modify or delete existing recipes or pages.
+
+Change SEO metadata, internal linking, or structure.
+
+Adjust pagination, schema, or styling.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
