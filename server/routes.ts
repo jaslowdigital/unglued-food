@@ -446,6 +446,83 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Pinterest Product Feed
+  app.get("/pinterest-feed.xml", async (req, res) => {
+    try {
+      const SITE_DOMAIN = process.env.REPLIT_DEV_DOMAIN 
+        ? `https://${process.env.REPLIT_DEV_DOMAIN}`
+        : "https://ungluedfood.com";
+
+      const recipes = await storage.getRecipes();
+      const publishedRecipes = recipes.filter(r => r.status === 'published');
+
+      const escapeXml = (str: string): string => {
+        return str
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;')
+          .replace(/'/g, '&apos;');
+      };
+
+      // Generate Pinterest Product Feed XML (RSS format with Google namespace)
+      let xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+      xml += '<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">\n';
+      xml += '<channel>\n';
+      xml += '<title>Unglued Food - Gluten-Free Recipes</title>\n';
+      xml += '<link>https://ungluedfood.com</link>\n';
+      xml += '<description>Delicious gluten-free recipes for every occasion</description>\n\n';
+
+      for (const recipe of publishedRecipes) {
+        const recipeUrl = `${SITE_DOMAIN}/recipe/${recipe.slug}`;
+        
+        // Normalize image URL - ensure it's a full URL
+        const imageUrl = recipe.image.startsWith('http') 
+          ? recipe.image 
+          : `${SITE_DOMAIN}${recipe.image}`;
+
+        // Build product type from category and subcategory
+        const productType = recipe.subcategory 
+          ? `${recipe.category} &gt; ${recipe.subcategory}`
+          : recipe.category;
+
+        xml += '<item>\n';
+        xml += `  <g:id>${escapeXml(recipe.slug)}</g:id>\n`;
+        xml += `  <title>${escapeXml(recipe.title)}</title>\n`;
+        xml += `  <description>${escapeXml(recipe.description)}</description>\n`;
+        xml += `  <g:product_type>${productType}</g:product_type>\n`;
+        xml += `  <link>${escapeXml(recipeUrl)}</link>\n`;
+        xml += `  <g:image_link>${escapeXml(imageUrl)}</g:image_link>\n`;
+        xml += `  <g:condition>New</g:condition>\n`;
+        xml += `  <g:availability>in stock</g:availability>\n`;
+        xml += `  <g:price>0 USD</g:price>\n`;
+        xml += `  <g:brand>Unglued Food</g:brand>\n`;
+        
+        // Add custom labels for categorization
+        if (recipe.difficulty) {
+          xml += `  <g:custom_label_0>${escapeXml(recipe.difficulty)}</g:custom_label_0>\n`;
+        }
+        if (recipe.tags && recipe.tags.length > 0) {
+          xml += `  <g:custom_label_1>${escapeXml(recipe.tags.slice(0, 3).join(', '))}</g:custom_label_1>\n`;
+        }
+        
+        xml += `  <g:identifier_exists>FALSE</g:identifier_exists>\n`;
+        xml += '</item>\n\n';
+      }
+
+      xml += '</channel>\n';
+      xml += '</rss>';
+
+      // Set proper XML content-type header
+      res.setHeader('Content-Type', 'application/xml; charset=UTF-8');
+      res.setHeader('Cache-Control', 'public, max-age=3600'); // Cache for 1 hour
+      res.send(xml);
+    } catch (error) {
+      console.error("Error generating Pinterest feed:", error);
+      res.status(500).send('Error generating Pinterest product feed');
+    }
+  });
+
   const httpServer = createServer(app);
   return httpServer;
 }
