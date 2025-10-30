@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useForm, useFieldArray } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
@@ -53,6 +53,39 @@ export default function AddRecipePage() {
   const [, setLocation] = useLocation();
   const { toast } = useToast();
   const queryClient = useQueryClient();
+
+  useEffect(() => {
+    const siteUrl = window.location.origin;
+    const ogImageUrl = `${siteUrl}/unglued-food-og.jpg`;
+
+    document.title = "Add New Recipe | Unglued Food";
+    
+    const setMetaTag = (property: string, content: string, isProperty = true) => {
+      const attr = isProperty ? 'property' : 'name';
+      let meta = document.querySelector(`meta[${attr}="${property}"]`);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute(attr, property);
+        document.head.appendChild(meta);
+      }
+      meta.setAttribute('content', content);
+    };
+
+    setMetaTag('description', 'Add a new gluten-free recipe to the Unglued Food collection. Share your favorite gluten-free creations with the community.', false);
+    setMetaTag('og:title', 'Add New Recipe | Unglued Food');
+    setMetaTag('og:description', 'Add a new gluten-free recipe to the Unglued Food collection. Share your favorite gluten-free creations with the community.');
+    setMetaTag('og:url', `${siteUrl}/add-recipe`);
+    setMetaTag('og:image', ogImageUrl);
+    setMetaTag('og:image:secure_url', ogImageUrl);
+    setMetaTag('og:image:width', '1200');
+    setMetaTag('og:image:height', '630');
+    setMetaTag('og:image:type', 'image/jpeg');
+    setMetaTag('og:image:alt', 'Unglued Food - Add New Recipe');
+    setMetaTag('twitter:title', 'Add New Recipe | Unglued Food', false);
+    setMetaTag('twitter:description', 'Add a new gluten-free recipe to the Unglued Food collection. Share your favorite gluten-free creations with the community.', false);
+    setMetaTag('twitter:image', ogImageUrl, false);
+    setMetaTag('twitter:image:alt', 'Unglued Food - Add New Recipe', false);
+  }, []);
 
   const form = useForm<AddRecipeForm>({
     resolver: zodResolver(addRecipeFormSchema),
