@@ -1,0 +1,130 @@
+🍎 Request: Create 10 Original Gluten-Free Cider-Braised Pot Roast Recipes with AI-Generated Images
+
+Directive:
+Do not change or modify any other part of the site — including design, categories, or existing recipes.
+Only add these 10 new gluten-free cider-braised pot roast recipes under “Gluten-Free Recipes → Dinner → Braised Dishes.”
+Maintain all current formatting, SEO, and schema structure exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free cider-braised pot roast recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Cider-Braised Pot Roast” (examples:
+
+Gluten-Free Cider-Braised Pot Roast with Apples & Onions
+
+Gluten-Free Cider-Braised Pot Roast with Carrots & Thyme
+
+Gluten-Free Maple Cider-Braised Pot Roast
+
+Gluten-Free Hard Cider Pot Roast with Shallots
+
+Gluten-Free Cider-Braised Pot Roast with Rosemary & Garlic)
+
+Each recipe should include:
+
+Full ingredients list (roast cut, aromatics, braising liquid, herbs, vegetables)
+
+Step-by-step instructions (searing, deglazing, slow-braising, resting, serving)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, carbs, fat, sodium, fiber)
+
+All ingredients must be certified gluten-free, including broths, cider, vinegars, and thickening agents.
+
+Recipes should emphasize deep flavor, tender texture, and rustic, seasonal presentation.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase the rich sauce and fall-inspired plating — golden vegetables, caramelized crust, glossy gravy.
+
+Use natural lighting and warm rustic styling (cast iron pot, herbs, sliced roast, cider glasses).
+
+Include close-up detail shots showing sauce thickness, marbling, and tender texture.
+
+Maintain consistent autumn color palette and cozy tone across all 10 images.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Cider-Braised Pot Roast
+
+Additional Subcategories:
+
+Fall & Winter Dinners
+
+One-Pot & Braised Meals
+
+Family-Style Comfort Food
+
+Holiday & Sunday Suppers
+
+Slow-Cooked Mains
+
+Recipe Variety & Focus:
+
+Gluten-Free Cider-Braised Pot Roast with Apples & Onions
+Sweet-tart apple cider base with caramelized onions and tender chuck roast — finished with fresh thyme and pan jus.
+
+Gluten-Free Maple Cider-Braised Pot Roast
+Infused with maple syrup, garlic, and cider vinegar — slightly sweet, savory, and deeply aromatic.
+
+Gluten-Free Cider-Braised Pot Roast with Carrots & Thyme
+A classic slow-braise featuring root vegetables, garlic, and herbs simmered in spiced apple cider.
+
+Gluten-Free Hard Cider Pot Roast with Shallots & Mustard
+Braised in crisp hard cider and Dijon — balanced acidity, depth, and golden-brown finish.
+
+Gluten-Free Cider-Braised Pot Roast with Rosemary & Garlic
+Rustic version with whole garlic cloves, rosemary sprigs, and cider reduction sauce.
+
+Gluten-Free Cider-Braised Pot Roast with Cranberries & Red Wine
+Sweet and tart blend of cider and red wine for a holiday-worthy roast — festive and rich.
+
+Gluten-Free Cider-Braised Pot Roast with Parsnips & Leeks
+Earthy vegetables complement tender roast simmered in apple cider and bone broth.
+
+Gluten-Free Smoky Cider-Braised Pot Roast
+Incorporates smoked paprika, bacon, and cider for a hearty, smoky-sweet depth of flavor.
+
+Gluten-Free Cider-Braised Pot Roast with Fennel & Orange Zest
+Mediterranean-inspired twist with citrus, fennel bulb, and a hint of anise — light yet comforting.
+
+Gluten-Free Cider-Braised Pot Roast with Balsamic & Honey Glaze
+Braised in cider and balsamic vinegar with a honey finish — glossy, tangy, and perfectly tender.
+
+Additional Notes:
+
+Include meat cut options (chuck, brisket, or bottom round for slow braising).
+
+Provide substitutions (non-alcoholic cider, bone broth, dairy-free butter).
+
+Suggest sides and pairings — mashed potatoes, roasted root veggies, gluten-free bread, or polenta.
+
+Add slow cooker and oven variations for versatility.
+
+Include make-ahead and reheating tips (flavor improves overnight).
+
+Highlight holiday presentation ideas — served sliced with herbs and reduced cider glaze.
+
+Note storage and freezing instructions (airtight container up to 3 months).
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free cider-braised pot roast recipes.
+Do not:
+
+Edit existing site content, recipes, or categories.
+
+Modify menus, SEO settings, or design structure.
+
+Adjust schema, internal linking, or pagination.
