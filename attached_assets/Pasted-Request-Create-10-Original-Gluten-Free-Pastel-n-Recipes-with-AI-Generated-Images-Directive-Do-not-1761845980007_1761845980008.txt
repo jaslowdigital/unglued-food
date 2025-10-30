@@ -1,0 +1,136 @@
+Request: Create 10 Original Gluten-Free Pastelón Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or alter any other content, settings, or categories on the website.
+Only add these 10 new gluten-free pastelón recipes under “Gluten-Free Recipes → International → Latin & Caribbean.”
+Maintain all existing SEO schema, layout, and formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free pastelón recipes that creatively reimagine this Puerto Rican dish while keeping its essence — sweet plantains, savory picadillo, melted cheese, and comforting layers.
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Pastelón” and specify its unique twist or key ingredients (examples:
+
+Gluten-Free Classic Puerto Rican Pastelón
+
+Gluten-Free Sweet Plantain & Beef Pastelón
+
+Gluten-Free Chicken Sofrito Pastelón
+
+Gluten-Free Vegetarian Pastelón with Lentils & Sweet Plantains
+
+Gluten-Free BBQ Picadillo Pastelón with Cheese Crust)
+
+Each recipe should include:
+
+Ingredients list (plantains, meat or vegetarian filling, sofrito, cheese, seasonings, and sauces)
+
+Step-by-step instructions (frying, layering, baking, serving)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, protein, fats, sugar, sodium per serving)
+
+All ingredients must be certified gluten-free, including broths, sauces, and seasonings.
+
+Recipes should preserve the sweet–savory balance of pastelón — crispy plantains, spiced filling, and gooey cheese layers.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase golden layered plantains, melty cheese, and rich meat or veggie filling.
+
+Use natural lighting and warm, tropical styling (ceramic dishes, plantain slices, colorful linens).
+
+Include close-up detail shots showing the layered cross-section.
+
+Maintain rich golden and warm tones across all 10 images.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Pastelón
+
+Additional Subcategories:
+
+Latin & Caribbean Cuisine
+
+Casseroles & Bakes
+
+Family-Style Dinners
+
+Sweet & Savory Recipes
+
+Holiday & Celebration Dishes
+
+Recipe Variety & Focus:
+
+Gluten-Free Classic Puerto Rican Pastelón
+Traditional layered sweet plantains, beef picadillo with sofrito, and mozzarella — perfectly balanced and comforting.
+
+Gluten-Free Sweet Plantain & Beef Pastelón with Olives & Raisins
+Authentic combination of sweet fried plantains, spiced beef, briny olives, and raisins — the ultimate sweet-salty flavor.
+
+Gluten-Free Chicken Sofrito Pastelón
+Lighter twist using shredded chicken, homemade sofrito, and roasted peppers layered with sweet plantains.
+
+Gluten-Free Vegetarian Pastelón with Lentils & Sweet Plantains
+Hearty vegetarian version made with lentil picadillo, onions, and melted cheese — wholesome and flavorful.
+
+Gluten-Free Turkey Pastelón with Roasted Garlic & Herbs
+Lean and aromatic, featuring ground turkey and herb-infused sofrito for a lighter, fresh version.
+
+Gluten-Free BBQ Picadillo Pastelón with Cheese Crust
+Smoky barbecue twist on classic picadillo layered with plantains and cheddar crust — sweet, spicy, and bold.
+
+Gluten-Free Plantain & Shrimp Pastelón with Coconut Cream Sauce
+Caribbean fusion version — sautéed shrimp in coconut sofrito with sweet plantains and mozzarella.
+
+Gluten-Free Black Bean & Sweet Corn Pastelón
+Southwest-inspired vegetarian take with spiced black beans, corn, cilantro, and pepper jack cheese.
+
+Gluten-Free Chorizo & Sweet Potato Pastelón
+Sweet and spicy — chorizo filling with mashed sweet potato and caramelized onions for deep flavor.
+
+Gluten-Free Breakfast Pastelón with Eggs & Cheese
+Morning twist — layers of baked plantains, scrambled eggs, and cheese, topped with avocado crema.
+
+Additional Notes:
+
+Include plantain preparation tips — fry or bake until golden, drain excess oil.
+
+Offer filling variations — beef, chicken, turkey, vegetarian, or seafood.
+
+Provide make-ahead and freezing instructions (assemble, cover, and bake before serving).
+
+Suggest pairings — rice and beans, salad, or fried tostones.
+
+Add presentation ideas — serve sliced like lasagna with cilantro or lime garnish.
+
+Highlight cultural background — Puerto Rican comfort food served during holidays and celebrations.
+
+Include storage and reheating guidance — reheat at 350°F to maintain crispness.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free pastelón recipes under the specified category.
+Do not:
+
+Edit or delete any current posts or settings.
+
+Change SEO metadata, pagination, or layout.
+
+Modify menus, linking, or schema.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
