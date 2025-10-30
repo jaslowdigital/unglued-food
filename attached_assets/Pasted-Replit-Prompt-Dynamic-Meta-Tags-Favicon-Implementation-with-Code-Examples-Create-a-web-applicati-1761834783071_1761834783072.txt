@@ -1,0 +1,184 @@
+Replit Prompt: Dynamic Meta Tags & Favicon Implementation with Code Examples
+Create a web application that dynamically generates comprehensive meta tags and favicon implementation for SEO and social media optimization. The application should:
+⚠️ CRITICAL INSTRUCTION: SURGICAL UPDATES ONLY ⚠️
+DO NOT TOUCH OR UPDATE ANYTHING ELSE ON THE WEBSITE.
+ONLY make these specific changes:
+Add the favicon link tag to the <head> section
+Add the meta tags listed below to the <head> section
+Place new tags below existing meta code
+Create the configuration system for dynamic values
+DO NOT modify, remove, or alter:
+Existing HTML structure
+Existing CSS styles
+Existing JavaScript functionality
+Existing meta tags already present
+Any other page content or layout
+Navigation, footer, or any other components
+Database connections or backend logic
+ONLY ADD - DO NOT REMOVE OR CHANGE EXISTING CODE
+
+Core Requirements:
+Favicon Implementation
+Add <link rel="icon" href="/path/to/favicon.ico"> in the HTML <head> section
+Place it below existing meta tags
+Make the favicon path configurable
+Dynamic Meta Tags System
+Implement all Open Graph (og:) meta tags for Facebook/social sharing
+Add Twitter Card meta tags for Twitter sharing
+Include search engine verification tags (Google, Bing, Yandex, Pinterest)
+Add article publisher and modification time metadata
+Dynamic Content Generation The system should pull information from:
+Page title (dynamically generated)
+Page description/excerpt
+Current page URL
+Site name
+Featured image (with fallback)
+Last modified timestamp
+Article type detection (article vs website)
+Configuration Interface Create a form or configuration panel where users can input:
+Article publisher URL
+Default fallback image URL
+Twitter handle (@username)
+Microsoft validation code (msvalidate.01)
+Google site verification code
+Pinterest domain verification code
+Yandex verification code
+Social profile links (rel="me")
+Favicon file path
+Meta Tags to Implement (ADD THESE ONLY)
+html
+   <!-- Favicon (ADD THIS) -->
+   <link rel="icon" href="/favicon.ico">
+   
+   <!-- Open Graph Meta Tags (ADD THESE) -->
+   <meta property="og:locale" content="en_US" />
+   <meta property="og:type" content="article" />
+   <meta property="og:title" content="Your Page Title Here" />
+   <meta property="og:description" content="Your page description here" />
+   <meta property="og:url" content="https://yoursite.com/page-url" />
+   <meta property="og:site_name" content="Your Site Name" />
+   <meta property="article:publisher" content="https://facebook.com/yourpage" />
+   <meta property="article:modified_time" content="2025-10-30T10:30:00+00:00" />
+   <meta property="og:image" content="https://yoursite.com/image.jpg" />
+   <meta property="og:image:width" content="800" />
+   <meta property="og:image:height" content="800" />
+   <meta property="og:image:type" content="image/jpeg" />
+   
+   <!-- Twitter Card Meta Tags (ADD THESE) -->
+   <meta name="twitter:card" content="summary_large_image" />
+   <meta name="twitter:title" content="Your Page Title Here" />
+   <meta name="twitter:description" content="Your page description here" />
+   <meta name="twitter:image" content="https://yoursite.com/image.jpg" />
+   <meta name="twitter:site" content="@yourtwitterhandle" />
+   
+   <!-- Search Engine Verification (ADD THESE) -->
+   <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+   <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
+   <meta name="p:domain_verify" content="YOUR_PINTEREST_VERIFICATION_CODE" />
+   <meta name="yandex-verification" content="YOUR_YANDEX_VERIFICATION_CODE" />
+   
+   <!-- Social Profile Link (ADD THIS) -->
+   <link rel="me" href="https://twitter.com/yourprofile" />
+Example Full HTML Head Section (SHOWING WHERE TO ADD NEW CODE)
+html
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>My Awesome Blog Post</title>
+       <meta name="description" content="Learn how to implement SEO meta tags">
+       
+       <!-- ↓↓↓ ADD NEW CODE BELOW EXISTING META TAGS ↓↓↓ -->
+       
+       <!-- Favicon (NEW) -->
+       <link rel="icon" href="/images/favicon.ico">
+       
+       <!-- Open Graph (NEW) -->
+       <meta property="og:locale" content="en_US" />
+       <meta property="og:type" content="article" />
+       <meta property="og:title" content="My Awesome Blog Post" />
+       <meta property="og:description" content="Learn how to implement SEO meta tags" />
+       <meta property="og:url" content="https://mysite.com/blog/seo-guide" />
+       <meta property="og:site_name" content="My Awesome Site" />
+       <meta property="article:publisher" content="https://facebook.com/myawesomepage" />
+       <meta property="article:modified_time" content="2025-10-30T14:22:00+00:00" />
+       <meta property="og:image" content="https://mysite.com/images/blog-hero.jpg" />
+       <meta property="og:image:width" content="800" />
+       <meta property="og:image:height" content="800" />
+       <meta property="og:image:type" content="image/jpeg" />
+       
+       <!-- Twitter (NEW) -->
+       <meta name="twitter:card" content="summary_large_image" />
+       <meta name="twitter:title" content="My Awesome Blog Post" />
+       <meta name="twitter:description" content="Learn how to implement SEO meta tags" />
+       <meta name="twitter:image" content="https://mysite.com/images/blog-hero.jpg" />
+       <meta name="twitter:site" content="@myawesomesite" />
+       
+       <!-- Verification (NEW) -->
+       <meta name="msvalidate.01" content="ABC123DEF456" />
+       <meta name="google-site-verification" content="XYZ789GHI012" />
+       <meta name="p:domain_verify" content="PIN345JKL678" />
+       <meta name="yandex-verification" content="YAN901MNO234" />
+       
+       <link rel="me" href="https://twitter.com/myprofile" />
+       
+       <!-- ↑↑↑ END OF NEW CODE ↑↑↑ -->
+   </head>
+   <body>
+       <!-- DO NOT TOUCH ANYTHING IN BODY -->
+   </body>
+   </html>
+```
+
+7. **Technical Features**
+   - Store configuration values persistently
+   - Generate proper HTML escaping for security
+   - Provide preview of generated meta tags
+   - Show how the page will appear on Google, Facebook, and Twitter
+   - Include validation for required fields
+   - Auto-detect page type (article/website)
+   - Generate W3C-compliant timestamps (ISO 8601 format: `2025-10-30T14:22:00+00:00`)
+   - **ONLY inject new meta tags - preserve all existing code**
+
+8. **Configuration Panel Example**
+   The app should have a form like:
+```
+   Site Configuration:
+   - Site Name: [Input field]
+   - Default Image URL: [Input field]
+   - Favicon Path: [Input field - default: /favicon.ico]
+   
+   Social Media:
+   - Facebook Page URL: [Input field]
+   - Twitter Handle: [Input field - e.g., @username]
+   - Social Profile URL: [Input field]
+   
+   Search Engine Verification:
+   - Google Verification Code: [Input field]
+   - Bing Verification Code: [Input field]
+   - Pinterest Verification Code: [Input field]
+   - Yandex Verification Code: [Input field]
+   
+   Page-Specific (Dynamic):
+   - Page Type: [Dropdown: article/website]
+   - Page Title: [Auto-detected or input]
+   - Page Description: [Auto-detected or input]
+   - Page URL: [Auto-detected]
+   - Featured Image: [Auto-detected or input]
+   - Last Modified: [Auto-generated timestamp]
+User Experience
+Simple configuration dashboard with live preview
+Visual preview of social media cards (Facebook & Twitter card mockups)
+Copy-to-clipboard functionality for generated code
+Show warnings for missing required information
+Display example values and proper formats
+CLEAR WARNING: "This will only add new meta tags. No existing code will be modified."
+🔒 IMPLEMENTATION RULES:
+APPEND ONLY MODE: Only add new code after existing meta tags
+NO DELETIONS: Do not remove any existing HTML, CSS, or JavaScript
+NO MODIFICATIONS: Do not change any existing attributes, classes, or IDs
+PRESERVE STRUCTURE: Keep all existing page structure intact
+MINIMAL FOOTPRINT: Only inject the specific meta tags and favicon link
+SAFE INSERTION: Insert code in a way that won't break existing functionality
+Build this as a modern, responsive web application that helps users optimize their website's presence on search engines and social media platforms while guaranteeing no existing code is touched or modified.
