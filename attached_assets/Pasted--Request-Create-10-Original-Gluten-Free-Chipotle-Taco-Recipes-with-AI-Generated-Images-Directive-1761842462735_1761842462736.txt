@@ -1,0 +1,130 @@
+🌮 Request: Create 10 Original Gluten-Free Chipotle Taco Recipes with AI-Generated Images
+
+Directive:
+Do not edit, delete, or alter any other content, formatting, or categories on the site.
+Only add these 10 new gluten-free chipotle taco recipes under “Gluten-Free Recipes → Main Dishes → Tacos.”
+Maintain all current site schema, SEO structure, and recipe layout exactly as is.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free chipotle taco recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Chipotle Tacos” and specify the main ingredient or theme (examples:
+
+Gluten-Free Chipotle Chicken Tacos
+
+Gluten-Free Chipotle Shrimp Tacos with Cilantro Lime Slaw
+
+Gluten-Free Chipotle Veggie Tacos with Avocado Crema
+
+Gluten-Free Chipotle Beef Barbacoa Tacos
+
+Gluten-Free Chipotle Black Bean & Corn Tacos)
+
+Each recipe should include:
+
+Full ingredients list (protein or plant-based filling, tortillas, sauces, toppings)
+
+Step-by-step instructions (marinating, cooking, assembling, garnishing)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, carbs, fat, sodium per serving)
+
+All ingredients must be certified gluten-free, including tortillas, seasonings, and sauces.
+
+Recipes should emphasize smoky chipotle flavor, fresh garnishes, and contrasting textures (creamy, crunchy, spicy).
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight colorful, layered tacos with visible fillings and vibrant garnishes.
+
+Use natural light and clean, modern styling (handheld tacos, lime wedges, wood boards, ceramic plates).
+
+Include close-up shots showing juicy fillings, charred edges, and creamy sauces.
+
+Maintain consistent warm, appetizing tones across all 10 images.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Chipotle Tacos
+
+Additional Subcategories:
+
+Mexican-Inspired Dishes
+
+Street Food
+
+Dinner & Lunch Recipes
+
+Quick Weeknight Meals
+
+High-Protein Options
+
+Recipe Variety & Focus:
+
+Gluten-Free Chipotle Chicken Tacos
+Juicy chicken thighs marinated in smoky chipotle, lime, and garlic — topped with fresh avocado crema.
+
+Gluten-Free Chipotle Shrimp Tacos with Cilantro Lime Slaw
+Grilled shrimp tossed in chipotle butter with a crisp lime slaw — light, spicy, and fresh.
+
+Gluten-Free Chipotle Veggie Tacos with Avocado Crema
+Roasted peppers, zucchini, and corn in chipotle sauce — topped with avocado crema and cilantro.
+
+Gluten-Free Chipotle Beef Barbacoa Tacos
+Slow-cooked beef in chipotle adobo sauce — tender, rich, and perfect with pickled onions.
+
+Gluten-Free Chipotle Black Bean & Corn Tacos
+Vegetarian-friendly with chipotle-seasoned beans, roasted corn, and cotija cheese.
+
+Gluten-Free Chipotle Pork Carnitas Tacos
+Crispy pulled pork finished with smoky chipotle glaze — topped with pineapple salsa.
+
+Gluten-Free Chipotle Fish Tacos with Mango Salsa
+Pan-seared white fish coated in chipotle-lime seasoning — brightened with mango and cabbage.
+
+Gluten-Free Chipotle Tofu Tacos with Pickled Jalapeños
+Crispy tofu marinated in chipotle adobo — spicy, crunchy, and plant-based.
+
+Gluten-Free Chipotle Turkey Tacos with Sweet Potato Hash
+Ground turkey and diced sweet potatoes in chipotle spice — hearty and slightly sweet.
+
+Gluten-Free Chipotle Steak Tacos with Queso Fresco
+Grilled steak strips with smoky chipotle rub — topped with queso fresco and cilantro.
+
+Additional Notes:
+
+Include tortilla options — corn, cassava, or grain-free for gluten-free compliance.
+
+Offer heat level variations (mild, medium, spicy) depending on chipotle amount.
+
+Provide sauce ideas — avocado crema, lime yogurt, garlic aioli, or chipotle mayo.
+
+Suggest topping combinations — cabbage slaw, radish slices, pico de gallo, cotija cheese.
+
+Add pairing suggestions — Mexican rice, roasted corn salad, or margaritas.
+
+Include make-ahead tips (marinate meat overnight, prep toppings in advance).
+
+Highlight presentation ideas — taco boards, plated tacos, or taco bar setups.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free chipotle taco recipes following the current recipe structure and site schema.
+Do not:
+
+Modify or remove existing recipes or categories.
+
+Change SEO settings, pagination, or image formats.
+
+Alter global layout, color scheme, or code.
