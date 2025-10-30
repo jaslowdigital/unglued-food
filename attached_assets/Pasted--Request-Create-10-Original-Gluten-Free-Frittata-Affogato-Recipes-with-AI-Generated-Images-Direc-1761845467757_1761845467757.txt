@@ -1,0 +1,84 @@
+🍳 Request: Create 10 Original Gluten-Free Frittata Affogato Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or alter any other content, formatting, or structure on the website.
+Only add these 10 new gluten-free frittata affogato recipes under “Gluten-Free Recipes → Breakfast & Brunch → Eggs & Frittatas.”
+Maintain all existing SEO schema, tags, and design exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live in the designated recipe category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free frittata affogato recipes featuring a variety of proteins, vegetables, and sweet–savory twists, with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Frittata Affogato” and its main flavor or theme (examples:
+
+Gluten-Free Italian Sausage Frittata Affogato
+
+Gluten-Free Roasted Pepper & Mozzarella Frittata Affogato
+
+Gluten-Free Caprese Frittata Affogato
+
+Gluten-Free Spinach & Sausage Frittata Affogato
+
+Gluten-Free Veggie Garden Frittata Affogato)
+
+Each recipe should include:
+
+Ingredients list
+
+Step-by-step instructions
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information
+
+All ingredients must be certified gluten-free.
+
+Recipes should emphasize rich, custardy interiors and golden-brown tops — true to Italian frittata style.
+
+Image Requirements:
+
+One high-quality, photorealistic image per recipe.
+
+Highlight golden crusts, colorful interiors, and fresh toppings.
+
+Use natural light and Italian-inspired styling.
+
+Maintain warm Mediterranean tones across all 10 recipes.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Frittata Affogato
+
+Additional Subcategories: Breakfast & Brunch, Italian-Inspired Dishes, High-Protein Meals, Savory & Sweet Brunch Ideas, Vegetarian and Meat-Based Recipes
+
+Recipe Variety & Focus:
+
+(1–10 list remains unchanged — Italian Sausage, Roasted Pepper, Caprese, Spinach & Sausage, Veggie Garden, Lasagna-Inspired, Savory Herb, Sweet Ricotta & Honey, Prosciutto & Arugula, Mediterranean Olives & Feta)
+
+Additional Notes:
+
+Include cooking and variation tips
+
+Suggest pairings and presentation ideas
+
+Provide make-ahead and reheating instructions
+
+Highlight seasonal variations
+
+✅ Implementation Reminder:
+Only add these 10 new recipes under the designated category.
+Do not modify existing recipes, metadata, menus, or schema.
+
+Final Step:
+🔁 When generation is complete, run the script to automatically add all 10 new recipes to the database now.
