@@ -1,0 +1,130 @@
+🍄 Request: Create 10 Original Gluten-Free Brie-Stuffed Mushroom Recipes with AI-Generated Images
+
+Directive:
+Do not modify, edit, or delete any other content, categories, design, or formatting on the site.
+Only add these 10 new gluten-free brie-stuffed mushroom recipes under “Gluten-Free Recipes → Appetizers → Stuffed Vegetables.”
+Preserve all existing SEO schema, layout, and metadata exactly as they are.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free brie-stuffed mushroom recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on our website.
+
+Each recipe title must include “Gluten-Free Brie-Stuffed Mushrooms” and a unique flavor twist (examples:
+
+Gluten-Free Brie-Stuffed Mushrooms with Garlic & Herbs
+
+Gluten-Free Brie-Stuffed Mushrooms with Bacon & Thyme
+
+Gluten-Free Brie-Stuffed Mushrooms with Cranberries & Walnuts
+
+Gluten-Free Brie-Stuffed Mushrooms with Spinach & Shallots
+
+Gluten-Free Brie-Stuffed Mushrooms with Honey & Rosemary)
+
+Each recipe should include:
+
+Ingredients list (mushrooms, brie, herbs, oils, seasonings, optional toppings)
+
+Step-by-step instructions (cleaning, filling, baking, garnishing)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, protein, fats, sodium per serving)
+
+All ingredients must be certified gluten-free, including sauces, flavorings, and garnishes.
+
+Recipes should balance warm, creamy textures with savory, aromatic flavors — ideal for entertaining.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight golden, bubbling brie inside roasted mushroom caps with visible garnishes.
+
+Use natural lighting and warm, inviting styling (wood trays, holiday serving boards, herbs).
+
+Include close-up detail shots showing melted cheese, texture, and color contrast.
+
+Maintain consistent tones and cozy aesthetic across all 10 images.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Brie-Stuffed Mushrooms
+
+Additional Subcategories:
+
+Appetizers & Hors d’Oeuvres
+
+Party & Holiday Recipes
+
+Vegetarian Options
+
+Warm Starters
+
+Entertaining & Finger Foods
+
+Recipe Variety & Focus:
+
+Gluten-Free Brie-Stuffed Mushrooms with Garlic & Herbs
+Classic roasted mushrooms filled with creamy brie, minced garlic, and fresh thyme — a warm, aromatic bite.
+
+Gluten-Free Brie-Stuffed Mushrooms with Bacon & Thyme
+Crispy bacon crumbles, thyme, and melted brie — smoky, savory, and indulgent.
+
+Gluten-Free Brie-Stuffed Mushrooms with Cranberries & Walnuts
+Sweet-tart cranberries and toasted walnuts over creamy brie — festive and elegant for the holidays.
+
+Gluten-Free Brie-Stuffed Mushrooms with Spinach & Shallots
+Sautéed spinach and caramelized shallots tucked under melted brie — earthy, rich, and flavorful.
+
+Gluten-Free Brie-Stuffed Mushrooms with Honey & Rosemary
+Drizzled with honey and topped with rosemary — a sweet and savory crowd-pleaser.
+
+Gluten-Free Brie-Stuffed Mushrooms with Pesto & Pine Nuts
+Bright basil pesto under gooey brie, finished with toasted pine nuts — Italian-inspired and aromatic.
+
+Gluten-Free Brie-Stuffed Mushrooms with Caramelized Onions & Balsamic Glaze
+Deeply sweet onions balanced by tangy balsamic reduction — sophisticated and comforting.
+
+Gluten-Free Brie-Stuffed Mushrooms with Sun-Dried Tomatoes & Basil
+Bursting with Mediterranean flavor — brie, sun-dried tomatoes, and basil in perfect harmony.
+
+Gluten-Free Brie-Stuffed Mushrooms with Prosciutto & Sage
+Wrapped or topped with prosciutto for a salty edge — balanced by fragrant sage and creamy cheese.
+
+Gluten-Free Brie-Stuffed Mushrooms with Apple & Thyme
+Sweet diced apple and thyme paired with melted brie — a fall-inspired twist with beautiful balance.
+
+Additional Notes:
+
+Include mushroom size tips (cremini or baby bella for bite-sized appetizers).
+
+Offer make-ahead and reheating instructions (assemble ahead, bake before serving).
+
+Provide garnish options — microgreens, nuts, herbs, or drizzle of honey or glaze.
+
+Add flavor variations — spicy (chili flakes), nutty (hazelnuts), or fruity (fig jam).
+
+Suggest pairings — sparkling wine, cider, or white wine.
+
+Highlight dietary modifications (vegetarian or dairy-free alternatives with vegan brie).
+
+Emphasize presentation tips — serve on slate platters, wooden boards, or with cocktail picks.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free brie-stuffed mushroom recipes following the existing recipe page format.
+Do not:
+
+Edit or remove existing posts, categories, or menus.
+
+Modify SEO data, image sizes, or schema structure.
+
+Change global design, pagination, or code.
