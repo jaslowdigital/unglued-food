@@ -1,0 +1,134 @@
+🌶️ Request: Create 10 Original Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or alter any other pages, design elements, or categories on the site.
+Only add these 10 new gluten-free skillet recipes under “Gluten-Free Recipes → Dinners → One-Pan Meals.”
+Preserve all existing SEO schema, structure, and layout formatting exactly as is.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free cheesy chorizo, chickpea, and crispy rice skillet recipes with the following specifications:
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet” and a distinctive flavor variation (examples:
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Peppers & Lime Crema
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Spinach & Feta
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Tomatoes & Basil
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Smoky Paprika Sauce
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Sweet Corn & Jalapeño)
+
+Each recipe should include:
+
+Ingredients list (chorizo, chickpeas, rice, cheese, aromatics, vegetables, seasonings)
+
+Step-by-step instructions (sautéing, simmering, crisping, finishing, and serving)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, protein, fats, sodium per serving)
+
+All ingredients must be certified gluten-free, including chorizo, rice, and seasonings.
+
+Recipes should celebrate crispy textures, smoky chorizo flavor, and cheesy richness in a one-pan format.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase golden crispy rice edges, melty cheese, and vibrant toppings like herbs or lime wedges.
+
+Use natural light and rustic styling (cast iron skillet, wooden spoons, neutral linen napkins).
+
+Include close-up shots highlighting texture — crisp rice base, gooey cheese, colorful garnish.
+
+Maintain consistent warm tones and appetizing contrast across all 10 images.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet
+
+Additional Subcategories:
+
+One-Pan Dinners
+
+Weeknight Meals
+
+Comfort Food
+
+High-Protein Recipes
+
+Family Favorites
+
+Recipe Variety & Focus:
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Peppers & Lime Crema
+Colorful bell peppers, smoky chorizo, and lime crema — bright, zesty, and perfectly balanced.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Spinach & Feta
+A Mediterranean twist with wilted spinach, tangy feta, and creamy melted cheese.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Tomatoes & Basil
+Fresh cherry tomatoes and basil bring freshness to this bold, cheesy skillet.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Smoky Paprika Sauce
+Deeply flavorful paprika sauce enhances the chorizo’s smokiness — hearty and satisfying.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Sweet Corn & Jalapeño
+Sweet corn and mild heat from jalapeños give a Southwest flair — creamy, crispy, and spicy.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Caramelized Onions & Manchego
+Sweet onions and rich Manchego cheese elevate the dish with Spanish-inspired flair.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Roasted Garlic & Lemon
+Bright and aromatic — roasted garlic adds depth while lemon zest lifts the flavor.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Avocado & Cilantro
+Finished with creamy avocado slices and fresh cilantro for a fresh, balanced finish.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Chipotle & Lime
+Chipotle paste and lime juice add smoky, tangy depth to the rich cheesy base.
+
+Gluten-Free Cheesy Chorizo, Chickpea & Crispy Rice Skillet with Poached Egg & Hot Honey
+A brunch-ready twist — topped with a poached egg and drizzled with hot honey for sweet-spicy contrast.
+
+Additional Notes:
+
+Include cooking tips:
+
+Use day-old rice for maximum crispiness.
+
+Let the skillet sit undisturbed to form a golden crust.
+
+Offer dietary modifications:
+
+Dairy-free (vegan cheese), vegetarian (omit chorizo or use plant-based version).
+
+Suggest pairings — side salad, gluten-free flatbread, or citrusy slaw.
+
+Add storage and reheating guidance — reheat in skillet or oven for crisp texture.
+
+Provide spice level adjustments — mild, medium, or spicy options.
+
+Highlight one-pan simplicity — minimal cleanup and perfect for family meals.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free cheesy chorizo, chickpea & crispy rice skillet recipes following the site’s existing recipe formatting and SEO conventions.
+Do not:
+
+Modify or remove existing recipes, menus, or structure.
+
+Change SEO metadata, internal links, or pagination.
+
+Alter site-wide design, styling, or code.
