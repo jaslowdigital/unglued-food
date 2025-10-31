@@ -1,0 +1,134 @@
+🍯 Request: Create 10 Original Gluten-Free Duvshaniot (Israeli Honey Cookies) Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or alter any existing website content, design, or formatting.
+Only add these 10 new gluten-free duvshaniot recipes under “Gluten-Free Recipes → Desserts → Cookies.”
+Maintain all existing schema, SEO metadata, and layout exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live in the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free duvshaniot recipes, blending traditional honey-spice cookie flavor with modern and international twists.
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Duvshaniot” and specify its variation (examples:
+
+Gluten-Free Classic Duvshaniot (Israeli Honey Cookies)
+
+Gluten-Free Orange Blossom Duvshaniot
+
+Gluten-Free Espresso Honey Duvshaniot
+
+Gluten-Free Almond & Cardamom Duvshaniot
+
+Gluten-Free Chocolate-Dipped Duvshaniot)
+
+Each recipe should include:
+
+Ingredients list (honey, gluten-free flour, oil or butter, eggs, sugar, spices, leavening)
+
+Step-by-step instructions (mixing, shaping, baking, glazing or finishing)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, fats, protein, sugar per serving)
+
+All ingredients must be certified gluten-free, including flours, leaveners, and baking spices.
+
+Recipes should balance crisp exterior texture with chewy, aromatic interiors typical of traditional duvshaniot.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight golden-brown cookies, slightly cracked tops, and optional toppings (sugar dust, glaze, nuts).
+
+Use natural light and rustic, cozy styling (linen napkins, honey drizzles, teacups).
+
+Include close-up shots showcasing cookie texture and glaze sheen.
+
+Maintain consistent warm honey and golden tones across all 10 recipes.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Duvshaniot
+
+Additional Subcategories:
+
+Cookies & Biscuits
+
+Holiday & Rosh Hashanah Recipes
+
+Honey & Spice Desserts
+
+Traditional Middle Eastern Sweets
+
+Gluten-Free Baking
+
+Recipe Variety & Focus:
+
+Gluten-Free Classic Duvshaniot (Israeli Honey Cookies)
+Traditional honey-spice cookie with cinnamon, clove, and nutmeg — crisp edges, chewy center, and a sweet honey glaze.
+
+Gluten-Free Orange Blossom Duvshaniot
+Delicately floral twist — honey blended with orange blossom water and zest for a bright, fragrant finish.
+
+Gluten-Free Almond & Cardamom Duvshaniot
+Warm and nutty — ground almonds and cardamom add depth to this aromatic cookie.
+
+Gluten-Free Espresso Honey Duvshaniot
+Rich espresso and honey create a bold, bittersweet contrast — perfect with coffee or tea.
+
+Gluten-Free Chocolate-Dipped Duvshaniot
+Classic honey cookie half-dipped in dark chocolate and sprinkled with sea salt or pistachios.
+
+Gluten-Free Pomegranate Duvshaniot with Cinnamon Glaze
+A Rosh Hashanah-inspired version — pomegranate molasses and honey with a spiced glaze.
+
+Gluten-Free Ginger & Tahini Duvshaniot
+Nutty tahini base paired with honey and fresh ginger — chewy and subtly savory.
+
+Gluten-Free Chai-Spiced Duvshaniot
+Infused with cardamom, cinnamon, clove, and black tea — a cozy, aromatic cookie.
+
+Gluten-Free Walnut & Date Duvshaniot
+Middle Eastern–inspired — chopped dates and walnuts folded into a honey dough.
+
+Gluten-Free Rum-Glazed Duvshaniot
+A festive twist — honey cookie brushed with warm rum glaze for a rich, grown-up treat.
+
+Additional Notes:
+
+Include texture tips: slightly underbake for chewy centers, cool on wire rack to maintain crisp edges.
+
+Offer flour blend suggestions: almond flour, oat flour, and gluten-free all-purpose mix.
+
+Suggest holiday pairings: serve with tea, coffee, or dessert wine.
+
+Add storage instructions: store airtight up to 1 week or freeze up to 3 months.
+
+Provide decorating ideas: drizzle with honey, powdered sugar, or glaze lines.
+
+Highlight cultural background: traditional for Rosh Hashanah and Israeli holidays, symbolizing sweetness for the new year.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free duvshaniot recipes following the site’s existing recipe formatting.
+Do not:
+
+Modify or delete any existing recipes or categories.
+
+Change SEO metadata, schema, or design structure.
+
+Adjust pagination or image settings.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
