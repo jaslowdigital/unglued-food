@@ -17,11 +17,13 @@ export default function SocialShare({ title, description, url, image }: SocialSh
   const [open, setOpen] = useState(false);
   const { toast } = useToast();
 
-  const shareUrl = `${window.location.origin}${url}`;
+  const SITE_DOMAIN = "https://ungluedfood.com";
+  const shareUrl = `${SITE_DOMAIN}${url}`;
   const encodedTitle = encodeURIComponent(title);
   const encodedDescription = encodeURIComponent(description);
   const encodedUrl = encodeURIComponent(shareUrl);
-  const encodedImage = image ? encodeURIComponent(image) : '';
+  const imageUrl = image && !image.startsWith('http') ? `${SITE_DOMAIN}${image}` : image || '';
+  const encodedImage = imageUrl ? encodeURIComponent(imageUrl) : '';
 
   const shareLinks = [
     {
