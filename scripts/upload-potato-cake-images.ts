@@ -1,6 +1,12 @@
 import { objectStorageClient } from "../server/objectStorage";
 import { readFileSync } from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
+import { dirname } from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const projectRoot = path.join(__dirname, "..");
 
 const BUCKET_ID = process.env.DEFAULT_OBJECT_STORAGE_BUCKET_ID;
 
@@ -29,7 +35,7 @@ async function uploadPotatoCakeImages() {
 
   for (const imageName of potatoCakeImages) {
     try {
-      const localPath = path.join(process.cwd(), "client/public/recipe-images", imageName);
+      const localPath = path.join(projectRoot, "client/public/recipe-images", imageName);
       const destinationPath = `public/recipe-images/${imageName}`;
 
       const fileBuffer = readFileSync(localPath);
