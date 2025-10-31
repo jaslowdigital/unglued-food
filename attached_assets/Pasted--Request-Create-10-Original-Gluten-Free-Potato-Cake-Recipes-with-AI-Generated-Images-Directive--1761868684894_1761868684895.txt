@@ -1,0 +1,136 @@
+🍰 Request: Create 10 Original Gluten-Free Potato Cake Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or alter any other site content, formatting, or categories.
+Only add these 10 new gluten-free potato cake recipes under “Gluten-Free Recipes → Desserts → Cakes & Bakes.”
+Maintain all current schema, SEO structure, and formatting exactly as it is.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free potato cake recipes, each highlighting a different flavor theme or fusion twist, while showcasing the naturally moist and tender texture that potatoes bring to cakes.
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Potato Cake” and specify the primary flavor (examples:
+
+Gluten-Free Chocolate Potato Cake
+
+Gluten-Free Vanilla Bean Potato Cake
+
+Gluten-Free Strawberry Potato Cake with Cream Cheese Frosting
+
+Gluten-Free Rum & Amaretto Potato Cake
+
+Gluten-Free Carrot & Potato Spice Cake)
+
+Each recipe should include:
+
+Ingredients list (mashed or grated potatoes, gluten-free flour, sugar, fat, flavorings, toppings)
+
+Step-by-step instructions (mixing, baking, cooling, frosting)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, fats, sugar, protein per serving)
+
+All ingredients must be certified gluten-free, including flour blends, leaveners, and extracts.
+
+Recipes should highlight the moisture and richness of potato-based cakes while offering variety in style — from tea cakes to layered desserts.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight moist cake texture, rich frosting or glaze, and clear flavor cues (chocolate shavings, fruit compote, nuts, or glazes).
+
+Use natural lighting with elegant, rustic styling — dessert plates, forks, crumbs, fresh garnishes.
+
+Include close-up detail shots to show crumb texture and color contrast.
+
+Maintain consistent warm, inviting tones across all 10 recipes.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Potato Cake
+
+Additional Subcategories:
+
+Desserts & Baking
+
+Sweet Cakes & Quick Bakes
+
+Fruit & Chocolate Desserts
+
+Seasonal & Holiday Treats
+
+Gluten-Free Comfort Baking
+
+Recipe Variety & Focus:
+
+Gluten-Free Chocolate Potato Cake
+Deeply moist and fudgy chocolate cake enriched with mashed potatoes and cocoa — topped with dark chocolate ganache.
+
+Gluten-Free Vanilla Bean Potato Cake
+Light, buttery sponge with mashed potato for softness — finished with vanilla bean glaze and powdered sugar.
+
+Gluten-Free Strawberry Potato Cake with Cream Cheese Frosting
+Sweet and fruity — fresh strawberries folded into a potato-based batter, layered with tangy cream cheese frosting.
+
+Gluten-Free Blackberry & Lemon Potato Cake
+Zesty lemon and tart blackberries baked into a soft crumb — perfect for summer desserts or brunch.
+
+Gluten-Free Raspberry & White Chocolate Potato Cake
+Creamy, sweet, and slightly tart — raspberry swirls and white chocolate chunks create an indulgent texture.
+
+Gluten-Free Currant & Rhubarb Potato Cake with Streusel Topping
+Rustic tea cake featuring tangy rhubarb and currants, topped with a crunchy cinnamon oat streusel.
+
+Gluten-Free Rum & Amaretto Potato Cake
+Decadent, aromatic cake soaked in rum syrup and finished with amaretto glaze — rich and sophisticated.
+
+Gluten-Free Carrot & Potato Spice Cake
+Warmly spiced with cinnamon, nutmeg, and ginger — carrots and potatoes create incredible moisture and flavor depth.
+
+Gluten-Free Coconut & Pineapple Potato Cake
+Tropical twist — mashed potatoes add fluffiness to this island-inspired dessert topped with toasted coconut.
+
+Gluten-Free Chocolate Raspberry Potato Layer Cake
+Elegant showstopper — alternating layers of chocolate potato cake and raspberry cream filling.
+
+Additional Notes:
+
+Include potato preparation tips — use smooth, mashed, cooled potatoes for even texture.
+
+Offer frosting options — chocolate ganache, cream cheese, or fruit glaze.
+
+Provide storage & freezing guidance — store airtight up to 4 days, freeze slices up to 3 months.
+
+Add dietary options — dairy-free (coconut oil, vegan frosting), reduced sugar alternatives.
+
+Suggest pairings — espresso, tea, dessert wine, or vanilla ice cream.
+
+Highlight heritage inspiration — potato cakes’ roots in European and rustic baking traditions.
+
+Include presentation ideas — garnish with fruit, powdered sugar, or edible flowers.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free potato cake recipes under the specified dessert category.
+Do not:
+
+Modify or remove existing recipes or categories.
+
+Change SEO schema, layout, or links.
+
+Adjust global design or pagination.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
