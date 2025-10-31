@@ -298,6 +298,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Serve recipe images from object storage
+  app.get("/recipe-images/:filename", async (req, res) => {
+    try {
+      const filename = req.params.filename;
+      const objectStorageService = new ObjectStorageService();
+      const file = await objectStorageService.searchPublicObject(`recipe-images/${filename}`);
+      if (!file) {
+        return res.status(404).json({ error: "Image not found" });
+      }
+      objectStorageService.downloadObject(file, res);
+    } catch (error) {
+      console.error("Error serving recipe image:", error);
+      return res.status(500).json({ error: "Internal server error" });
+    }
+  });
+
   // Serve public assets
   app.get("/public-objects/:filePath(*)", async (req, res) => {
     try {
