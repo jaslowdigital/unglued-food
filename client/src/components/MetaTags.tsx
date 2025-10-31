@@ -76,6 +76,20 @@ export default function MetaTags({ title, description, image, url, type = "websi
     // Site name
     setMetaTag("og:site_name", "Unglued Food - Gluten-Free Recipes", true);
     
+    // Set or update canonical link tag
+    if (url) {
+      const canonicalUrl = `${SITE_DOMAIN}${url}`;
+      let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement;
+      
+      if (!canonical) {
+        canonical = document.createElement("link");
+        canonical.setAttribute("rel", "canonical");
+        document.head.appendChild(canonical);
+      }
+      
+      canonical.setAttribute("href", canonicalUrl);
+    }
+    
   }, [title, description, image, url, type]);
 
   return null; // This component doesn't render anything visible
