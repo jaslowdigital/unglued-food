@@ -15,7 +15,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Recipe routes
   app.get("/api/recipes", async (req, res) => {
     try {
-      const { category, search, limit, offset } = req.query;
+      const { category, search, limit, offset, subcategory } = req.query;
       
       if (limit !== undefined && offset !== undefined) {
         const limitNum = parseInt(limit as string, 10);
@@ -24,7 +24,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
           limitNum,
           offsetNum,
           category as string | undefined,
-          search as string | undefined
+          search as string | undefined,
+          subcategory as string | undefined
         );
         const page = Math.floor(offsetNum / limitNum) + 1;
         const pageSize = limitNum;

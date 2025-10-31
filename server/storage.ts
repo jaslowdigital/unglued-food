@@ -32,7 +32,7 @@ import { eq, desc, avg, and } from "drizzle-orm";
 export interface IStorage {
   // Recipes
   getRecipes(): Promise<Recipe[]>;
-  getRecipesPaginated(limit: number, offset: number, category?: string, search?: string): Promise<{ recipes: Recipe[]; total: number }>;
+  getRecipesPaginated(limit: number, offset: number, category?: string, search?: string, subcategory?: string): Promise<{ recipes: Recipe[]; total: number }>;
   getRecipesByCategory(category: string): Promise<Recipe[]>;
   getRecipe(id: string): Promise<Recipe | undefined>;
   getRecipeBySlug(slug: string): Promise<Recipe | undefined>;
@@ -77,7 +77,7 @@ export class DatabaseStorage implements IStorage {
     return await db.select().from(recipes).where(eq(recipes.status, 'published')).orderBy(desc(recipes.createdAt));
   }
 
-  async getRecipesPaginated(limit: number, offset: number, category?: string, search?: string): Promise<{ recipes: Recipe[]; total: number }> {
+  async getRecipesPaginated(limit: number, offset: number, category?: string, search?: string, subcategory?: string): Promise<{ recipes: Recipe[]; total: number }> {
     const conditions = [eq(recipes.status, 'published')];
     
     if (category) {
@@ -90,8 +90,15 @@ export class DatabaseStorage implements IStorage {
       .where(and(...conditions));
     
     let filteredRecipes = allRecipes;
+    
+    if (subcategory) {
+      filteredRecipes = filteredRecipes.filter(recipe => 
+        recipe.subcategory === subcategory
+      );
+    }
+    
     if (search) {
-      filteredRecipes = allRecipes.filter(recipe => 
+      filteredRecipes = filteredRecipes.filter(recipe => 
         recipe.title.toLowerCase().includes(search.toLowerCase()) ||
         recipe.description.toLowerCase().includes(search.toLowerCase()) ||
         recipe.tags.some(tag => tag.toLowerCase().includes(search.toLowerCase()))
@@ -421,6 +428,38 @@ export class MemStorage implements IStorage {
 
   async getRecipesByCategory(category: string): Promise<Recipe[]> {
     return Array.from(this.recipes.values()).filter(recipe => recipe.category === category);
+  }
+
+  async getRecipesPaginated(limit: number, offset: number, category?: string, search?: string, subcategory?: string): Promise<{ recipes: Recipe[]; total: number }> {
+    let filteredRecipes = Array.from(this.recipes.values()).filter(recipe => recipe.status !== 'flagged');
+    
+    if (category) {
+      filteredRecipes = filteredRecipes.filter(recipe => recipe.category === category);
+    }
+    
+    if (subcategory) {
+      filteredRecipes = filteredRecipes.filter(recipe => recipe.subcategory === subcategory);
+    }
+    
+    if (search) {
+      const lowercaseSearch = search.toLowerCase();
+      filteredRecipes = filteredRecipes.filter(recipe =>
+        recipe.title.toLowerCase().includes(lowercaseSearch) ||
+        recipe.description.toLowerCase().includes(lowercaseSearch) ||
+        recipe.tags.some(tag => tag.toLowerCase().includes(lowercaseSearch))
+      );
+    }
+    
+    filteredRecipes.sort((a, b) => {
+      const dateA = a.createdAt ? new Date(a.createdAt).getTime() : 0;
+      const dateB = b.createdAt ? new Date(b.createdAt).getTime() : 0;
+      return dateB - dateA;
+    });
+    
+    const total = filteredRecipes.length;
+    const paginatedRecipes = filteredRecipes.slice(offset, offset + limit);
+    
+    return { recipes: paginatedRecipes, total };
   }
 
   async getRecipe(id: string): Promise<Recipe | undefined> {
