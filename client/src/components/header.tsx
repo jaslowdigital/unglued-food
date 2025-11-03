@@ -223,7 +223,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-dark-accent">
+          <div className="md:hidden py-4 border-t border-dark-accent bg-black">
             <div className="flex flex-col space-y-4">
               {location === '/' ? (
                 <button 
