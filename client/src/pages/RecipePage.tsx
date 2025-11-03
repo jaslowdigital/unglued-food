@@ -94,12 +94,21 @@ export default function RecipePage() {
     );
   }
 
+  // Convert relative image URLs to absolute production URLs
+  const getAbsoluteImageUrl = (imageUrl: string | undefined) => {
+    if (!imageUrl) return getFallbackImage(recipe.category);
+    if (imageUrl.startsWith('http')) return imageUrl;
+    return `https://ungluedfood.com${imageUrl}`;
+  };
+
+  const absoluteImageUrl = getAbsoluteImageUrl(recipe.image);
+
   return (
     <div className="min-h-screen bg-dark-primary text-light-text overflow-x-hidden">
       <MetaTags 
         title={recipe.title}
         description={recipe.description}
-        image={recipe.image}
+        image={absoluteImageUrl}
         url={`/recipe/${slug}`}
         type="article"
       />
@@ -118,7 +127,7 @@ export default function RecipePage() {
           {/* 2. Recipe Image */}
           <div className="relative h-64 sm:h-80 rounded-lg overflow-hidden max-w-full mb-4">
             <img
-              src={recipe.image || getFallbackImage(recipe.category)}
+              src={absoluteImageUrl}
               alt={recipe.title}
               className="w-full h-full object-cover max-w-full cursor-pointer hover:opacity-90 transition-opacity"
               style={{ maxWidth: '100%', height: 'auto', minHeight: '16rem' }}
@@ -142,7 +151,7 @@ export default function RecipePage() {
               title={recipe.title}
               description={recipe.description}
               url={`/recipe/${slug}`}
-              image={recipe.image}
+              image={absoluteImageUrl}
             />
             <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
           </div>
@@ -244,7 +253,7 @@ export default function RecipePage() {
                   title={recipe.title}
                   description={recipe.description}
                   url={`/recipe/${slug}`}
-                  image={recipe.image}
+                  image={absoluteImageUrl}
                 />
                 <RecipeFlag recipeId={recipe.id} recipeName={recipe.title} />
               </div>
@@ -336,7 +345,7 @@ export default function RecipePage() {
           {/* Recipe Image */}
           <div className="relative h-full rounded-lg overflow-hidden max-w-full">
             <img
-              src={recipe.image || getFallbackImage(recipe.category)}
+              src={absoluteImageUrl}
               alt={recipe.title}
               className="w-full h-full object-cover max-w-full cursor-pointer hover:opacity-90 transition-opacity"
               style={{ maxWidth: '100%', height: 'auto', minHeight: '16rem' }}
@@ -366,7 +375,7 @@ export default function RecipePage() {
               <X className="w-6 h-6" />
             </button>
             <img
-              src={recipe.image || getFallbackImage(recipe.category)}
+              src={absoluteImageUrl}
               alt={recipe.title}
               className="w-full h-full object-contain max-h-[95vh]"
               data-testid="expanded-recipe-image"
@@ -479,7 +488,7 @@ export default function RecipePage() {
           "description": recipe.longDescription || recipe.description,
           "image": {
             "@type": "ImageObject",
-            "url": recipe.image,
+            "url": absoluteImageUrl,
             "width": 1200,
             "height": 800
           },

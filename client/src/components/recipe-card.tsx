@@ -50,6 +50,15 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 
   const defaultImage = getFallbackImage(recipe.category);
 
+  // Convert relative image URLs to absolute production URLs
+  const getAbsoluteImageUrl = (imageUrl: string | undefined) => {
+    if (!imageUrl) return defaultImage;
+    if (imageUrl.startsWith('http')) return imageUrl;
+    return `https://ungluedfood.com${imageUrl}`;
+  };
+
+  const absoluteImageUrl = getAbsoluteImageUrl(recipe.image);
+
   return (
     <article 
       className="bg-dark-secondary rounded-xl overflow-hidden hover:transform hover:scale-105 transition-all duration-300 relative group"
@@ -57,7 +66,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
     >
       <Link href={`/recipe/${recipeSlug}`} className="block">
         <img 
-          src={recipe.image || defaultImage} 
+          src={absoluteImageUrl} 
           alt={recipe.title}
           className="w-full h-48 object-cover" 
           data-testid={`recipe-image-${recipe.id}`}
@@ -122,7 +131,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
             title={recipe.title}
             description={recipe.description}
             url={`/recipe/${recipeSlug}`}
-            image={recipe.image}
+            image={absoluteImageUrl}
           />
         </div>
       </div>
