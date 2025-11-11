@@ -1,0 +1,134 @@
+🧀 Request: Create 10 Original Gluten-Free Baked Brie Wreath Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or alter any existing site content, design, or formatting.
+Only add these 10 new gluten-free Baked Brie Wreath recipes under “Gluten-Free Recipes → Appetizers → Holiday & Entertaining.”
+Maintain all existing schema, tags, and layout exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free Baked Brie Wreath recipes, each featuring melted brie, golden dough or pastry, and creative seasonal toppings, ranging from classic honey-glazed versions to savory, herb-packed, or sweet-nutty combinations.
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Baked Brie Wreath” and specify its flavor or twist (examples:
+
+Gluten-Free Honey-Glazed Baked Brie Wreath with Fresh Thyme
+
+Gluten-Free Cranberry Pecan Baked Brie Wreath
+
+Gluten-Free Garlic Herb Baked Brie Wreath with Olive Oil Drizzle
+
+Gluten-Free Fig & Walnut Baked Brie Wreath with Rosemary)
+
+Each recipe should include:
+
+Ingredients list (brie, gluten-free dough or pastry, toppings, herbs, glazes, garnishes)
+
+Step-by-step instructions (assembly, shaping wreath, baking, glazing, and serving)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, fat, carbs, protein, sodium per serving)
+
+All ingredients must be certified gluten-free, including dough or crust and all condiments.
+
+Recipes should highlight melty cheese texture, golden-brown crust, and beautiful presentation.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should feature a round, golden wreath of bread or pastry surrounding gooey melted brie in the center, often garnished with herbs or drizzled with glaze.
+
+Use natural lighting and holiday-inspired styling (greenery, cranberries, candles, boards, or napkins).
+
+Include close-up shots of the cheese pull and crispy dough texture.
+
+Maintain consistent warm, golden, and cozy tones across all 10 images.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Baked Brie Wreath
+
+Additional Subcategories:
+
+Appetizers & Party Food
+
+Holiday Recipes
+
+Cheese-Based Dishes
+
+Shareable Platters
+
+Gluten-Free Baking
+
+Recipe Variety & Focus:
+
+Gluten-Free Honey-Glazed Baked Brie Wreath with Fresh Thyme
+Classic version — honey-drizzled brie surrounded by herb-seasoned gluten-free dough balls baked to golden perfection.
+
+Gluten-Free Cranberry Pecan Baked Brie Wreath
+A festive favorite — topped with cranberry sauce, chopped pecans, and rosemary sprigs.
+
+Gluten-Free Garlic Herb Baked Brie Wreath with Olive Oil Drizzle
+Savory twist — garlic butter-brushed dough with melted brie and an olive oil-herb finish.
+
+Gluten-Free Fig & Walnut Baked Brie Wreath with Rosemary
+Sweet and earthy — fig preserves and walnuts over baked brie, wrapped in soft, gluten-free pastry.
+
+Gluten-Free Maple Bacon Baked Brie Wreath
+Irresistible — crispy bacon crumbles, maple syrup glaze, and thyme over gooey brie.
+
+Gluten-Free Pomegranate Pistachio Baked Brie Wreath
+Bright and colorful — jewel-toned pomegranate seeds, crushed pistachios, and honey drizzle.
+
+Gluten-Free Caramelized Onion & Brie Wreath with Balsamic Glaze
+Rich and savory — caramelized onions baked atop brie with balsamic reduction for depth.
+
+Gluten-Free Apple & Cinnamon Baked Brie Wreath
+Sweet variation — sautéed apples and cinnamon sugar baked with brie for a dessert-style appetizer.
+
+Gluten-Free Sun-Dried Tomato & Basil Baked Brie Wreath
+Mediterranean-inspired — sun-dried tomatoes, basil, and olive oil over melty cheese.
+
+Gluten-Free Spicy Hot Honey Baked Brie Wreath with Jalapeños
+Sweet heat — drizzled with hot honey, topped with jalapeño slices and chili flakes for a bold finish.
+
+Additional Notes:
+
+Include shaping instructions: arrange dough balls around brie wheel on parchment-lined tray.
+
+Offer make-ahead guidance: assemble wreath and refrigerate until baking time.
+
+Suggest serving ideas: serve warm with fruit, crackers, or sliced baguette.
+
+Add decorating tips: garnish with rosemary sprigs, cranberries, or edible flowers.
+
+Provide gluten-free dough suggestions: homemade or certified store-bought options.
+
+Include temperature control tip: bake until dough is golden and cheese is melted but not runny.
+
+Recommend pairings: white wine, cider, sparkling rosé, or mulled wine.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free Baked Brie Wreath recipes under the correct category.
+Do not:
+
+Modify or remove any other site content or recipes.
+
+Adjust SEO metadata, internal links, or pagination.
+
+Change layout, formatting, or image settings.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
