@@ -54,6 +54,8 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
   const getAbsoluteImageUrl = (imageUrl: string | undefined) => {
     if (!imageUrl) return defaultImage;
     if (imageUrl.startsWith('http')) return imageUrl;
+    // In development, use relative paths; in production, use absolute URLs
+    if (import.meta.env.DEV) return imageUrl;
     return `https://ungluedfood.com${imageUrl}`;
   };
 
