@@ -1,0 +1,136 @@
+🔥 Request: Create 10 Original Gluten-Free Brûléed Brie Crostini Recipes with AI-Generated Images
+
+Directive:
+Do not alter, delete, or modify any other content, SEO, or formatting on the website.
+Only add these 10 new gluten-free Brûléed Brie Crostini recipes under “Gluten-Free Recipes → Appetizers → Entertaining & Party Bites.”
+Maintain all schema, tags, and design formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free Brûléed Brie Crostini recipes, blending sweet and savory flavors, creative toppings, and gourmet presentation — featuring caramelized sugar tops, creamy brie, and crisp gluten-free crostini bases.
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Brûléed Brie Crostini” and highlight the key twist or topping (examples:
+
+Gluten-Free Brûléed Brie Crostini with Fig Jam & Thyme
+
+Gluten-Free Brûléed Brie Crostini with Balsamic Strawberries
+
+Gluten-Free Brûléed Brie Crostini with Honey & Pistachios
+
+Gluten-Free Brûléed Brie Crostini with Cranberry Compote)
+
+Each recipe should include:
+
+Ingredients list (gluten-free baguette or crostini, brie slices, sugar for brûlée, toppings)
+
+Step-by-step instructions (toasting, layering, torching or broiling, garnishing)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information (calories, fat, carbs, sugar, protein per serving)
+
+All ingredients must be certified gluten-free, including the bread base and toppings.
+
+Recipes should emphasize texture contrast — crisp crostini, creamy brie, and crunchy caramelized sugar topping.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should feature brûléed sugar tops with glossy caramel sheen and visible creamy brie beneath.
+
+Use natural lighting with elegant, minimalist styling — marble boards, wooden platters, or neutral linens.
+
+Include close-up detail shots showing the crackly sugar crust and molten cheese layer.
+
+Maintain consistent warm, golden tones across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Brûléed Brie Crostini
+
+Additional Subcategories:
+
+Appetizers & Party Bites
+
+Cheese & Wine Pairings
+
+Holiday Entertaining
+
+Sweet & Savory Snacks
+
+Elegant Hors d’Oeuvres
+
+Recipe Variety & Focus:
+
+Gluten-Free Brûléed Brie Crostini with Fig Jam & Thyme
+Sweet fig jam, creamy brie, and fresh thyme finished with caramelized sugar topping.
+
+Gluten-Free Brûléed Brie Crostini with Honey & Pistachios
+Drizzled honey, crushed pistachios, and crackly brûléed tops for a perfect sweet-salty bite.
+
+Gluten-Free Brûléed Brie Crostini with Cranberry Compote
+Tart cranberry jam and caramelized sugar for a festive, holiday-ready treat.
+
+Gluten-Free Brûléed Brie Crostini with Balsamic Strawberries
+Fresh strawberries marinated in balsamic glaze with torch-caramelized brie for contrast.
+
+Gluten-Free Brûléed Brie Crostini with Pear & Rosemary
+Delicate pear slices, herbs, and caramelized sugar create an aromatic and elegant appetizer.
+
+Gluten-Free Brûléed Brie Crostini with Salted Caramel & Almonds
+Dessert-style crostini — brie topped with salted caramel drizzle and crunchy almonds.
+
+Gluten-Free Brûléed Brie Crostini with Apple Butter & Cinnamon
+Cozy fall version — apple butter, cinnamon sugar, and a brûléed crust.
+
+Gluten-Free Brûléed Brie Crostini with Prosciutto & Honey
+Sweet and savory — brie topped with crisp prosciutto shards and caramelized honey.
+
+Gluten-Free Brûléed Brie Crostini with Blueberry Compote & Mint
+Vibrant and fresh — blueberries, brie, and mint beneath a glassy brûléed sugar layer.
+
+Gluten-Free Brûléed Brie Crostini with Mango Chutney & Chili Flakes
+Exotic and spicy — sweet mango chutney balanced by chili heat and buttery caramelized brie.
+
+Additional Notes:
+
+Include brûlée technique tips:
+
+Sprinkle an even sugar layer and torch gently for uniform caramelization.
+
+If no torch, broil briefly on high watching closely.
+
+Offer bread base options: gluten-free baguette, cracker, or crispbread.
+
+Add pairing suggestions: sparkling wine, prosecco, or sweet dessert wine.
+
+Suggest presentation ideas: serve on long boards or tiered trays for entertaining.
+
+Include make-ahead advice: assemble in advance, brûlée just before serving.
+
+Highlight texture experience: crisp crust → creamy brie → chewy jam.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free Brûléed Brie Crostini recipes under the specified category.
+Do not:
+
+Modify or delete existing recipes.
+
+Change SEO metadata, layout, or pagination.
+
+Adjust image sizing or formatting.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
