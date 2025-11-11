@@ -1,0 +1,136 @@
+🧄 Request: Create 10 Original Gluten-Free Naughty Knot Recipes with AI-Generated Images
+
+Directive:
+Do not alter, delete, or modify any other existing content, layout, or site structure.
+Only add these 10 new gluten-free Naughty Knot recipes under “Gluten-Free Recipes → Appetizers → Breads & Holiday Party Bites.”
+Maintain all SEO schema, categories, and formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the proper category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free Naughty Knot recipes, with playful and creative twists on classic garlic knots — blending savory, herby, and cheesy variations with sweet, spicy, or gourmet holiday themes.
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Naughty Knots” and a defining flavor or ingredient twist (examples:
+
+Gluten-Free Naughty Knots with Garlic Butter & Parmesan
+
+Gluten-Free Naughty Knots with Truffle Oil & Herbs
+
+Gluten-Free Cinnamon Sugar Naughty Knots
+
+Gluten-Free Naughty Knots with Cheddar & Jalapeño
+
+Gluten-Free Naughty Knots with Browned Butter & Sage)
+
+Each recipe should include:
+
+Ingredients list (gluten-free dough, butter, cheese, herbs, toppings, optional glazes)
+
+Step-by-step instructions (kneading, shaping, baking, finishing)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, fat, carbs, sodium per serving)
+
+All ingredients must be certified gluten-free, including dough, flours, and seasonings.
+
+Recipes should highlight crispy golden edges, fluffy interiors, and mouthwatering flavor coatings.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should feature golden, glistening knots brushed with butter or glaze, displayed in bowls, baskets, or wreath-style arrangements.
+
+Use natural lighting with cozy holiday styling (linen napkins, herbs, candles, wood boards).
+
+Include close-up shots highlighting cheese pulls, seasoning texture, and buttery shine.
+
+Maintain warm, golden, and inviting tones across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Naughty Knots
+
+Additional Subcategories:
+
+Appetizers & Party Food
+
+Breads & Rolls
+
+Holiday Recipes
+
+Savory Snacks
+
+Gluten-Free Baking
+
+Recipe Variety & Focus:
+
+Gluten-Free Naughty Knots with Garlic Butter & Parmesan
+The classic — golden, soft knots brushed with garlicky butter and sprinkled with Parmesan and parsley.
+
+Gluten-Free Naughty Knots with Truffle Oil & Herbs
+Elevated and aromatic — infused with truffle oil, fresh rosemary, and sea salt.
+
+Gluten-Free Cheddar & Jalapeño Naughty Knots
+Bold and cheesy — shredded cheddar and diced jalapeños baked inside and brushed with garlic butter.
+
+Gluten-Free Cinnamon Sugar Naughty Knots
+Sweet twist — rolled in cinnamon sugar and finished with vanilla glaze for dessert-style knots.
+
+Gluten-Free Naughty Knots with Browned Butter & Sage
+Rich, nutty browned butter and crispy sage leaves turn these into elegant dinner companions.
+
+Gluten-Free Naughty Knots with Mozzarella & Marinara Dip
+Pull-apart cheesy knots served with a side of warm marinara — perfect for parties.
+
+Gluten-Free Naughty Knots with Hot Honey & Red Pepper Flakes
+Sweet heat — brushed with hot honey and topped with chili flakes for a spicy-sweet glaze.
+
+Gluten-Free Naughty Knots with Everything Bagel Seasoning
+Savory and trendy — coated with everything seasoning and brushed with olive oil.
+
+Gluten-Free Naughty Knots with Pesto & Parmesan
+Italian-inspired — swirled with basil pesto, baked golden, and topped with extra cheese.
+
+Gluten-Free Naughty Knots with Maple Butter & Sea Salt
+Sweet-savory perfection — coated in maple butter glaze and lightly salted for balance.
+
+Additional Notes:
+
+Include knot-shaping instructions: roll into strips, tie gently into knots, and brush before baking.
+
+Offer make-ahead options: par-bake and reheat before serving.
+
+Provide dough preparation options: store-bought gluten-free pizza dough or homemade.
+
+Add pairing suggestions: soups, pastas, salads, or festive cocktails.
+
+Suggest garnish ideas: grated cheese, herbs, or edible glitter for holiday sparkle.
+
+Include freezing and reheating tips: freeze after baking, reheat at 350°F for 5–7 minutes.
+
+Highlight presentation ideas: serve as a centerpiece wreath or stacked pyramid with dip in center.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free Naughty Knot recipes under the specified category.
+Do not:
+
+Edit or remove any existing posts or settings.
+
+Change SEO data, layout, or theme structure.
+
+Modify image ratios, pagination, or internal links.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
