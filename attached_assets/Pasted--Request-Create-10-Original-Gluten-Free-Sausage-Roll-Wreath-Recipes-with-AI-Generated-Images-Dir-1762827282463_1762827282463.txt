@@ -1,0 +1,132 @@
+🌿 Request: Create 10 Original Gluten-Free Sausage Roll Wreath Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or alter any existing content, structure, or formatting on the website.
+Only add these 10 new gluten-free sausage roll wreath recipes under “Gluten-Free Recipes → Appetizers → Holiday & Party Bakes.”
+Maintain all current SEO schema, tags, and recipe formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free sausage roll wreath recipes, each creatively highlighting different sausage flavors, herbs, fillings, or pastry styles, perfect for entertaining and holiday centerpieces.
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Sausage Roll Wreath” and specify the key variation (examples:
+
+Gluten-Free Sausage Roll Wreath with Caramelized Onions & Sage
+
+Gluten-Free Sausage Roll Wreath with Cranberry Dijon Glaze
+
+Gluten-Free Sausage Roll Wreath with Cheddar & Apple
+
+Gluten-Free Spicy Italian Sausage Roll Wreath with Roasted Peppers)
+
+Each recipe should include:
+
+Ingredients list (sausage, gluten-free pastry, fillings, herbs, glazes, garnishes)
+
+Step-by-step instructions (assembling rolls, shaping wreath, baking, glazing, and serving)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, fat, carbs, sodium per serving)
+
+All ingredients must be certified gluten-free, including sausage, pastry, and sauces.
+
+Recipes should balance savory flavor, flaky texture, and festive appearance.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase golden-brown sausage roll wreaths arranged in circular form, garnished with herbs or dips in the center.
+
+Use natural lighting with holiday or rustic presentation (wood boards, greenery, twine, small bowls of mustard or chutney).
+
+Include close-up detail shots showing flaky pastry and juicy sausage filling.
+
+Maintain warm, golden, and festive tones across all 10 images.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Sausage Roll Wreath
+
+Additional Subcategories:
+
+Appetizers & Party Food
+
+Holiday Baking
+
+Meat-Based Dishes
+
+Finger Foods & Sharing Plates
+
+Gluten-Free Puff Pastry Recipes
+
+Recipe Variety & Focus:
+
+Gluten-Free Sausage Roll Wreath with Caramelized Onions & Sage
+Sweet onions, savory pork sausage, and aromatic sage — a perfect holiday centerpiece with mustard dipping sauce.
+
+Gluten-Free Sausage Roll Wreath with Cranberry Dijon Glaze
+A festive favorite — sausage rolls brushed with tangy cranberry-Dijon glaze for color and flavor.
+
+Gluten-Free Sausage Roll Wreath with Cheddar & Apple
+Sharp cheddar and grated apple mixed into the sausage for a sweet-savory flavor contrast.
+
+Gluten-Free Spicy Italian Sausage Roll Wreath with Roasted Peppers
+Bold and flavorful — Italian sausage, roasted peppers, and a sprinkle of Parmesan baked in flaky pastry.
+
+Gluten-Free Sausage Roll Wreath with Maple Bacon & Thyme
+Sweet and smoky — crumbled bacon, maple syrup glaze, and thyme for depth and aroma.
+
+Gluten-Free Sausage Roll Wreath with Spinach & Feta
+Greek-inspired twist — spinach, feta, and herbs wrapped with mild sausage in puff pastry.
+
+Gluten-Free Sausage Roll Wreath with Everything Bagel Seasoning
+Trendy twist — topped with everything bagel seasoning and served with cream cheese dip.
+
+Gluten-Free Sausage Roll Wreath with Jalapeño & Cheddar
+Spicy and comforting — jalapeños and melted cheese baked into sausage filling for a kick.
+
+Gluten-Free Chicken Sausage Roll Wreath with Pesto & Sun-Dried Tomatoes
+Light and Mediterranean — chicken sausage with basil pesto and diced sun-dried tomatoes.
+
+Gluten-Free Venison Sausage Roll Wreath with Red Wine & Rosemary
+Gourmet variation — venison sausage, red wine reduction, and rosemary for a rich, elegant flavor.
+
+Additional Notes:
+
+Include assembly tips: cut sausage rolls evenly, overlap slightly to form the wreath.
+
+Offer make-ahead options: prep and refrigerate before baking.
+
+Provide glaze and garnish ideas: maple-butter, egg wash with seeds, or balsamic drizzle.
+
+Add serving suggestions: pair with honey mustard, fig jam, or herbed aioli.
+
+Include dietary options: chicken or turkey sausage, dairy-free pastry alternatives.
+
+Highlight holiday presentation: serve warm on a wreath of rosemary sprigs or cranberries for décor.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free sausage roll wreath recipes under the designated category.
+Do not:
+
+Edit or delete existing recipes or categories.
+
+Modify SEO metadata, schema, or structure.
+
+Adjust layout, pagination, or image ratios.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
