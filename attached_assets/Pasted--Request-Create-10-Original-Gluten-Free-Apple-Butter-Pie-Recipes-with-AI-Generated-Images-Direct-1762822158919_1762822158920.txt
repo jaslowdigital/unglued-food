@@ -1,0 +1,136 @@
+🥧 Request: Create 10 Original Gluten-Free Apple Butter Pie Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or alter any other site content, structure, or formatting.
+Only add these 10 new gluten-free apple butter pie recipes under “Gluten-Free Recipes → Desserts → Pies & Tarts.”
+Maintain all existing SEO schema, recipe formatting, and category hierarchy exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free apple butter pie recipes, each celebrating apple butter’s spiced richness while exploring new flavor dimensions — from traditional to creative, boozy, or dairy-free twists.
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Apple Butter Pie” and a defining flavor or style (examples:
+
+Gluten-Free Classic Apple Butter Pie
+
+Gluten-Free Apple Butter Pie with Maple Pecan Crust
+
+Gluten-Free Apple Butter Cheesecake Pie
+
+Gluten-Free Apple Butter Custard Pie with Cinnamon Whipped Cream
+
+Gluten-Free Apple Butter Pie with Brown Sugar Streusel)
+
+Each recipe should include:
+
+Ingredients list (crust, filling, apple butter, spices, toppings)
+
+Step-by-step instructions (prepping crust, mixing filling, baking, cooling, finishing)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, sugar, fat, protein per serving)
+
+All ingredients must be certified gluten-free, including crust ingredients and thickeners.
+
+Recipes should highlight warm spice notes, silky texture, and rich apple depth, ideal for fall and holiday desserts.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should feature golden-brown pies with visible apple butter filling and decorative toppings.
+
+Use natural lighting and rustic autumn styling (linen napkins, cinnamon sticks, apples, wooden boards).
+
+Include close-up detail shots showcasing texture and pie slice interiors.
+
+Maintain consistent warm, cozy, amber tones across all 10 recipes.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Apple Butter Pie
+
+Additional Subcategories:
+
+Pies & Tarts
+
+Fall & Holiday Desserts
+
+Comfort Baking
+
+Seasonal Sweets
+
+Gluten-Free Baking
+
+Recipe Variety & Focus:
+
+Gluten-Free Classic Apple Butter Pie
+Smooth apple butter custard in a flaky gluten-free crust — lightly spiced with cinnamon, clove, and nutmeg.
+
+Gluten-Free Apple Butter Pie with Maple Pecan Crust
+Toasted pecan and maple crust complements a creamy apple butter filling — perfect for Thanksgiving.
+
+Gluten-Free Apple Butter Cheesecake Pie
+A luscious fusion of cheesecake and pie — apple butter blended into a creamy cheesecake layer on a graham crust.
+
+Gluten-Free Apple Butter Custard Pie with Cinnamon Whipped Cream
+Custard-based filling baked until silky, topped with spiced whipped cream and caramel drizzle.
+
+Gluten-Free Apple Butter Pie with Brown Sugar Streusel
+Crumbly streusel topping over rich apple filling — buttery, textured, and irresistibly cozy.
+
+Gluten-Free Apple Butter Chiffon Pie
+Light and airy — whipped cream folded into spiced apple butter mousse in a gluten-free cookie crust.
+
+Gluten-Free Apple Butter Bourbon Pie
+Deep caramel and bourbon undertones elevate this bold, grown-up variation — warm and complex.
+
+Gluten-Free Apple Butter Pie with Oat Crumble Topping
+Rustic and homey — a hearty oat topping adds crunch to creamy apple filling.
+
+Gluten-Free Apple Butter & Salted Caramel Pie
+Sweet meets salty — caramel swirled into apple butter custard with sea salt finish.
+
+Gluten-Free Apple Butter Vegan Pie with Coconut Cream
+Dairy-free version using coconut milk, gluten-free crust, and vegan whipped cream topping.
+
+Additional Notes:
+
+Include apple butter quality tip — use thick, spiced apple butter with minimal added sugar for best texture.
+
+Offer crust variations: gluten-free pastry, nut-based, or cookie crumb crusts.
+
+Add topping suggestions: whipped cream, maple glaze, toasted nuts, or powdered sugar.
+
+Provide storage instructions: refrigerate up to 4 days or freeze slices up to 3 months.
+
+Suggest pairings: chai tea, coffee, or spiced cider.
+
+Include holiday presentation ideas: garnish with apple slices or cinnamon sticks for festive appeal.
+
+Offer make-ahead option: bake one day in advance to allow filling to set perfectly.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free apple butter pie recipes in the existing dessert section.
+Do not:
+
+Modify or delete any existing posts or categories.
+
+Change schema, SEO tags, or visual layout.
+
+Adjust pagination or theme files.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
