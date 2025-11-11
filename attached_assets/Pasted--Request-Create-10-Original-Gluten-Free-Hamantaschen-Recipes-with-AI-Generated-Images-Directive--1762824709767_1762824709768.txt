@@ -1,0 +1,134 @@
+🎭 Request: Create 10 Original Gluten-Free Hamantaschen Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or change any other website content, categories, or formatting.
+Only add these 10 new gluten-free hamantaschen recipes under “Gluten-Free Recipes → Desserts → Cookies & Pastries.”
+Maintain all existing SEO schema, tags, and formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free hamantaschen recipes, keeping the essence of this traditional Purim cookie — buttery, lightly sweet dough folded around flavorful fillings — while offering creative modern variations.
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Hamantaschen” and specify its defining flavor or filling (examples:
+
+Gluten-Free Classic Apricot Hamantaschen
+
+Gluten-Free Chocolate Raspberry Hamantaschen
+
+Gluten-Free Lemon Poppyseed Hamantaschen
+
+Gluten-Free Pistachio & Honey Hamantaschen
+
+Gluten-Free Savory Feta & Spinach Hamantaschen)
+
+Each recipe should include:
+
+Ingredients list (gluten-free flour blend, sugar, butter or oil, eggs, baking powder, fillings)
+
+Step-by-step instructions (making dough, chilling, filling, folding, baking)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, fat, sugar, protein per serving)
+
+All ingredients must be certified gluten-free, including fillings, thickeners, and flavorings.
+
+Recipes should balance traditional texture and form with flavor creativity and clear folding guidance.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should highlight triangular cookies with visible, glossy fillings.
+
+Use natural lighting and festive, bright styling (Purim masks, ribbons, parchment-lined trays).
+
+Include close-up shots to show filling detail and cookie texture.
+
+Maintain consistent warm and celebratory tones across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Hamantaschen
+
+Additional Subcategories:
+
+Cookies & Pastries
+
+Jewish & Holiday Baking
+
+Festive Desserts
+
+Sweet & Savory Treats
+
+Gluten-Free Heritage Recipes
+
+Recipe Variety & Focus:
+
+Gluten-Free Classic Apricot Hamantaschen
+The timeless favorite — buttery gluten-free dough filled with sweet-tart apricot preserves.
+
+Gluten-Free Chocolate Raspberry Hamantaschen
+Decadent cocoa-infused dough filled with raspberry jam and drizzled with dark chocolate.
+
+Gluten-Free Lemon Poppyseed Hamantaschen
+Bright and zesty — lemony dough with poppyseed filling for a refreshing twist.
+
+Gluten-Free Pistachio & Honey Hamantaschen
+Nutty and floral — pistachio-honey paste wrapped in delicate gluten-free pastry.
+
+Gluten-Free Date & Orange Blossom Hamantaschen
+Middle Eastern-inspired — smooth date filling scented with orange blossom water.
+
+Gluten-Free Chocolate Hazelnut Hamantaschen
+Rich and indulgent — filled with hazelnut spread and topped with a sprinkle of sea salt.
+
+Gluten-Free Blueberry Cheesecake Hamantaschen
+Creamy cheesecake-style filling with blueberry swirl — dessert meets tradition.
+
+Gluten-Free Cinnamon Apple Hamantaschen
+Warm, cozy flavors — apple-cinnamon compote tucked into tender pastry.
+
+Gluten-Free Savory Feta & Spinach Hamantaschen
+A Mediterranean-inspired savory take — spinach, feta, and herbs in crisp gluten-free dough.
+
+Gluten-Free Caramel & Sea Salt Hamantaschen
+Sweet and modern — soft caramel center sprinkled with flaky sea salt.
+
+Additional Notes:
+
+Include dough handling tips: keep dough chilled and lightly floured for easier folding.
+
+Offer egg-free and dairy-free options (vegan butter, flax egg substitutes).
+
+Provide make-ahead guidance: prepare dough and fillings separately up to 2 days ahead.
+
+Add storage suggestions: store in airtight containers for up to 5 days or freeze up to 3 months.
+
+Suggest decorating ideas: glaze drizzles, powdered sugar dusting, or colored sugar rims.
+
+Highlight Purim tradition: triangular shape symbolizes Haman’s hat — a festive and symbolic cookie.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free hamantaschen recipes under the designated dessert category.
+Do not:
+
+Modify or delete any current posts, SEO schema, or settings.
+
+Change formatting, linking, or pagination.
+
+Adjust image size, color scheme, or layout design.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
