@@ -50,16 +50,13 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
 
   const defaultImage = getFallbackImage(recipe.category);
 
-  // Convert relative image URLs to absolute production URLs
-  const getAbsoluteImageUrl = (imageUrl: string | undefined) => {
+  // Use image URL directly - Vite/Express serves public folder correctly
+  const getImageUrl = (imageUrl: string | undefined) => {
     if (!imageUrl) return defaultImage;
-    if (imageUrl.startsWith('http')) return imageUrl;
-    // In development, use relative paths; in production, use absolute URLs
-    if (import.meta.env.DEV) return imageUrl;
-    return `https://ungluedfood.com${imageUrl}`;
+    return imageUrl;
   };
 
-  const absoluteImageUrl = getAbsoluteImageUrl(recipe.image);
+  const imageUrl = getImageUrl(recipe.image);
 
   return (
     <article 
@@ -68,7 +65,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
     >
       <Link href={`/recipe/${recipeSlug}`} className="block">
         <img 
-          src={absoluteImageUrl} 
+          src={imageUrl} 
           alt={recipe.title}
           className="w-full h-48 object-cover" 
           data-testid={`recipe-image-${recipe.id}`}
@@ -133,7 +130,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
             title={recipe.title}
             description={recipe.description}
             url={`/recipe/${recipeSlug}`}
-            image={absoluteImageUrl}
+            image={imageUrl}
           />
         </div>
       </div>
