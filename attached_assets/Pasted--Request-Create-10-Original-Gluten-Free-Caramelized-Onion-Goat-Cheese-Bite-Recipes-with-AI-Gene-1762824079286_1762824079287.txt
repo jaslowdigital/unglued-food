@@ -1,0 +1,134 @@
+🧅 Request: Create 10 Original Gluten-Free Caramelized Onion & Goat Cheese Bite Recipes with AI-Generated Images
+
+Directive:
+Do not modify, remove, or change any other content, layout, or structure on the site.
+Only add these 10 new gluten-free Caramelized Onion & Goat Cheese Bite recipes under “Gluten-Free Recipes → Appetizers → Party & Finger Foods.”
+Maintain all current SEO schema, categories, and formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the proper category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free Caramelized Onion & Goat Cheese Bite recipes, with distinct variations that explore herbs, textures, and global flavor inspirations while maintaining the core sweet-savory balance.
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Caramelized Onion & Goat Cheese Bites” and specify the main variation (examples:
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Thyme & Balsamic
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Fig Jam
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Puff Pastry Cups
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Honey & Rosemary)
+
+Each recipe should include:
+
+Ingredients list (onions, goat cheese, base crust or dough, herbs, seasonings, toppings)
+
+Step-by-step instructions (caramelizing onions, assembling, baking, finishing)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, fat, carbs, protein, sodium per serving)
+
+All ingredients must be certified gluten-free, including crust, pastry, or phyllo alternatives.
+
+Recipes should capture the buttery, golden-brown crispiness of the base and creamy, tangy cheese balance.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase bite-sized appetizers with caramelized onions glistening and creamy goat cheese centers.
+
+Use natural lighting and elegant styling (serving trays, herbs, wooden boards, or holiday accents).
+
+Include close-up detail shots showing texture, caramelized color, and cheese melt.
+
+Maintain consistent warm, golden tones across all 10 recipes.
+
+Images must be high-resolution, suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Caramelized Onion & Goat Cheese Bites
+
+Additional Subcategories:
+
+Appetizers & Finger Foods
+
+Party & Holiday Recipes
+
+Vegetarian Options
+
+Cheese-Based Dishes
+
+Sweet & Savory Pairings
+
+Recipe Variety & Focus:
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Thyme & Balsamic
+Classic and elegant — sweet onions balanced with tangy goat cheese, thyme, and balsamic reduction drizzle.
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Fig Jam
+Rich and sweet — layers of fig jam under creamy cheese, finished with caramelized onions and rosemary.
+
+Gluten-Free Caramelized Onion & Goat Cheese Puff Pastry Cups
+Bite-sized cups made from gluten-free puff pastry filled with caramelized onions and goat cheese.
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Honey & Rosemary
+Drizzled with honey and sprinkled with fresh rosemary for a sweet-herbal contrast.
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Mushrooms & Thyme
+Sautéed mushrooms layered with sweet onions and goat cheese on a gluten-free cracker base.
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Prosciutto
+Wrapped in prosciutto before baking — savory, salty, and decadent.
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Cranberry Glaze
+Holiday-ready version topped with tart cranberry sauce and thyme.
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Walnut Crust
+Nutty gluten-free walnut base topped with creamy cheese and caramelized onions.
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Hot Honey Drizzle
+Sweet and spicy twist — finished with a drizzle of hot honey and chili flakes.
+
+Gluten-Free Caramelized Onion & Goat Cheese Bites with Pear & Sage
+Sliced pear, goat cheese, and onions over crisp base — earthy and aromatic.
+
+Additional Notes:
+
+Include caramelization tips: low heat for 35–45 minutes, deglaze with wine or balsamic for depth.
+
+Offer base options: gluten-free crackers, mini phyllo cups, puff pastry, or baked polenta rounds.
+
+Suggest pairings: white wine, cider, sparkling rosé, or mocktail spritzers.
+
+Add make-ahead instructions: caramelize onions up to 3 days ahead; assemble and bake before serving.
+
+Provide garnish ideas: microgreens, pomegranate seeds, thyme sprigs.
+
+Include dietary modifications: dairy-free goat cheese, vegan puff pastry alternatives.
+
+Highlight holiday uses: ideal for Thanksgiving, New Year’s Eve, or elegant cocktail spreads.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free Caramelized Onion & Goat Cheese Bite recipes under the specified category.
+Do not:
+
+Edit or delete any current recipes or categories.
+
+Change SEO metadata, links, or layout.
+
+Modify pagination, styling, or theme.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
