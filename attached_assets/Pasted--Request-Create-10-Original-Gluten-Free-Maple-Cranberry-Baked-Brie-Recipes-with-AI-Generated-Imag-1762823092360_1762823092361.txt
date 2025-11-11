@@ -1,0 +1,132 @@
+🧀 Request: Create 10 Original Gluten-Free Maple-Cranberry Baked Brie Recipes with AI-Generated Images
+
+Directive:
+Do not alter, delete, or change any existing site content, categories, or formatting.
+Only add these 10 new gluten-free Maple-Cranberry Baked Brie recipes under “Gluten-Free Recipes → Appetizers → Holiday & Entertaining.”
+Maintain all existing SEO schema, tags, and recipe formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free Maple-Cranberry Baked Brie recipes, ranging from classic holiday renditions to gourmet and globally inspired versions, featuring different nuts, herbs, and pastry styles.
+
+All recipes must be 100% original and not duplicate any existing recipes on the website.
+
+Each recipe title must include “Gluten-Free Maple-Cranberry Baked Brie” and specify its defining twist (examples:
+
+Gluten-Free Maple-Cranberry Baked Brie with Walnuts & Thyme
+
+Gluten-Free Maple-Cranberry Baked Brie in Puff Pastry
+
+Gluten-Free Maple-Cranberry Baked Brie with Pistachios & Rosemary
+
+Gluten-Free Maple-Cranberry Baked Brie with Hot Honey Drizzle)
+
+Each recipe should include:
+
+Ingredients list (brie, maple syrup, cranberries, nuts, herbs, pastry or crust, optional toppings)
+
+Step-by-step instructions (assembling, baking, cooling, garnishing)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, protein, fat, sugar, sodium per serving)
+
+All ingredients must be certified gluten-free, including puff pastry, crackers, and any garnishes.
+
+Recipes should emphasize gooey, melty cheese texture, balanced sweet-savory flavors, and beautiful presentation.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase warm, melted brie topped with glistening maple cranberries and garnishes.
+
+Use natural lighting and holiday-inspired styling (wooden boards, herbs, twine, cranberries, warm tones).
+
+Include close-up shots showing melted cheese pull and syrup drizzle.
+
+Maintain consistent cozy, golden-red color palette across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Maple-Cranberry Baked Brie
+
+Additional Subcategories:
+
+Appetizers & Entertaining
+
+Holiday Recipes
+
+Cheese & Charcuterie Pairings
+
+Sweet & Savory Bakes
+
+Seasonal Party Foods
+
+Recipe Variety & Focus:
+
+Gluten-Free Maple-Cranberry Baked Brie with Walnuts & Thyme
+Classic version — baked brie topped with maple-roasted cranberries, toasted walnuts, and fresh thyme sprigs.
+
+Gluten-Free Maple-Cranberry Baked Brie in Puff Pastry
+Wrapped in gluten-free puff pastry and baked until golden, with a drizzle of maple syrup and cranberry compote.
+
+Gluten-Free Maple-Cranberry Baked Brie with Pistachios & Rosemary
+Fragrant rosemary and crunchy pistachios add depth to sweet-tart maple cranberries.
+
+Gluten-Free Maple-Cranberry Baked Brie with Hot Honey Drizzle
+A sweet-heat fusion — hot honey adds a gentle kick to the creamy brie and maple topping.
+
+Gluten-Free Maple-Cranberry Baked Brie with Balsamic Reduction
+Topped with maple cranberries and a glossy balsamic glaze — elegant and tangy.
+
+Gluten-Free Maple-Cranberry Baked Brie with Pecans & Cinnamon
+Cozy fall favorite — maple-sweet pecans and cranberries with a hint of warm spice.
+
+Gluten-Free Maple-Cranberry Baked Brie with Apple Compote
+Layers of apple, maple syrup, and cranberries over melted brie — festive and fragrant.
+
+Gluten-Free Maple-Cranberry Baked Brie with Bacon & Sage
+Sweet meets savory — crispy bacon bits, maple syrup, cranberries, and fried sage leaves.
+
+Gluten-Free Maple-Cranberry Baked Brie with Candied Ginger & Orange Zest
+A gourmet variation — citrusy brightness and gentle heat from candied ginger.
+
+Gluten-Free Maple-Cranberry Baked Brie with Almonds & Sea Salt
+Simple yet sophisticated — almonds and sea salt balance the sweetness of maple syrup and cranberries.
+
+Additional Notes:
+
+Include tips for baking brie perfectly — avoid overbaking to maintain creamy center.
+
+Offer serving ideas: gluten-free crackers, sliced apples, or toasted baguette rounds.
+
+Add make-ahead guidance: prep toppings in advance, bake just before serving.
+
+Suggest wine pairings: chardonnay, rosé, or prosecco.
+
+Provide holiday plating ideas: fresh herbs, sugared cranberries, or gold-edged serving boards.
+
+Include temperature control tip: allow brie to cool 5–10 minutes before cutting for ideal gooey texture.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free Maple-Cranberry Baked Brie recipes under the designated category.
+Do not:
+
+Modify or delete existing content or structure.
+
+Change SEO schema, page hierarchy, or recipe card settings.
+
+Adjust pagination, formatting, or design.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.

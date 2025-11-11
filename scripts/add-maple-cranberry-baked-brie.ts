@@ -1,0 +1,571 @@
+import { db } from "../server/db";
+import { recipes } from "../shared/schema";
+
+const mapleCranberryBakedBrie = [
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Walnuts & Thyme",
+    slug: "gluten-free-maple-cranberry-baked-brie-walnuts-thyme",
+    description: "Classic version — baked brie topped with maple-roasted cranberries, toasted walnuts, and fresh thyme sprigs.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Walnuts & Thyme is the quintessential holiday appetizer that never fails to impress. A wheel of creamy brie is baked until it's perfectly gooey and melted in the center, then crowned with a luscious topping of fresh cranberries that have been roasted with pure maple syrup until they're glossy and bursting with flavor. Toasted walnuts add earthy crunch and healthy fats, while fresh thyme sprigs bring an herbaceous note that balances the sweetness beautifully. The combination of warm, melty cheese with the sweet-tart cranberry-maple topping creates an irresistible contrast of flavors and textures. This elegant yet easy appetizer is perfect for Thanksgiving, Christmas, New Year's Eve, or any festive gathering where you want to serve something special. Serve with gluten-free crackers, apple slices, or toasted baguette rounds for the ultimate crowd-pleaser.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Easy",
+    prepTime: 10,
+    cookTime: 15,
+    totalTime: 25,
+    servings: 8,
+    rating: "5.0",
+    calories: 285,
+    protein: "11.0",
+    carbs: "16.0",
+    fat: "19.0",
+    fiber: "1.5",
+    sugar: "12.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-walnuts-thyme.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 cup fresh cranberries",
+      "¼ cup pure maple syrup",
+      "½ cup walnuts, toasted and chopped",
+      "4-5 fresh thyme sprigs",
+      "1 tablespoon butter",
+      "Pinch of salt",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Preheat oven to 350°F. Place brie in a small oven-safe baking dish or cast iron skillet.",
+      "In a small saucepan, combine cranberries, maple syrup, butter, and a pinch of salt. Cook over medium heat for 8-10 minutes until cranberries begin to burst and release their juices.",
+      "While cranberries cook, toast walnuts in a dry skillet over medium heat for 3-4 minutes until fragrant and lightly browned. Chop roughly.",
+      "Bake brie for 12-15 minutes until soft and gooey in the center. The edges should be melted but the wheel should still hold its shape.",
+      "Remove brie from oven and immediately spoon the warm maple-cranberry mixture over the top.",
+      "Sprinkle with toasted walnuts and garnish with fresh thyme sprigs.",
+      "Let cool for 5 minutes to allow cheese to set slightly for easier serving.",
+      "Serve warm with gluten-free crackers, apple slices, or toasted gluten-free bread."
+    ],
+    tips: "Don't overbake the brie — you want it melted and gooey but still holding its shape. The cranberry topping can be made up to 3 days ahead and reheated before serving. For extra flavor, add a splash of orange juice to the cranberry mixture.",
+    variations: [
+      "Use pecans instead of walnuts",
+      "Add a tablespoon of orange zest to the cranberries",
+      "Drizzle with balsamic glaze before serving"
+    ],
+    tags: ["gluten-free", "baked brie", "maple", "cranberry", "appetizer", "holiday", "entertaining", "cheese", "walnuts", "thyme"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Walnuts & Thyme - Holiday Appetizer",
+    seoDescription: "Classic gluten-free baked brie topped with maple-roasted cranberries, toasted walnuts, and fresh thyme. Perfect holiday entertaining appetizer."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie in Puff Pastry",
+    slug: "gluten-free-maple-cranberry-baked-brie-puff-pastry",
+    description: "Wrapped in gluten-free puff pastry and baked until golden, with a drizzle of maple syrup and cranberry compote.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie in Puff Pastry is the showstopping centerpiece your holiday table deserves. A wheel of creamy brie is wrapped in flaky, buttery gluten-free puff pastry that bakes up golden and crispy, creating an elegant package that conceals the molten cheese within. Before wrapping, the brie is topped with a homemade cranberry-maple compote that infuses every bite with festive flavor. When you slice into this beautiful creation, the pastry shatters to reveal rivers of melted brie mingling with the sweet-tart cranberry topping. The presentation is absolutely stunning, making it perfect for special occasions, holiday parties, or when you really want to impress your guests. Despite its elegant appearance, this recipe is surprisingly simple to make. The key is using high-quality gluten-free puff pastry and not overbaking, so the cheese stays perfectly gooey.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Medium",
+    prepTime: 20,
+    cookTime: 25,
+    totalTime: 45,
+    servings: 10,
+    rating: "5.0",
+    calories: 325,
+    protein: "9.0",
+    carbs: "22.0",
+    fat: "22.0",
+    fiber: "1.0",
+    sugar: "10.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-puff-pastry.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 sheet gluten-free puff pastry, thawed",
+      "1 cup fresh cranberries",
+      "3 tablespoons pure maple syrup",
+      "2 tablespoons brown sugar",
+      "1 tablespoon water",
+      "1 egg, beaten (for egg wash)",
+      "Fresh rosemary for garnish",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Preheat oven to 375°F. Line a baking sheet with parchment paper.",
+      "Make cranberry compote: In small saucepan, combine cranberries, maple syrup, brown sugar, and water. Simmer over medium heat for 8-10 minutes until cranberries burst and mixture thickens. Let cool completely.",
+      "Roll out gluten-free puff pastry on a lightly floured surface to smooth out any creases.",
+      "Place brie in the center of the pastry. Spoon cooled cranberry compote on top of the brie.",
+      "Fold the pastry up and over the brie, wrapping it completely. Trim excess pastry and seal edges well. Place seam-side down on prepared baking sheet.",
+      "Brush entire surface with beaten egg wash. You can cut decorative shapes from excess pastry to decorate the top if desired.",
+      "Bake for 23-25 minutes until pastry is deep golden brown and puffed.",
+      "Let rest for 10 minutes before serving to allow cheese to set slightly.",
+      "Garnish with fresh rosemary and serve with gluten-free crackers."
+    ],
+    tips: "Make sure the cranberry compote is completely cooled before placing on the brie, or it will make the pastry soggy. Don't skip the egg wash — it creates a beautiful golden finish. Let the brie rest after baking so it's easier to slice and serve.",
+    variations: [
+      "Add chopped pecans to the cranberry compote",
+      "Mix in orange zest with the cranberries",
+      "Drizzle with additional maple syrup before serving"
+    ],
+    tags: ["gluten-free", "baked brie", "puff pastry", "maple", "cranberry", "appetizer", "holiday", "elegant", "entertaining", "showstopper"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie in Puff Pastry - Elegant Holiday Appetizer",
+    seoDescription: "Showstopping gluten-free baked brie wrapped in golden puff pastry with maple-cranberry compote. Perfect elegant holiday entertaining."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Pistachios & Rosemary",
+    slug: "gluten-free-maple-cranberry-baked-brie-pistachios-rosemary",
+    description: "Fragrant rosemary and crunchy pistachios add depth to sweet-tart maple cranberries.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Pistachios & Rosemary is a sophisticated twist on the classic appetizer, featuring an elegant combination of flavors and textures. The creamy, melted brie serves as a luxurious base for the sweet-tart maple-cranberry topping, which is studded with bright green pistachios that provide a satisfying crunch and beautiful color contrast. Fresh rosemary brings an aromatic, piney note that elevates the entire dish from simple to sublime. The pistachios add not just texture but also a subtle nuttiness that pairs beautifully with both the cheese and the cranberries. The rosemary's woodsy fragrance infuses the topping with herbaceous complexity that balances the sweetness perfectly. This appetizer is ideal for upscale holiday gatherings, wine and cheese parties, or any occasion where you want to serve something that looks and tastes restaurant-quality but takes minimal effort to prepare.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Easy",
+    prepTime: 12,
+    cookTime: 15,
+    totalTime: 27,
+    servings: 8,
+    rating: "4.9",
+    calories: 295,
+    protein: "11.5",
+    carbs: "15.0",
+    fat: "20.0",
+    fiber: "2.0",
+    sugar: "11.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-pistachios-rosemary.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 cup fresh cranberries",
+      "¼ cup pure maple syrup",
+      "½ cup shelled pistachios, roughly chopped",
+      "3-4 sprigs fresh rosemary",
+      "1 tablespoon butter",
+      "1 tablespoon water",
+      "Pinch of salt",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Preheat oven to 350°F. Place brie in an oven-safe baking dish.",
+      "Strip leaves from 2 rosemary sprigs and chop finely. Reserve remaining sprigs for garnish.",
+      "In a small saucepan, combine cranberries, maple syrup, butter, water, chopped rosemary, and salt. Cook over medium heat for 8-10 minutes, stirring occasionally, until cranberries burst and mixture thickens.",
+      "While cranberries cook, roughly chop pistachios, keeping some pieces larger for visual interest.",
+      "Bake brie for 12-15 minutes until soft and gooey in the center.",
+      "Remove brie from oven and immediately spoon the warm maple-cranberry-rosemary mixture over the top.",
+      "Sprinkle generously with chopped pistachios and garnish with fresh rosemary sprigs.",
+      "Let cool for 5 minutes, then serve warm with gluten-free crackers or apple slices."
+    ],
+    tips: "Use unsalted pistachios so you can control the salt level. The rosemary flavor intensifies as it cooks with the cranberries, so start with a smaller amount if you're not sure. Toast the pistachios lightly before chopping for even more flavor.",
+    variations: [
+      "Add a teaspoon of orange zest to the cranberry mixture",
+      "Use hazelnuts instead of pistachios",
+      "Drizzle with honey before serving"
+    ],
+    tags: ["gluten-free", "baked brie", "pistachios", "rosemary", "maple", "cranberry", "appetizer", "holiday", "sophisticated", "herbs"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Pistachios & Rosemary - Sophisticated Appetizer",
+    seoDescription: "Sophisticated gluten-free baked brie with maple cranberries, pistachios, and rosemary. Elegant holiday appetizer with herbaceous flavors."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Hot Honey Drizzle",
+    slug: "gluten-free-maple-cranberry-baked-brie-hot-honey-drizzle",
+    description: "A sweet-heat fusion — hot honey adds a gentle kick to the creamy brie and maple topping.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Hot Honey Drizzle is for those who love the exciting interplay of sweet and spicy flavors. Creamy, melted brie is topped with maple-roasted cranberries that provide sweet-tart balance, then finished with a generous drizzle of hot honey that adds a gentle, tingling heat. The hot honey — made by infusing honey with red pepper flakes — creates layers of flavor that keep you coming back for more. The sweetness of the maple and honey is tempered by the tartness of the cranberries and the subtle heat from the pepper, while the rich, creamy brie ties everything together. This appetizer is conversation-starting and memorable, perfect for adventurous eaters and anyone who appreciates bold flavor combinations. It's an unexpected twist on the traditional baked brie that will have your guests asking for the recipe.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Easy",
+    prepTime: 15,
+    cookTime: 15,
+    totalTime: 30,
+    servings: 8,
+    rating: "4.9",
+    calories: 305,
+    protein: "10.0",
+    carbs: "20.0",
+    fat: "19.0",
+    fiber: "1.0",
+    sugar: "16.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-hot-honey.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 cup fresh cranberries",
+      "3 tablespoons pure maple syrup",
+      "For the hot honey:",
+      "¼ cup honey",
+      "1 teaspoon red pepper flakes",
+      "1 tablespoon butter (for cranberries)",
+      "Pinch of salt",
+      "Fresh thyme for garnish",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Make hot honey: In small saucepan, warm honey over low heat. Add red pepper flakes and let steep for 10 minutes. Strain if desired, or leave pepper flakes in for more heat. Set aside.",
+      "Preheat oven to 350°F. Place brie in oven-safe baking dish.",
+      "In a small saucepan, combine cranberries, maple syrup, butter, and salt. Cook over medium heat for 8-10 minutes until cranberries burst and mixture becomes syrupy.",
+      "Bake brie for 12-15 minutes until soft and melted in the center.",
+      "Remove brie from oven and immediately spoon the warm maple-cranberry mixture over the top.",
+      "Drizzle generously with hot honey, allowing it to cascade down the sides.",
+      "Garnish with fresh thyme sprigs.",
+      "Let cool for 5 minutes, then serve warm with gluten-free crackers."
+    ],
+    tips: "Adjust the heat level by using more or less red pepper flakes. For a milder version, use just ½ teaspoon. The hot honey can be made days ahead and stored at room temperature. Taste it before drizzling to ensure it's your preferred heat level.",
+    variations: [
+      "Add a pinch of cayenne pepper to the cranberries for extra heat",
+      "Use jalapeño-infused honey instead of hot honey",
+      "Top with toasted pecans for added crunch"
+    ],
+    tags: ["gluten-free", "baked brie", "hot honey", "maple", "cranberry", "spicy", "sweet heat", "appetizer", "holiday", "bold flavors"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Hot Honey Drizzle - Sweet Heat Appetizer",
+    seoDescription: "Bold gluten-free baked brie with maple cranberries and hot honey drizzle. Perfect sweet and spicy holiday appetizer with exciting flavors."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Balsamic Reduction",
+    slug: "gluten-free-maple-cranberry-baked-brie-balsamic-reduction",
+    description: "Topped with maple cranberries and a glossy balsamic glaze — elegant and tangy.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Balsamic Reduction is an exercise in elegant simplicity and sophisticated flavor balance. The creamy, melted brie is crowned with sweet maple-roasted cranberries, then drizzled with a glossy, syrupy balsamic reduction that adds a tangy, complex note. The balsamic reduction — made by simmering balsamic vinegar until it becomes thick and sweet — provides an acidic counterpoint to the rich cheese and sweet cranberries. The interplay of flavors is remarkable: creamy and mild from the brie, sweet and tart from the maple cranberries, and tangy with subtle complexity from the aged balsamic. This appetizer looks like it belongs in an upscale restaurant but is remarkably easy to prepare at home. It's perfect for wine and cheese parties, elegant dinner parties, or any occasion where you want to serve something refined and memorable.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Easy",
+    prepTime: 15,
+    cookTime: 20,
+    totalTime: 35,
+    servings: 8,
+    rating: "5.0",
+    calories: 295,
+    protein: "10.5",
+    carbs: "18.0",
+    fat: "18.5",
+    fiber: "1.0",
+    sugar: "14.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-balsamic.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 cup fresh cranberries",
+      "¼ cup pure maple syrup",
+      "½ cup balsamic vinegar",
+      "1 tablespoon butter",
+      "1 tablespoon brown sugar (for balsamic reduction)",
+      "Pinch of salt",
+      "Fresh rosemary or thyme for garnish",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Make balsamic reduction: In small saucepan, combine balsamic vinegar and brown sugar. Bring to a boil, then reduce heat and simmer for 12-15 minutes until reduced by half and syrupy. It should coat the back of a spoon. Set aside to cool.",
+      "Preheat oven to 350°F. Place brie in oven-safe baking dish.",
+      "In another small saucepan, combine cranberries, maple syrup, butter, and salt. Cook over medium heat for 8-10 minutes until cranberries burst and release their juices.",
+      "Bake brie for 12-15 minutes until soft and gooey in the center.",
+      "Remove brie from oven and immediately spoon the warm maple-cranberry mixture over the top.",
+      "Drizzle with cooled balsamic reduction, creating decorative patterns.",
+      "Garnish with fresh herbs.",
+      "Let cool for 5 minutes before serving with gluten-free crackers or crusty bread."
+    ],
+    tips: "Use good quality aged balsamic vinegar for the best flavor. The reduction will thicken more as it cools, so don't over-reduce it. The balsamic reduction can be made up to a week ahead and stored in the refrigerator — just warm slightly before drizzling.",
+    variations: [
+      "Add a splash of red wine to the cranberries while cooking",
+      "Top with toasted walnuts",
+      "Use pomegranate balsamic vinegar for extra fruitiness"
+    ],
+    tags: ["gluten-free", "baked brie", "balsamic", "maple", "cranberry", "appetizer", "elegant", "holiday", "gourmet", "tangy"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Balsamic Reduction - Elegant Appetizer",
+    seoDescription: "Elegant gluten-free baked brie with maple cranberries and glossy balsamic reduction. Sophisticated tangy-sweet holiday appetizer."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Pecans & Cinnamon",
+    slug: "gluten-free-maple-cranberry-baked-brie-pecans-cinnamon",
+    description: "Cozy fall favorite — maple-sweet pecans and cranberries with a hint of warm spice.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Pecans & Cinnamon is the essence of cozy autumn comfort in appetizer form. Creamy, melted brie is topped with a warming mixture of maple-glazed cranberries, toasted pecans, and aromatic cinnamon that fills your kitchen with the most inviting fragrance. The pecans are candied slightly with maple syrup, creating a sweet, crunchy contrast to the soft cheese. A generous dusting of cinnamon adds warmth and spice that makes this dish feel like a hug in food form. This is the perfect appetizer for Thanksgiving, fall gatherings, or cozy evenings with friends and family. The combination of flavors evokes everything wonderful about the autumn season — crisp air, colorful leaves, and gatherings around the table. Despite its impressive appearance and complex flavors, this recipe comes together quickly and easily.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Easy",
+    prepTime: 12,
+    cookTime: 15,
+    totalTime: 27,
+    servings: 8,
+    rating: "5.0",
+    calories: 315,
+    protein: "10.5",
+    carbs: "18.0",
+    fat: "22.0",
+    fiber: "2.0",
+    sugar: "13.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-pecans-cinnamon.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 cup fresh cranberries",
+      "¼ cup pure maple syrup",
+      "¾ cup pecans, roughly chopped",
+      "1 teaspoon ground cinnamon, divided",
+      "1 tablespoon butter",
+      "Pinch of salt",
+      "Cinnamon stick for garnish (optional)",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Preheat oven to 350°F. Place brie in oven-safe baking dish.",
+      "In a small skillet, toast pecans over medium heat for 3-4 minutes until fragrant. Set aside.",
+      "In a small saucepan, combine cranberries, maple syrup, butter, ½ teaspoon cinnamon, and salt. Cook over medium heat for 8-10 minutes until cranberries burst and mixture thickens.",
+      "Stir toasted pecans into the cranberry mixture. Reserve some pecans for garnish if desired.",
+      "Bake brie for 12-15 minutes until soft and gooey in the center.",
+      "Remove from oven and immediately spoon the warm maple-cranberry-pecan mixture over the top.",
+      "Dust with remaining ½ teaspoon cinnamon.",
+      "Garnish with reserved pecans and a cinnamon stick if desired.",
+      "Let cool for 5 minutes, then serve warm with gluten-free crackers or apple slices."
+    ],
+    tips: "Toast the pecans to bring out their natural oils and deepen their flavor. For extra indulgence, use candied pecans. The cinnamon can be adjusted to taste — start with less if you prefer a subtler spice note.",
+    variations: [
+      "Add a pinch of nutmeg along with the cinnamon",
+      "Use walnuts instead of pecans",
+      "Drizzle with additional maple syrup before serving"
+    ],
+    tags: ["gluten-free", "baked brie", "pecans", "cinnamon", "maple", "cranberry", "fall", "cozy", "appetizer", "thanksgiving"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Pecans & Cinnamon - Cozy Fall Appetizer",
+    seoDescription: "Cozy gluten-free baked brie with maple-glazed pecans, cranberries, and warm cinnamon. Perfect comforting Thanksgiving appetizer."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Apple Compote",
+    slug: "gluten-free-maple-cranberry-baked-brie-apple-compote",
+    description: "Layers of apple, maple syrup, and cranberries over melted brie — festive and fragrant.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Apple Compote is a celebration of classic fall flavors all in one gorgeous appetizer. Creamy, melted brie serves as the foundation for layers of sweet-tart flavor: diced apples cooked with maple syrup until tender and caramelized, fresh cranberries that burst with bright acidity, and warming spices like cinnamon and nutmeg. The apple compote adds texture and a fruity sweetness that complements the cranberries perfectly, while the maple syrup ties everything together with its distinctive caramel notes. This appetizer smells as amazing as it tastes, filling your home with the scent of baking apples and warm spices. It's ideal for fall entertaining, holiday gatherings, or Thanksgiving when you want to showcase seasonal ingredients. The combination is familiar yet special, comforting yet impressive enough for company.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Easy",
+    prepTime: 15,
+    cookTime: 20,
+    totalTime: 35,
+    servings: 8,
+    rating: "4.9",
+    calories: 275,
+    protein: "10.0",
+    carbs: "22.0",
+    fat: "16.0",
+    fiber: "2.5",
+    sugar: "16.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-apple-compote.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 cup fresh cranberries",
+      "1 large apple, peeled and diced (Honeycrisp or Granny Smith)",
+      "¼ cup pure maple syrup",
+      "1 tablespoon butter",
+      "½ teaspoon cinnamon",
+      "¼ teaspoon nutmeg",
+      "1 tablespoon water",
+      "Pinch of salt",
+      "Fresh rosemary for garnish",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Preheat oven to 350°F. Place brie in oven-safe baking dish.",
+      "In a medium saucepan, melt butter over medium heat. Add diced apples and cook for 3-4 minutes until beginning to soften.",
+      "Add cranberries, maple syrup, cinnamon, nutmeg, water, and salt. Cook for 10-12 minutes, stirring occasionally, until apples are tender and cranberries have burst.",
+      "The mixture should be thick and jammy. If too thin, continue cooking for a few more minutes.",
+      "While compote cooks, bake brie for 12-15 minutes until soft and gooey in the center.",
+      "Remove brie from oven and immediately spoon the warm apple-cranberry compote over the top, covering generously.",
+      "Garnish with fresh rosemary sprigs.",
+      "Let cool for 5 minutes to allow flavors to meld.",
+      "Serve warm with gluten-free crackers or apple slices."
+    ],
+    tips: "Choose apples that hold their shape when cooked, like Honeycrisp or Granny Smith. The compote can be made up to 3 days ahead and refrigerated — just reheat before serving. For extra texture, add chopped walnuts to the compote.",
+    variations: [
+      "Add a splash of apple cider while cooking the compote",
+      "Use pears instead of apples",
+      "Sprinkle with toasted pecans before serving"
+    ],
+    tags: ["gluten-free", "baked brie", "apple", "cranberry", "maple", "compote", "fall", "festive", "appetizer", "thanksgiving"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Apple Compote - Festive Fall Appetizer",
+    seoDescription: "Festive gluten-free baked brie with apple-cranberry compote and maple syrup. Perfect autumn Thanksgiving appetizer with classic flavors."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Bacon & Sage",
+    slug: "gluten-free-maple-cranberry-baked-brie-bacon-sage",
+    description: "Sweet meets savory — crispy bacon bits, maple syrup, cranberries, and fried sage leaves.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Bacon & Sage is a masterclass in balancing sweet and savory flavors. Creamy, melted brie is topped with a stunning combination of crispy bacon bits that add salty crunch, sweet maple-roasted cranberries, and fried sage leaves that bring herbaceous depth. The bacon fat infuses the topping with rich, savory notes that contrast beautifully with the sweet maple syrup and tart cranberries. The fried sage leaves become crispy and intensely aromatic, adding a sophisticated touch that elevates this from simple appetizer to gourmet creation. Every bite offers a perfect balance of textures and flavors — creamy cheese, crispy bacon, soft cranberries, and delicate sage. This appetizer is perfect for those who love the sweet-savory combination and want something a bit more substantial and complex than traditional sweet-topped brie.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Medium",
+    prepTime: 15,
+    cookTime: 20,
+    totalTime: 35,
+    servings: 8,
+    rating: "5.0",
+    calories: 340,
+    protein: "13.5",
+    carbs: "14.0",
+    fat: "25.0",
+    fiber: "1.0",
+    sugar: "10.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-bacon-sage.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "4 strips bacon, diced",
+      "1 cup fresh cranberries",
+      "3 tablespoons pure maple syrup",
+      "12-15 fresh sage leaves",
+      "1 tablespoon butter",
+      "Pinch of salt",
+      "Black pepper to taste",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Preheat oven to 350°F. Place brie in oven-safe baking dish.",
+      "In a skillet over medium heat, cook diced bacon until crispy, about 6-8 minutes. Remove bacon with slotted spoon and set aside, leaving bacon fat in the pan.",
+      "In the same pan with bacon fat, fry sage leaves for 30-60 seconds until crispy. Remove and set aside on paper towels.",
+      "Pour off all but 1 tablespoon of the bacon fat. Add cranberries, maple syrup, butter, and salt to the pan. Cook over medium heat for 6-8 minutes until cranberries burst.",
+      "Stir most of the crispy bacon into the cranberry mixture, reserving some for garnish.",
+      "Bake brie for 12-15 minutes until soft and melted in the center.",
+      "Remove from oven and immediately spoon the bacon-cranberry mixture over the top.",
+      "Garnish with reserved crispy bacon and fried sage leaves.",
+      "Add a few grinds of black pepper.",
+      "Let cool for 5 minutes, then serve warm with gluten-free crackers."
+    ],
+    tips: "Don't discard the bacon fat — it adds incredible flavor to the cranberries. Watch the sage leaves carefully when frying as they can burn quickly. For extra savory depth, add a splash of bourbon to the cranberry mixture.",
+    variations: [
+      "Use pancetta instead of bacon",
+      "Add caramelized onions to the mixture",
+      "Top with chopped toasted walnuts"
+    ],
+    tags: ["gluten-free", "baked brie", "bacon", "sage", "maple", "cranberry", "savory-sweet", "appetizer", "holiday", "gourmet"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Bacon & Sage - Savory-Sweet Appetizer",
+    seoDescription: "Gourmet gluten-free baked brie with crispy bacon, maple cranberries, and fried sage. Perfect savory-sweet holiday appetizer."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Candied Ginger & Orange Zest",
+    slug: "gluten-free-maple-cranberry-baked-brie-candied-ginger-orange-zest",
+    description: "A gourmet variation — citrusy brightness and gentle heat from candied ginger.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Candied Ginger & Orange Zest is a sophisticated, gourmet appetizer that showcases bright, complex flavors. Creamy, melted brie is topped with maple-roasted cranberries that are enhanced with fresh orange zest and studded with pieces of candied ginger. The orange zest adds citrusy brightness that makes the cranberries pop with even more vibrancy, while the candied ginger provides subtle warmth and a pleasant chewy texture. The combination of sweet maple, tart cranberries, bright citrus, and spicy-sweet ginger creates a multi-dimensional flavor profile that's both familiar and excitingly new. This appetizer is perfect for upscale entertaining, holiday cocktail parties, or when you want to serve something that feels special and restaurant-worthy. The flavors are beautifully balanced and the presentation is stunning with the bright orange zest and glossy cranberries.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Easy",
+    prepTime: 12,
+    cookTime: 15,
+    totalTime: 27,
+    servings: 8,
+    rating: "4.9",
+    calories: 295,
+    protein: "10.0",
+    carbs: "21.0",
+    fat: "18.0",
+    fiber: "1.5",
+    sugar: "16.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-ginger-orange.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 cup fresh cranberries",
+      "¼ cup pure maple syrup",
+      "Zest of 1 large orange",
+      "2 tablespoons fresh orange juice",
+      "¼ cup candied ginger, finely chopped",
+      "1 tablespoon butter",
+      "Pinch of salt",
+      "Fresh orange slices for garnish",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Preheat oven to 350°F. Place brie in oven-safe baking dish.",
+      "Zest orange and set aside. Juice the orange and measure out 2 tablespoons.",
+      "In a small saucepan, combine cranberries, maple syrup, orange juice, orange zest, butter, and salt. Cook over medium heat for 8-10 minutes until cranberries burst and mixture thickens.",
+      "Stir in chopped candied ginger and cook for 1 more minute.",
+      "Bake brie for 12-15 minutes until soft and gooey in the center.",
+      "Remove from oven and immediately spoon the warm maple-cranberry-ginger mixture over the top.",
+      "Garnish with additional orange zest and fresh orange slices if desired.",
+      "Let cool for 5 minutes before serving with gluten-free crackers."
+    ],
+    tips: "Use fresh orange zest for the brightest flavor — don't substitute dried. The candied ginger adds gentle heat and chewy texture; if you prefer more spice, add an extra tablespoon. This topping pairs beautifully with champagne or prosecco.",
+    variations: [
+      "Add a splash of Grand Marnier to the cranberries",
+      "Use crystallized ginger for more intense ginger flavor",
+      "Top with toasted pistachios for color and crunch"
+    ],
+    tags: ["gluten-free", "baked brie", "ginger", "orange", "maple", "cranberry", "gourmet", "citrus", "appetizer", "elegant"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Candied Ginger & Orange - Gourmet Appetizer",
+    seoDescription: "Gourmet gluten-free baked brie with maple cranberries, candied ginger, and orange zest. Bright, sophisticated holiday appetizer."
+  },
+  {
+    title: "Gluten-Free Maple-Cranberry Baked Brie with Almonds & Sea Salt",
+    slug: "gluten-free-maple-cranberry-baked-brie-almonds-sea-salt",
+    description: "Simple yet sophisticated — almonds and sea salt balance the sweetness of maple syrup and cranberries.",
+    longDescription: "This Gluten-Free Maple-Cranberry Baked Brie with Almonds & Sea Salt proves that sometimes the simplest combinations are the most elegant. Creamy, melted brie is topped with sweet maple-roasted cranberries, crunchy toasted almonds, and a finishing sprinkle of flaky sea salt that ties everything together beautifully. The almonds add a delicate nutty flavor and satisfying crunch without overwhelming the other ingredients, while the sea salt provides tiny bursts of salinity that enhance both the sweet cranberries and the rich cheese. This is minimalist cooking at its finest — each ingredient is carefully chosen to complement the others, and nothing is superfluous. The result is a refined, balanced appetizer that lets the quality of the ingredients shine through. Perfect for sophisticated gatherings, wine tastings, or when you want elegance without fussiness.",
+    category: "Appetizers",
+    subcategory: "Holiday & Entertaining",
+    difficulty: "Easy",
+    prepTime: 10,
+    cookTime: 15,
+    totalTime: 25,
+    servings: 8,
+    rating: "4.9",
+    calories: 285,
+    protein: "12.0",
+    carbs: "15.0",
+    fat: "19.0",
+    fiber: "2.0",
+    sugar: "11.0",
+    image: "/recipe-images/maple-cranberry-baked-brie-almonds-salt.png",
+    ingredients: [
+      "1 wheel (8 oz) brie cheese",
+      "1 cup fresh cranberries",
+      "¼ cup pure maple syrup",
+      "½ cup sliced almonds",
+      "1 tablespoon butter",
+      "Flaky sea salt (such as Maldon)",
+      "Pinch of kosher salt",
+      "Fresh thyme for garnish (optional)",
+      "Gluten-free crackers for serving"
+    ],
+    instructions: [
+      "Preheat oven to 350°F. Place brie in oven-safe baking dish.",
+      "In a dry skillet over medium heat, toast sliced almonds for 3-4 minutes until golden and fragrant, stirring frequently. Set aside.",
+      "In a small saucepan, combine cranberries, maple syrup, butter, and a pinch of kosher salt. Cook over medium heat for 8-10 minutes until cranberries burst and mixture becomes syrupy.",
+      "Bake brie for 12-15 minutes until soft and gooey in the center.",
+      "Remove from oven and immediately spoon the warm maple-cranberry mixture over the top.",
+      "Sprinkle generously with toasted almonds.",
+      "Finish with a light sprinkling of flaky sea salt.",
+      "Garnish with fresh thyme if desired.",
+      "Let cool for 5 minutes, then serve warm with gluten-free crackers or apple slices."
+    ],
+    tips: "Use good quality flaky sea salt — it makes a difference. The contrast between the sweet cranberries and the salty finish is what makes this dish special. Toast the almonds fresh for the best flavor and texture.",
+    variations: [
+      "Use hazelnuts instead of almonds",
+      "Add a drizzle of honey along with the maple syrup",
+      "Include a pinch of smoked sea salt for depth"
+    ],
+    tags: ["gluten-free", "baked brie", "almonds", "sea salt", "maple", "cranberry", "simple", "sophisticated", "appetizer", "minimalist"],
+    isNaturallyGlutenFree: false,
+    status: "published",
+    seoTitle: "Gluten-Free Maple-Cranberry Baked Brie with Almonds & Sea Salt - Simple Elegant Appetizer",
+    seoDescription: "Simple yet sophisticated gluten-free baked brie with maple cranberries, almonds, and sea salt. Elegant minimalist holiday appetizer."
+  }
+];
+
+async function seed() {
+  console.log("Adding 10 gluten-free maple-cranberry baked brie recipes...");
+  
+  try {
+    const result = await db
+      .insert(recipes)
+      .values(mapleCranberryBakedBrie)
+      .onConflictDoNothing({ target: [recipes.slug] });
+    
+    console.log(`Successfully added ${mapleCranberryBakedBrie.length} maple-cranberry baked brie recipes to the database!`);
+    console.log("All recipes have been inserted under Appetizers → Holiday & Entertaining category.");
+  } catch (error) {
+    console.error("Error adding recipes:", error);
+    throw error;
+  }
+}
+
+seed()
+  .then(() => {
+    console.log("Seed completed successfully!");
+    process.exit(0);
+  })
+  .catch((error) => {
+    console.error("Seed failed:", error);
+    process.exit(1);
+  });
