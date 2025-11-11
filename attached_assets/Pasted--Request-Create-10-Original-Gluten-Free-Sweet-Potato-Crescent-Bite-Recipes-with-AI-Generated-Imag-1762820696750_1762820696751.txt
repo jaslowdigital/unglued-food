@@ -1,0 +1,134 @@
+🥐 Request: Create 10 Original Gluten-Free Sweet Potato Crescent Bite Recipes with AI-Generated Images
+
+Directive:
+Do not alter, remove, or modify any other content, schema, or formatting on the site.
+Only add these 10 new gluten-free sweet potato crescent bite recipes under “Gluten-Free Recipes → Appetizers → Holiday & Party Bites.”
+Maintain all existing SEO, layout, and formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the proper category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free sweet potato crescent bite recipes, blending comfort food appeal with creative holiday twists — perfect for gatherings, potlucks, and festive tables.
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Sweet Potato Crescent Bites” and a defining variation or flavor profile (examples:
+
+Gluten-Free Sweet Potato Crescent Bites with Brown Sugar & Pecans
+
+Gluten-Free Savory Sweet Potato Crescent Bites with Goat Cheese & Sage
+
+Gluten-Free Sweet Potato Crescent Bites with Cinnamon Honey Drizzle
+
+Gluten-Free Sweet Potato Crescent Bites with Cranberry Brie Filling)
+
+Each recipe should include:
+
+Ingredients list (gluten-free crescent dough, mashed or pureed sweet potato, flavorings, toppings)
+
+Step-by-step instructions (filling, rolling, baking, finishing)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, carbs, fat, sugar, sodium per serving)
+
+All ingredients must be certified gluten-free, including dough, seasonings, and toppings.
+
+Recipes should be a balance of sweet and savory variations — ideal for appetizers, sides, or desserts.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should feature golden, flaky crescent bites with visible fillings or toppings.
+
+Use natural light with cozy, seasonal styling (wood boards, linen napkins, herbs, warm tones).
+
+Include close-up shots to showcase flaky layers and filling texture.
+
+Maintain consistent golden and rustic tones across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Sweet Potato Crescent Bites
+
+Additional Subcategories:
+
+Appetizers & Party Food
+
+Holiday Recipes
+
+Sweet & Savory Bites
+
+Fall & Winter Favorites
+
+Gluten-Free Baking
+
+Recipe Variety & Focus:
+
+Gluten-Free Sweet Potato Crescent Bites with Brown Sugar & Pecans
+Classic holiday favorite — mashed sweet potato with brown sugar, butter, and toasted pecans wrapped in flaky dough.
+
+Gluten-Free Savory Sweet Potato Crescent Bites with Goat Cheese & Sage
+Elegant and aromatic — sweet potato mash paired with tangy goat cheese and crispy sage.
+
+Gluten-Free Sweet Potato Crescent Bites with Cinnamon Honey Drizzle
+Dessert-inspired — lightly sweetened potato filling topped with honey-cinnamon glaze.
+
+Gluten-Free Sweet Potato Crescent Bites with Cranberry Brie Filling
+Tart cranberries and melty brie balance the sweetness — a perfect Thanksgiving appetizer.
+
+Gluten-Free Maple Bacon Sweet Potato Crescent Bites
+Sweet and smoky — mashed sweet potato with maple syrup and bacon crumbles.
+
+Gluten-Free Sweet Potato Crescent Bites with Marshmallow & Pecan Crunch
+A nod to classic casserole — sweet potato puree topped with mini marshmallows and pecans inside golden pastry.
+
+Gluten-Free Spiced Sweet Potato Crescent Bites with Ginger & Orange Zest
+Warm spices and citrusy notes for a bright, aromatic twist.
+
+Gluten-Free Savory Sweet Potato Crescent Bites with Caramelized Onion & Feta
+A flavorful combination of sweet potato mash, caramelized onions, and creamy feta.
+
+Gluten-Free Sweet Potato Crescent Bites with Apple Butter & Walnuts
+Cozy fall fusion — apple butter, sweet potato, and chopped walnuts wrapped in flaky pastry.
+
+Gluten-Free Sweet Potato Crescent Bites with Rum Glaze & Cinnamon Sugar
+A dessert-style bite — sweet potato mash baked in dough, brushed with rum glaze, and dusted with cinnamon sugar.
+
+Additional Notes:
+
+Include tips for perfect dough handling — keep it chilled before rolling.
+
+Offer make-ahead options — assemble and refrigerate up to 24 hours before baking.
+
+Provide pairing suggestions — savory bites with soup or wine, sweet versions with coffee or cider.
+
+Add reheating tips — crisp in oven or air fryer to restore flakiness.
+
+Suggest gluten-free crescent dough brands or homemade versions.
+
+Highlight holiday adaptability — Thanksgiving, Christmas, or brunch spreads.
+
+Recommend presentation ideas — serve on platters with dipping sauces or glazes.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free sweet potato crescent bite recipes under the proper category.
+Do not:
+
+Modify or delete existing recipes or pages.
+
+Change SEO schema, layout, or internal linking.
+
+Adjust pagination, image settings, or structure.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
