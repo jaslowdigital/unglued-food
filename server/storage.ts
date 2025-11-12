@@ -29,6 +29,18 @@ import correct100RecipesWithAIImages from "./correct-100-recipes-with-ai-images"
 import { db } from "./db";
 import { eq, desc, avg, and } from "drizzle-orm";
 
+export interface CategoryWithLatestRecipe {
+  category: string;
+  count: number;
+  latestRecipe: {
+    id: string;
+    title: string;
+    slug: string;
+    image: string;
+    createdAt: Date | null;
+  } | null;
+}
+
 export interface IStorage {
   // Recipes
   getRecipes(): Promise<Recipe[]>;
@@ -40,6 +52,7 @@ export interface IStorage {
   updateRecipe(id: string, recipe: Partial<InsertRecipe>): Promise<Recipe | undefined>;
   deleteRecipe(id: string): Promise<boolean>;
   searchRecipes(query: string): Promise<Recipe[]>;
+  getCategories(): Promise<CategoryWithLatestRecipe[]>;
   
   // Products
   getProducts(): Promise<Product[]>;
@@ -161,6 +174,55 @@ export class DatabaseStorage implements IStorage {
       recipe.description.toLowerCase().includes(query.toLowerCase()) ||
       recipe.tags.some(tag => tag.toLowerCase().includes(query.toLowerCase()))
     );
+  }
+
+  async getCategories(): Promise<CategoryWithLatestRecipe[]> {
+    // Get all published recipes
+    const allRecipes = await db
+      .select()
+      .from(recipes)
+      .where(eq(recipes.status, 'published'))
+      .orderBy(desc(recipes.createdAt));
+    
+    // Group recipes by category and get the latest recipe for each
+    const categoriesMap = new Map<string, { count: number; latestRecipe: Recipe }>();
+    
+    for (const recipe of allRecipes) {
+      if (!categoriesMap.has(recipe.category)) {
+        categoriesMap.set(recipe.category, {
+          count: 1,
+          latestRecipe: recipe
+        });
+      } else {
+        const existing = categoriesMap.get(recipe.category)!;
+        existing.count += 1;
+        // Keep the latest recipe (recipes are already sorted by createdAt desc)
+        // Only update if this recipe is newer
+        const existingDate = existing.latestRecipe.createdAt ? new Date(existing.latestRecipe.createdAt).getTime() : 0;
+        const currentDate = recipe.createdAt ? new Date(recipe.createdAt).getTime() : 0;
+        if (currentDate > existingDate) {
+          existing.latestRecipe = recipe;
+        }
+      }
+    }
+    
+    // Convert map to array
+    const categories: CategoryWithLatestRecipe[] = Array.from(categoriesMap.entries()).map(([category, data]) => ({
+      category,
+      count: data.count,
+      latestRecipe: {
+        id: data.latestRecipe.id,
+        title: data.latestRecipe.title,
+        slug: data.latestRecipe.slug,
+        image: data.latestRecipe.image,
+        createdAt: data.latestRecipe.createdAt
+      }
+    }));
+    
+    // Sort categories by name
+    categories.sort((a, b) => a.category.localeCompare(b.category));
+    
+    return categories;
   }
 
   // Products

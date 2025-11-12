@@ -115,6 +115,16 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Categories route
+  app.get("/api/categories", async (req, res) => {
+    try {
+      const categories = await storage.getCategories();
+      res.json(categories);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch categories" });
+    }
+  });
+
   // Recipe Ratings & Comments routes
   app.get("/api/recipes/:id/ratings", async (req, res) => {
     try {
