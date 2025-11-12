@@ -27,9 +27,6 @@ export default function CategoryPage() {
     return <div>Category not found</div>;
   }
 
-  const categoryName = slugToCategory(slug);
-  const categoryMeta = getCategoryMeta(categoryName);
-
   const searchParams = new URLSearchParams(window.location.search);
   const pageParam = searchParams.get('page');
   const initialPage = pageParam ? parseInt(pageParam, 10) : 1;
@@ -53,7 +50,12 @@ export default function CategoryPage() {
     queryKey: ["/api/categories"],
   });
 
-  const categoryData = categories?.find(c => c.category === categoryName);
+  // Match by slug instead of converted name to handle punctuation correctly
+  const categoryData = categories?.find(c => c.slug === slug);
+  
+  // Use the actual category name from the database for API calls and display
+  const categoryName = categoryData?.category || slugToCategory(slug);
+  const categoryMeta = getCategoryMeta(categoryName);
 
   // Fetch paginated recipes for this category
   const offset = (currentPage - 1) * RECIPES_PER_PAGE;
