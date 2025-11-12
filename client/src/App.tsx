@@ -7,6 +7,7 @@ import FacebookBrowserBanner from "@/components/FacebookBrowserBanner";
 import Home from "@/pages/home";
 import RecipesPage from "@/pages/recipes";
 import RecipePage from "@/pages/RecipePage";
+import CategoryPage from "@/pages/CategoryPage";
 import ImageTestPage from "@/pages/ImageTestPage";
 import AddRecipePage from "@/pages/AddRecipePage";
 import AdminPage from "@/pages/AdminPage";
@@ -29,6 +30,7 @@ function Router() {
       <Route path="/recipes" component={RecipesPage} />
       <Route path="/all-recipes" component={RecipesPage} />
       <Route path="/recipe/:slug" component={RecipePage} />
+      <Route path="/category/:slug" component={CategoryPage} />
       <Route path="/add-recipe" component={AddRecipePage} />
       <Route path="/edit-recipe/:id" component={EditRecipePage} />
       <Route path="/admin" component={AdminPage} />
