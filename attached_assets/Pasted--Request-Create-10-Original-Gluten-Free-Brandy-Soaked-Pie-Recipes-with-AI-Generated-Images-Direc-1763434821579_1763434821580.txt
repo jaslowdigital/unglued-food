@@ -1,0 +1,145 @@
+🥧 Request: Create 10 Original Gluten-Free Brandy-Soaked Pie Recipes with AI-Generated Images
+
+Directive:
+Do NOT modify, delete, or alter any existing website content, categories, or SEO formatting.
+Only add these 10 new gluten-free Brandy-Soaked Pie recipes under:
+“Gluten-Free Recipes → Desserts → Pies & Tarts.”
+Preserve all current schema, URLs, tags, and layout exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to automatically add all 10 recipes to the database now, placing them live under the correct category.
+
+Content Requirements:
+
+Develop 10 completely original gluten-free brandy-soaked pie recipes, each with:
+
+A title containing “Gluten-Free Brandy-Soaked Pie” + the variation
+
+Ingredients list
+
+Step-by-step instructions
+
+Chill/bake times, total time
+
+Yield / servings
+
+Nutritional details
+
+All components must be certified gluten-free, including crusts, fillings, extracts, and alcohol.
+
+Recipes must highlight:
+
+Brandy-soaked fruits, nuts, or custards
+
+Deep, warm, boozy winter flavors
+
+Unique textures: creamy, fruity, crunchy, spiced
+
+Holiday or gourmet presentation
+
+Image Requirements:
+
+One high-quality, photorealistic image per recipe.
+
+Must feature:
+
+Visible glossy pie filling
+
+Golden GF crust
+
+Brandy-soaked fruits or drizzles
+
+Use natural warm lighting with festive styling.
+
+Include close-up shots showing texture and caramelization.
+
+Must be optimized for web, social media, and print.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Brandy-Soaked Pie
+
+Additional Subcategories:
+
+Holiday Desserts
+
+Boozy & Brandy Desserts
+
+Pies & Tarts
+
+Winter Baking
+
+Gourmet Desserts
+
+Recipe Variety & Focus (10 Concepts):
+1. Gluten-Free Brandy-Soaked Apple Pie
+
+Classic American apple pie elevated with brandy-soaked apples, cinnamon, and caramel drizzle.
+
+2. Gluten-Free Brandy-Soaked Pecan Pie
+
+Southern-style pecan pie enriched with brandy-soaked pecans and a caramel-brandy custard.
+
+3. Gluten-Free Brandy-Soaked Cherry Pie
+
+Tart cherries soaked in brandy with vanilla bean and brown sugar, baked under a beautiful lattice top.
+
+4. Gluten-Free Brandy-Soaked Raisin Custard Pie
+
+Silky vanilla custard layered with brandy-plumped raisins — like an adult rice pudding pie.
+
+5. Gluten-Free Brandy-Soaked Peach & Almond Pie
+
+Juicy peaches soaked in almond-brandy syrup with a buttery almond GF crust.
+
+6. Gluten-Free Brandy-Soaked Fig & Honey Tart
+
+Fresh and dried figs soaked in brandy, honey caramel, and toasted pistachios.
+
+7. Gluten-Free Brandy-Soaked Cranberry Orange Pie
+
+Holiday perfection — brandy-soaked cranberries, orange zest, and cinnamon in a golden GF crust.
+
+8. Gluten-Free Brandy-Soaked Chocolate Silk Pie
+
+Creamy chocolate custard infused with brandy and topped with whipped cream and shaved chocolate.
+
+9. Gluten-Free Brandy-Soaked Blueberry Maple Pie
+
+Blueberries soaked in brandy and maple syrup with a soft GF cinnamon crust.
+
+10. Gluten-Free Brandy-Soaked Plum & Hazelnut Pie
+
+Deeply caramelized brandy-soaked plums with hazelnut crumble topping.
+
+Additional Notes:
+
+Include instructions for safe alcohol reduction when needed.
+
+Provide non-alcoholic variation notes using brandy extract.
+
+Add decorative ideas: braided crust edges, star cut-outs, toasted nuts, sugared fruit.
+
+Supply storage instructions:
+
+Refrigerate 3–5 days
+
+Freeze unbaked pies up to 2 months
+
+Suggest pairings: coffee, mulled wine, spiced cider, bourbon vanilla ice cream.
+
+Implementation Reminder:
+
+Only add these new 10 brandy-soaked pie recipes.
+Do NOT:
+
+Alter existing posts
+
+Modify category names or structure
+
+Adjust layout, SEO fields, or imagery outside these recipes
+
+Final Step:
+🔁 Run script to automatically add all 10 recipes to the database now.
