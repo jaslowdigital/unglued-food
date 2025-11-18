@@ -1,0 +1,134 @@
+🍮 Request: Create 10 Original Gluten-Free Pecan Praline Caramel Trifle Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or alter any existing content, recipes, SEO settings, or formatting on the website.
+Only add these 10 new gluten-free Pecan Praline Caramel Trifle recipes under
+“Gluten-Free Recipes → Desserts → Trifles & Layered Sweets.”
+Maintain all existing layout, schema, and styling exactly as it is.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live in the correct category.
+
+Content Requirements:
+
+Develop 10 unique gluten-free pecan praline caramel trifle recipes, each featuring:
+
+Layers of gluten-free cake or cookies, caramel sauce, pecan praline, custard or cream, and unique flavor twists.
+
+Distinct variation themes: holiday, boozy, fruity, chocolatey, coffee-infused, or Southern-style.
+
+Each recipe must be:
+
+100% original and not duplicating any current recipes on the site.
+
+Titled “Gluten-Free Pecan Praline Caramel Trifle” with a descriptive variation.
+
+Structured with:
+
+Ingredients list
+
+Layering & assembly instructions
+
+Prep time, chill time, total time
+
+Yield / servings
+
+Nutritional facts per serving
+
+Made with certified gluten-free ingredients only.
+
+Focused on textural contrast: creamy → crunchy → soft → gooey.
+
+Image Requirements:
+
+Generate one photorealistic, high-resolution image per recipe.
+
+Visuals should capture clear layers: caramel, cream, praline, cake.
+
+Use natural lighting, with elegant dessert styling (glass bowls, layered trifle dishes, spoon scoops).
+
+Include macro shots showing caramel sheen and pecan crunch.
+
+Maintain a warm, golden, festive palette across all 10 recipes.
+
+Must be optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Pecan Praline Caramel Trifle
+
+Additional Subcategories:
+
+Holiday Desserts
+
+Layered Desserts
+
+Custard & Cream Desserts
+
+Southern-Inspired Sweets
+
+Crowd-Pleasing Desserts
+
+Recipe Variety & Focus (10 Concepts):
+
+Gluten-Free Pecan Praline Caramel Trifle – Classic Southern Style
+Layers of gluten-free vanilla cake, salted caramel, whipped cream, and crunchy pecan praline.
+
+Gluten-Free Pecan Praline Caramel Trifle with Bourbon Cream
+Boozy adult version — bourbon vanilla custard and caramel-soaked cake cubes.
+
+Gluten-Free Chocolate Pecan Praline Caramel Trifle
+Rich chocolate cake, dark caramel, cocoa whipped cream, and chocolate-dipped pecan pralines.
+
+Gluten-Free Apple Caramel Pecan Praline Trifle
+Cinnamon apples layered with caramel cream and praline — fall dessert perfection.
+
+Gluten-Free Pumpkin Spice Caramel Pecan Trifle
+Pumpkin custard, spiced caramel, and pecan praline for a holiday centerpiece.
+
+Gluten-Free Salted Caramel Banana Pecan Praline Trifle
+Banana pudding meets caramel trifle — layered with praline crunch and whipped cream.
+
+Gluten-Free Espresso Caramel Pecan Praline Trifle
+Coffee-soaked sponge, espresso caramel, and mascarpone cream with praline.
+
+Gluten-Free Coconut Caramel Pecan Praline Trifle
+Light coconut cream layers with toasted coconut and caramel pecans.
+
+Gluten-Free Maple Caramel Pecan Praline Trifle
+Maple custard layered with caramel-drenched pecans and vanilla cake.
+
+Gluten-Free Strawberry Caramel Pecan Praline Trifle
+Sweet tart strawberries layered with vanilla cream, caramel ribbons, and praline shards.
+
+Additional Notes:
+
+Include pecan praline instructions: sugar → butter → pecans → set → chop.
+
+Offer make-ahead guidance:
+
+Cakes can be baked 1–2 days ahead.
+
+Trifle assembled up to 24 hours before serving.
+
+Provide dietary adjustments: dairy-free caramel, coconut cream options, nut-free alternatives if needed.
+
+Suggest presentation ideas: individual parfait glasses or large glass trifle bowl.
+
+Include storage tips: refrigerate up to 3 days; do not freeze (cream separation).
+
+Implementation Reminder:
+
+Only add these 10 new trifle recipes under the designated category.
+Do not:
+
+Modify existing posts, SEO fields, schema, or styling.
+
+Adjust layout, pagination, or image size.
+
+Change any category names or menu structure.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
