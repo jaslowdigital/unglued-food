@@ -1,0 +1,138 @@
+🥘 Request: Create 10 Original Gluten-Free Creamy Chicken Skillet Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or alter any existing site content, formatting, or SEO structure.
+Only add these 10 new gluten-free Creamy Chicken Skillet recipes under
+“Gluten-Free Recipes → Dinner → One-Pan & Skillet Meals.”
+Maintain all existing schema, formatting, tags, and structure exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live in the correct category.
+
+Content Requirements:
+
+Develop 10 completely original gluten-free creamy chicken skillet recipes, each offering a unique flavor profile (comforting, global, spicy, herb-forward, dairy-free options, etc.).
+
+Each recipe must include:
+
+Title containing “Gluten-Free Creamy Chicken Skillet” + the unique theme or flavor.
+
+Ingredients list
+
+Step-by-step instructions (searing, sautéing, simmering, finishing)
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional breakdown (calories, fat, protein, carbs per serving)
+
+All ingredients must be certified gluten-free (broths, bouillon, sauces, spices, etc.).
+
+Recipes should emphasize:
+
+One-pan simplicity
+
+Rich, creamy sauces (cream, broth, coconut milk, cheese, yogurt, or dairy-free alternatives)
+
+Tender, seared chicken
+
+Bold flavor variation
+
+Quick weeknight cooking
+
+Image Requirements:
+
+One high-quality, photorealistic image per recipe.
+
+Must showcase:
+
+Creamy sauce draping over chicken
+
+Bright garnishes (herbs, lemon slices, vegetables)
+
+Clean skillet presentation
+
+Use natural lighting with rustic or modern skillet styling.
+
+Include close-ups for texture: sear marks, sauce thickness, herb finishes.
+
+Maintain a warm, appetizing, rich-toned palette across all images.
+
+High-resolution suitable for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Creamy Chicken Skillet
+
+Additional Subcategories:
+
+One-Pan Meals
+
+Chicken Recipes
+
+Weeknight Dinners
+
+Comfort Food
+
+High-Protein Meals
+
+Recipe Variety & Focus (10 Concepts):
+
+Gluten-Free Creamy Chicken Skillet with Garlic Parmesan Sauce
+Classic comfort — seared chicken in a thick garlic-parmesan cream sauce with herbs.
+
+Gluten-Free Creamy Tuscan Chicken Skillet
+Sun-dried tomatoes, spinach, garlic cream sauce, and basil.
+
+Gluten-Free Creamy Lemon Herb Chicken Skillet
+Light and bright — lemon zest, thyme, parsley, and cream.
+
+Gluten-Free Creamy Mushroom Marsala Chicken Skillet
+Marsala wine cream sauce with mushrooms and caramelized shallots.
+
+Gluten-Free Creamy Cajun Chicken Skillet
+Spicy Cajun seasoning in a smoky paprika cream sauce with peppers.
+
+Gluten-Free Creamy Pesto Chicken Skillet
+Basil pesto folded into cream with blistered tomatoes.
+
+Gluten-Free Creamy Coconut Curry Chicken Skillet
+Dairy-free — coconut milk, turmeric, garlic, ginger, and cilantro.
+
+Gluten-Free Creamy Bacon & Spinach Chicken Skillet
+Crispy bacon crumbles, wilted spinach, and rich cream reduction.
+
+Gluten-Free Creamy Chipotle Chicken Skillet
+Smoky chipotle cream sauce with roasted corn and lime.
+
+Gluten-Free Creamy White Wine Chicken Skillet with Tarragon
+Elegant version — white wine, Dijon, tarragon, and cream for restaurant-quality flavor.
+
+Additional Notes:
+
+Include searing tips for golden crust on chicken.
+
+Offer dairy-free alternatives (coconut cream, cashew cream).
+
+Add serving suggestions: rice, mashed potatoes, gluten-free pasta, or roasted veggies.
+
+Provide make-ahead guidance: store sauce + cooked chicken separately.
+
+Highlight meal prep suitability — reheats well, thickens beautifully.
+
+Implementation Reminder:
+
+Only add these 10 new gluten-free creamy chicken skillet recipes in the designated category.
+Do NOT:
+
+Adjust existing content, schema, SEO, or structure.
+
+Change navigation, pagination, or image formatting.
+
+Replace or modify existing recipes.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
