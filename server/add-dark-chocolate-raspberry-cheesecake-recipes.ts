@@ -620,21 +620,30 @@ const darkChocolateRaspberryCheesecakeRecipes: Omit<InsertRecipe, 'image'>[] = [
 ];
 
 async function generateAndSaveImages(): Promise<InsertRecipe[]> {
+  const imageDir = path.join(process.cwd(), "client", "public", "recipe-images");
+  
+  if (!fs.existsSync(imageDir)) {
+    fs.mkdirSync(imageDir, { recursive: true });
+  }
+
   const recipesWithImages: InsertRecipe[] = [];
   
   for (const recipe of darkChocolateRaspberryCheesecakeRecipes) {
+    console.log(`\nGenerating image for: ${recipe.title}`);
+    
+    const recipeName = recipe.title.replace("Gluten-Free ", "");
+    const description = `Elegant dark chocolate cheesecake with rich, glossy chocolate ganache or batter, fresh vibrant red raspberries arranged on top or swirled throughout. Perfect slice revealing creamy layers, gluten-free crust visible at bottom. Dark chocolate drizzle or shavings add elegance. Raspberries look fresh, ruby-red, and glistening. Soft natural lighting creates upscale dessert presentation. High-end bakery quality, restaurant-style plating on white or dark plate. Macro details showing chocolate shine, raspberry texture, and creamy cheesecake consistency. Elegant and decadent aesthetic.`;
+    
     try {
-      const imagePrompt = `Professional food photography of ${recipe.title.toLowerCase()}. Elegant dark chocolate cheesecake with rich, glossy chocolate ganache or batter, fresh vibrant red raspberries arranged on top or swirled throughout. The cheesecake should show a perfect slice revealing creamy layers, with a gluten-free crust visible at the bottom. Dark chocolate drizzle or shavings add elegance. The raspberries should look fresh, ruby-red, and glistening. Soft natural lighting creates an upscale dessert presentation. High-end bakery quality, restaurant-style plating on white or dark plate. Macro details showing chocolate shine, raspberry texture, and creamy cheesecake consistency. Elegant and decadent aesthetic.`;
+      const imageUrl = await generateRecipeImage(recipeName, description);
+      
+      // Download and save image
+      const response = await fetch(imageUrl);
+      const arrayBuffer = await response.arrayBuffer();
+      const buffer = Buffer.from(arrayBuffer);
       
       const filename = `${recipe.slug}.png`;
-      const filepath = path.join(process.cwd(), 'server', 'client', 'public', 'recipe-images', filename);
-      
-      console.log(`\nGenerating image for: ${recipe.title}`);
-      
-      const imageBuffer = await generateRecipeImage(imagePrompt, recipe.slug);
-      const buffer = Buffer.from(imageBuffer);
-      
-      fs.mkdirSync(path.dirname(filepath), { recursive: true });
+      const filepath = path.join(imageDir, filename);
       
       fs.writeFileSync(filepath, buffer);
       console.log(`✅ Saved image to: ${filepath}`);
