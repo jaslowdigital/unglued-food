@@ -1,0 +1,163 @@
+🍫 Request: Create 10 Original Gluten-Free Dark Chocolate Raspberry Cheesecake Recipes with AI-Generated Images
+
+Directive:
+Do NOT alter, delete, or modify any other website content, formatting, categories, or SEO fields.
+Only add these 10 new gluten-free Dark Chocolate Raspberry Cheesecake recipes under:
+“Gluten-Free Recipes → Desserts → Cheesecakes.”
+Preserve all current schema, tags, and layout exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to automatically add all 10 recipes to the database now, placing them live in the correct category.
+
+Content Requirements:
+
+Develop 10 original gluten-free dark chocolate raspberry cheesecake recipes, each showcasing:
+
+A dark chocolate base (crust, batter, ganache, or both)
+
+Raspberry components (purée, fresh berries, compote, swirl, reduction, or glaze)
+
+Creamy cheesecake texture
+
+Gluten-free crusts (GF graham, chocolate cookies, almond flour, pecan crusts, etc.)
+
+Each recipe MUST include:
+
+Title containing “Gluten-Free Dark Chocolate Raspberry Cheesecake”
+
+Ingredients list
+
+Step-by-step instructions (crust → filling → baking → cooling → topping)
+
+Prep time, bake time, chill time, total time
+
+Yield / servings
+
+Nutritional information
+
+All ingredients must be certified gluten-free.
+
+Flavor profiles may include:
+
+Sweet-tart
+
+Deep cocoa bitterness
+
+Velvety textures
+
+Fresh or baked fruit layers
+
+Image Requirements:
+
+One high-quality, photorealistic image per recipe.
+
+Shots must highlight:
+
+Dark chocolate richness
+
+Vibrant ruby-red raspberries
+
+Clean slice layers
+
+Glossy ganache or swirled tops
+
+Use soft natural lighting for an elegant dessert aesthetic.
+
+Include macro details: chocolate shine, raspberry seeds, cheesecake creaminess.
+
+Must be high-resolution and optimized for web, social, and print.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Dark Chocolate Raspberry Cheesecake
+
+Additional Subcategories:
+
+Cheesecakes
+
+Gourmet Desserts
+
+Chocolate Desserts
+
+Holiday Baking
+
+Fruit & Chocolate Pairings
+
+Recipe Variety & Focus (10 Concepts):
+1. Gluten-Free Dark Chocolate Raspberry Cheesecake – Classic Ganache
+
+Creamy dark chocolate cheesecake topped with silky dark chocolate ganache and fresh raspberries.
+
+2. Gluten-Free Dark Chocolate Raspberry Swirl Cheesecake
+
+Raspberry purée swirled through dark chocolate batter for a marble-effect presentation.
+
+3. Gluten-Free Dark Chocolate Raspberry Truffle Cheesecake
+
+Ultra-rich chocolate cheesecake with a truffle-like interior and raspberry reduction topping.
+
+4. Gluten-Free Dark Chocolate Raspberry Cheesecake Bars
+
+Bar-style version with a GF chocolate cookie crust and raspberry layer in the center.
+
+5. Gluten-Free Dark Chocolate Raspberry Mousse Cheesecake
+
+Hybrid cheesecake + mousse texture with a raspberry gelée top.
+
+6. Gluten-Free Dark Chocolate Raspberry Cheesecake with Almond Flour Crust
+
+Nutty almond crust layered with cocoa cheesecake and fresh raspberry compote.
+
+7. Gluten-Free Dark Chocolate Raspberry Cheesecake Tart
+
+Tart-shell version — thin chocolate crust filled with cheesecake and topped with raspberry coulis.
+
+8. Gluten-Free Dark Chocolate Raspberry Layered Cheesecake
+
+Two distinct layers: raspberry cheesecake + dark chocolate cheesecake, topped with berries.
+
+9. Gluten-Free Dark Chocolate Raspberry No-Bake Cheesecake
+
+No-bake cold-set version with whipped filling and raspberry swirl.
+
+10. Gluten-Free Dark Chocolate Raspberry Mini Cheesecakes
+
+Individual cheesecakes baked in muffin tins with chocolate crumble topping and raspberry centers.
+
+Additional Notes:
+
+Include cooling & cracking prevention tips:
+
+Water bath
+
+Slow cooling
+
+Room-temperature ingredients
+
+Offer dairy-free alternatives (coconut cream cheeses, vegan chocolate).
+
+Provide decorating ideas: chocolate curls, powdered sugar, freeze-dried raspberries.
+
+Supply storage instructions:
+
+Refrigerate 5 days
+
+Freeze 2–3 months
+
+Suggest pairings: espresso, dessert wines, sparkling rosé.
+
+Implementation Reminder:
+
+Only add these 10 gluten-free dark chocolate raspberry cheesecake recipes.
+Do NOT:
+
+Edit or remove existing content
+
+Change categories, navigation, or SEO fields
+
+Adjust layout, images, or pagination outside these new posts
+
+Final Step:
+🔁 Run script to automatically add all 10 recipes to the database now.
