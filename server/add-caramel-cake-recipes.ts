@@ -635,10 +635,11 @@ async function generateAndSaveImages() {
   for (const recipe of caramelCakeRecipes) {
     console.log(`\nGenerating image for: ${recipe.title}`);
     
-    const imagePrompt = `Professional food photography of ${recipe.title.replace("Gluten-Free Decadent ", "")}, beautifully plated dessert with rich caramel drizzle, golden amber tones, glossy caramel sauce, moist cake texture visible, elegant presentation on white plate, natural lighting, shallow depth of field, appetizing and decadent appearance`;
+    const recipeName = recipe.title.replace("Gluten-Free Decadent ", "");
+    const description = `Beautifully plated dessert with rich caramel drizzle, golden amber tones, glossy caramel sauce, moist cake texture visible, elegant presentation on white plate`;
     
     try {
-      const imageUrl = await generateRecipeImage(imagePrompt);
+      const imageUrl = await generateRecipeImage(recipeName, description);
       
       // Download and save image
       const response = await fetch(imageUrl);
