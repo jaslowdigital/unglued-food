@@ -1,0 +1,161 @@
+🍄 Request: Create 10 Original Gluten-Free Swiss Mushroom Melt Recipes with AI-Generated Images
+
+Directive:
+Do not modify, delete, or alter any other website content, design, categories, or SEO.
+Only add these 10 new gluten-free Swiss Mushroom Melt recipes under:
+“Gluten-Free Recipes → Dinner → Melts, Sandwiches & Skillet Meals.”
+Keep all existing formatting, schema, and layout exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live in the correct category.
+
+Content Requirements:
+
+Develop 10 unique gluten-free Swiss Mushroom Melt recipes, each featuring a DIFFERENT protein or style:
+
+Steak
+
+Chicken
+
+Venison
+
+Pork
+
+Lamb
+
+Bison
+
+(plus variations with different sauces, breads, seasonings, and toppings)
+
+Each recipe must be 100% original and include:
+
+Title containing “Gluten-Free Swiss Mushroom Melt” + protein/type
+
+Ingredients list
+
+Step-by-step instructions
+
+Prep time, cook time, total time
+
+Yield / servings
+
+Nutritional information
+
+Explicit gluten-free ingredients only, including bread and sauces.
+
+Recipes should highlight:
+
+Creamy Swiss cheese melt
+
+Sautéed mushrooms (button, cremini, wild, oyster, etc.)
+
+Caramelized onions optional
+
+One-skillet or griddle-style cooking
+
+Juicy, perfectly cooked protein
+
+Toasted gluten-free bread, buns, or melt-style open-face options
+
+Image Requirements:
+
+One photorealistic, high-resolution image per recipe.
+
+Must show:
+
+Melted Swiss cheese stretch
+
+Golden-brown mushrooms
+
+Protein showcased clearly
+
+Rustic skillet, cast-iron, or griddle presentation
+
+Style: warm, cozy, diner-meets-gourmet
+
+Include close-ups showing texture and cheese melt.
+
+Optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Swiss Mushroom Melt
+
+Additional Subcategories:
+
+Melts & Sandwiches
+
+Skillet Dinners
+
+Comfort Food
+
+High-Protein Meals
+
+Meat & Game Recipes
+
+Recipe Variety & Focus (10 Concepts):
+1. Gluten-Free Swiss Mushroom Melt – Classic Steak
+
+Seared sirloin or ribeye topped with caramelized mushrooms, onions, and melted Swiss on toasted gluten-free bread.
+
+2. Gluten-Free Swiss Mushroom Melt – Chicken Cutlet
+
+Crispy or grilled chicken breast smothered in Swiss cheese and garlic-herb mushrooms.
+
+3. Gluten-Free Swiss Mushroom Melt – Venison Strips
+
+Lean venison slices with thyme mushrooms and Swiss, served open-face on GF country bread.
+
+4. Gluten-Free Swiss Mushroom Melt – Pork Loin
+
+Juicy pork medallions, Dijon cream mushrooms, and Swiss broiled until bubbly.
+
+5. Gluten-Free Swiss Mushroom Melt – Lamb Patties
+
+Mediterranean-spiced lamb burger patty, Swiss melt, and rosemary mushrooms.
+
+6. Gluten-Free Swiss Mushroom Melt – Bison Steak Melt
+
+Bison strip steak, smoked paprika mushrooms, and Alpine Swiss on toasted GF ciabatta.
+
+7. Gluten-Free Swiss Mushroom Melt – Caramelized Onion Smashburger
+
+Thin GF smashburger patty with mountains of griddled mushrooms and Swiss.
+
+8. Gluten-Free Swiss Mushroom Melt – Herb-Garlic Chicken Thigh
+
+Seared boneless chicken thigh smothered in creamy mushroom-Swiss sauce.
+
+9. Gluten-Free Swiss Mushroom Melt – Wild Mushroom & Venison Burger
+
+Venison burger topped with wild mushrooms (chanterelle, oyster, cremini) and aged Swiss.
+
+10. Gluten-Free Swiss Mushroom Melt – Pork Schnitzel Swiss Melt
+
+Crispy pork schnitzel topped with mushroom gravy and Swiss cheese, baked to golden perfection.
+
+Additional Notes:
+
+Offer bread options: GF brioche, baguette, sourdough, ciabatta, or low-carb GF buns.
+
+Add sauce ideas: Dijon cream, garlic aioli, horseradish mayo, caramelized onion jam.
+
+Suggest pairings: fries, mashed potatoes, salads, roasted veggies.
+
+Include make-ahead tips: mushrooms & onions can be prepped 48 hours in advance.
+
+Provide game meat cooking instructions: venison & bison should stay medium-rare to avoid dryness.
+
+Implementation Reminder:
+
+Only add these 10 new gluten-free Swiss Mushroom Melt recipes.
+Do NOT:
+
+Change existing content, SEO structure, recipe categories, or formatting.
+
+Replace or adjust any layout or images outside these new recipes.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
