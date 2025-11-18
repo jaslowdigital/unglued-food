@@ -1,0 +1,134 @@
+🍰 Request: Create 10 Original Gluten-Free Decadent Caramel Cake Recipes with AI-Generated Images
+
+Directive:
+Do not alter, delete, or modify any other website content, schema, or formatting.
+Only add these 10 new gluten-free Decadent Caramel Cake recipes under “Gluten-Free Recipes → Desserts → Cakes & Baking.”
+Maintain all existing structure, SEO metadata, and layout formatting exactly as they are.
+
+Automation Instruction:
+✅ When finished, run the script to add all 10 new recipes to the database immediately so they appear live under the correct category.
+
+Content Requirements:
+
+Please develop 10 unique gluten-free Decadent Caramel Cake recipes, exploring the full spectrum of caramel — sweet, salted, spiced, and nutty — in layered, loaf, and mini-cake formats.
+
+All recipes must be 100% original and not duplicate any existing recipes on the site.
+
+Each recipe title must include “Gluten-Free Decadent Caramel Cake” and specify its main flavor profile or format (examples:
+
+Gluten-Free Decadent Salted Caramel Layer Cake
+
+Gluten-Free Decadent Caramel Apple Cake
+
+Gluten-Free Decadent Chocolate Caramel Fudge Cake
+
+Gluten-Free Decadent Toffee Caramel Bundt Cake)
+
+Each recipe should include:
+
+Ingredients list (gluten-free flours, sugar, butter, cream, flavorings, toppings)
+
+Step-by-step instructions (baking, layering, frosting, finishing)
+
+Prep time, bake time, total time
+
+Yield / servings
+
+Nutritional information (calories, sugar, fat, carbs, protein per serving)
+
+All ingredients must be certified gluten-free, including flours, thickeners, and caramel sauces.
+
+Recipes should emphasize luxurious textures — moist crumb, rich frosting, and silky caramel drizzle.
+
+Image Requirements:
+
+Generate one high-quality, photorealistic image per recipe.
+
+Images should showcase decadent caramel layers, glossy drizzles, and golden tones.
+
+Use natural or soft studio lighting for an elegant dessert aesthetic.
+
+Include close-up shots to capture texture, frosting swirls, and caramel flow.
+
+Maintain warm amber and golden hues across all 10 recipes.
+
+Images must be high-resolution, optimized for web, print, and social media.
+
+Organization & Categorization:
+
+Main Category: Gluten-Free Recipes
+
+Subcategory: Gluten-Free Decadent Caramel Cake
+
+Additional Subcategories:
+
+Cakes & Baking
+
+Desserts
+
+Holiday Baking
+
+Indulgent Treats
+
+Gluten-Free Gourmet
+
+Recipe Variety & Focus:
+
+Gluten-Free Decadent Salted Caramel Layer Cake
+Moist vanilla sponge layered with salted caramel buttercream and topped with golden caramel drip.
+
+Gluten-Free Decadent Caramel Apple Cake
+Autumn-inspired cake with spiced apple chunks and thick caramel glaze.
+
+Gluten-Free Decadent Chocolate Caramel Fudge Cake
+Rich cocoa layers with molten caramel filling and ganache topping.
+
+Gluten-Free Decadent Toffee Caramel Bundt Cake
+Brown sugar cake with toffee bits baked in and poured caramel glaze.
+
+Gluten-Free Decadent Caramel Espresso Cake
+Coffee-infused sponge with espresso caramel buttercream — perfect for dessert or brunch.
+
+Gluten-Free Decadent Pecan Caramel Upside-Down Cake
+Sticky-sweet pecan topping baked under a soft, buttery cake base.
+
+Gluten-Free Decadent Caramel Banana Cake
+Tender banana base drizzled with butterscotch caramel and topped with whipped cream.
+
+Gluten-Free Decadent Coconut Caramel Cake
+Toasted coconut layers, coconut caramel filling, and sea salt finish.
+
+Gluten-Free Decadent Caramel Pumpkin Spice Cake
+Fall classic — pumpkin-spice sponge topped with caramel glaze and sugared pecans.
+
+Gluten-Free Decadent Caramel Cheesecake Layer Cake
+Half cheesecake, half sponge — creamy caramel swirl layered inside a gluten-free vanilla cake.
+
+Additional Notes:
+
+Include caramel-making guide:
+
+Cook sugar until deep amber before adding cream and butter for optimal flavor.
+
+Offer shortcuts: store-bought gluten-free caramel sauces for quick prep.
+
+Provide decorating tips: gold leaf, chocolate shards, or sugared nuts for luxury presentation.
+
+Suggest storage instructions: refrigerate up to 5 days; serve at room temperature.
+
+Add pairing ideas: espresso, black tea, or bourbon for adult gatherings.
+
+Include make-ahead note: cakes can be baked and frosted a day in advance.
+
+✅ Implementation Reminder:
+Only add these 10 new gluten-free Decadent Caramel Cake recipes under the correct dessert category.
+Do not:
+
+Modify or delete existing recipes or categories.
+
+Adjust schema, pagination, or styling.
+
+Change layout or SEO metadata.
+
+Final Step:
+🔁 When recipe generation is complete, run the script to automatically add all 10 new recipes to the database now.
