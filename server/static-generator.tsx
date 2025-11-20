@@ -32,14 +32,16 @@ function generateRecipeHTML(recipe: Recipe): string {
     "recipeCategory": recipe.category,
     "recipeCuisine": "Gluten-Free",
     "keywords": recipe.tags.join(', '),
-    "nutrition": {
-      "@type": "NutritionInformation",
-      "calories": `${recipe.nutrition.calories} calories`,
-      "proteinContent": `${recipe.nutrition.protein}g`,
-      "carbohydrateContent": `${recipe.nutrition.carbs}g`,
-      "fatContent": `${recipe.nutrition.fat}g`,
-      "fiberContent": `${recipe.nutrition.fiber}g`
-    },
+    ...(recipe.nutrition ? {
+      "nutrition": {
+        "@type": "NutritionInformation",
+        "calories": `${recipe.nutrition.calories} calories`,
+        "proteinContent": `${recipe.nutrition.protein}g`,
+        "carbohydrateContent": `${recipe.nutrition.carbs}g`,
+        "fatContent": `${recipe.nutrition.fat}g`,
+        "fiberContent": `${recipe.nutrition.fiber}g`
+      }
+    } : {}),
     "recipeIngredient": recipe.ingredients,
     "recipeInstructions": recipe.instructions.map((instruction, index) => ({
       "@type": "HowToStep",
@@ -125,6 +127,7 @@ function generateRecipeHTML(recipe: Recipe): string {
             </ol>
           </div>
           
+          ${recipe.nutrition ? `
           <div class="mb-8">
             <h3 class="text-xl font-bold mb-3">Nutrition (per serving)</h3>
             <ul class="space-y-1">
@@ -135,6 +138,7 @@ function generateRecipeHTML(recipe: Recipe): string {
               <li>Fiber: ${recipe.nutrition.fiber}g</li>
             </ul>
           </div>
+          ` : ''}
           
           ${recipe.tips ? `
           <div class="mb-8">
