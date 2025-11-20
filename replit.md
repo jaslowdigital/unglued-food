@@ -1,6 +1,6 @@
 # Overview
 
-This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 461 AI-generated recipes across various categories (desserts, breads, scones, waffles, pizza, focaccia, entrees, white lasagna, one-pan meals, kosher meals, low-carb/keto, custard cakes, potato cakes, grain alternatives, burrito bowls, soups & stews, sides), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database.
+This project, "Unglued Food," is a gluten-free food blog and recipe website providing a platform for gluten-free living. It features 791 AI-generated recipes across various categories (desserts, breads, scones, waffles, pizza, focaccia, entrees, white lasagna, one-pan meals, kosher meals, low-carb/keto, custard cakes, potato cakes, grain alternatives, burrito bowls, soups & stews, sides), product recommendations, educational content, and newsletter functionality. The application is a full-stack web application with a React frontend and Express backend, utilizing a PostgreSQL database. The site uses Static Site Generation (SSG) for all recipe pages to ensure optimal SEO and search engine crawlability.
 
 # User Preferences
 
@@ -22,6 +22,8 @@ Preferred communication style: Simple, everyday language.
 - **API Design**: RESTful API
 - **Development Setup**: Vite middleware integration
 - **Error Handling**: Centralized middleware
+- **Static Site Generation**: Pre-rendered HTML for all 791 recipe pages (SEO optimization)
+- **Hybrid Rendering**: Static HTML for search engines + React SPA for user interactivity
 
 ## Data Storage Solutions
 - **Database**: PostgreSQL
@@ -38,7 +40,8 @@ Preferred communication style: Simple, everyday language.
 - **Accessibility**: Built-in features from Radix UI
 
 ## Content Management
-- **Recipe System**: 461 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
+- **Recipe System**: 791 categorized recipes with filtering, search, difficulty ratings, and pagination (48 recipes/page)
+  - Each recipe has pre-rendered static HTML for SEO optimization
   - Gluten-Free Recipes: Gluten-Free Mochi (10: Strawberry Daifuku, Matcha Mochi Brownies, Chocolate Peanut Butter Bites, Coconut Mango Bars, Ice Cream Mochi, Black Sesame Squares, Taro Coconut, Chocolate Ganache, Brown Sugar Boba, Ube Butter Cake)
   - Desserts (91): Original Gluten-Free Desserts (10: Chocolate Lava Cake, Lemon Pudding Cups, Strawberry Shortcake Bars, Tiramisu Cups, Almond Butter Brownies, Coconut Cream Pie Bars, Salted Caramel Cheesecake Cups, Blueberry Crumble Bars, Peanut Butter Chocolate Mousse, Apple Cinnamon Galette) + Halloween Desserts (10) + Cranberry Tarts (10) + Brownies & Cheesecake Bars (10) + Fruit Crisps & Crumbles (10) + Gluten-Free Cookies (10) + Custard Cakes (10: Vanilla Bean, Chocolate, Lemon Blueberry, Coconut, Matcha, Salted Caramel, Pumpkin Spice, Almond Honey, Espresso, Strawberry Cream) + Potato Cakes (10: Chocolate, Vanilla Bean, Strawberry with Cream Cheese Frosting, Blackberry & Lemon, Raspberry & White Chocolate, Currant & Rhubarb with Streusel, Rum & Amaretto, Carrot & Potato Spice, Coconut & Pineapple, Chocolate Raspberry Layer Cake) + Kosher Honey Cake (1) + Keto Mini Cheesecake Bites (1) + Others (9)
   - Breads (26): Artisan Loaves (5) + Muffins (10) + Waffles (10: Almond Flour with Vanilla Bean Syrup, Buckwheat with Blueberries & Maple Butter, Coconut Flour with Chocolate Chips, Oat Flour with Banana & Cinnamon, Rice Flour with Strawberry Ice Cream, Tapioca Flour with Caramel Drizzle, Quinoa Flour with Berry Compote, Chickpea Flour with Maple Butter & Pecans, Triple Chocolate Ice Cream Sundae, Sorghum Flour with Lemon Curd & Blueberries) + Low-Carb Cheddar Chive Biscuits (1)
@@ -56,10 +59,21 @@ Preferred communication style: Simple, everyday language.
 - **Newsletter**: Email subscription system
 
 ## SEO & Analytics
+- **Static Site Generation (SSG)**: All 791 recipe pages pre-rendered as static HTML
+  - Complete SEO meta tags (title, description, canonical URL)
+  - Open Graph tags for social media sharing (Facebook, LinkedIn)
+  - Twitter Card tags for Twitter previews
+  - Schema.org Recipe structured data for Google Rich Results
+  - Generated in ~2-3 seconds using `server/build-static-pages.ts`
+  - Static HTML middleware serves pre-rendered pages to search engines
+  - React SPA hydrates for full interactivity after initial HTML load
 - Comprehensive SEO files (sitemap, robots, feed)
 - AI optimization files (llms.txt, ai.txt)
 - Google Tag Manager and Google Analytics for tracking
-- **Social Sharing Meta Tags**: Recipe pages use dynamic Open Graph tags with recipe-specific title, description, and image for optimal social media sharing (server-side rendering for crawlers via socialMetaTags.ts middleware)
+- **Hybrid Approach**: Static HTML for SEO + SPA for user experience
+  - Recipe pages: Pre-rendered HTML served first, then React hydrates
+  - Admin pages: Full SPA (no static generation needed)
+  - Regenerate static pages after adding/updating recipes: `cd server && tsx build-static-pages.ts`
 
 # External Dependencies
 

@@ -26,8 +26,9 @@ export async function staticHtmlMiddleware(req: Request, res: Response, next: Ne
     if (req.path === '/' || req.path === '/index.html') {
       htmlPath = join(STATIC_HTML_DIR, 'index.html');
     } else {
-      // For routes like /recipe/some-slug, look for /recipe/some-slug/index.html
-      htmlPath = join(STATIC_HTML_DIR, req.path, 'index.html');
+      // For routes like /recipe/some-slug, strip leading slash before joining
+      const relativePath = req.path.replace(/^\/+/, '');
+      htmlPath = join(STATIC_HTML_DIR, relativePath, 'index.html');
     }
     
     // Check if file exists
