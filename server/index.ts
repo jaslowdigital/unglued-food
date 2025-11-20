@@ -2,6 +2,7 @@ import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";
 import { socialMetaTagsMiddleware } from "./socialMetaTags";
+import { staticHtmlMiddleware } from "./static-html-middleware";
 import { storage } from "./storage";
 import path from "path";
 
@@ -55,6 +56,9 @@ app.use(socialMetaTagsMiddleware(storage));
     res.status(status).json({ message });
     throw err;
   });
+
+  // Serve static HTML files for SEO (before Vite/SPA)
+  app.use(staticHtmlMiddleware);
 
   // importantly only setup vite in development and after
   // setting up all the other routes so the catch-all route
