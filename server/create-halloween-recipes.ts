@@ -1,6 +1,7 @@
 // Script to create 4 Halloween-themed gluten-free recipes with AI images
 import { storage } from "./storage";
 import { generateRecipeImage } from "./openai";
+import { regenerateStaticPages } from "./regenerate-static-pages";
 import type { InsertRecipe } from "@shared/schema";
 
 const halloweenRecipes = [
@@ -252,6 +253,10 @@ async function createHalloweenRecipes() {
   }
   
   console.log("🎃 Halloween recipe creation complete!");
+  
+  // Regenerate static pages for SEO
+  console.log("\n🔄 Regenerating static pages for SEO...");
+  await regenerateStaticPages();
 }
 
 // Run the script

@@ -10,6 +10,7 @@ import {
 } from "@shared/schema";
 import { ObjectStorageService, ObjectNotFoundError } from "./objectStorage";
 import { containsLinksOrCode } from "./utils/reviewValidation";
+import { regenerateStaticPages } from "./regenerate-static-pages";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Recipe routes
@@ -63,6 +64,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
     try {
       const validatedData = insertRecipeSchema.parse(req.body);
       const recipe = await storage.createRecipe(validatedData);
+      
+      // Regenerate static pages for SEO
+      regenerateStaticPages().catch(err => 
+        console.error('Failed to regenerate static pages:', err)
+      );
+      
       res.status(201).json(recipe);
     } catch (error) {
       if (error.name === 'ZodError') {
@@ -80,6 +87,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
       if (!recipe) {
         return res.status(404).json({ error: "Recipe not found" });
       }
+      
+      // Regenerate static pages for SEO
+      regenerateStaticPages().catch(err => 
+        console.error('Failed to regenerate static pages:', err)
+      );
+      
       res.json(recipe);
     } catch (error) {
       if (error.name === 'ZodError') {
@@ -96,6 +109,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
       if (!success) {
         return res.status(404).json({ error: "Recipe not found" });
       }
+      
+      // Regenerate static pages for SEO
+      regenerateStaticPages().catch(err => 
+        console.error('Failed to regenerate static pages:', err)
+      );
+      
       res.status(204).send();
     } catch (error) {
       console.error("Error deleting recipe:", error);
