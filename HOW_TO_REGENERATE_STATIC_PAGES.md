@@ -4,17 +4,19 @@
 
 This application now uses **Static Site Generation (SSG)** for all recipe pages to ensure they are easily crawlable by Google and other search engines. Each of your 791 recipes has its own pre-rendered HTML file with complete SEO metadata.
 
-## When to Regenerate Static Pages
+## ✨ Automatic Regeneration (NEW!)
 
-You should regenerate static HTML pages whenever you:
-- Add new recipes to the database
-- Update existing recipe content (titles, descriptions, ingredients, etc.)
-- Add new recipe images
-- Want to ensure search engines see the latest content
+**Static pages now regenerate automatically** whenever you:
+- ✅ Add new recipes through the admin interface
+- ✅ Update existing recipes through the admin interface
+- ✅ Delete recipes through the admin interface
+- ✅ Run AI recipe generation scripts (that have been updated)
 
-## How to Regenerate All Static Pages
+**You don't need to do anything!** The system handles regeneration in the background.
 
-### Method 1: Run the Build Script Directly
+## Manual Regeneration (When Needed)
+
+You can still manually regenerate if needed:
 
 ```bash
 cd server
@@ -28,21 +30,10 @@ This will:
 - Save files to `dist/public/`
 - Complete in ~2-3 seconds
 
-### Method 2: After Adding New Recipe Batches
-
-When you add new recipes using your recipe scripts (like `add-dark-chocolate-raspberry-cheesecake-recipes.ts`), simply run:
-
-```bash
-# 1. Add your recipes (as usual)
-cd server
-tsx add-your-new-recipes.ts
-
-# 2. Regenerate static pages
-tsx build-static-pages.ts
-
-# 3. Restart the application
-# The workflow will auto-restart, or you can manually restart it
-```
+**When to manually regenerate:**
+- After bulk database updates outside the admin interface
+- If you want to force a refresh of all pages
+- For troubleshooting or verification
 
 ## What Gets Generated
 
@@ -120,9 +111,17 @@ You should see complete HTML with all meta tags and recipe content.
 - **Memory Usage**: Minimal (files generated sequentially)
 - **Server Impact**: None (static files are pre-built)
 
-## Future Enhancements
+## How Automatic Regeneration Works
 
-Consider setting up automatic regeneration:
-- After database updates (via database triggers)
-- On a schedule (nightly cron job to catch any changes)
-- Via admin panel button (one-click regeneration)
+When you add/edit/delete recipes through the admin interface:
+1. Recipe is saved to the database
+2. API automatically triggers static page regeneration in the background
+3. All 791+ recipe pages are rebuilt in ~2-3 seconds
+4. Google can now crawl your updated content
+
+When you run AI recipe generation scripts:
+1. Recipes are created in the database
+2. Script automatically calls regeneration at the end
+3. Static pages are updated with new recipes
+
+**Note**: Regeneration runs asynchronously, so it won't slow down your admin interface!
