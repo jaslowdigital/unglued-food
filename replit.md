@@ -67,13 +67,16 @@ Preferred communication style: Simple, everyday language.
   - Generated in ~2-3 seconds using `server/build-static-pages.ts`
   - Static HTML middleware serves pre-rendered pages to search engines
   - React SPA hydrates for full interactivity after initial HTML load
+  - **Automatic Regeneration**: Static pages regenerate automatically when recipes are added/edited/deleted through admin interface or AI scripts
+  - **Smart Queueing**: Concurrent recipe changes are queued to prevent overlapping builds
+  - **Debouncing**: Won't rebuild more than once every 5 seconds to optimize performance
 - Comprehensive SEO files (sitemap, robots, feed)
 - AI optimization files (llms.txt, ai.txt)
 - Google Tag Manager and Google Analytics for tracking
 - **Hybrid Approach**: Static HTML for SEO + SPA for user experience
   - Recipe pages: Pre-rendered HTML served first, then React hydrates
   - Admin pages: Full SPA (no static generation needed)
-  - Regenerate static pages after adding/updating recipes: `cd server && tsx build-static-pages.ts`
+  - Manual regeneration still available: `cd server && tsx build-static-pages.ts`
 
 # External Dependencies
 
