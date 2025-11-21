@@ -57,9 +57,6 @@ app.use(socialMetaTagsMiddleware(storage));
     throw err;
   });
 
-  // Serve static HTML files for SEO (before Vite/SPA)
-  app.use(staticHtmlMiddleware);
-
   // importantly only setup vite in development and after
   // setting up all the other routes so the catch-all route
   // doesn't interfere with the other routes
@@ -67,6 +64,12 @@ app.use(socialMetaTagsMiddleware(storage));
     await setupVite(app, server);
   } else {
     serveStatic(app);
+  }
+  
+  // Serve static HTML files for SEO (after Vite/SPA as fallback isn't needed in dev)
+  // In development, Vite handles everything. Static HTML is only for production SEO.
+  if (app.get("env") !== "development") {
+    app.use(staticHtmlMiddleware);
   }
 
   // ALWAYS serve the app on the port specified in the environment variable PORT

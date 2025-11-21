@@ -14,6 +14,12 @@ export async function staticHtmlMiddleware(req: Request, res: Response, next: Ne
     return next();
   }
   
+  // Skip requests with file extensions (JS, CSS, images, etc.)
+  const hasFileExtension = /\.[a-zA-Z0-9]+$/.test(req.path);
+  if (hasFileExtension && !req.path.endsWith('.html')) {
+    return next();
+  }
+  
   // Skip for admin, edit, and add pages (keep those as SPA)
   if (req.path.startsWith('/admin') || req.path.startsWith('/add-recipe') || req.path.startsWith('/edit-recipe')) {
     return next();
