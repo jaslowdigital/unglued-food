@@ -140,7 +140,7 @@ export default function RecipePage() {
             />
             <div className="absolute top-4 right-4">
               <Badge className="bg-amber-600 text-white text-sm">
-                ⭐ {recipe.rating}
+                ⭐ {averageRating} {reviewCount > 0 && `(${reviewCount})`}
               </Badge>
             </div>
           </div>
@@ -358,7 +358,7 @@ export default function RecipePage() {
             />
             <div className="absolute top-4 right-4">
               <Badge className="bg-amber-600 text-white text-sm">
-                ⭐ {recipe.rating}
+                ⭐ {averageRating} {reviewCount > 0 && `(${reviewCount})`}
               </Badge>
             </div>
           </div>
