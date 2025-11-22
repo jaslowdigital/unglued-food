@@ -1,6 +1,45 @@
-node_modules
-dist
-.DS_Store
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build
+dist/
+build/
 server/public
-vite.config.ts.*
+
+# Misc
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 *.tar.gz
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+vite.config.ts.*
+
+# Replit
+.replit
+.config/
+.upm/
+replit.nix
+
+# Logs
+logs/
+/tmp/
+
+# Generated static pages (can be regenerated)
+dist/public/
